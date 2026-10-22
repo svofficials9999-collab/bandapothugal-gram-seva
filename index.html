@@ -286,8 +286,9 @@ function openSpecial(id){
   window.scrollTo(0,0);
 }
 function sendComplaint(){
-  const cat = $('fCat').value, desc = $('fDesc').value.trim(), loc = $('fLoc').value.trim();
-  const name = $('fName').value.trim(), mob = $('fMob').value.trim();
+  const clean = s => s.replace(/<[^>]*>/g, '').trim();
+  const cat = $('fCat').value, desc = clean($('fDesc').value), loc = clean($('fLoc').value);
+  const name = clean($('fName').value), mob = $('fMob').value.trim();
   if(!cat || !desc){ toast(T('దయచేసి విభాగం మరియు సమస్య వివరాలు తప్పక ఇవ్వండి','Please choose a category and describe the problem')); return; }
   if(mob && !/^\d{10}$/.test(mob)){ toast(T('మొబైల్ నంబర్ 10 అంకెలు ఉండాలి','Mobile number must be 10 digits')); return; }
   const lines = ['['+T('గ్రామ ఫిర్యాదు - బండపోతుగల్','Village complaint - Bandapothugal')+']',
