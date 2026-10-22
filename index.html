@@ -65,13 +65,34 @@ footer b{color:#c9d4e4}
 #installBtn:active{transform:scale(.92)}
 #toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#1e293b;border:1px solid rgba(255,255,255,.15);color:#e8ecf4;font-size:12.5px;padding:11px 16px;border-radius:12px;z-index:60;display:none;max-width:86%;text-align:center;line-height:1.5}
 .offb{display:none;position:sticky;top:66px;z-index:9;margin:10px 0 0;background:rgba(217,119,6,.16);border:1px solid rgba(251,191,36,.45);color:#fcd34d;font-size:12px;font-weight:700;border-radius:12px;padding:9px 12px;line-height:1.45}
+.sbox{margin:14px 0 0}
+.sbox input{width:100%;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:13px 16px;font-size:15px;color:#e8ecf4;outline:none}
+.sbox input:focus{border-color:#4ade80}
+.sbox input::placeholder{color:#7d8aa0}
+.notices{margin:14px 0 0;background:rgba(59,130,246,.08);border:1px solid rgba(96,165,250,.25);border-radius:16px;padding:12px}
+.notices .nt{font-size:12px;font-weight:800;color:#93c5fd;letter-spacing:.4px;margin-bottom:6px}
+.nitem{font-size:12.5px;color:#c4cddd;line-height:1.55;padding:7px 0;border-top:1px dashed rgba(255,255,255,.1)}
+.nitem .ntag{font-size:10px;border-radius:10px;padding:2px 8px;margin-right:6px}
+.nitem .off{background:rgba(34,197,94,.18);color:#4ade80}
+.nitem .unoff{background:rgba(251,191,36,.15);color:#fcd34d}
+.nitem .nd{color:#7d8aa0;font-size:11px}
+.nempty{font-size:12px;color:#7d8aa0}
+.dets{margin-top:9px;border-top:1px dashed rgba(255,255,255,.12);padding-top:8px}
+.det{display:flex;gap:8px;font-size:12.5px;color:#c4cddd;margin-top:5px;line-height:1.5}
+.det b{color:#e8ecf4}
+.dic{flex:none}
+.disc{color:#8b97ab;font-size:11px;margin-top:8px}
+.ever{font-size:10px;color:#7d8aa0;margin-top:8px}
+.srctag{font-size:11px;font-weight:800;color:#8b97ab;margin:4px 0 -4px}
+.empty{background:rgba(255,255,255,.05);border:1px dashed rgba(255,255,255,.15);border-radius:14px;padding:18px;text-align:center;font-size:13px;color:#9aa7bd;line-height:1.6}
+:focus-visible{outline:2px solid #4ade80;outline-offset:2px;border-radius:8px}
 .stopbtn{position:fixed;left:16px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:50;width:58px;height:58px;border-radius:50%;border:none;background:linear-gradient(135deg,#dc2626,#ef4444);color:#fff;font-size:22px;box-shadow:0 6px 20px rgba(239,68,68,.5);cursor:pointer;display:none;align-items:center;justify-content:center}
 </style>
 </head>
 <body>
 <div class="bg"></div>
-<div class="wrap">
-<header>
+<div class="wrap" role="main">
+<header role="banner">
   <div class="hrow">
     <div class="logo">🌾</div>
     <div>
@@ -87,12 +108,18 @@ footer b{color:#c9d4e4}
 
 <div class="offb" id="offBanner" role="status"></div>
 
+<div class="sbox"><input id="searchBox" type="search" autocomplete="off" aria-label="Search schemes"></div>
+
 <div class="emg" id="emgBox">
   <div class="et" id="emgTitle">🚨 అత్యవసర నంబర్లు</div>
   <div class="egrid" id="emgGrid"></div>
+  <div class="ever" id="emgVer"></div>
 </div>
 
+<div class="notices" id="noticeBox"><div class="nt" id="ntTitle"></div><div id="ntList"></div></div>
+
 <div class="secs" id="secGrid"></div>
+<div class="cards" id="searchResults" style="display:none"></div>
 
 <button class="back" id="backBtn">← <span id="backLbl">వెనుకకు</span></button>
 <div class="sectitle" id="secTitle">
@@ -110,6 +137,7 @@ footer b{color:#c9d4e4}
 <div id="toast"></div>
 
 <script src="schemes.js"></script>
+<script src="details.js"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -130,35 +158,82 @@ function render(){
     'Note: all information is collected only from official government websites (last checked: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
   $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b> · ' + T('సహాయం కావాలంటే:','For help:') + ' <a href="tel:+919177226638" style="color:#4ade80;text-decoration:none">📞 91772 26638</a>';
   // emergency
+  $('searchBox').placeholder = T('🔍 పథకం పేరు టైప్ చేయండి... (ఉదా: పెన్షన్, బీమా)','🔍 Type a scheme name... (e.g. pension, insurance)');
+  $('emgVer').textContent = '✓ ' + T('అధికారిక సైట్లతో సరిచూశాం','Verified with official sites') + ': ' + (D.emergencyVerified || D.built);
+  $('ntTitle').textContent = T('📢 గ్రామ నోటీసులు','📢 Village notices');
+  $('ntList').innerHTML = (D.notices && D.notices.length) ? D.notices.map(n =>
+    '<div class="nitem"><span class="ntag '+(n.off?'off':'unoff')+'">'+(n.off?T('అధికారిక','Official'):T('ధృవీకరించని','Unverified'))+'</span>'+T(n.t,n.e)+' <span class="nd">'+n.date+(n.exp?' → '+T('గడువు','expires')+' '+n.exp:'')+'</span></div>').join('')
+    : '<div class="nempty">'+T('ప్రస్తుతం కొత్త నోటీసులు లేవు','No new notices right now')+'</div>';
   $('emgGrid').innerHTML = D.emergency.map(e =>
     '<a class="ebtn" href="tel:'+e.n+'"><b>'+e.n+'</b><span>'+T(e.te,e.en)+'</span></a>').join('');
   // sections
   $('secGrid').innerHTML = D.sections.map(s =>
-    '<div class="sec" onclick="openSec(\''+s.id+'\')"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p></div>').join('');
+    '<div class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p></div>').join('');
 }
 function openSec(id){
   const s = D.sections.find(x=>x.id===id);
   stopSpeak();
+  closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='none'; $('emgBox').style.display='none';
   $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex';
   $('stIcon').textContent = s.icon; $('stName').textContent = T(s.te,s.en);
-  $('cardList').innerHTML = s.items.map((it,i)=>
-    '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+
-    '<div class="meta"><a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
-    '<div class="cbtns"><button class="cbtn listen" onclick="speakItem(\''+id+'\','+i+')">🔊 '+T('వినండి','Listen')+'</button>'+
-    '<a class="cbtn open" href="'+it.s+'" target="_blank" rel="noopener">🌐 '+T('లింక్ తెరవండి','Open link')+'</a>'+
-    (it.ph?'<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+T('కాల్','Call')+'</a>':'')+'</div></div>').join('');
+  $('cardList').innerHTML = s.items.map((it,i)=>renderCard(id,i,it)).join('');
   window.scrollTo(0,0);
 }
 function goBack(){
   stopSpeak();
+  closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='grid'; $('emgBox').style.display='block';
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
+  $('noticeBox').style.display='block';
 }
 $('backBtn').onclick = goBack;
 $('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id) openSec(id); };
 // track open section for lang re-render
 const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; origOpen(id); };
+
+// ---- Shared card renderer (section view + search results) ----
+function detRow(ic, lab, val){ return val ? '<div class="det"><span class="dic">'+ic+'</span><div><b>'+lab+':</b> '+val+'</div></div>' : ''; }
+function esc(t){ return String(t).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function renderCard(sid, i, it){
+  const dk = Object.keys(window.GS_DETAILS||{}).find(k=>it.e.includes(k));
+  const dd = dk ? GS_DETAILS[dk] : null;
+  return '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+
+    '<div class="dets">'+
+    detRow('✅',T('అర్హత','Eligibility'), dd ? T(dd[0],dd[1]) : null)+
+    detRow('📄',T('కావాల్సిన పత్రాలు','Documents'), dd ? T(dd[2],dd[3]) : null)+
+    detRow('📝',T('దరఖాస్తు విధానం','How to apply'), dd ? T(dd[4],dd[5]) : null)+
+    '<div class="det disc"><span class="dic">⚠️</span><div>'+T('చివరి నిర్ధారణ అధికారిక వెబ్‌సైట్ / కార్యాలయం ద్వారానే చేసుకోండి.','Always confirm final details on the official website / office.')+'</div></div>'+
+    '</div>'+
+    '<div class="meta"><a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
+    '<div class="cbtns"><button class="cbtn listen" aria-label="'+T('వినండి','Listen')+'" onclick="speakItem(\''+sid+'\','+i+')">🔊 '+T('వినండి','Listen')+'</button>'+
+    '<a class="cbtn open" href="'+it.s+'" target="_blank" rel="noopener">🌐 '+T('లింక్ తెరవండి','Open link')+'</a>'+
+    (it.ph?'<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+T('కాల్','Call')+'</a>':'')+'</div></div>';
+}
+
+// ---- Scheme search (Telugu + English) ----
+$('searchBox').addEventListener('input', e => {
+  const raw = e.target.value.trim();
+  const q = raw.toLowerCase();
+  if(q.length < 2){ closeSearch(); return; }
+  stopSpeak();
+  const res = [];
+  D.sections.forEach(s => s.items.forEach((it,i) => {
+    if((it.t+' '+it.e+' '+it.d+' '+it.de+' '+s.te+' '+s.en).toLowerCase().includes(q)) res.push({s, it, i});
+  }));
+  $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
+  $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
+  const sr = $('searchResults'); sr.style.display='flex';
+  sr.innerHTML = res.length
+    ? res.map(r => '<div class="srctag">'+r.s.icon+' '+T(r.s.te,r.s.en)+'</div>'+renderCard(r.s.id, r.i, r.it)).join('')
+    : '<div class="empty">'+T('దురదృష్టం - "'+esc(raw)+'" తో పథకం కనబడలేదు. మరో పేరుతో ప్రయత్నించండి (ఉదా: పెన్షన్, విద్య, బీమా)','Sorry - no scheme matches "'+esc(raw)+'". Try another word (e.g. pension, education, insurance)')+'</div>';
+});
+function closeSearch(){
+  const sr = $('searchResults'); sr.style.display='none'; sr.innerHTML='';
+  if($('cardList').style.display !== 'flex'){
+    $('secGrid').style.display='grid'; $('emgBox').style.display='block'; $('noticeBox').style.display='block';
+  }
+}
 
 // ---- Voice (explicit tap only) ----
 let queue = [];

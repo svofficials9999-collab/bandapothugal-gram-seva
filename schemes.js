@@ -6,6 +6,8 @@ window.GS_DATA = {
     te: "బండపోతుగల్ గ్రామం • చిలిపిచెడ్ మండలం • మెదక్ జిల్లా • నార్సాపూర్ నియోజకవర్గం",
     en: "Bandapothugal village · Chilpched Mandal · Medak district · Narsapur constituency"
   },
+  notices: [],
+  emergencyVerified: "23-10-2026",
   emergency: [
     { n: "108", te: "అంబులెన్స్ (ఉచితం)", en: "Ambulance (free)" },
     { n: "112", te: "అత్యవసర సేవ", en: "Emergency" },
