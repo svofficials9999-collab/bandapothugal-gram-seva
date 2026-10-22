@@ -209,7 +209,7 @@ $('installBtn').onclick = async () => {
     deferredPrompt.prompt();
     const r = await deferredPrompt.userChoice; deferredPrompt = null;
     if(r.outcome !== 'accepted') setInstallUI(isIos ? 'ios' : 'generic');
-    return; // on accepted, appinstalled event sets the ✅ state
+    return;
   }
   if(isIos){ toast(T('iPhone: Safari లో క్రింది Share (⬆️) బటన్ → "Add to Home Screen" నొక్కండి','iPhone: in Safari tap the Share (⬆️) button → "Add to Home Screen"')); return; }
   toast(T('బ్రౌజర్ మెనూ (⋮ పైన కుడివైపు) తెరిచి "యాప్‌ను ఇన్‌స్టాల్ చేయండి" లేదా "Add to Home screen" నొక్కండి','Open the browser menu (⋮ top right) and tap "Install app" or "Add to Home screen"'));
@@ -224,55 +224,6 @@ function updNet(){
 }
 window.addEventListener('online', updNet);
 window.addEventListener('offline', updNet);
-
-render(); if(open && id) openSec(id); };
-// track open section for lang re-render
-const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; origOpen(id); };
-
-// ---- Voice (explicit tap only) ----
-let queue = [];
-let voiceWarned = false;
-try{ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices(); }catch(e){}
-function hasVoiceFor(l){ try{ return speechSynthesis.getVoices().some(v=>v.lang && v.lang.toLowerCase().startsWith(l)); }catch(e){ return false; } }
-function speak(text){
-  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
-  speechSynthesis.cancel();
-  queue = [text]; runQueue();
-}
-function runQueue(){
-  if(!queue.length){ $('stopBtn').style.display='none'; return; }
-  const want = lang==='te' ? 'te' : 'en';
-  if(!voiceWarned && !hasVoiceFor(want)){
-    voiceWarned = true;
-    toast(T('ఈ ఫోన్‌లో తెలుగు వాయిస్ ఇన్‌స్టాల్ లేదు - అందుబాటులో ఉన్న వాయిస్‌తో ప్లే అవుతుంది','This phone has no Telugu voice installed - playing with the available voice'));
-  }
-  $('stopBtn').style.display='flex';
-  const u = new SpeechSynthesisUtterance(queue.shift());
-  u.lang = lang==='te' ? 'te-IN' : 'en-IN'; u.rate = 0.95;
-  const vs = speechSynthesis.getVoices();
-  const v = vs.find(v=>v.lang && v.lang.toLowerCase().startsWith(want));
-  if(v) u.voice = v;
-  u.onend = runQueue; u.onerror = runQueue;
-  speechSynthesis.speak(u);
-}
-function stopSpeak(){ queue=[]; try{speechSynthesis.cancel()}catch(e){} $('stopBtn').style.display='none'; }
-$('stopBtn').onclick = stopSpeak;
-document.addEventListener('visibilitychange', ()=>{ if(document.hidden) stopSpeak(); });
-window.addEventListener('pagehide', stopSpeak);
-// ---- Install (PWA) ----
-let deferredPrompt = null;
-const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
-const installed = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
-function showInstall(icon, done){
-  const b = $('installBtn'); b.style.display='flex'; b.textContent=icon; b.classList.toggle('done',!!done);
-}
-window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; showInstall('⬇️'); });
-window.addEventListener('appinstalled', ()=>{ showInstall('✅', true); });
-$('installBtn').onclick = async ()=>{
-  if(deferredPrompt){ deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; }
-  else if(isIos){ toast(T('ఇన్‌స్టాల్ చేయడానికి: Safari లో Share ⬆️ → "Add to Home Screen" నొక్కండి','To install: in Safari tap Share ⬆️ → "Add to Home Screen"')); }
-};
-if(installed) showInstall('✅', true); else if(isIos) showInstall('⬇️');
 
 render();
 updNet();

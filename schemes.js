@@ -66,7 +66,7 @@ window.GS_DATA = {
         { t: "TGPSC ప్రభుత్వ ఉద్యోగాలు", e: "TGPSC Government Jobs",
           d: "గ్రూప్-1 నుండి గ్రూప్-4 నోటిఫికేషన్లు, హాల్ టికెట్లు, ఫలితాలు - అధికారిక సైట్‌లోనే చూడండి. డబ్బులు అడిగే మోసపూరిత కాల్స్/సైట్ల పట్టించుకోవద్దు.",
           de: "Group-1 to Group-4 notifications, hall tickets, results - check only the official site. Ignore fraudulent calls/sites demanding money.",
-          s: "https://tgpsc.gov.in/", sn: "tgpsc.gov.in", u: "23-10-2026" },
+          s: "https://www.tgpsc.gov.in/", sn: "www.tgpsc.gov.in", u: "23-10-2026" },
         { t: "పోలీస్ / ఫైర్ / జైలు ఉద్యోగాలు", e: "Police / Fire / Prisons Jobs (TGPRB)",
           d: "తెలంగాణ స్టేట్ లెవల్ పోలీస్ రిక్రూట్‌మెంట్ బోర్డ్ నోటిఫికేషన్లు - అధికారిక సైట్ మాత్రమే.",
           de: "Telangana police, fire and prisons recruitment notifications - official site only.",
