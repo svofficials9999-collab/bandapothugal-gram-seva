@@ -190,6 +190,19 @@ function stopSpeak(){ queue=[]; try{speechSynthesis.cancel()}catch(e){} $('stopB
 $('stopBtn').onclick = stopSpeak;
 document.addEventListener('visibilitychange', ()=>{ if(document.hidden) stopSpeak(); });
 window.addEventListener('pagehide', stopSpeak);
+function speakItem(secId, i){
+  const s = D.sections.find(x=>x.id===secId); const it = s.items[i];
+  speak(T(it.t,it.e) + '. ' + T(it.d,it.de));
+}
+$('listenAll').onclick = ()=>{
+  const id = $('stName').dataset.sid; const s = D.sections.find(x=>x.id===id);
+  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
+  speechSynthesis.cancel();
+  queue = s.items.map(it => T(it.t,it.e) + '. ' + T(it.d,it.de));
+  runQueue();
+};
+function toast(msg){ const t=$('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none',4500); }
+
 // ---- Install (PWA) ----
 let deferredPrompt = null;
 const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
