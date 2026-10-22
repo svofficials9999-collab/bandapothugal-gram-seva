@@ -64,6 +64,7 @@ footer b{color:#c9d4e4}
 #installBtn.done{background:linear-gradient(135deg,#166534,#22c55e)}
 #installBtn:active{transform:scale(.92)}
 #toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#1e293b;border:1px solid rgba(255,255,255,.15);color:#e8ecf4;font-size:12.5px;padding:11px 16px;border-radius:12px;z-index:60;display:none;max-width:86%;text-align:center;line-height:1.5}
+.offb{display:none;position:sticky;top:66px;z-index:9;margin:10px 0 0;background:rgba(217,119,6,.16);border:1px solid rgba(251,191,36,.45);color:#fcd34d;font-size:12px;font-weight:700;border-radius:12px;padding:9px 12px;line-height:1.45}
 .stopbtn{position:fixed;left:16px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:50;width:58px;height:58px;border-radius:50%;border:none;background:linear-gradient(135deg,#dc2626,#ef4444);color:#fff;font-size:22px;box-shadow:0 6px 20px rgba(239,68,68,.5);cursor:pointer;display:none;align-items:center;justify-content:center}
 </style>
 </head>
@@ -83,6 +84,8 @@ footer b{color:#c9d4e4}
     </div>
   </div>
 </header>
+
+<div class="offb" id="offBanner" role="status"></div>
 
 <div class="emg" id="emgBox">
   <div class="et" id="emgTitle">🚨 అత్యవసర నంబర్లు</div>
@@ -159,6 +162,9 @@ const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; or
 
 // ---- Voice (explicit tap only) ----
 let queue = [];
+let voiceWarned = false;
+try{ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices(); }catch(e){}
+function hasVoiceFor(l){ try{ return speechSynthesis.getVoices().some(v=>v.lang && v.lang.toLowerCase().startsWith(l)); }catch(e){ return false; } }
 function speak(text){
   if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
   speechSynthesis.cancel();
@@ -166,30 +172,93 @@ function speak(text){
 }
 function runQueue(){
   if(!queue.length){ $('stopBtn').style.display='none'; return; }
+  const want = lang==='te' ? 'te' : 'en';
+  if(!voiceWarned && !hasVoiceFor(want)){
+    voiceWarned = true;
+    toast(T('ఈ ఫోన్‌లో తెలుగు వాయిస్ ఇన్‌స్టాల్ లేదు - అందుబాటులో ఉన్న వాయిస్‌తో ప్లే అవుతుంది','This phone has no Telugu voice installed - playing with the available voice'));
+  }
   $('stopBtn').style.display='flex';
   const u = new SpeechSynthesisUtterance(queue.shift());
   u.lang = lang==='te' ? 'te-IN' : 'en-IN'; u.rate = 0.95;
   const vs = speechSynthesis.getVoices();
-  const v = vs.find(v=>v.lang && v.lang.toLowerCase().startsWith(u.lang.slice(0,2)));
+  const v = vs.find(v=>v.lang && v.lang.toLowerCase().startsWith(want));
   if(v) u.voice = v;
   u.onend = runQueue; u.onerror = runQueue;
   speechSynthesis.speak(u);
 }
 function stopSpeak(){ queue=[]; try{speechSynthesis.cancel()}catch(e){} $('stopBtn').style.display='none'; }
 $('stopBtn').onclick = stopSpeak;
-function speakItem(secId,i){
-  const s = D.sections.find(x=>x.id===secId); const it = s.items[i];
-  speak(T(it.t,it.e) + '. ' + T(it.d,it.de));
+document.addEventListener('visibilitychange', ()=>{ if(document.hidden) stopSpeak(); });
+window.addEventListener('pagehide', stopSpeak);
+// ---- Install (PWA) ----
+let deferredPrompt = null;
+const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+const installedNow = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+function setInstallUI(st){
+  const b = $('installBtn');
+  b.style.display = 'flex'; b.dataset.st = st;
+  if(st === 'installed'){ b.textContent = '✅'; b.classList.add('done'); }
+  else { b.textContent = '⬇️'; b.classList.remove('done'); }
 }
-$('listenAll').onclick = ()=>{
-  const id = $('stName').dataset.sid; const s = D.sections.find(x=>x.id===id);
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; if($('installBtn').dataset.st !== 'installed') setInstallUI('prompt'); });
+window.addEventListener('appinstalled', () => { deferredPrompt = null; setInstallUI('installed'); });
+$('installBtn').onclick = async () => {
+  const st = $('installBtn').dataset.st;
+  if(st === 'installed'){ toast(T('యాప్ ఇప్పటికే ఇన్‌స్టాల్ అయి ఉంది ✅','The app is already installed ✅')); return; }
+  if(deferredPrompt){
+    deferredPrompt.prompt();
+    const r = await deferredPrompt.userChoice; deferredPrompt = null;
+    if(r.outcome !== 'accepted') setInstallUI(isIos ? 'ios' : 'generic');
+    return; // on accepted, appinstalled event sets the ✅ state
+  }
+  if(isIos){ toast(T('iPhone: Safari లో క్రింది Share (⬆️) బటన్ → "Add to Home Screen" నొక్కండి','iPhone: in Safari tap the Share (⬆️) button → "Add to Home Screen"')); return; }
+  toast(T('బ్రౌజర్ మెనూ (⋮ పైన కుడివైపు) తెరిచి "యాప్‌ను ఇన్‌స్టాల్ చేయండి" లేదా "Add to Home screen" నొక్కండి','Open the browser menu (⋮ top right) and tap "Install app" or "Add to Home screen"'));
+};
+if(installedNow) setInstallUI('installed'); else setInstallUI(isIos ? 'ios' : 'generic');
+
+// ---- Offline indicator ----
+function updNet(){
+  const off = !navigator.onLine;
+  $('offBanner').style.display = off ? 'block' : 'none';
+  if(off) $('offBanner').textContent = T('⚠️ ఇంటర్నెట్ కనెక్షన్ లేదు - సేవ్ చేసిన సమాచారం చూపిస్తున్నాం; కొంత సమాచారం పాతది కావచ్చు','⚠️ No internet connection - showing saved information; some details may be outdated');
+}
+window.addEventListener('online', updNet);
+window.addEventListener('offline', updNet);
+
+render(); if(open && id) openSec(id); };
+// track open section for lang re-render
+const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; origOpen(id); };
+
+// ---- Voice (explicit tap only) ----
+let queue = [];
+let voiceWarned = false;
+try{ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices(); }catch(e){}
+function hasVoiceFor(l){ try{ return speechSynthesis.getVoices().some(v=>v.lang && v.lang.toLowerCase().startsWith(l)); }catch(e){ return false; } }
+function speak(text){
   if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
   speechSynthesis.cancel();
-  queue = s.items.map(it => T(it.t,it.e) + '. ' + T(it.d,it.de));
-  runQueue();
-};
-function toast(msg){ const t=$('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none',4000); }
-
+  queue = [text]; runQueue();
+}
+function runQueue(){
+  if(!queue.length){ $('stopBtn').style.display='none'; return; }
+  const want = lang==='te' ? 'te' : 'en';
+  if(!voiceWarned && !hasVoiceFor(want)){
+    voiceWarned = true;
+    toast(T('ఈ ఫోన్‌లో తెలుగు వాయిస్ ఇన్‌స్టాల్ లేదు - అందుబాటులో ఉన్న వాయిస్‌తో ప్లే అవుతుంది','This phone has no Telugu voice installed - playing with the available voice'));
+  }
+  $('stopBtn').style.display='flex';
+  const u = new SpeechSynthesisUtterance(queue.shift());
+  u.lang = lang==='te' ? 'te-IN' : 'en-IN'; u.rate = 0.95;
+  const vs = speechSynthesis.getVoices();
+  const v = vs.find(v=>v.lang && v.lang.toLowerCase().startsWith(want));
+  if(v) u.voice = v;
+  u.onend = runQueue; u.onerror = runQueue;
+  speechSynthesis.speak(u);
+}
+function stopSpeak(){ queue=[]; try{speechSynthesis.cancel()}catch(e){} $('stopBtn').style.display='none'; }
+$('stopBtn').onclick = stopSpeak;
+document.addEventListener('visibilitychange', ()=>{ if(document.hidden) stopSpeak(); });
+window.addEventListener('pagehide', stopSpeak);
 // ---- Install (PWA) ----
 let deferredPrompt = null;
 const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -206,6 +275,7 @@ $('installBtn').onclick = async ()=>{
 if(installed) showInstall('✅', true); else if(isIos) showInstall('⬇️');
 
 render();
+updNet();
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
 </script>
 </body>

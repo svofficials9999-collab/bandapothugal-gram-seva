@@ -11,7 +11,7 @@ window.GS_DATA = {
     { n: "112", te: "అత్యవసర సేవ", en: "Emergency" },
     { n: "100", te: "పోలీస్", en: "Police" },
     { n: "101", te: "ఫైర్", en: "Fire" },
-    { n: "1091", te: "మహిళా హెల్ప్‌లైన్", en: "Women helpline" },
+    { n: "181", te: "మహిళా హెల్ప్‌లైన్ (జాతీయ)", en: "Women helpline (national)" },
     { n: "1098", te: "చైల్డ్ హెల్ప్‌లైన్", en: "Child helpline" }
   ],
   sections: [
