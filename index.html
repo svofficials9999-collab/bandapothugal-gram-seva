@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0f1e">
+<title>బండపోతుగల్ గ్రామ సేవ</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#0a0f1e;color:#e8ecf4;min-height:100vh;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:0;background:
+ radial-gradient(600px 400px at 80% -10%,rgba(34,197,94,.14),transparent 60%),
+ radial-gradient(500px 380px at -10% 40%,rgba(59,130,246,.12),transparent 60%),
+ radial-gradient(500px 400px at 60% 110%,rgba(168,85,247,.10),transparent 60%),#0a0f1e}
+.wrap{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:0 14px 110px}
+header{position:sticky;top:0;z-index:10;background:rgba(10,15,30,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07);margin:0 -14px;padding:12px 14px}
+.hrow{display:flex;align-items:center;gap:10px}
+.logo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#14532d,#166534 40%,#1d4ed8);display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 4px 14px rgba(34,197,94,.35);flex:none}
+h1{font-size:19px;font-weight:800;letter-spacing:.3px;background:linear-gradient(90deg,#4ade80,#60a5fa);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sub{font-size:11px;color:#9aa7bd;margin-top:2px;line-height:1.4}
+.hbtns{margin-left:auto;display:flex;gap:8px}
+.pill{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#e8ecf4;border-radius:20px;padding:7px 13px;font-size:12px;font-weight:700;cursor:pointer}
+.pill:active{transform:scale(.95)}
+.pill.call{background:linear-gradient(135deg,#059669,#10b981);border:none;box-shadow:0 3px 10px rgba(16,185,129,.4);text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.emg{margin:14px 0 4px;background:linear-gradient(135deg,rgba(220,38,38,.16),rgba(220,38,38,.06));border:1px solid rgba(248,113,113,.3);border-radius:16px;padding:12px}
+.emg .et{font-size:12px;font-weight:800;color:#fca5a5;letter-spacing:.5px;margin-bottom:8px}
+.egrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.ebtn{display:flex;flex-direction:column;align-items:center;gap:2px;background:rgba(255,255,255,.07);border:1px solid rgba(248,113,113,.35);border-radius:12px;padding:9px 4px;text-decoration:none;color:#fff}
+.ebtn b{font-size:17px;color:#f87171}
+.ebtn span{font-size:10px;color:#d7dce6;text-align:center;line-height:1.25}
+.ebtn:active{transform:scale(.94)}
+.secs{margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sec{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:18px 14px;cursor:pointer;transition:.15s}
+.sec:active{transform:scale(.96)}
+.sec .ic{font-size:30px}
+.sec h2{font-size:17px;margin:8px 0 3px;font-weight:800}
+.sec p{font-size:11px;color:#9aa7bd}
+.back{display:none;align-items:center;gap:6px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);color:#e8ecf4;border-radius:12px;padding:8px 14px;font-size:13px;font-weight:700;cursor:pointer;margin:14px 0 4px}
+.back:active{transform:scale(.95)}
+.sectitle{display:none;margin:10px 0 12px;align-items:center;gap:10px}
+.sectitle .ic{font-size:26px}
+.sectitle h2{font-size:20px;font-weight:800}
+.listenall{margin-left:auto;font-size:11px;border:1px solid rgba(96,165,250,.4);background:rgba(59,130,246,.14);color:#93c5fd;border-radius:16px;padding:7px 12px;font-weight:700;cursor:pointer}
+.cards{display:none;flex-direction:column;gap:12px}
+.card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:14px}
+.card h3{font-size:15.5px;font-weight:800;margin-bottom:6px;line-height:1.35}
+.card .desc{font-size:13px;color:#c4cddd;line-height:1.6}
+.meta{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font-size:10.5px;border-radius:12px;padding:4px 9px}
+.chip.src{background:rgba(59,130,246,.15);color:#93c5fd;border:1px solid rgba(96,165,250,.3);text-decoration:none}
+.chip.upd{background:rgba(255,255,255,.06);color:#8b97ab;border:1px solid rgba(255,255,255,.1)}
+.cbtns{margin-top:10px;display:flex;gap:8px}
+.cbtn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;border-radius:12px;padding:10px;font-size:12.5px;font-weight:800;cursor:pointer;text-decoration:none;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.07);color:#e8ecf4}
+.cbtn:active{transform:scale(.95)}
+.cbtn.listen{background:linear-gradient(135deg,#7c3aed,#a855f7);border:none;box-shadow:0 3px 12px rgba(168,85,247,.35)}
+.cbtn.open{background:linear-gradient(135deg,#1d4ed8,#3b82f6);border:none;color:#fff;box-shadow:0 3px 12px rgba(59,130,246,.35)}
+.cbtn.tel{background:linear-gradient(135deg,#059669,#10b981);border:none;color:#fff}
+.note{margin-top:18px;font-size:11px;color:#7d8aa0;line-height:1.6;background:rgba(255,255,255,.04);border:1px dashed rgba(255,255,255,.12);border-radius:12px;padding:10px 12px}
+footer{margin-top:22px;text-align:center;font-size:12px;color:#8b97ab}
+footer b{color:#c9d4e4}
+#installBtn{position:fixed;right:16px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:50;width:58px;height:58px;border-radius:50%;border:none;background:linear-gradient(135deg,#059669,#10b981);color:#fff;font-size:24px;box-shadow:0 6px 20px rgba(16,185,129,.5);cursor:pointer;display:none;align-items:center;justify-content:center}
+#installBtn.done{background:linear-gradient(135deg,#166534,#22c55e)}
+#installBtn:active{transform:scale(.92)}
+#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#1e293b;border:1px solid rgba(255,255,255,.15);color:#e8ecf4;font-size:12.5px;padding:11px 16px;border-radius:12px;z-index:60;display:none;max-width:86%;text-align:center;line-height:1.5}
+.stopbtn{position:fixed;left:16px;bottom:calc(18px + env(safe-area-inset-bottom));z-index:50;width:58px;height:58px;border-radius:50%;border:none;background:linear-gradient(135deg,#dc2626,#ef4444);color:#fff;font-size:22px;box-shadow:0 6px 20px rgba(239,68,68,.5);cursor:pointer;display:none;align-items:center;justify-content:center}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="wrap">
+<header>
+  <div class="hrow">
+    <div class="logo">🌾</div>
+    <div>
+      <h1 id="appTitle">బండపోతుగల్ గ్రామ సేవ</h1>
+      <div class="sub" id="villageLine"></div>
+    </div>
+    <div class="hbtns">
+      <button class="pill" id="langBtn">EN</button>
+      <a class="pill call" href="tel:+919177226638" id="helpBtn">📞 <span id="helpLbl">సహాయం</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="emg" id="emgBox">
+  <div class="et" id="emgTitle">🚨 అత్యవసర నంబర్లు</div>
+  <div class="egrid" id="emgGrid"></div>
+</div>
+
+<div class="secs" id="secGrid"></div>
+
+<button class="back" id="backBtn">← <span id="backLbl">వెనుకకు</span></button>
+<div class="sectitle" id="secTitle">
+  <span class="ic" id="stIcon"></span><h2 id="stName"></h2>
+  <button class="listenall" id="listenAll">🔊 <span id="listenAllLbl">అన్నీ వినండి</span></button>
+</div>
+<div class="cards" id="cardList"></div>
+
+<div class="note" id="note"></div>
+<footer id="foot"></footer>
+</div>
+
+<button class="stopbtn" id="stopBtn" title="Stop">⏹</button>
+<button id="installBtn" title="Install">⬇️</button>
+<div id="toast"></div>
+
+<script src="schemes.js"></script>
+<script>
+let lang = localStorage.getItem('gs.lang') || 'te';
+const D = window.GS_DATA;
+const $ = id => document.getElementById(id);
+const T = (te,en) => lang==='te' ? te : en;
+
+function render(){
+  document.documentElement.lang = lang;
+  $('appTitle').textContent = T('బండపోతుగల్ గ్రామ సేవ','Bandapothugal Gram Seva');
+  $('villageLine').textContent = T(D.village.te, D.village.en);
+  $('langBtn').textContent = lang==='te' ? 'EN' : 'తె';
+  $('helpLbl').textContent = T('సహాయం','Help');
+  $('emgTitle').textContent = T('🚨 అత్యవసర నంబర్లు','🚨 Emergency numbers');
+  $('backLbl').textContent = T('వెనుకకు','Back');
+  $('listenAllLbl').textContent = T('అన్నీ వినండి','Listen to all');
+  $('note').textContent = T(
+    'గమనిక: ఈ సమాచారమంతా అధికారిక ప్రభుత్వ వెబ్‌సైట్ల నుండి మాత్రమే సేకరించాం (చివరి సరిచూపు: '+D.built+'). పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
+    'Note: all information is collected only from official government websites (last checked: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
+  $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b> · ' + T('సహాయం కావాలంటే:','For help:') + ' <a href="tel:+919177226638" style="color:#4ade80;text-decoration:none">📞 91772 26638</a>';
+  // emergency
+  $('emgGrid').innerHTML = D.emergency.map(e =>
+    '<a class="ebtn" href="tel:'+e.n+'"><b>'+e.n+'</b><span>'+T(e.te,e.en)+'</span></a>').join('');
+  // sections
+  $('secGrid').innerHTML = D.sections.map(s =>
+    '<div class="sec" onclick="openSec(\''+s.id+'\')"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p></div>').join('');
+}
+function openSec(id){
+  const s = D.sections.find(x=>x.id===id);
+  stopSpeak();
+  $('secGrid').style.display='none'; $('emgBox').style.display='none';
+  $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex';
+  $('stIcon').textContent = s.icon; $('stName').textContent = T(s.te,s.en);
+  $('cardList').innerHTML = s.items.map((it,i)=>
+    '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+
+    '<div class="meta"><a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
+    '<div class="cbtns"><button class="cbtn listen" onclick="speakItem(\''+id+'\','+i+')">🔊 '+T('వినండి','Listen')+'</button>'+
+    '<a class="cbtn open" href="'+it.s+'" target="_blank" rel="noopener">🌐 '+T('లింక్ తెరవండి','Open link')+'</a>'+
+    (it.ph?'<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+T('కాల్','Call')+'</a>':'')+'</div></div>').join('');
+  window.scrollTo(0,0);
+}
+function goBack(){
+  stopSpeak();
+  $('secGrid').style.display='grid'; $('emgBox').style.display='block';
+  $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
+}
+$('backBtn').onclick = goBack;
+$('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id) openSec(id); };
+// track open section for lang re-render
+const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; origOpen(id); };
+
+// ---- Voice (explicit tap only) ----
+let queue = [];
+function speak(text){
+  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
+  speechSynthesis.cancel();
+  queue = [text]; runQueue();
+}
+function runQueue(){
+  if(!queue.length){ $('stopBtn').style.display='none'; return; }
+  $('stopBtn').style.display='flex';
+  const u = new SpeechSynthesisUtterance(queue.shift());
+  u.lang = lang==='te' ? 'te-IN' : 'en-IN'; u.rate = 0.95;
+  const vs = speechSynthesis.getVoices();
+  const v = vs.find(v=>v.lang && v.lang.toLowerCase().startsWith(u.lang.slice(0,2)));
+  if(v) u.voice = v;
+  u.onend = runQueue; u.onerror = runQueue;
+  speechSynthesis.speak(u);
+}
+function stopSpeak(){ queue=[]; try{speechSynthesis.cancel()}catch(e){} $('stopBtn').style.display='none'; }
+$('stopBtn').onclick = stopSpeak;
+function speakItem(secId,i){
+  const s = D.sections.find(x=>x.id===secId); const it = s.items[i];
+  speak(T(it.t,it.e) + '. ' + T(it.d,it.de));
+}
+$('listenAll').onclick = ()=>{
+  const id = $('stName').dataset.sid; const s = D.sections.find(x=>x.id===id);
+  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
+  speechSynthesis.cancel();
+  queue = s.items.map(it => T(it.t,it.e) + '. ' + T(it.d,it.de));
+  runQueue();
+};
+function toast(msg){ const t=$('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none',4000); }
+
+// ---- Install (PWA) ----
+let deferredPrompt = null;
+const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+const installed = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+function showInstall(icon, done){
+  const b = $('installBtn'); b.style.display='flex'; b.textContent=icon; b.classList.toggle('done',!!done);
+}
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; showInstall('⬇️'); });
+window.addEventListener('appinstalled', ()=>{ showInstall('✅', true); });
+$('installBtn').onclick = async ()=>{
+  if(deferredPrompt){ deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; }
+  else if(isIos){ toast(T('ఇన్‌స్టాల్ చేయడానికి: Safari లో Share ⬆️ → "Add to Home Screen" నొక్కండి','To install: in Safari tap Share ⬆️ → "Add to Home Screen"')); }
+};
+if(installed) showInstall('✅', true); else if(isIos) showInstall('⬇️');
+
+render();
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script>
+</body>
+</html>

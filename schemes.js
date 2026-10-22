@@ -1,0 +1,143 @@
+// Bandapothugal Gram Seva - verified scheme data
+// RULE: every fact from official government sources only. Update "u" date after re-verifying the source link.
+window.GS_DATA = {
+  built: "23-10-2026",
+  village: {
+    te: "బండపోతుగల్ గ్రామం • చిలిపిచెడ్ మండలం • మెదక్ జిల్లా • నార్సాపూర్ నియోజకవర్గం",
+    en: "Bandapothugal village · Chilpched Mandal · Medak district · Narsapur constituency"
+  },
+  emergency: [
+    { n: "108", te: "అంబులెన్స్ (ఉచితం)", en: "Ambulance (free)" },
+    { n: "112", te: "అత్యవసర సేవ", en: "Emergency" },
+    { n: "100", te: "పోలీస్", en: "Police" },
+    { n: "101", te: "ఫైర్", en: "Fire" },
+    { n: "1091", te: "మహిళా హెల్ప్‌లైన్", en: "Women helpline" },
+    { n: "1098", te: "చైల్డ్ హెల్ప్‌లైన్", en: "Child helpline" }
+  ],
+  sections: [
+    {
+      id: "farmer", icon: "🌾", te: "రైతు", en: "Farmer",
+      items: [
+        { t: "రైతు భరోసా", e: "Rythu Bharosa (Telangana)",
+          d: "ప్రతి పంట సీజన్ మొదట్లో పెట్టుబడి ఆర్థిక సాయం. పంట రుణ మాఫీ విధానంతో పాటు అమలవుతోంది. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి.",
+          de: "Season-start investment support for farmers, alongside the crop loan waiver. Check eligibility, status and amounts only on the official portal.",
+          s: "https://www.rythubharosa.telangana.gov.in/", sn: "rythubharosa.telangana.gov.in", u: "23-10-2026" },
+        { t: "పీఎం కిసాన్ సమ్మాన్ నిధి", e: "PM-KISAN (Central)",
+          d: "కేంద్ర ప్రభుత్వం: అర్హులైన రైతు కుటుంబానికి ఏటా ₹6,000 - మూడు వాయిదాల్లో నేరుగా బ్యాంక్ ఖాతాలో. కొత్త నమోదు/స్టేటస్: పోర్టల్ లేదా మీ CSC కేంద్రం.",
+          de: "Central govt: Rs 6,000/year to eligible farmer families in 3 installments, direct to bank. Register or check status on the portal or at your CSC.",
+          s: "https://pmkisan.gov.in/", sn: "pmkisan.gov.in", u: "23-10-2026" },
+        { t: "పంట బీమా (PMFBY)", e: "Crop Insurance (PMFBY)",
+          d: "వరదలు, కరువు, పురుగుమందుల నష్టానికి పంట బీమా. సీజన్ కట్-ఆఫ్ తేదీలోపు బ్యాంక్ / రైతు సమన్వయ కేంద్రం / CSC ద్వారా చేరండి.",
+          de: "Insurance against flood, drought and pest losses. Enroll via bank, farmer coordination centre or CSC before the season cut-off.",
+          s: "https://pmfby.gov.in/", sn: "pmfby.gov.in", u: "23-10-2026" },
+        { t: "యూరియా / ఎరువుల కొనుగోలు", e: "Urea / Fertilizer purchase (DBT)",
+          d: "లైసెన్స్ ఎరువుల దుకాణంలో ఆధార్ + బయోమెట్రిక్ (PoS మెషిన్) తో ప్రభుత్వ సబ్సిడీ ధరకే కొనండి. రసీదు తీసుకోండి. స్టాక్/ధరల సమస్యలు: మండల వ్యవసాయ అధికారి (AEO) ని సంప్రదించండి.",
+          de: "Buy at subsidized rates with Aadhaar + biometric PoS at licensed dealers; take the receipt. For stock/price issues contact the Mandal Agriculture Officer (AEO).",
+          s: "https://www.fert.nic.in/", sn: "fert.nic.in", u: "23-10-2026" },
+        { t: "సాయిల్ హెల్త్ కార్డ్", e: "Soil Health Card",
+          d: "మీ పొలం మట్టి ఉచిత పరీక్ష - ఏ ఎరువు ఎంత వేయాలో శాస్త్రీయ సిఫార్సు. నమూనాల కోసం మండల వ్యవసాయ అధికారిని సంప్రదించండి.",
+          de: "Free soil testing with scientific fertilizer advice. Contact the Mandal Agriculture Officer for sampling.",
+          s: "https://soilhealth.dac.gov.in/", sn: "soilhealth.dac.gov.in", u: "23-10-2026" },
+        { t: "కిసాన్ క్రెడిట్ కార్డ్", e: "Kisan Credit Card",
+          d: "తక్కువ వడ్డీతో పంట అవసరాల రుణం. మీ బ్యాంక్ శాఖలో పాస్ బుక్, ఆధార్, భూమి పత్రాలతో దరఖాస్తు చేయండి.",
+          de: "Low-interest crop loan. Apply at your bank branch with passbook, Aadhaar and land records.",
+          s: "https://www.myscheme.gov.in/schemes/kcc", sn: "myscheme.gov.in", u: "23-10-2026" },
+        { t: "ఉపాధి హామీ (100 రోజుల పని)", e: "MGNREGS - 100 days work",
+          d: "గ్రామ కుటుంబానికి ఏటా 100 రోజుల వేతన పని హామీ. జాబ్ కార్డు / పని కోసం గ్రామ పంచాయతీని సంప్రదించండి. వేతనాలు నేరుగా బ్యాంక్/పోస్టాఫీసు ఖాతాకు జమ అవుతాయి.",
+          de: "100 days of guaranteed wage work per rural household per year. Contact the Gram Panchayat for a job card. Wages go straight to bank/post office account.",
+          s: "https://nrega.nic.in/", sn: "nrega.nic.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "student", icon: "🎓", te: "విద్యార్థి", en: "Student",
+      items: [
+        { t: "పోస్ట్ మెట్రిక్ స్కాలర్‌షిప్ + ఫీజు రీయింబర్స్‌మెంట్", e: "Post-Matric Scholarship + Fee Reimbursement (ePASS)",
+          d: "SC/ST/BC/EBC/మైనారిటీ/దివ్యాంగ విద్యార్థులకు ఇంటర్ తర్వాత చదువుకు స్కాలర్‌షిప్ మరియు ఫీజు సాయం. ఆన్‌లైన్ దరఖాస్తు చేసి అసలు పత్రాలు కళాశాలలో జమ చేయండి. సాంకేతిక సహాయం: 040-23120311 (పని దినాలు 10:30-5:00).",
+          de: "Scholarship and fee reimbursement for SC/ST/BC/EBC/minority/disabled students after Class 10. Apply online, submit originals at college. Tech help: 040-23120311.",
+          s: "https://telanganaepass.cgg.gov.in/", sn: "telanganaepass.cgg.gov.in", u: "23-10-2026", ph: "04023120311" },
+        { t: "కళ్యాణ లక్ష్మీ / షాదీ ముబారక్", e: "Kalyana Lakshmi / Shaadi Mubarak",
+          d: "SC/ST/BC/EBC కుటుంబాల్లో ఆడపిల్ల వివాహానికి ఆర్థిక సాయం - అదే ePASS పోర్టల్ ద్వారా దరఖాస్తు.",
+          de: "Marriage assistance for SC/ST/BC/EBC families - applied through the same ePASS portal.",
+          s: "https://telanganaepass.cgg.gov.in/", sn: "telanganaepass.cgg.gov.in", u: "23-10-2026" },
+        { t: "జాతీయ స్కాలర్‌షిప్ పోర్టల్", e: "National Scholarship Portal (Central)",
+          d: "కేంద్ర ప్రభుత్వ స్కాలర్‌షిప్‌లన్నీ ఒకే చోట - నమోదు, దరఖాస్తు, స్టేటస్ తనిఖీ.",
+          de: "All central scholarships in one place - register, apply, track status.",
+          s: "https://scholarships.gov.in/", sn: "scholarships.gov.in", u: "23-10-2026" },
+        { t: "TSPSC ప్రభుత్వ ఉద్యోగాలు", e: "TSPSC Government Jobs",
+          d: "గ్రూప్-1 నుండి గ్రూప్-4 నోటిఫికేషన్లు, హాల్ టికెట్లు, ఫలితాలు - అధికారిక సైట్‌లోనే చూడండి. డబ్బులు అడిగే మోసపూరిత కాల్స్/సైట్ల పట్టించుకోవద్దు.",
+          de: "Group-1 to Group-4 notifications, hall tickets, results - check only the official site. Ignore fraudulent calls/sites demanding money.",
+          s: "https://www.tspsc.gov.in/", sn: "tspsc.gov.in", u: "23-10-2026" },
+        { t: "పోలీస్ / ఫైర్ / జైలు ఉద్యోగాలు", e: "Police / Fire / Prisons Jobs (TSLPRB)",
+          d: "తెలంగాణ స్టేట్ లెవల్ పోలీస్ రిక్రూట్‌మెంట్ బోర్డ్ నోటిఫికేషన్లు - అధికారిక సైట్ మాత్రమే.",
+          de: "Telangana police, fire and prisons recruitment notifications - official site only.",
+          s: "https://www.tslprb.in/", sn: "tslprb.in", u: "23-10-2026" },
+        { t: "మీకు అర్హమైన పథకాలు వెతకండి", e: "Find schemes you are eligible for (myScheme)",
+          d: "ప్రభుత్వ అధికారిక పోర్టల్ - మీ వయస్సు, వర్గం, ఆదాయం ఇస్తే అర్హమైన అన్ని పథకాలు చూపిస్తుంది.",
+          de: "Official govt portal - enter your age, category and income to see every scheme you qualify for.",
+          s: "https://www.myscheme.gov.in/", sn: "myscheme.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "health", icon: "🏥", te: "ఆరోగ్యం", en: "Health",
+      items: [
+        { t: "చేయుత - రాజీవ్ ఆరోగ్యశ్రీ (₹10 లక్షలు)", e: "Cheyutha - Rajiv Aarogyasri (Rs 10 lakh)",
+          d: "వైట్ రేషన్ కార్డు కుటుంబాలకు ఏటా ₹10 లక్షల వరకు నగదు-రహిత చికిత్స - గుండె ఆపరేషన్లు, క్యాన్సర్, మూత్రపిండాలు సహా 1,672 ప్యాకేజీలు. గుర్తింపు పొందిన ప్రభుత్వ/ప్రైవేట్ ఆసుపత్రుల్లో చికిత్స. ఆరోగ్యశ్రీ ట్రస్ట్: 040-23547107.",
+          de: "Cashless treatment up to Rs 10 lakh/year for white ration card families - 1,672 packages incl. heart surgery and cancer, at empanelled hospitals. Trust helpline: 040-23547107.",
+          s: "https://aarogyasri.telangana.gov.in/", sn: "aarogyasri.telangana.gov.in", u: "23-10-2026", ph: "04023547107" },
+        { t: "ఆయుష్మాన్ భారత్ (PM-JAY)", e: "Ayushman Bharat PM-JAY (Rs 5 lakh)",
+          d: "కేంద్ర ప్రభుత్వం: అర్హులైన కుటుంబానికి ఏటా ₹5 లక్షల హాస్పిటలైజేషన్ కవర్. ఆయుష్మాన్ కార్డు: ఆధార్ + రేషన్ కార్డుతో CSC కేంద్రం లేదా ఆసుపత్రిలో పొందండి.",
+          de: "Central govt: Rs 5 lakh/year hospitalization cover for eligible families. Get the Ayushman card at a CSC or empanelled hospital with Aadhaar + ration card.",
+          s: "https://pmjay.gov.in/", sn: "pmjay.gov.in", u: "23-10-2026" },
+        { t: "జీవన బీమా (PMJJBY)", e: "Life Insurance (PMJJBY)",
+          d: "18-50 ఏళ్ల మధ్య ఉన్న ఎవరికైనా - చిన్న వార్షిక ప్రీమియంతో ₹2 లక్షల జీవన బీమా. మీ బ్యాంక్ ఖాతా ద్వారా చేరండి; ప్రస్తుత ప్రీమియం బ్యాంక్‌లో నిర్ధారించండి.",
+          de: "Rs 2 lakh life cover for anyone aged 18-50 for a small annual premium via your bank account; confirm the current premium at the bank.",
+          s: "https://www.myscheme.gov.in/schemes/pmjjby", sn: "myscheme.gov.in", u: "23-10-2026" },
+        { t: "ప్రమాద బీమా (PMSBY)", e: "Accident Insurance (PMSBY)",
+          d: "చాలా తక్కువ వార్షిక ప్రీమియంతో ప్రమాద మరణం/పూర్తి దివ్యాంగత్వంపై ₹2 లక్షల బీమా - మీ బ్యాంక్ ద్వారా చేరండి.",
+          de: "Rs 2 lakh accidental death/disability cover for a very small annual premium - enroll via your bank.",
+          s: "https://www.myscheme.gov.in/schemes/pmsby", sn: "myscheme.gov.in", u: "23-10-2026" },
+        { t: "అటల్ పెన్షన్ యోజన", e: "Atal Pension Yojana",
+          d: "60 ఏళ్ల నుండి నెల పెన్షన్ గ్యారంటీ. 18-40 ఏళ్ల వయసులో బ్యాంక్ ద్వారా చేరండి - త్వరగా చేరితే అంత తక్కువ కంట్రిబ్యూషన్.",
+          de: "Guaranteed monthly pension from age 60. Join via your bank between 18-40; earlier joining means lower contribution.",
+          s: "https://www.myscheme.gov.in/schemes/apy", sn: "myscheme.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "aid", icon: "🏛️", te: "ప్రభుత్వ సాయం", en: "Govt Aid",
+      items: [
+        { t: "మహాలక్ష్మి పథకం", e: "Maha Lakshmi Scheme",
+          d: "అర్హులైన మహిళలకు నెలకు ₹2,500 + గ్యాస్ సిలిండర్ ₹500 కే + మహిళలు, అమ్మాయిలు, ట్రాన్స్‌జెండర్లకు TSRTC బస్సుల్లో ఉచిత ప్రయాణం (ఆధార్ చూపిస్తే చాలు). దరఖాస్తు: MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రం.",
+          de: "Rs 2,500/month for eligible women + LPG cylinder at Rs 500 + free TSRTC bus travel for women/girls/transgenders (show Aadhaar). Apply at the Praja Palana Seva Kendram in the MPDO office.",
+          s: "https://prajapalana.telangana.gov.in/", sn: "prajapalana.telangana.gov.in", u: "23-10-2026" },
+        { t: "గృహ జ్యోతి (200 యూనిట్ల ఉచిత కరెంటు)", e: "Gruha Jyothi (200 units free electricity)",
+          d: "నెలకు 200 యూనిట్ల వరకు వినియోగం ఉంటే కరెంట్ బిల్లు జీరో. వైట్ రేషన్ కార్డు + ఆధార్ అవసరం. దరఖాస్తు: ప్రజా పాలన.",
+          de: "Zero electricity bill if monthly usage stays within 200 units. White ration card + Aadhaar needed. Apply via Praja Palana.",
+          s: "https://prajapalana.telangana.gov.in/", sn: "prajapalana.telangana.gov.in", u: "23-10-2026" },
+        { t: "ఆసరా పెన్షన్లు", e: "Aasara Pensions",
+          d: "వృద్ధాప్య, వితంతు, దివ్యాంగ, ఒంటరి మహిళ, బీడీ/జిన్నెర/చేనేత కార్మికుల పెన్షన్లు. ప్రస్తుత మొత్తాలు, స్టేటస్ పోర్టల్‌లో చూడండి; దరఖాస్తు MPDO / ప్రజా పాలన ద్వారా.",
+          de: "Old-age, widow, disability, single-women, beedi/toddy/weaver pensions. Check current amounts and status on the portal; apply via MPDO / Praja Palana.",
+          s: "http://www.aasara.telangana.gov.in/", sn: "aasara.telangana.gov.in", u: "23-10-2026" },
+        { t: "రేషన్ కార్డు / ఉచిత బియ్యం", e: "Ration Card / Civil Supplies",
+          d: "రేషన్ కార్డు స్థితి, కొత్త దరఖాస్తు, రేషన్ దుకాణ వివరాలు - సివిల్ సప్లయ్స్ పోర్టల్‌లో చూడండి.",
+          de: "Ration card status, new applications and fair-price shop details on the Civil Supplies portal.",
+          s: "https://epds.telangana.gov.in/", sn: "epds.telangana.gov.in", u: "23-10-2026" },
+        { t: "ఇందిరమ్మ ఇళ్లు", e: "Indiramma Housing",
+          d: "స్వంత ఇల్లు లేని పేద కుటుంబాలకు ఇళ్ల నిర్మాణ సాయం - ప్రజా పాలన ద్వారా దరఖాస్తు. అర్హత/స్టేటస్ పోర్టల్‌లో తనిఖీ చేయండి.",
+          de: "Housing assistance for poor families without a house - apply via Praja Palana; check eligibility and status on the portal.",
+          s: "https://prajapalana.telangana.gov.in/", sn: "prajapalana.telangana.gov.in", u: "23-10-2026" },
+        { t: "స్త్రీ నిధి (మహిళా రుణాలు)", e: "Stree Nidhi (Women's loans)",
+          d: "మహిళా సంఘ (SHG) సభ్యులకు తక్కువ వడ్డీతో త్వరిత రుణాలు - జీవనోపాధి, వైద్యం, విద్య, అత్యవసర అవసరాలకు. మీ సంఘం / VO / మండల సమాఖ్య ద్వారా దరఖాస్తు.",
+          de: "Quick low-interest loans for women SHG members - livelihood, health, education, emergencies. Apply through your SHG / VO / Mandal Samakhya.",
+          s: "https://streenidhi.telangana.gov.in/SNTG/UI/Home.aspx", sn: "streenidhi.telangana.gov.in", u: "23-10-2026" },
+        { t: "పోస్టాఫీసు పొదుపు పథకాలు", e: "Post Office Savings Schemes",
+          d: "సుకన్య సమృద్ధి (ఆడపిల్ల భవిష్యత్తు కోసం), PPF, RD, MIS, NSC - ప్రస్తుత వడ్డీ రేట్లు మరియు వివరాలు అధికారిక సైట్ / దగ్గరి పోస్టాఫీసులో చూడండి.",
+          de: "Sukanya Samriddhi (for a girl child), PPF, RD, MIS, NSC - check current interest rates and details on the official site or nearest post office.",
+          s: "https://www.indiapost.gov.in/", sn: "indiapost.gov.in", u: "23-10-2026" },
+        { t: "ప్రజా పాలన - దరఖాస్తు స్టేటస్", e: "Praja Palana - Application Status",
+          d: "6 గ్యారెంటీ పథకాలకు ఇచ్చిన దరఖాస్తుల స్థితి ఇక్కడ తనిఖీ చేయండి.",
+          de: "Track your applications for the 6 guarantee schemes here.",
+          s: "https://prajapalana.telangana.gov.in/Applicationstatus", sn: "prajapalana.telangana.gov.in", u: "23-10-2026" }
+      ]
+    }
+  ]
+};
