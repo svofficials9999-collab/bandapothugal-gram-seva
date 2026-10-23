@@ -60,8 +60,8 @@ window.GS_DATA = {
       id: "farmer", icon: "🌾", te: "రైతు", en: "Farmer",
       items: [
         { t: "రైతు భరోసా", e: "Rythu Bharosa (Telangana)",
-          d: "ప్రతి పంట సీజన్ మొదట్లో పెట్టుబడి ఆర్థిక సాయం. పంట రుణ మాఫీ విధానంతో పాటు అమలవుతోంది. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి.",
-          de: "Season-start investment support for farmers, alongside the crop loan waiver. Check eligibility, status and amounts only on the official portal.",
+          d: "ప్రతి పంట సీజన్ మొదట్లో పెట్టుబడి సాయం: ఎకరాకు సీజన్‌కు ₹6,000 - ఏటా ₹12,000 (ఖరీఫ్ + రబీ), నేరుగా బ్యాంక్ ఖాతాలో. పంట రుణ మాఫీ విధానంతో పాటు అమలవుతోంది. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి.",
+          de: "Season-start investment support: Rs 6,000 per acre per season - Rs 12,000 per acre per year (Kharif + Rabi), direct to bank, alongside the crop loan waiver. Check eligibility, status and amounts only on the official portal.",
           s: "https://rythubharosa.telangana.gov.in/", sn: "rythubharosa.telangana.gov.in", u: "23-10-2026" },
         { t: "పీఎం కిసాన్ సమ్మాన్ నిధి", e: "PM-KISAN (Central)",
           d: "కేంద్ర ప్రభుత్వం: అర్హులైన రైతు కుటుంబానికి ఏటా ₹6,000 - మూడు వాయిదాల్లో నేరుగా బ్యాంక్ ఖాతాలో. కొత్త నమోదు/స్టేటస్: పోర్టల్ లేదా మీ CSC కేంద్రం.",
