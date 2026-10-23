@@ -1,50 +1,451 @@
 // Verified detail fields (eligibility/documents/process) - only facts from official pages or standard official process. Merged at render time by English title fragment.
 window.GS_DETAILS = {
-"Rythu Bharosa": ["తెలంగాణ పట్టాదార్ రైతులు - భూ-భారతి (ధరణి) పోర్టల్‌లో భూమి నమోదు ఉన్నవారు; సాగుకు అనుకూలం కాని భూములకు వర్తించదు","Telangana pattadar farmers with land registered on the Bhu Bharati (Dharani) portal; non-arable lands are not covered","పట్టాదార్ పాస్ బుక్, ఆధార్, బ్యాంక్ ఖాతా","Pattadar passbook, Aadhaar, bank account","అధికారిక పోర్టల్‌లో స్టేటస్ చూడండి; సహాయానికి మండల వ్యవసాయ అధికారి","Check status on the official portal; Mandal Agriculture Officer for help"],
-"PM-KISAN": ["భూమి ఉన్న రైతు కుటుంబాలు","Farmer families with land","ఆధార్, భూమి పత్రాలు, బ్యాంక్ ఖాతా, మొబైల్ నంబర్","Aadhaar, land records, bank account, mobile number","pmkisan.gov.in → Farmers Corner → New Farmer Registration, లేదా దగ్గరి CSC","pmkisan.gov.in → Farmers Corner → New Farmer Registration, or nearest CSC"],
-"Crop Insurance": ["పంట నాటిన రైతు ఎవరైనా","Any farmer who sowed the crop","ఆధార్, భూమి పత్రాలు, బ్యాంక్ ఖాతా, పంట వివరాలు","Aadhaar, land records, bank account, crop details","సీజన్ కట్-ఆఫ్ తేదీలోపు బ్యాంక్ / రైతు సమన్వయ కేంద్రం / CSC లో చేరండి","Enroll at bank / farmer coordination centre / CSC before season cut-off"],
-"Urea": ["ఏ రైతునైనా","Any farmer","ఆధార్ కార్డు","Aadhaar card","లైసెన్స్ డీలర్ PoS మెషిన్‌లో ఆధార్/బయోమెట్రిక్ ధృవీకరణతో కొనుగోలు; రసీదు తీసుకోండి","Buy at licensed dealer PoS with Aadhaar/biometric authentication; take the receipt"],
-"Soil Health": ["భూమి ఉన్న రైతులు","Farmers with land","భూమి వివరాలు","Land details","మండల వ్యవసాయ అధికారి (AEO) ద్వారా మట్టి నమూనా ఇవ్వండి","Give a soil sample through the Mandal Agriculture Officer (AEO)"],
-"Kisan Credit": ["వ్యవసాయం చేసే రైతులు","Practising farmers","ఆధార్, భూమి పత్రాలు, పాస్ బుక్, పాస్‌పోర్ట్ ఫోటో","Aadhaar, land records, passbook, passport photo","మీ బ్యాంక్ శాఖలో KCC దరఖాస్తు ఫామ్ ఇవ్వండి","Submit the KCC application form at your bank branch"],
-"VB-G RAM G": ["గ్రామీణ కుటుంబాలు - పని చేయగలిగిన పెద్దలు","Rural households - adults able to work","ఆధార్, రేషన్ కార్డు, బ్యాంక్ ఖాతా, ఫోటో","Aadhaar, ration card, bank account, photo","గ్రామ పంచాయతీలో జాబ్ కార్డు కోసం దరఖాస్తు చేయండి; పనులు/చెల్లింపులు nrega.telangana.gov.in లో పబ్లిక్","Apply for a job card at the Gram Panchayat; works/payments are public on nrega.telangana.gov.in"],
-"Veterinary": ["పశువులు పెంచే ఏ రైతూ / కుటుంబం","Any farmer / family rearing livestock","పశువుల వివరాలు (పథకాలకు ఆధార్, రేషన్ కార్డు కూడా కావచ్చు)","Animal details (Aadhaar, ration card may be needed for schemes)","స్థానిక వెటర్నరీ ఆసుపత్రి / VAHD పోర్టల్; పంపిణీ పథకాలకు మండల కార్యాలయం","Local veterinary hospital / VAHD portal; mandal office for distribution schemes"],
-"Aadhaar": ["అందరికీ - కొత్త నమోదు పిల్లలకు కూడా","Everyone - new enrolment for children too","సాధారణంగా జనన / చిరునామా రుజువు పత్రాలు","Usually birth / address proof documents","UIDAI సైట్‌లో దగ్గరి ఆధార్ సేవా కేంద్రం వెతికి నేరుగా వెళ్లండి","Find the nearest Aadhaar Seva Kendra on the UIDAI site and visit in person"],
-"PAN Card": ["అందరికీ - పనిచేసేవారు, బ్యాంక్ లావాదేవీలు ఉన్నవారికి అవసరం","Everyone - needed for workers and bank transactions","ఆధార్, ఫోటో, జన్మతేదీ రుజువు","Aadhaar, photo, date-of-birth proof","అధికారిక పోర్టల్ చూపించే మార్గాల్లో ఆన్‌లైన్ దరఖాస్తు","Apply online through the routes shown on the official portal"],
-"MeeSeva": ["అందరికీ","Everyone","సర్టిఫికెట్ బట్టి - ఆధార్, రేషన్ కార్డు, సంబంధిత పత్రాలు","Depends on certificate - Aadhaar, ration card, relevant documents","దగ్గరి మీసేవ కేంద్రంలో దరఖాస్తు; కేంద్రంలో ఫీజు రసీదు తీసుకోండి","Apply at the nearest MeeSeva centre; always take the fee receipt"],
-"Driving Licence": ["18 ఏళ్లు నిండినవారు (16+ గేర్ లేని మోటార్‌సైకిళ్లకు)","Age 18+ (16+ for gearless two-wheelers)","ఆధార్, వయసు రుజువు, ఫోటో","Aadhaar, age proof, photo","ఆన్‌లైన్ దరఖాస్తు → RTA కార్యాలయంలో టెస్ట్","Apply online → test at the RTA office"],
-"Anganwadi": ["గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలు","Pregnant and lactating women, children under 6","ఏ పత్రాలు అవసరం లేదు - కేంద్రంలో నమోదు చేస్తారు","No documents needed - the centre registers you","గ్రామంలోనే అంగన్‌వాడీ కేంద్రానికి వెళ్లండి","Go to the Anganwadi centre in the village itself"],
-"ASHA": ["గ్రామంలోని అందరికీ - ముఖ్యంగా తల్లులు, పిల్లలు","Everyone in the village - especially mothers and children","ఏమీ అవసరం లేదు","Nothing needed","గ్రామంలోనే ఆశా వర్కర్‌ని కలవండి","Meet the ASHA worker in the village"],
-"HIV Support": ["HIVతో బతుతున్న ఎవరికైనా","Anyone living with HIV","ఏమీ అవసరం లేదు","Nothing needed","TGSACS కేర్ & సపోర్ట్ సెంటర్ / ప్రభుత్వ ART కేంద్రం: 040-24743897","TGSACS Care & Support Centre / govt ART centre: 040-24743897"],
-"SADAREM": ["దివ్యాంగత ఉన్న ఎవరికైనా","Any person with a disability","ఆధార్, ఫోటో, వైద్య పరీక్ష (వైద్య బోర్డు ద్వారా)","Aadhaar, photo, medical examination (by medical board)","SADAREM పోర్టల్ / ప్రభుత్వ ఆసుపత్రి వైద్య బోర్డు ద్వారా నమోదు","Register via the SADAREM portal / government hospital medical board"],
-"Disability Welfare": ["SADAREM సర్టిఫికెట్ ఉన్న దివ్యాంగులు","Persons with a SADAREM certificate","SADAREM / UDID సర్టిఫికెట్, ఆధార్, బ్యాంక్ వివరాలు","SADAREM / UDID certificate, Aadhaar, bank details","శాఖా పోర్టల్ చూసి మండల కార్యాలయంలో దరఖాస్తు","Check the department portal and apply at the mandal office"],
-"Post-Matric": ["SC: కుటుంబ వార్షిక ఆదాయం ₹2.5 లక్షల లోపు • ST: ₹2 లక్షల లోపు • BC/EBC/మైనారిటీ: గ్రామీణ ప్రాంతం ₹1.5 లక్షలు / పట్టణ ప్రాంతం ₹2 లక్షల లోపు • దివ్యాంగ విద్యార్థులు: ₹1 లక్ష లోపు. ప్రతి క్వార్టర్ చివర 75% హాజరు ఉండాలి (రిన్యూవల్‌కు తర్వాతి సంవత్సరానికి ప్రమోట్ అయ్యి ఉండాలి). పార్ట్-టైమ్/దూర విద్య/మేనేజ్‌మెంట్ కోటా విద్యార్థులకు అర్హత లేదు.","SC: annual family income up to Rs 2.5 lakh; ST: up to Rs 2 lakh; BC/EBC/Minority: rural up to Rs 1.5 lakh, urban up to Rs 2 lakh; Disabled students: up to Rs 1 lakh. 75% attendance at the end of each quarter (and promotion to next year for renewal). Part-time/distance/management-quota students are not eligible.","ఆధార్, కులం/ఆదాయ సర్టిఫికెట్, మార్కుల జాబితా, బ్యాంక్ పాస్ బుక్, బోనఫైడ్","Aadhaar, caste/income certificate, marksheets, bank passbook, bonafide","ePASS పోర్టల్‌లో ఆన్‌లైన్ దరఖాస్తు → అసలు పత్రాలు కళాశాలలో జమ","Apply online on ePASS portal → submit originals at college"],
-"Kalyana Lakshmi": ["వివాహం చేసుకునే ఆడపిల్ల (18+) - SC: కుటుంబ ఆదాయం ₹2 లక్షల లోపు • ST: ₹2 లక్షల లోపు • BC/EBC: గ్రామీణ ప్రాంతం ₹1.5 లక్షలు / పట్టణ ప్రాంతం ₹2 లక్షల లోపు","Bride (18+) - SC: family income up to Rs 2 lakh; ST: up to Rs 2 lakh; BC/EBC: rural up to Rs 1.5 lakh, urban up to Rs 2 lakh","ఆధార్, కులం/ఆదాయ సర్టిఫికెట్, వివాహ నిర్ధారణ పత్రాలు","Aadhaar, caste/income certificate, marriage proof documents","అదే ePASS పోర్టల్ ద్వారా దరఖాస్తు","Apply through the same ePASS portal"],
-"National Scholarship": ["అర్హత పథకం నిబంధనల ప్రకారం","Eligibility per each central scheme","ఆధార్, మార్కులు, ఆదాయ సర్టిఫికెట్ (సాధారణంగా)","Aadhaar, marksheets, income certificate (usually)","scholarships.gov.in లో నమోదు → పథకం ఎంచుకుని దరఖాస్తు","Register on scholarships.gov.in → choose scheme → apply"],
-"TGPSC": ["నోటిఫికేషన్ ప్రకారం అర్హత (వయస్సు/విద్య)","Eligibility per notification (age/education)","నోటిఫికేషన్‌లో పేర్కొన్న పత్రాలు","Documents listed in each notification","tgpsc.gov.in లో వన్-టైమ్ రిజిస్ట్రేషన్ (OTR) → నోటిఫికేషన్ దరఖాస్తు","One-Time Registration (OTR) on tgpsc.gov.in → apply to notifications"],
-"TGPRB": ["నోటిఫికేషన్ ప్రకారం అర్హత","Eligibility per notification","నోటిఫికేషన్‌లో పేర్కొన్న పత్రాలు","Documents listed in each notification","tgprb.in నోటిఫికేషన్ చదివి ఆన్‌లైన్ దరఖాస్తు","Read notification on tgprb.in → apply online"],
-"myScheme": ["అందరికీ","Everyone","ఏమీ అవసరం లేదు","Nothing needed","పోర్టల్‌లో మీ వయస్సు/వర్గం/ఆదాయం ఇస్తే అర్హమైన పథకాలు చూపిస్తుంది","Enter age/category/income on the portal to see eligible schemes"],
-"Cheyutha - Rajiv Aarogyasri": ["వైట్ రేషన్ కార్డు (BPL) కుటుంబాలు","White ration card (BPL) families","వైట్ రేషన్ కార్డు, ఆధార్","White ration card, Aadhaar","గుర్తింపు పొందిన ఆసుపత్రిలో కార్డు చూపించండి - నగదు-రహిత చికిత్స; సందేహాలకు 040-23547107","Show the card at an empanelled hospital for cashless care; doubts: 040-23547107"],
-"Ayushman Bharat": ["అర్హులైన కుటుంబాలు (అధికారిక జాబితా ప్రకారం)","Eligible families per official list","ఆధార్, రేషన్ కార్డు","Aadhaar, ration card","CSC కేంద్రం/ఆసుపత్రిలో ఆయుష్మాన్ కార్డు తయారు చేయించుకోండి","Get the Ayushman card made at a CSC or empanelled hospital"],
-"PMJJBY": ["18-50 ఏళ్లు, బ్యాంక్ ఖాతా ఉన్నవారు","Age 18-50 with a bank account","ఆధార్, బ్యాంక్ ఖాతా","Aadhaar, bank account","బ్యాంక్‌లో కన్సెంట్ ఫామ్ ఇచ్చి చేరండి - ప్రీమియం ఆటో-డెబిట్","Join via consent form at the bank - premium auto-debits yearly"],
-"PMSBY": ["18-70 ఏళ్లు, బ్యాంక్ ఖాతా ఉన్నవారు","Age 18-70 with a bank account","ఆధార్, బ్యాంక్ ఖాతా","Aadhaar, bank account","బ్యాంక్‌లో చేరడి ఫామ్ ఇవ్వండి","Give the enrollment form at your bank"],
-"Atal Pension": ["18-40 ఏళ్లు, బ్యాంక్ ఖాతా ఉన్నవారు","Age 18-40 with a bank account","ఆధార్, బ్యాంక్ ఖాతా, మొబైల్ నంబర్","Aadhaar, bank account, mobile number","బ్యాంక్ ద్వారా చేరండి - వయస్సు/పెన్షన్ ప్రకారం నెల కంట్రిబ్యూషన్","Join via bank - monthly contribution by age and pension chosen"],
-"Maha Lakshmi": ["BPL/అంత్యోదయ కుటుంబాల మహిళలు (కుటుంబ ఆదాయం ₹2 లక్షల లోపు); ఉచిత బస్సు అన్ని మహిళలకు/అమ్మాయిలకు/ట్రాన్స్‌జెండర్లకు","Women from BPL/Antyodaya families (income under Rs 2 lakh); free bus for all women/girls/transgenders","ఆధార్, రేషన్ కార్డు, ఆదాయ సర్టిఫికెట్, బ్యాంక్ వివరాలు, గ్యాస్ రసీదు (LPG కోసం)","Aadhaar, ration card, income certificate, bank details, gas receipt (for LPG)","MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రంలో దరఖాస్తు","Apply at the Praja Palana Seva Kendram in the MPDO office"],
-"Gruha Jyothi": ["వైట్ రేషన్ కార్డు కుటుంబాలు - నెలకు 200 యూనిట్ల లోపు వినియోగం","White ration card households using up to 200 units/month","ఆధార్, వైట్ రేషన్ కార్డు, కరెంట్ కనెక్షన్ వివరాలు","Aadhaar, white ration card, electricity connection details","ప్రజా పాలన ద్వారా నమోదు","Register via Praja Palana"],
-"Cheyutha (Aasara)": ["వృద్ధులు, వితంతువులు, దివ్యాంగులు, ఒంటరి మహిళలు, బీడీ/జిన్నెర/చేనేత కార్మికులు","Elderly, widows, persons with disability, single women, beedi/toddy/weaver workers","ఆధార్, రేషన్ కార్డు, సంబంధిత సర్టిఫికెట్లు","Aadhaar, ration card, relevant certificates","కొత్త దరఖాస్తుల స్వీకరణ గురించి గ్రామ పంచాయతీ కార్యదర్శి / MPDO కార్యాలయంలో అడగండి. వెబ్‌సైట్‌లోని లాగిన్ అధికారుల పనుల కోసం; గ్రామస్థులు ఖాతా సృష్టించాల్సిన అవసరం లేదు. ఈ వెతుకులాట దరఖాస్తు సమర్పణ కాదు.","Ask the Gram Panchayat Secretary / MPDO office about current application intake. The website login is for departmental work, not citizen account creation. This search does not submit an application."],
-"Ration Card": ["అర్హులైన కుటుంబాలు","Eligible households","ఆధార్, నివాస రుజువు, కుటుంబ సభ్యుల వివరాలు","Aadhaar, residence proof, family member details","సివిల్ సప్లయ్స్ శాఖా సైట్ / మీసేవ ద్వారా దరఖాస్తు","Apply via Civil Supplies site / MeeSeva"],
-"Indiramma": ["స్వంత ఇల్లు లేని పేద కుటుంబాలు","Poor families without a house","ఆధార్, రేషన్ కార్డు, స్థలం వివరాలు","Aadhaar, ration card, site details","ప్రజా పాలన ద్వారా దరఖాస్తు; స్టేటస్ పోర్టల్‌లో చూడండి","Apply via Praja Palana; check status on the portal"],
-"Stree Nidhi": ["మహిళా సంఘ (SHG) సభ్యులు","Women SHG members","సంఘ సభ్యత్వ రికార్డు, ఆధార్","SHG membership record, Aadhaar","మీ సంఘం → VO → మండల సమాఖ్య ద్వారా రుణ దరఖాస్తు","Loan application through your SHG → VO → Mandal Samakhya"],
-"Mission Bhagiratha": ["గ్రామంలోని అన్ని ఇళ్లు","All households in the village","ఆధార్, ఇంటి వివరాలు","Aadhaar, house details","స్థానిక మిషన్ భగీరథ / RWS కార్యాలయంలో దరఖాస్తు","Apply at the local Mission Bhagiratha / RWS office"],
-"ePDS": ["రేషన్ కార్డు ఉన్న కుటుంబాలు","Families with a ration card","రేషన్ కార్డు నంబర్","Ration card number","పోర్టల్‌లో రేషన్ కార్డు వివరాలు చూడండి; సమస్యలకు 1967","Check ration card details on the portal; call 1967 for issues"],
-"Bhu Bharati": ["సొంత రికార్డులు భూమి యజమానులకు; పబ్లిక్ మ్యాప్/సమాచార పేజీల కవరేజీ, లాగిన్ నిబంధనలు పోర్టల్ ప్రకారం","Own records are for landowners; coverage and login rules of public map/info pages are as per the portal","సొంత రికార్డులకు పట్టాదారు పాస్‌బుక్ / సర్వే నంబర్ వివరాలు ఉంటే సులభం","For your own records, pattadar passbook / survey number details help","పేజీ సూచనలు అనుసరించి పోర్టల్‌లో చూడండి; మార్పులకు తహసీల్దార్ కార్యాలయం","Follow the page instructions and view on the portal; Tahsildar office for changes"],
-"Swachh Bharat": ["మరుగుదొడ్డి లేని గ్రామీణ కుటుంబాలు","Rural households without a toilet","ఆధార్, బ్యాంక్ ఖాతా","Aadhaar, bank account","గ్రామ పంచాయతీ ద్వారా దరఖాస్తు","Apply through the Gram Panchayat"],
-"eGramSwaraj": ["అందరికీ - పబ్లిక్ సమాచారం","Everyone - public information","ఏమీ అవసరం లేదు","Nothing needed","పోర్టల్ తెరిచి రాష్ట్రం → జిల్లా → మండలం → పంచాయతీ ఎంచుకోండి","Open the portal and choose State → District → Mandal → Panchayat"],
-"MPLADS": ["అందరికీ - పబ్లిక్ సమాచారం","Everyone - public information","ఏమీ అవసరం లేదు","Nothing needed","డ్యాష్‌బోర్డ్‌లో తెలంగాణ → మెదక్ ఎంచుకుని పనులు చూడండి","Choose Telangana → Medak on the dashboard to see works"],
-"Our Representatives": ["అందరికీ","Everyone","ఏమీ అవసరం లేదు","Nothing needed","అధికారిక జాబితాల్లో నియోజకవర్గం వెతకండి","Search the constituency in the official lists"],
-"Cyber Fraud": ["అందరికీ","Everyone","ఏమీ అవసరం లేదు","Nothing needed","మోసం జరిగితే వెంటనే 1930 కు కాల్; ఆన్‌లైన్ నమోదు cybercrime.gov.in","Call 1930 immediately if cheated; report online at cybercrime.gov.in"],
-"Sanchar Saathi": ["మొబైల్ వాడే అందరికీ","Everyone who uses a mobile","మీ మొబైల్ నంబర్ (OTP ధృవీకరణ)","Your mobile number (OTP verification)","పోర్టల్‌లో మీ పేరుపై కనెక్షన్లు తనిఖీ చేయండి","Check connections on your name on the portal"],
-"DIKSHA": ["పిల్లలు, టీచర్లు, నేర్చుకోవాలనుకునే అందరికీ","Children, teachers and anyone who wants to learn","ఏమీ అవసరం లేదు - ఉచితం","Nothing needed - free","diksha.gov.in లేదా DIKSHA యాప్ డౌన్‌లోడ్ చేసుకుని క్లాస్ ఎంచుకోండి","Open diksha.gov.in or the DIKSHA app and choose your class"],
-"SWAYAM": ["ఇంటర్/డిగ్రీ చదివిన యువత, నేర్చుకోవాలనుకునే అందరికీ","Youth who finished Inter/degree, and anyone who wants to learn","ఇమెయిల్ / మొబైల్ నంబర్ (నమోదు కోసం)","Email / mobile number (for registration)","swayam.gov.in లో ఉచిత నమోదు → కోర్సు ఎంచుకోండి","Register free on swayam.gov.in → choose a course"],
-"Post Office": ["అందరికీ (సుకన్య: 10 ఏళ్ల లోపు ఆడపిల్ల తల్లిదండ్రులు)","Everyone (Sukanya: parents of a girl child under 10)","ఆధార్, PAN, ఫోటో","Aadhaar, PAN, photo","దగ్గరి పోస్టాఫీసులో ఖాతా తెరవండి","Open an account at the nearest post office"],
-"Praja Palana - Application Status": ["ప్రజా పాలన ద్వారా దరఖాస్తు చేసిన అందరికీ","Anyone who applied via Praja Palana","దరఖాస్తు నంబర్ / ఆధార్ నంబర్","Application number / Aadhaar number","పోర్టల్‌లో Application Status ఎంచుకుని వివరాలు ఇవ్వండి","Choose Application Status on the portal and enter details"]
+ "Rythu Bharosa": [
+  "తెలంగాణ పట్టాదార్ రైతులు - భూ-భారతి (ధరణి) పోర్టల్‌లో భూమి నమోదు ఉన్నవారు; సాగుకు అనుకూలం కాని భూములకు వర్తించదు",
+  "Telangana pattadar farmers with land registered on the Bhu Bharati (Dharani) portal; non-arable lands are not covered",
+  "పట్టాదార్ పాస్ బుక్, ఆధార్, బ్యాంక్ ఖాతా",
+  "Pattadar passbook, Aadhaar, bank account",
+  "అధికారిక పోర్టల్‌లో స్టేటస్ చూడండి; సహాయానికి మండల వ్యవసాయ అధికారి",
+  "Check status on the official portal; Mandal Agriculture Officer for help"
+ ],
+ "PM-KISAN": [
+  "భూమి ఉన్న రైతు కుటుంబాలు",
+  "Farmer families with land",
+  "ఆధార్, భూమి పత్రాలు, బ్యాంక్ ఖాతా, మొబైల్ నంబర్",
+  "Aadhaar, land records, bank account, mobile number",
+  "pmkisan.gov.in → Farmers Corner → New Farmer Registration, లేదా దగ్గరి CSC",
+  "pmkisan.gov.in → Farmers Corner → New Farmer Registration, or nearest CSC"
+ ],
+ "Crop Insurance": [
+  "పంట నాటిన రైతు ఎవరైనా",
+  "Any farmer who sowed the crop",
+  "ఆధార్, భూమి పత్రాలు, బ్యాంక్ ఖాతా, పంట వివరాలు",
+  "Aadhaar, land records, bank account, crop details",
+  "సీజన్ కట్-ఆఫ్ తేదీలోపు బ్యాంక్ / రైతు సమన్వయ కేంద్రం / CSC లో చేరండి",
+  "Enroll at bank / farmer coordination centre / CSC before season cut-off"
+ ],
+ "Urea": [
+  "ఏ రైతునైనా",
+  "Any farmer",
+  "ఆధార్ కార్డు",
+  "Aadhaar card",
+  "లైసెన్స్ డీలర్ PoS మెషిన్‌లో ఆధార్/బయోమెట్రిక్ ధృవీకరణతో కొనుగోలు; రసీదు తీసుకోండి",
+  "Buy at licensed dealer PoS with Aadhaar/biometric authentication; take the receipt"
+ ],
+ "Soil Health": [
+  "భూమి ఉన్న రైతులు",
+  "Farmers with land",
+  "భూమి వివరాలు",
+  "Land details",
+  "మండల వ్యవసాయ అధికారి (AEO) ద్వారా మట్టి నమూనా ఇవ్వండి",
+  "Give a soil sample through the Mandal Agriculture Officer (AEO)"
+ ],
+ "Kisan Credit": [
+  "వ్యవసాయం చేసే రైతులు",
+  "Practising farmers",
+  "ఆధార్, భూమి పత్రాలు, పాస్ బుక్, పాస్‌పోర్ట్ ఫోటో",
+  "Aadhaar, land records, passbook, passport photo",
+  "మీ బ్యాంక్ శాఖలో KCC దరఖాస్తు ఫామ్ ఇవ్వండి",
+  "Submit the KCC application form at your bank branch"
+ ],
+ "VB-G RAM G": [
+  "గ్రామీణ కుటుంబాలు - పని చేయగలిగిన పెద్దలు",
+  "Rural households - adults able to work",
+  "ఆధార్, రేషన్ కార్డు, బ్యాంక్ ఖాతా, ఫోటో",
+  "Aadhaar, ration card, bank account, photo",
+  "గ్రామ పంచాయతీలో జాబ్ కార్డు కోసం దరఖాస్తు చేయండి; పనులు/చెల్లింపులు nrega.telangana.gov.in లో పబ్లిక్",
+  "Apply for a job card at the Gram Panchayat; works/payments are public on nrega.telangana.gov.in"
+ ],
+ "Veterinary": [
+  "పశువులు పెంచే ఏ రైతూ / కుటుంబం",
+  "Any farmer / family rearing livestock",
+  "పశువుల వివరాలు (పథకాలకు ఆధార్, రేషన్ కార్డు కూడా కావచ్చు)",
+  "Animal details (Aadhaar, ration card may be needed for schemes)",
+  "స్థానిక వెటర్నరీ ఆసుపత్రి / VAHD పోర్టల్; పంపిణీ పథకాలకు మండల కార్యాలయం",
+  "Local veterinary hospital / VAHD portal; mandal office for distribution schemes"
+ ],
+ "Aadhaar": [
+  "అందరికీ - కొత్త నమోదు పిల్లలకు కూడా",
+  "Everyone - new enrolment for children too",
+  "సాధారణంగా జనన / చిరునామా రుజువు పత్రాలు",
+  "Usually birth / address proof documents",
+  "UIDAI సైట్‌లో దగ్గరి ఆధార్ సేవా కేంద్రం వెతికి నేరుగా వెళ్లండి",
+  "Find the nearest Aadhaar Seva Kendra on the UIDAI site and visit in person"
+ ],
+ "PAN Card": [
+  "అందరికీ - పనిచేసేవారు, బ్యాంక్ లావాదేవీలు ఉన్నవారికి అవసరం",
+  "Everyone - needed for workers and bank transactions",
+  "ఆధార్, ఫోటో, జన్మతేదీ రుజువు",
+  "Aadhaar, photo, date-of-birth proof",
+  "అధికారిక పోర్టల్ చూపించే మార్గాల్లో ఆన్‌లైన్ దరఖాస్తు",
+  "Apply online through the routes shown on the official portal"
+ ],
+ "MeeSeva": [
+  "అందరికీ",
+  "Everyone",
+  "సర్టిఫికెట్ బట్టి - ఆధార్, రేషన్ కార్డు, సంబంధిత పత్రాలు",
+  "Depends on certificate - Aadhaar, ration card, relevant documents",
+  "దగ్గరి మీసేవ కేంద్రంలో దరఖాస్తు; కేంద్రంలో ఫీజు రసీదు తీసుకోండి",
+  "Apply at the nearest MeeSeva centre; always take the fee receipt"
+ ],
+ "Driving Licence": [
+  "18 ఏళ్లు నిండినవారు (16+ గేర్ లేని మోటార్‌సైకిళ్లకు)",
+  "Age 18+ (16+ for gearless two-wheelers)",
+  "ఆధార్, వయసు రుజువు, ఫోటో",
+  "Aadhaar, age proof, photo",
+  "ఆన్‌లైన్ దరఖాస్తు → RTA కార్యాలయంలో టెస్ట్",
+  "Apply online → test at the RTA office"
+ ],
+ "Anganwadi": [
+  "గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలు",
+  "Pregnant and lactating women, children under 6",
+  "ఏ పత్రాలు అవసరం లేదు - కేంద్రంలో నమోదు చేస్తారు",
+  "No documents needed - the centre registers you",
+  "గ్రామంలోనే అంగన్‌వాడీ కేంద్రానికి వెళ్లండి",
+  "Go to the Anganwadi centre in the village itself"
+ ],
+ "ASHA": [
+  "గ్రామంలోని అందరికీ - ముఖ్యంగా తల్లులు, పిల్లలు",
+  "Everyone in the village - especially mothers and children",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "గ్రామంలోనే ఆశా వర్కర్‌ని కలవండి",
+  "Meet the ASHA worker in the village"
+ ],
+ "HIV Support": [
+  "HIVతో బతుతున్న ఎవరికైనా",
+  "Anyone living with HIV",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "TGSACS కేర్ & సపోర్ట్ సెంటర్ / ప్రభుత్వ ART కేంద్రం: 040-24743897",
+  "TGSACS Care & Support Centre / govt ART centre: 040-24743897"
+ ],
+ "SADAREM": [
+  "దివ్యాంగత ఉన్న ఎవరికైనా",
+  "Any person with a disability",
+  "ఆధార్, ఫోటో, వైద్య పరీక్ష (వైద్య బోర్డు ద్వారా)",
+  "Aadhaar, photo, medical examination (by medical board)",
+  "SADAREM పోర్టల్ / ప్రభుత్వ ఆసుపత్రి వైద్య బోర్డు ద్వారా నమోదు",
+  "Register via the SADAREM portal / government hospital medical board"
+ ],
+ "Disability Welfare": [
+  "SADAREM సర్టిఫికెట్ ఉన్న దివ్యాంగులు",
+  "Persons with a SADAREM certificate",
+  "SADAREM / UDID సర్టిఫికెట్, ఆధార్, బ్యాంక్ వివరాలు",
+  "SADAREM / UDID certificate, Aadhaar, bank details",
+  "శాఖా పోర్టల్ చూసి మండల కార్యాలయంలో దరఖాస్తు",
+  "Check the department portal and apply at the mandal office"
+ ],
+ "Post-Matric": [
+  "SC: కుటుంబ వార్షిక ఆదాయం ₹2.5 లక్షల లోపు • ST: ₹2 లక్షల లోపు • BC/EBC/మైనారిటీ: గ్రామీణ ప్రాంతం ₹1.5 లక్షలు / పట్టణ ప్రాంతం ₹2 లక్షల లోపు • దివ్యాంగ విద్యార్థులు: ₹1 లక్ష లోపు. ప్రతి క్వార్టర్ చివర 75% హాజరు ఉండాలి (రిన్యూవల్‌కు తర్వాతి సంవత్సరానికి ప్రమోట్ అయ్యి ఉండాలి). పార్ట్-టైమ్/దూర విద్య/మేనేజ్‌మెంట్ కోటా విద్యార్థులకు అర్హత లేదు.",
+  "SC: annual family income up to Rs 2.5 lakh; ST: up to Rs 2 lakh; BC/EBC/Minority: rural up to Rs 1.5 lakh, urban up to Rs 2 lakh; Disabled students: up to Rs 1 lakh. 75% attendance at the end of each quarter (and promotion to next year for renewal). Part-time/distance/management-quota students are not eligible.",
+  "ఆధార్, కులం/ఆదాయ సర్టిఫికెట్, మార్కుల జాబితా, బ్యాంక్ పాస్ బుక్, బోనఫైడ్",
+  "Aadhaar, caste/income certificate, marksheets, bank passbook, bonafide",
+  "ePASS పోర్టల్‌లో ఆన్‌లైన్ దరఖాస్తు → అసలు పత్రాలు కళాశాలలో జమ",
+  "Apply online on ePASS portal → submit originals at college"
+ ],
+ "Kalyana Lakshmi": [
+  "వివాహం చేసుకునే ఆడపిల్ల (18+) - SC: కుటుంబ ఆదాయం ₹2 లక్షల లోపు • ST: ₹2 లక్షల లోపు • BC/EBC: గ్రామీణ ప్రాంతం ₹1.5 లక్షలు / పట్టణ ప్రాంతం ₹2 లక్షల లోపు",
+  "Bride (18+) - SC: family income up to Rs 2 lakh; ST: up to Rs 2 lakh; BC/EBC: rural up to Rs 1.5 lakh, urban up to Rs 2 lakh",
+  "ఆధార్, కులం/ఆదాయ సర్టిఫికెట్, వివాహ నిర్ధారణ పత్రాలు",
+  "Aadhaar, caste/income certificate, marriage proof documents",
+  "అదే ePASS పోర్టల్ ద్వారా దరఖాస్తు",
+  "Apply through the same ePASS portal"
+ ],
+ "National Scholarship": [
+  "అర్హత పథకం నిబంధనల ప్రకారం",
+  "Eligibility per each central scheme",
+  "ఆధార్, మార్కులు, ఆదాయ సర్టిఫికెట్ (సాధారణంగా)",
+  "Aadhaar, marksheets, income certificate (usually)",
+  "scholarships.gov.in లో నమోదు → పథకం ఎంచుకుని దరఖాస్తు",
+  "Register on scholarships.gov.in → choose scheme → apply"
+ ],
+ "TGPSC": [
+  "నోటిఫికేషన్ ప్రకారం అర్హత (వయస్సు/విద్య)",
+  "Eligibility per notification (age/education)",
+  "నోటిఫికేషన్‌లో పేర్కొన్న పత్రాలు",
+  "Documents listed in each notification",
+  "tgpsc.gov.in లో వన్-టైమ్ రిజిస్ట్రేషన్ (OTR) → నోటిఫికేషన్ దరఖాస్తు",
+  "One-Time Registration (OTR) on tgpsc.gov.in → apply to notifications"
+ ],
+ "TGPRB": [
+  "నోటిఫికేషన్ ప్రకారం అర్హత",
+  "Eligibility per notification",
+  "నోటిఫికేషన్‌లో పేర్కొన్న పత్రాలు",
+  "Documents listed in each notification",
+  "tgprb.in నోటిఫికేషన్ చదివి ఆన్‌లైన్ దరఖాస్తు",
+  "Read notification on tgprb.in → apply online"
+ ],
+ "myScheme": [
+  "అందరికీ",
+  "Everyone",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "పోర్టల్‌లో మీ వయస్సు/వర్గం/ఆదాయం ఇస్తే అర్హమైన పథకాలు చూపిస్తుంది",
+  "Enter age/category/income on the portal to see eligible schemes"
+ ],
+ "Cheyutha - Rajiv Aarogyasri": [
+  "వైట్ రేషన్ కార్డు (BPL) కుటుంబాలు",
+  "White ration card (BPL) families",
+  "వైట్ రేషన్ కార్డు, ఆధార్",
+  "White ration card, Aadhaar",
+  "గుర్తింపు పొందిన ఆసుపత్రిలో కార్డు చూపించండి - నగదు-రహిత చికిత్స; సందేహాలకు 040-23547107",
+  "Show the card at an empanelled hospital for cashless care; doubts: 040-23547107"
+ ],
+ "Ayushman Bharat": [
+  "అర్హులైన కుటుంబాలు (అధికారిక జాబితా ప్రకారం)",
+  "Eligible families per official list",
+  "ఆధార్, రేషన్ కార్డు",
+  "Aadhaar, ration card",
+  "CSC కేంద్రం/ఆసుపత్రిలో ఆయుష్మాన్ కార్డు తయారు చేయించుకోండి",
+  "Get the Ayushman card made at a CSC or empanelled hospital"
+ ],
+ "PMJJBY": [
+  "18-50 ఏళ్లు, బ్యాంక్ ఖాతా ఉన్నవారు",
+  "Age 18-50 with a bank account",
+  "ఆధార్, బ్యాంక్ ఖాతా",
+  "Aadhaar, bank account",
+  "బ్యాంక్‌లో కన్సెంట్ ఫామ్ ఇచ్చి చేరండి - ప్రీమియం ఆటో-డెబిట్",
+  "Join via consent form at the bank - premium auto-debits yearly"
+ ],
+ "PMSBY": [
+  "18-70 ఏళ్లు, బ్యాంక్ ఖాతా ఉన్నవారు",
+  "Age 18-70 with a bank account",
+  "ఆధార్, బ్యాంక్ ఖాతా",
+  "Aadhaar, bank account",
+  "బ్యాంక్‌లో చేరడి ఫామ్ ఇవ్వండి",
+  "Give the enrollment form at your bank"
+ ],
+ "Atal Pension": [
+  "18-40 ఏళ్లు, బ్యాంక్ ఖాతా ఉన్నవారు",
+  "Age 18-40 with a bank account",
+  "ఆధార్, బ్యాంక్ ఖాతా, మొబైల్ నంబర్",
+  "Aadhaar, bank account, mobile number",
+  "బ్యాంక్ ద్వారా చేరండి - వయస్సు/పెన్షన్ ప్రకారం నెల కంట్రిబ్యూషన్",
+  "Join via bank - monthly contribution by age and pension chosen"
+ ],
+ "Maha Lakshmi": [
+  "BPL/అంత్యోదయ కుటుంబాల మహిళలు (కుటుంబ ఆదాయం ₹2 లక్షల లోపు); ఉచిత బస్సు అన్ని మహిళలకు/అమ్మాయిలకు/ట్రాన్స్‌జెండర్లకు",
+  "Women from BPL/Antyodaya families (income under Rs 2 lakh); free bus for all women/girls/transgenders",
+  "ఆధార్, రేషన్ కార్డు, ఆదాయ సర్టిఫికెట్, బ్యాంక్ వివరాలు, గ్యాస్ రసీదు (LPG కోసం)",
+  "Aadhaar, ration card, income certificate, bank details, gas receipt (for LPG)",
+  "MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రంలో దరఖాస్తు",
+  "Apply at the Praja Palana Seva Kendram in the MPDO office"
+ ],
+ "Gruha Jyothi": [
+  "వైట్ రేషన్ కార్డు కుటుంబాలు - నెలకు 200 యూనిట్ల లోపు వినియోగం",
+  "White ration card households using up to 200 units/month",
+  "ఆధార్, వైట్ రేషన్ కార్డు, కరెంట్ కనెక్షన్ వివరాలు",
+  "Aadhaar, white ration card, electricity connection details",
+  "ప్రజా పాలన ద్వారా నమోదు",
+  "Register via Praja Palana"
+ ],
+ "Cheyutha (Aasara)": [
+  "వృద్ధులు, వితంతువులు, దివ్యాంగులు, ఒంటరి మహిళలు, బీడీ/జిన్నెర/చేనేత కార్మికులు",
+  "Elderly, widows, persons with disability, single women, beedi/toddy/weaver workers",
+  "ఆధార్, రేషన్ కార్డు, సంబంధిత సర్టిఫికెట్లు",
+  "Aadhaar, ration card, relevant certificates",
+  "కొత్త దరఖాస్తుల స్వీకరణ గురించి గ్రామ పంచాయతీ కార్యదర్శి / MPDO కార్యాలయంలో అడగండి. వెబ్‌సైట్‌లోని లాగిన్ అధికారుల పనుల కోసం; గ్రామస్థులు ఖాతా సృష్టించాల్సిన అవసరం లేదు. ఈ వెతుకులాట దరఖాస్తు సమర్పణ కాదు.",
+  "Ask the Gram Panchayat Secretary / MPDO office about current application intake. The website login is for departmental work, not citizen account creation. This search does not submit an application."
+ ],
+ "Ration Card": [
+  "అర్హులైన కుటుంబాలు",
+  "Eligible households",
+  "ఆధార్, నివాస రుజువు, కుటుంబ సభ్యుల వివరాలు",
+  "Aadhaar, residence proof, family member details",
+  "సివిల్ సప్లయ్స్ శాఖా సైట్ / మీసేవ ద్వారా దరఖాస్తు",
+  "Apply via Civil Supplies site / MeeSeva"
+ ],
+ "Indiramma": [
+  "స్వంత ఇల్లు లేని పేద కుటుంబాలు",
+  "Poor families without a house",
+  "ఆధార్, రేషన్ కార్డు, స్థలం వివరాలు",
+  "Aadhaar, ration card, site details",
+  "ప్రజా పాలన ద్వారా దరఖాస్తు; స్టేటస్ పోర్టల్‌లో చూడండి",
+  "Apply via Praja Palana; check status on the portal"
+ ],
+ "Stree Nidhi": [
+  "మహిళా సంఘ (SHG) సభ్యులు",
+  "Women SHG members",
+  "సంఘ సభ్యత్వ రికార్డు, ఆధార్",
+  "SHG membership record, Aadhaar",
+  "మీ సంఘం → VO → మండల సమాఖ్య ద్వారా రుణ దరఖాస్తు",
+  "Loan application through your SHG → VO → Mandal Samakhya"
+ ],
+ "Mission Bhagiratha": [
+  "గ్రామంలోని అన్ని ఇళ్లు",
+  "All households in the village",
+  "ఆధార్, ఇంటి వివరాలు",
+  "Aadhaar, house details",
+  "స్థానిక మిషన్ భగీరథ / RWS కార్యాలయంలో దరఖాస్తు",
+  "Apply at the local Mission Bhagiratha / RWS office"
+ ],
+ "ePDS": [
+  "రేషన్ కార్డు ఉన్న కుటుంబాలు",
+  "Families with a ration card",
+  "రేషన్ కార్డు నంబర్",
+  "Ration card number",
+  "పోర్టల్‌లో రేషన్ కార్డు వివరాలు చూడండి; సమస్యలకు 1967",
+  "Check ration card details on the portal; call 1967 for issues"
+ ],
+ "Bhu Bharati": [
+  "సొంత రికార్డులు భూమి యజమానులకు; పబ్లిక్ మ్యాప్/సమాచార పేజీల కవరేజీ, లాగిన్ నిబంధనలు పోర్టల్ ప్రకారం",
+  "Own records are for landowners; coverage and login rules of public map/info pages are as per the portal",
+  "సొంత రికార్డులకు పట్టాదారు పాస్‌బుక్ / సర్వే నంబర్ వివరాలు ఉంటే సులభం",
+  "For your own records, pattadar passbook / survey number details help",
+  "పేజీ సూచనలు అనుసరించి పోర్టల్‌లో చూడండి; మార్పులకు తహసీల్దార్ కార్యాలయం",
+  "Follow the page instructions and view on the portal; Tahsildar office for changes"
+ ],
+ "Swachh Bharat": [
+  "మరుగుదొడ్డి లేని గ్రామీణ కుటుంబాలు",
+  "Rural households without a toilet",
+  "ఆధార్, బ్యాంక్ ఖాతా",
+  "Aadhaar, bank account",
+  "గ్రామ పంచాయతీ ద్వారా దరఖాస్తు",
+  "Apply through the Gram Panchayat"
+ ],
+ "eGramSwaraj": [
+  "అందరికీ - పబ్లిక్ సమాచారం",
+  "Everyone - public information",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "పోర్టల్ తెరిచి రాష్ట్రం → జిల్లా → మండలం → పంచాయతీ ఎంచుకోండి",
+  "Open the portal and choose State → District → Mandal → Panchayat"
+ ],
+ "MPLADS": [
+  "అందరికీ - పబ్లిక్ సమాచారం",
+  "Everyone - public information",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "డ్యాష్‌బోర్డ్‌లో తెలంగాణ → మెదక్ ఎంచుకుని పనులు చూడండి",
+  "Choose Telangana → Medak on the dashboard to see works"
+ ],
+ "Our Representatives": [
+  "అందరికీ",
+  "Everyone",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "అధికారిక జాబితాల్లో నియోజకవర్గం వెతకండి",
+  "Search the constituency in the official lists"
+ ],
+ "Cyber Fraud": [
+  "అందరికీ",
+  "Everyone",
+  "ఏమీ అవసరం లేదు",
+  "Nothing needed",
+  "మోసం జరిగితే వెంటనే 1930 కు కాల్; ఆన్‌లైన్ నమోదు cybercrime.gov.in",
+  "Call 1930 immediately if cheated; report online at cybercrime.gov.in"
+ ],
+ "Sanchar Saathi": [
+  "మొబైల్ వాడే అందరికీ",
+  "Everyone who uses a mobile",
+  "మీ మొబైల్ నంబర్ (OTP ధృవీకరణ)",
+  "Your mobile number (OTP verification)",
+  "పోర్టల్‌లో మీ పేరుపై కనెక్షన్లు తనిఖీ చేయండి",
+  "Check connections on your name on the portal"
+ ],
+ "DIKSHA": [
+  "పిల్లలు, టీచర్లు, నేర్చుకోవాలనుకునే అందరికీ",
+  "Children, teachers and anyone who wants to learn",
+  "ఏమీ అవసరం లేదు - ఉచితం",
+  "Nothing needed - free",
+  "diksha.gov.in లేదా DIKSHA యాప్ డౌన్‌లోడ్ చేసుకుని క్లాస్ ఎంచుకోండి",
+  "Open diksha.gov.in or the DIKSHA app and choose your class"
+ ],
+ "SWAYAM": [
+  "ఇంటర్/డిగ్రీ చదివిన యువత, నేర్చుకోవాలనుకునే అందరికీ",
+  "Youth who finished Inter/degree, and anyone who wants to learn",
+  "ఇమెయిల్ / మొబైల్ నంబర్ (నమోదు కోసం)",
+  "Email / mobile number (for registration)",
+  "swayam.gov.in లో ఉచిత నమోదు → కోర్సు ఎంచుకోండి",
+  "Register free on swayam.gov.in → choose a course"
+ ],
+ "Post Office": [
+  "అందరికీ (సుకన్య: 10 ఏళ్ల లోపు ఆడపిల్ల తల్లిదండ్రులు)",
+  "Everyone (Sukanya: parents of a girl child under 10)",
+  "ఆధార్, PAN, ఫోటో",
+  "Aadhaar, PAN, photo",
+  "దగ్గరి పోస్టాఫీసులో ఖాతా తెరవండి",
+  "Open an account at the nearest post office"
+ ],
+ "Praja Palana - Application Status": [
+  "ప్రజా పాలన ద్వారా దరఖాస్తు చేసిన అందరికీ",
+  "Anyone who applied via Praja Palana",
+  "దరఖాస్తు నంబర్ / ఆధార్ నంబర్",
+  "Application number / Aadhaar number",
+  "పోర్టల్‌లో Application Status ఎంచుకుని వివరాలు ఇవ్వండి",
+  "Choose Application Status on the portal and enter details"
+ ],
+ "Sukanya": [
+  "10 ఏళ్లు నిండని ఆడపిల్ల తల్లిదండ్రులు",
+  "Parents of a girl child below 10 years",
+  "శాఖ అడిగిన పత్రాలు - జాబితా కోసం పోస్టాఫీసు/బ్యాంకును అడగండి",
+  "Documents as asked by the branch - ask the post office/bank for the list",
+  "పోస్టాఫీసు లేదా అధీకృత బ్యాంకులో ఖాతా తెరవండి",
+  "Open the account at a post office or authorised bank"
+ ],
+ "PM POSHAN": [
+  "బాలవాటిక, 1-8 తరగతుల ప్రభుత్వ/సహాయక పాఠశాల విద్యార్థులు",
+  "Bal Vatika and class I-VIII students in government/aided schools",
+  "వివరాలు పిల్లవాడు చదువుతున్న పాఠశాలలో అడగండి",
+  "Ask at the school where the child studies",
+  "పిల్లవాడు చదువుతున్న పాఠశాలలోనే భోజనం అందుతుంది - ప్రధానోపాధ్యాయుని అడగండి",
+  "The meal is served in the child's own school - ask the headmaster"
+ ],
+ "PMMVY": [
+  "అర్హులైన గర్భిణి/పాలిచ్చే తల్లులు - అర్హత నిబంధనలు అంగన్‌వాడీలో అడగండి",
+  "Eligible pregnant/lactating mothers - confirm eligibility rules at the Anganwadi",
+  "అంగన్‌వాడీ కేంద్రం చెప్పిన పత్రాలు",
+  "Documents as told by the Anganwadi Centre",
+  "గ్రామ అంగన్‌వాడీ కేంద్రంలో నమోదు వివరాలు అడిగి నమోదు చేయించుకోండి",
+  "Ask at the village Anganwadi Centre and register as guided"
+ ],
+ "Immunization": [
+  "పిల్లలు మరియు గర్భిణులు",
+  "Children and pregnant women",
+  "అంగన్‌వాడీ/ఆరోగ్య కేంద్రం చెప్పినవి",
+  "As told by the Anganwadi/health centre",
+  "దగ్గరి ప్రభుత్వ ఆరోగ్య కేంద్రం/అంగన్‌వాడీకి వెళ్లండి",
+  "Go to the nearest government health facility/Anganwadi"
+ ],
+ "Vehicle Insurance": [
+  "మోటారు వాహనం ఉన్న ప్రతి యజమానికి థర్డ్ పార్టీ తప్పనిసరి",
+  "Third-party cover is compulsory for every motor vehicle owner",
+  "బీమా కంపెనీ అడిగిన పత్రాలు",
+  "Documents as asked by the insurer",
+  "బీమా కంపెనీ లేదా దాని అధీకృత ఛానళ్ల ద్వారా పాలసీ తీసుకోండి",
+  "Buy the policy from the insurer or its authorised channels"
+ ],
+ "Term Insurance": [
+  "జీవిత బీమా కావాలనుకునే ఎవరైనా - పాలసీ నిబంధనల ప్రకారం",
+  "Anyone seeking life cover - per policy terms",
+  "బీమా కంపెనీ అడిగిన పత్రాలు",
+  "Documents as asked by the insurer",
+  "బీమా కంపెనీ/అధీకృత ఛానళ్ల ద్వారా; క్లెయిమ్ నామినీ చేస్తారు",
+  "Through the insurer/authorised channels; the nominee files the claim"
+ ],
+ "Business Insurance": [
+  "దుకాణం/వ్యాపారం/స్టాక్ ఉన్న యజమానులు",
+  "Owners with a shop/business/stock",
+  "బీమా కంపెనీ అడిగిన పత్రాలు",
+  "Documents as asked by the insurer",
+  "జనరల్ బీమా కంపెనీ లేదా అధీకృత ఛానళ్ల ద్వారా",
+  "Through a general insurer or authorised channels"
+ ],
+ "Insurance Complaint": [
+  "ఏ బీమా పాలసీదారైనా",
+  "Any insurance policyholder",
+  "పాలసీ వివరాలు, కంపెనీకి చేసిన ఫిర్యాదు రికార్డు",
+  "Policy details and the record of the complaint made to the insurer",
+  "ముందు కంపెనీ → తర్వాత Bima Bharosa/155255 → తర్వాత ఓంబుడ్స్‌మన్",
+  "First the insurer, then Bima Bharosa/155255, then the Ombudsman"
+ ],
+ "Insurance Cautions": [
+  "ఏ బీమా పాలసీదారైనా",
+  "Any insurance policyholder",
+  "-",
+  "-",
+  "అధికారిక ఛానళ్ల ద్వారా మాత్రమే ధృవీకరించండి",
+  "Verify only through official channels"
+ ]
 };
