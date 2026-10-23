@@ -301,8 +301,8 @@ function sendComplaint(){
   if(mob) lines.push(T('మొబైల్','Mobile')+': '+mob);
   window.open('https://wa.me/919177226638?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
 }
-function speakDir(i){ const it = D.directory[i]; speak(T(it.t,it.e) + '. ' + T(it.d,it.de)); }
-function speakGrv(i){ const g = D.grievance[i]; speak(T(g.t,g.e) + '. ' + T(g.d,g.de)); }
+function speakDir(i){ const it = D.directory[i]; speak(T(it.t,it.e) + '. ' + T(it.d,it.de), it.id || null); }
+function speakGrv(i){ const g = D.grievance[i]; speak(T(g.t,g.e) + '. ' + T(g.d,g.de), g.id || null); }
 
 // ---- Voice (explicit tap only) ----
 let queue = [];
