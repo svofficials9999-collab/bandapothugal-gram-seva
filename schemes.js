@@ -64,6 +64,37 @@ window.GS_DATA = {
     { n: "1098", te: "చైల్డ్ హెల్ప్‌లైన్", en: "Child helpline" }
   ],
   sections: [
+    { id: "land", icon: "🗺️", te: "భూమి సమాచారం", en: "Land Information",
+      items: [
+        { t: "భూమి పట్టం మ్యాప్ (భూ భారతి GIS)", e: "Land Parcel Map (Bhu Bharati GIS)",
+          d: "అధికారిక భూ భారతి మ్యాప్‌లో గ్రామం వెతికి, సర్వే నంబర్ ప్యార్సెల్ నొక్కి భూమి వివరాలు చూడండి. లాగిన్ అవసరం లేదు - ఈ పేజీ అందరికీ ఓపెన్. మ్యాప్ బాగా కనిపించడానికి ఫోన్‌లోనే ఓపెన్ చేయండి.",
+          de: "Search the village on the official Bhu Bharati map and tap a survey-number parcel to see land details. No login needed - this page is open to all. Open it on your phone for the best map view.",
+          bt: "మ్యాప్ తెరవండి", be: "Open map", s: "https://bhubharati.telangana.gov.in/gis/", sn: "bhubharati.telangana.gov.in/gis", u: "23-10-2026" },
+        { t: "భూమి స్థితి తెలుసుకోండి", e: "Know Your Land Status",
+          d: "మీ స్వంత భూమి రికార్డు స్థితి మీ ఆధార్‌తోనే తనిఖీ చేయండి. ఇతరుల వివరాలు చూడటానికి, ఇతరుల ఆధార్ వాడటానికి వీలు లేదు. పోర్టల్ ప్రకారం రికార్డులు 22-10-2026 నాటికి తాజాగా ఉన్నాయి.",
+          de: "Check your own land record status with your own Aadhaar only. Viewing others' details or using others' Aadhaar is not allowed. Per the portal, records are updated as of 22-10-2026.",
+          s: "https://bhubharati.telangana.gov.in/knowLandStatus", sn: "bhubharati.telangana.gov.in", u: "23-10-2026" },
+        { t: "భూమి దరఖాస్తు స్థితి", e: "Land Application Status",
+          d: "మ్యూటేషన్, నమోదు, ఇతర భూమి దరఖాస్తుల స్థితి e-చలాన్ / దరఖాస్తు నంబర్‌తో తెలుసుకోండి (అధికారిక FAQ ప్రకారం).",
+          de: "Track mutation, registration and other land applications with the e-challan / application number (per the official FAQ).",
+          s: "https://bhubharati.telangana.gov.in/ApplicationStatus", sn: "bhubharati.telangana.gov.in", u: "23-10-2026" },
+        { t: "భూమి సేవల జాబితా (మెదక్ జిల్లా)", e: "Land Services List (Medak District)",
+          d: "మ్యూటేషన్/వారసత్వ, భూమి మార్పిడి (NALA), వ్యవసాయ ఆదాయ సర్టిఫికెట్, భూమి విలువ సర్టిఫికెట్, ఎన్‌కంబరెన్స్ సర్టిఫికెట్ & సెర్చ్, సర్టిఫైడ్ కాపీ, స్లాట్ బుకింగ్, యూనిట్ రేట్లు - జిల్లా అధికారిక సైట్ జాబితా ప్రకారం.",
+          de: "Mutation/succession, land conversion (NALA), agriculture income certificate, land valuation certificate, encumbrance certificate & search, certified copy, slot booking, unit rates - per the official district list.",
+          s: "https://medak.telangana.gov.in/service/land-records/", sn: "medak.telangana.gov.in", u: "23-10-2026" },
+        { t: "సర్వే & భూమి రికార్డుల విభాగం", e: "Survey & Land Records Department",
+          d: "ప్రతి రెవెన్యూ గ్రామానికి గ్రామ మ్యాప్లు (తరి/మగాని), సేత్వార్ రికార్డులు ఈ విభాగంలో ఉంటాయి; సర్వే సరిహద్దు, గ్రామ సరిహద్దు గొడవలు ఇక్కడే పరిష్కరిస్తారు. జిల్లాలో అసిస్టెంట్ డైరెక్టర్ ఆఫ్ సర్వే & ల్యాండ్ రికార్డ్స్ ఆధ్వర్యంలో పనిచేస్తుంది.",
+          de: "Village maps (dry/wet) and Sethwar records for every revenue village are kept by this department; survey boundary and village boundary disputes are settled here. In the district it works under the Asst Director of Survey & Land Records.",
+          s: "https://medak.telangana.gov.in/survey-land-records/", sn: "medak.telangana.gov.in", u: "23-10-2026" },
+        { t: "భూమి సేవల సహాయ కేంద్రం, మెదక్", e: "Dharani Helpdesk, Medak Collectorate",
+          d: "భూమి సేవల సహాయం: ధరణి హెల్ప్‌డెస్క్, ఇంటిగ్రేటెడ్ కలెక్టరేట్ కాంప్లెక్స్ (ICC), మెదక్ - 502110. అధికారిక జిల్లా సైట్ ఇచ్చిన మొబైల్: 93953 60885.",
+          de: "Help with land services: Dharani Helpdesk, Integrated Collectorate Complex (ICC), Medak - 502110. Mobile per the official district site: 93953 60885.",
+          ph: "9395360885", s: "https://medak.telangana.gov.in/service/land-records/", sn: "medak.telangana.gov.in", u: "23-10-2026" },
+        { t: "భూ భారతి సేవల సమాచారం (FAQ)", e: "Bhu Bharati Services FAQ",
+          d: "నమోదు ఎక్కడ జరుగుతుంది, ఏ పత్రాలు తీసుకెళ్లాలి, దరఖాస్తు స్థితి ఎలా చూడాలి - అధికారిక ప్రశ్నోత్తరాలు.",
+          de: "Where registration happens, which documents to carry, how to check application status - official questions and answers.",
+          s: "https://bhubharati.telangana.gov.in/Bhubharati_faq", sn: "bhubharati.telangana.gov.in/faq", u: "23-10-2026" }
+      ] },
     {
       id: "farmer", icon: "🌾", te: "రైతు", en: "Farmer",
       items: [
