@@ -17,12 +17,12 @@ window.GS_DETAILS = {
   "pmkisan.gov.in → Farmers Corner → New Farmer Registration, or nearest CSC"
  ],
  "Crop Insurance": [
-  "పంట నాటిన రైతు ఎవరైనా",
-  "Any farmer who sowed the crop",
-  "ఆధార్, భూమి పత్రాలు, బ్యాంక్ ఖాతా, పంట వివరాలు",
-  "Aadhaar, land records, bank account, crop details",
-  "సీజన్ కట్-ఆఫ్ తేదీలోపు బ్యాంక్ / రైతు సమన్వయ కేంద్రం / CSC లో చేరండి",
-  "Enroll at bank / farmer coordination centre / CSC before season cut-off"
+  "ప్రస్తుత సీజన్ నోటిఫికేషన్‌లోని పంట/ప్రాంతం, అర్హత నిబంధనలకు లోబడిన రైతులు - మీ పంట/ప్రాంతం చేర్చబడిందో బ్యాంక్/CSC/వ్యవసాయ కార్యాలయంలో ముందు నిర్ధారించండి",
+  "Farmers whose crop/area is in the current-season notification and who meet eligibility rules - confirm first at your bank/CSC/agriculture office",
+  "ఆధార్, భూమి పత్రాలు, బ్యాంక్ ఖాతా, పంట వివరాలు - ఖచ్చిత జాబితా చేరిక కేంద్రంలో అడగండి",
+  "Aadhaar, land records, bank account, crop details - confirm the exact list at the enrolment centre",
+  "నోటిఫైడ్ పంట/ప్రాంతం అయితే, సీజన్ కట్-ఆఫ్ తేదీలోపు బ్యాంక్ / రైతు సమన్వయ కేంద్రం / CSC లో చేరండి",
+  "If your crop/area is notified, enroll at bank / farmer coordination centre / CSC before the season cut-off"
  ],
  "Urea": [
   "ఏ రైతునైనా",
@@ -97,12 +97,12 @@ window.GS_DETAILS = {
   "Apply online → test at the RTA office"
  ],
  "Anganwadi": [
-  "గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలు",
-  "Pregnant and lactating women, children under 6",
-  "ఏ పత్రాలు అవసరం లేదు - కేంద్రంలో నమోదు చేస్తారు",
-  "No documents needed - the centre registers you",
-  "గ్రామంలోనే అంగన్‌వాడీ కేంద్రానికి వెళ్లండి",
-  "Go to the Anganwadi centre in the village itself"
+  "గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలు - పొదుపు/నిబంధనలు రాష్ట్ర నియమాల ప్రకారం",
+  "Pregnant and lactating women, children under 6 - coverage and norms per state rules",
+  "కేంద్రం అడిగిన పత్రాలు/వివరాలు - స్థానిక నిబంధనల ప్రకారం మారవచ్చు",
+  "Documents/details as asked by the centre - may vary by local rules",
+  "గ్రామంలోనే అంగన్‌వాడీ కేంద్రానికి వెళ్లి అర్హత, నమోదు వివరాలు అడగండి",
+  "Go to the Anganwadi centre in the village and ask about eligibility and registration"
  ],
  "ASHA": [
   "గ్రామంలోని అందరికీ - ముఖ్యంగా తల్లులు, పిల్లలు",
@@ -361,12 +361,12 @@ window.GS_DETAILS = {
   "Register free on swayam.gov.in → choose a course"
  ],
  "Post Office": [
-  "అందరికీ (సుకన్య: 10 ఏళ్ల లోపు ఆడపిల్ల తల్లిదండ్రులు)",
-  "Everyone (Sukanya: parents of a girl child under 10)",
-  "ఆధార్, PAN, ఫోటో",
-  "Aadhaar, PAN, photo",
-  "దగ్గరి పోస్టాఫీసులో ఖాతా తెరవండి",
-  "Open an account at the nearest post office"
+  "పథకం వారీగా అర్హత మారుతుంది (ఉదా: SCSS 60 ఏళ్లు+, సుకన్య 10 ఏళ్ల లోపు ఆడపిల్ల) - మీకు సరిపోయే పథకం శాఖలో అడగండి",
+  "Eligibility is product-specific (e.g. SCSS age 60+, Sukanya for a girl child below 10) - ask the branch which product fits you",
+  "శాఖ అడిగిన పత్రాలు (KYC) - జాబితా పోస్టాఫీసులో అడగండి",
+  "Documents as asked by the branch (KYC) - ask the post office for the list",
+  "మీ శాఖలో ఆ పథకం అందుబాటులో ఉందో అడిగి, తర్వాత ఖాతా తెరవండి",
+  "Confirm the specific product is available at your branch, then open the account"
  ],
  "Praja Palana - Application Status": [
   "ప్రజా పాలన ద్వారా దరఖాస్తు చేసిన అందరికీ",
@@ -393,12 +393,12 @@ window.GS_DETAILS = {
   "The meal is served in the child's own school - ask the headmaster"
  ],
  "PMMVY": [
-  "అర్హులైన గర్భిణి/పాలిచ్చే తల్లులు - అర్హత నిబంధనలు అంగన్‌వాడీలో అడగండి",
-  "Eligible pregnant/lactating mothers - confirm eligibility rules at the Anganwadi",
-  "అంగన్‌వాడీ కేంద్రం చెప్పిన పత్రాలు",
-  "Documents as told by the Anganwadi Centre",
-  "గ్రామ అంగన్‌వాడీ కేంద్రంలో నమోదు వివరాలు అడిగి నమోదు చేయించుకోండి",
-  "Ask at the village Anganwadi Centre and register as guided"
+  "అర్హత నిబంధనలు మరియు మన ప్రాంతంలో నమోదు అందుబాటు - ముందు అంగన్‌వాడీ కేంద్రంలో నిర్ధారించండి",
+  "Eligibility rules and whether registration runs in our area - confirm at the Anganwadi Centre first",
+  "అంగన్‌వాడీ కేంద్రం అడిగిన పత్రాలు",
+  "Documents as asked by the Anganwadi Centre",
+  "ముందు గ్రామ అంగన్‌వాడీ కేంద్రంలో నమోదు అందుబాటు అడగండి; అందుబాటులో ఉంటేనే కేంద్రం సూచనల ప్రకారం ముందుకు వెళ్లండి",
+  "First ask at the village Anganwadi Centre whether registration is available; proceed as the centre guides only if it is"
  ],
  "Immunization": [
   "పిల్లలు మరియు గర్భిణులు",
@@ -437,8 +437,8 @@ window.GS_DETAILS = {
   "Any insurance policyholder",
   "పాలసీ వివరాలు, కంపెనీకి చేసిన ఫిర్యాదు రికార్డు",
   "Policy details and the record of the complaint made to the insurer",
-  "ముందు కంపెనీ → తర్వాత Bima Bharosa/155255 → తర్వాత ఓంబుడ్స్‌మన్",
-  "First the insurer, then Bima Bharosa/155255, then the Ombudsman"
+  "ముందు కంపెనీకి ఫిర్యాదు → పరిష్కారం కాకపోతే Bima Bharosa/155255 → షరతులు సరిపోతేనే ఓంబుడ్స్‌మన్ (₹50 లక్షల లోపు, తిరస్కరణ నుంచి 1 ఏటి లోపు, వేరే ఫోరం/కోర్టులో పెండింగ్ లేకూడదు)",
+  "First complain to the insurer → if unresolved, Bima Bharosa/155255 → Ombudsman only if the conditions are met (within Rs 50 lakh, within 1 year of rejection, no other forum/court pending)"
  ],
  "Insurance Cautions": [
   "ఏ బీమా పాలసీదారైనా",
