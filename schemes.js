@@ -613,9 +613,9 @@ window.GS_DATA = {
           "de": "For informal micro units (crafts, tiny shops) that cannot register on Udyam because they lack PAN or GST: the Udyam Assist Certificate, issued through designated agencies like banks/NBFCs; treated as equivalent to Udyam for priority sector lending (RBI circular 09-05-2023).",
           "bt": "అధికారిక సమాచారం",
           "be": "Official info",
-          "s": "https://www.india.gov.in/information-udyam-assist-platform",
-          "sn": "india.gov.in",
-          "u": "23-10-2026"
+          "s": "https://www.sidbi.in/udyam-assist-platform",
+          "sn": "sidbi.in",
+          "u": "24-10-2026"
         },
         {
           "id": "biz-gem",
