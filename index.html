@@ -220,7 +220,7 @@ function renderCard(sid, i, it){
     '</div>'+
     '<div class="meta"><a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
     '<div class="cbtns"><button class="cbtn listen" aria-label="'+T('వినండి','Listen')+'" onclick="speakItem(\''+sid+'\','+i+')">🔊 '+T('వినండి','Listen')+'</button>'+
-    '<a class="cbtn open" href="'+it.s+'" target="_blank" rel="noopener">🌐 '+T('లింక్ తెరవండి','Open link')+'</a>'+
+    '<a class="cbtn open" href="'+it.s+'" target="_blank" rel="noopener">🌐 '+T(it.bt || 'లింక్ తెరవండి',it.be || 'Open link')+'</a>'+
     (it.ph?'<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+T('కాల్','Call')+'</a>':'')+'</div></div>';
 }
 
