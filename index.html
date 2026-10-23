@@ -70,6 +70,7 @@ footer b{color:#334155}
 .sbox input{width:100%;background:#fff;border:1px solid rgba(0,0,0,.14);border-radius:14px;padding:13px 16px;font-size:15px;color:#1c2733;outline:none}
 .sbox input:focus{border-color:#16a34a}
 .sbox input::placeholder{color:#94a3b8}
+.newbadge{display:inline-block;background:linear-gradient(135deg,#f59e0b,#ef4444);color:#fff;font-size:10px;font-weight:800;border-radius:10px;padding:2px 8px;margin-top:6px;letter-spacing:.5px}
 .notices{margin:14px 0 0;background:rgba(37,99,235,.05);border:1px solid rgba(37,99,235,.22);border-radius:16px;padding:12px}
 .notices .nt{font-size:12px;font-weight:800;color:#1d4ed8;letter-spacing:.4px;margin-bottom:6px}
 .nitem{font-size:12.5px;color:#3f4f63;line-height:1.55;padding:7px 0;border-top:1px dashed rgba(0,0,0,.1)}
@@ -179,7 +180,7 @@ function render(){
     '<a class="ebtn" href="tel:'+e.n+'"><b>'+e.n+'</b><span>'+T(e.te,e.en)+'</span></a>').join('');
   // sections
   $('secGrid').innerHTML = D.sections.map(s =>
-    '<div class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p></div>').join('') +
+    '<div class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>';
 }

@@ -64,6 +64,23 @@ window.GS_DATA = {
     { n: "1098", te: "చైల్డ్ హెల్ప్‌లైన్", en: "Child helpline" }
   ],
   sections: [
+    {
+      id: "jobs", icon: "💼", nb: true, te: "ఉద్యోగాలు & ఇంటర్న్‌షిప్", en: "Jobs & Internships",
+      items: [
+        { id: "jobs-p2e-yuwaah-free-skill-cour", t: "కోర్సు: YuWaah P2E - ఉచిత జాబ్-రెడీ స్కిల్స్ (15-24 ఏళ్లు)", e: "Course: UNICEF YuWaah Passport to Earning - Free Job-ready Skills (Age 15-24)",
+          d: "UNICEF ఇండియా YuWaah యొక్క 'Passport to Earning' (P2E) - 15-24 ఏళ్ల యువతకు ఉచితం. మొబైల్‌లోనే స్వీయ-వేగంతో నేర్చుకునే జాబ్-రెడీ డిజిటల్ స్కిల్ కోర్సులు (10-30 గంటలు), సర్టిఫికెట్‌తో. ఇంగ్లీష్ + 6 ప్రాంతీయ భాషల్లో ఉంది - తెలుగు ఉందో లేదో పోర్టల్‌లోనే నిర్ధారించుకోండి. కోర్సు తర్వాత పార్ట్నర్ లింకుల ద్వారా ఇంటర్న్‌షిప్ అవకాశాలు కూడా చూపిస్తుంది - కానీ ఇది ఇంటర్న్‌షిప్ పోర్టల్ కాదు, నేర్చుకునే కోర్సు. యాక్సెస్: p2e.csccloud.in / myp2e.org. ఉద్యోగ హామీ లేదు.",
+          de: "UNICEF India YuWaah's Passport to Earning (P2E) - free for youth aged 15-24. Self-paced job-ready digital skill courses (10-30 hours) on mobile, with certification. Available in English + 6 regional languages - confirm on the portal whether Telugu is included. After courses it shows internship opportunities via partner links - but this is a learning course, not an internship portal. Access: p2e.csccloud.in / myp2e.org. No job guarantee.",
+          bt: "ఉచిత కోర్సు చూడండి", be: "See free course", s: "https://www.unicef.org/india/p2e", sn: "unicef.org/india", u: "23-10-2026" },
+        { id: "jobs-ncs-govt-job-portal-1514", t: "NCS - కేంద్ర ప్రభుత్వ ఉద్యోగ-శోధన పోర్టల్", e: "Job Portal: National Career Service (NCS) - Govt-run Job Search Portal",
+          d: "కేంద్ర ప్రభుత్వం (కార్మిక & ఉపాధి మంత్రిత్వ శాఖ) నడిపే అధికారిక ఉద్యోగ-శోధన పోర్టల్ ncs.gov.in - ఇందులో ప్రభుత్వ, ప్రైవేట్ వివిధ యజమానుల ఖాళీలు ఉంటాయి (అన్నీ ప్రభుత్వ ఉద్యోగాలు కావు). 14 ఏళ్లు నిండిన ఎవరైనా నమోదు చేసుకోవచ్చు, కనీస విద్యార్హత లేదు. ఉద్యోగ శోధన, దరఖాస్తు వంటి జాబ్‌సీకర్ సేవలు ఉచితం; కౌన్సెలింగ్ సేవకు మాత్రం ₹200 వరకు రుసుము ఉండవచ్చు (అధికారిక FAQ ప్రకారం). ఇది ప్రధానంగా ఉద్యోగ శోధన/కెరీర్ సేవల పోర్టల్. నమోదు/దరఖాస్తు మీరే పోర్టల్‌లో చేయాలి. సందేహాలకు టోల్ ఫ్రీ 1514.",
+          de: "An official job-search portal run by the central government (Ministry of Labour & Employment) - ncs.gov.in lists vacancies from various government and private employers (not all are government jobs). Anyone aged 14+ can register, no minimum qualification. Jobseeker services like job search and applications are free; only the counselling service may charge up to Rs 200 (per the official FAQ). It is primarily a job search and career services portal. Registration/application is done by you on the portal. Toll-free helpline 1514.",
+          bt: "ఉద్యోగాలు చూడండి", be: "See jobs", s: "https://www.ncs.gov.in/", sn: "ncs.gov.in", u: "23-10-2026", ph: "1514" },
+        { id: "jobs-pm-internship-intake-check", t: "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (ప్రస్తుత స్థితి పోర్టల్‌లో చూడండి)", e: "Internship: PM Internship Scheme (check current status on portal)",
+          d: "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలులో ఉందనే అధికారిక సమాచారం ఉంది. 23-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము అధికారికంగా నిర్ధారించలేదు - అధికారిక పోర్టల్‌లోనే ప్రస్తుత స్థితి, అర్హత, స్టైపెండ్ వివరాలు చూడండి. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
+          de: "Central government (Ministry of Corporate Affairs) internship scheme - official information confirms pilot-phase implementation. As of 23-10-2026 we have not officially verified whether the current intake is open - check the official portal for the live status, eligibility and stipend details. Do not rely on older reports. Information card only - no application success or guarantee.",
+          bt: "అధికారిక పోర్టల్ చూడండి", be: "See official portal", s: "https://pminternship.mca.gov.in/", sn: "pminternship.mca.gov.in", u: "23-10-2026" }
+      ]
+    },
     { id: "land", icon: "🗺️", te: "భూమి సమాచారం", en: "Land Information",
       items: [
         { id: "land-land-parcel-map", t: "భూమి పట్టం మ్యాప్ (భూ భారతి GIS)", e: "Land Parcel Map (Bhu Bharati GIS)",
@@ -253,23 +270,6 @@ window.GS_DATA = {
           de: "The district official page says RSETI offers free classroom training and self-employment courses. The branch we know is in Sangareddy - NOT Medak town/Chilpched, and the nearest branch is not confirmed. No current batch dates verified - check rseti.in or call the branch. This is not home learning - you must attend in person.",
           bt: "బ్రాంచ్ జాబితా చూడండి", be: "See branch list", s: "https://www.rseti.in/our-institutes-telangana", sn: "rseti.in", u: "23-10-2026" },
       ] },
-    {
-      id: "jobs", icon: "💼", te: "ఉద్యోగాలు & ఇంటర్న్‌షిప్", en: "Jobs & Internships",
-      items: [
-        { id: "jobs-p2e-yuwaah-free-skill-cour", t: "కోర్సు: YuWaah P2E - ఉచిత జాబ్-రెడీ స్కిల్స్ (15-24 ఏళ్లు)", e: "Course: UNICEF YuWaah Passport to Earning - Free Job-ready Skills (Age 15-24)",
-          d: "UNICEF ఇండియా YuWaah యొక్క 'Passport to Earning' (P2E) - 15-24 ఏళ్ల యువతకు ఉచితం. మొబైల్‌లోనే స్వీయ-వేగంతో నేర్చుకునే జాబ్-రెడీ డిజిటల్ స్కిల్ కోర్సులు (10-30 గంటలు), సర్టిఫికెట్‌తో. ఇంగ్లీష్ + 6 ప్రాంతీయ భాషల్లో ఉంది - తెలుగు ఉందో లేదో పోర్టల్‌లోనే నిర్ధారించుకోండి. కోర్సు తర్వాత పార్ట్నర్ లింకుల ద్వారా ఇంటర్న్‌షిప్ అవకాశాలు కూడా చూపిస్తుంది - కానీ ఇది ఇంటర్న్‌షిప్ పోర్టల్ కాదు, నేర్చుకునే కోర్సు. యాక్సెస్: p2e.csccloud.in / myp2e.org. ఉద్యోగ హామీ లేదు.",
-          de: "UNICEF India YuWaah's Passport to Earning (P2E) - free for youth aged 15-24. Self-paced job-ready digital skill courses (10-30 hours) on mobile, with certification. Available in English + 6 regional languages - confirm on the portal whether Telugu is included. After courses it shows internship opportunities via partner links - but this is a learning course, not an internship portal. Access: p2e.csccloud.in / myp2e.org. No job guarantee.",
-          bt: "ఉచిత కోర్సు చూడండి", be: "See free course", s: "https://www.unicef.org/india/p2e", sn: "unicef.org/india", u: "23-10-2026" },
-        { id: "jobs-ncs-govt-job-portal-1514", t: "NCS - కేంద్ర ప్రభుత్వ ఉద్యోగ-శోధన పోర్టల్", e: "Job Portal: National Career Service (NCS) - Govt-run Job Search Portal",
-          d: "కేంద్ర ప్రభుత్వం (కార్మిక & ఉపాధి మంత్రిత్వ శాఖ) నడిపే అధికారిక ఉద్యోగ-శోధన పోర్టల్ ncs.gov.in - ఇందులో ప్రభుత్వ, ప్రైవేట్ వివిధ యజమానుల ఖాళీలు ఉంటాయి (అన్నీ ప్రభుత్వ ఉద్యోగాలు కావు). 14 ఏళ్లు నిండిన ఎవరైనా నమోదు చేసుకోవచ్చు, కనీస విద్యార్హత లేదు. ఉద్యోగ శోధన, దరఖాస్తు వంటి జాబ్‌సీకర్ సేవలు ఉచితం; కౌన్సెలింగ్ సేవకు మాత్రం ₹200 వరకు రుసుము ఉండవచ్చు (అధికారిక FAQ ప్రకారం). ఇది ప్రధానంగా ఉద్యోగ శోధన/కెరీర్ సేవల పోర్టల్. నమోదు/దరఖాస్తు మీరే పోర్టల్‌లో చేయాలి. సందేహాలకు టోల్ ఫ్రీ 1514.",
-          de: "An official job-search portal run by the central government (Ministry of Labour & Employment) - ncs.gov.in lists vacancies from various government and private employers (not all are government jobs). Anyone aged 14+ can register, no minimum qualification. Jobseeker services like job search and applications are free; only the counselling service may charge up to Rs 200 (per the official FAQ). It is primarily a job search and career services portal. Registration/application is done by you on the portal. Toll-free helpline 1514.",
-          bt: "ఉద్యోగాలు చూడండి", be: "See jobs", s: "https://www.ncs.gov.in/", sn: "ncs.gov.in", u: "23-10-2026", ph: "1514" },
-        { id: "jobs-pm-internship-intake-check", t: "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (ప్రస్తుత స్థితి పోర్టల్‌లో చూడండి)", e: "Internship: PM Internship Scheme (check current status on portal)",
-          d: "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలులో ఉందనే అధికారిక సమాచారం ఉంది. 23-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము అధికారికంగా నిర్ధారించలేదు - అధికారిక పోర్టల్‌లోనే ప్రస్తుత స్థితి, అర్హత, స్టైపెండ్ వివరాలు చూడండి. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
-          de: "Central government (Ministry of Corporate Affairs) internship scheme - official information confirms pilot-phase implementation. As of 23-10-2026 we have not officially verified whether the current intake is open - check the official portal for the live status, eligibility and stipend details. Do not rely on older reports. Information card only - no application success or guarantee.",
-          bt: "అధికారిక పోర్టల్ చూడండి", be: "See official portal", s: "https://pminternship.mca.gov.in/", sn: "pminternship.mca.gov.in", u: "23-10-2026" }
-      ]
-    },
     {
       id: "student", icon: "🎓", te: "విద్యార్థి", en: "Student",
       items: [
