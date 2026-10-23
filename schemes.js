@@ -67,8 +67,8 @@ window.GS_DATA = {
     { id: "land", icon: "🗺️", te: "భూమి సమాచారం", en: "Land Information",
       items: [
         { t: "భూమి పట్టం మ్యాప్ (భూ భారతి GIS)", e: "Land Parcel Map (Bhu Bharati GIS)",
-          d: "అధికారిక భూ భారతి మ్యాప్‌లో గ్రామం వెతికి, సర్వే నంబర్ ప్యార్సెల్ నొక్కి భూమి వివరాలు చూడండి. లాగిన్ అవసరం లేదు - ఈ పేజీ అందరికీ ఓపెన్. మ్యాప్ బాగా కనిపించడానికి ఫోన్‌లోనే ఓపెన్ చేయండి.",
-          de: "Search the village on the official Bhu Bharati map and tap a survey-number parcel to see land details. No login needed - this page is open to all. Open it on your phone for the best map view.",
+          d: "అధికారిక భూ భారతి మ్యాప్ లింక్ - సర్వే నంబర్ ప్యార్సెల్ నొక్కి భూమి వివరాలు చూపిస్తుందని పోర్టల్ చెబుతోంది. బండపోతుగల్ గ్రామ ప్యార్సెల్ కవరేజీ, లాగిన్ అవసరం లైవ్ మ్యాప్‌లో మాకు నిర్ధారించలేదు - పేజీ చెప్పిన సూచనలనే అనుసరించండి.",
+          de: "Official Bhu Bharati map link - the portal says tapping a survey-number parcel shows land details. Village parcel coverage and any login requirement are not verified by us on the live map - follow the page's own instructions.",
           bt: "మ్యాప్ తెరవండి", be: "Open map", s: "https://bhubharati.telangana.gov.in/gis/", sn: "bhubharati.telangana.gov.in/gis", u: "23-10-2026" },
         { t: "భూమి స్థితి తెలుసుకోండి", e: "Know Your Land Status",
           d: "మీ స్వంత భూమి రికార్డు స్థితి మీ ఆధార్‌తోనే తనిఖీ చేయండి. ఇతరుల వివరాలు చూడటానికి, ఇతరుల ఆధార్ వాడటానికి వీలు లేదు. పోర్టల్ ప్రకారం రికార్డులు 22-10-2026 నాటికి తాజాగా ఉన్నాయి.",
@@ -132,6 +132,30 @@ window.GS_DATA = {
           bt: "సేవలు & పథకాలు చూడండి", be: "View services & schemes", s: "https://vahd.telangana.gov.in/", sn: "vahd.telangana.gov.in", u: "23-10-2026" }
       ]
     },
+    {
+      id: "skills", icon: "🛠️", te: "10వ తర్వాత టెక్నికల్ కోర్సులు", en: "Technical Courses after Class 10",
+      items: [
+        { t: "ఐటిఐ (ITI) ట్రేడ్స్ - టెక్నికల్ శిక్షణ", e: "ITI Trades - Technical Training",
+          d: "ప్రభుత్వ ఐటిఐలో ఎక్కువ ట్రేడ్స్‌కు SSC (10వ) అర్హత; కొన్ని ట్రేడ్స్‌కు 8వ తరగతి చాలు. ట్రేడ్ బట్టి 1 లేదా 2 సంవత్సరాలు; NCVT ట్రేడ్స్ పూర్తయితే NTC సర్టిఫికెట్ (2025 ప్రాస్పెక్టస్ ప్రకారం). ప్రభుత్వ కళాశాలల్లో ట్యూషన్ ఫీజు మినహాయింపు ఉందని 2025 ప్రాస్పెక్టస్ చెబుతోంది (IMC సీట్లు మినహా) - ఇతర ఫీజులు ఉండవచ్చు; ఖచ్చితమైన ఫీజు, వయస్సు నిబంధనలు ప్రస్తుత నోటిఫికేషన్‌లోనే చూడండి.",
+          de: "For most government ITI trades the qualification is SSC (Class 10); some trades accept Class 8. Duration is 1 or 2 years by trade; NCVT trades lead to the NTC certificate (per the 2025 prospectus). The 2025 prospectus says government colleges have a tuition fee exemption (except IMC seats) - other fees may apply; check the current notification for exact fees and age rules.",
+          bt: "ట్రేడ్స్ జాబితా చూడండి", be: "See trades list", s: "https://iti.telangana.gov.in/list-of-trades", sn: "iti.telangana.gov.in", u: "23-10-2026" },
+        { t: "ఐటిఐ ప్రవేశాలు - అధికారిక పోర్టల్", e: "ITI Admissions - Official Portal",
+          d: "ఐటిఐ ప్రవేశ నోటిఫికేషన్, దరఖాస్తు విధానం, ఫీజులు, వయస్సు నిబంధనలు అధికారిక పోర్టల్‌లోనే చూడండి. 2026 మొదటి విడత దరఖాస్తు గడువు (జూలై 10) ముగిసింది; ప్రస్తుతం ఓపెన్ అయిన కొత్త విడత గురించి మాకు నిర్ధారించని సమాచారం లేదు - కొత్త ప్రకటన కోసం పోర్టల్ చూస్తూ ఉండండి.",
+          de: "See the ITI admission notification, application process, fees and age rules only on the official portal. The 2026 first-phase application deadline (July 10) has passed; we have no verified information about any currently open phase - keep watching the portal for new announcements.",
+          bt: "పోర్టల్ తెరవండి", be: "Open portal", s: "https://iti.telangana.gov.in/", sn: "iti.telangana.gov.in", u: "23-10-2026" },
+        { t: "పాలిటెక్నిక్ డిప్లొమా - TG POLYCET", e: "Polytechnic Diploma - TG POLYCET",
+          d: "10వ తర్వాత ఇంజనీరింగ్ డిప్లొమా కోర్సులు - ఇది ITI కాదు, వేరువేరు డిప్లొమా రూట్. SSC నుండి ప్రవేశం, కోర్సు నిబంధనల ప్రకారం. 2026 ప్రవేశ తేదీలు ముగిశాయి; తదుపరి నోటిఫికేషన్ కోసం POLYCET పోర్టల్ చూడండి.",
+          de: "Engineering diploma courses after Class 10 - this is NOT ITI, it is a separate diploma route. Entry from SSC per course rules. 2026 admission dates are over; watch the POLYCET portal for the next notification.",
+          bt: "పోర్టల్ తెరవండి", be: "Open portal", s: "https://tgpolycet.nic.in/", sn: "tgpolycet.nic.in", u: "23-10-2026" },
+        { t: "పరీక్షల కోచింగ్ - COE సమాచారం (ఇది టెక్నికల్ కోర్సు కాదు)", e: "Exam Coaching - COE Info (not a technical course)",
+          d: "తెలంగాణ సోషల్ వెల్ఫేర్ రెసిడెన్షియల్ (TGSWREIS) COE కేంద్రాల్లో JEE/NEET వంటి పరీక్షలకు ఇంటిగ్రేటెడ్ కోచింగ్ ఉందని, ప్రవేశ పరీక్ష ద్వారా ఎంపిక అవుతారని అధికారిక పేజీ చెబుతోంది. 10వ తర్వాత ఎవరికి అర్హత, ఉచితమా కాదా, ఇప్పుడు ప్రవేశాలు జరుగుతున్నాయా - ఇవి మాకు నిర్ధారించలేదు; కొత్త నోటిఫికేషన్ కోసం పేజీ చూడండి.",
+          de: "The official page says TGSWREIS COE centres run integrated coaching for exams like JEE/NEET, with selection through an entrance test. Whether entry is after Class 10, whether it is free, and whether admissions are open now - none of this is verified by us; watch the page for new notifications.",
+          bt: "COE పేజీ చూడండి", be: "See COE page", s: "https://tgswreis.telangana.gov.in/coe.php", sn: "tgswreis.telangana.gov.in", u: "23-10-2026" },
+        { t: "స్కిల్ కోర్సులు వెతకడం - Skill India (PMKVY పేజీ)", e: "Skill Course Discovery - Skill India (PMKVY page)",
+          d: "దేశంలోని వివిధ స్కిల్ కోర్సులు వెతికే అధికారిక పోర్టల్. ప్రస్తుత కోర్సుల అర్హత, ఫీజులు, స్థానిక బ్యాచ్‌లు మాకు నిర్ధారించలేదు - ఉచిత కోచింగ్ అని చెప్పలేము. నిజాయితీగా చెబుతున్నాం: 10వ పూర్తయిన అందరికీ ఎల్లప్పుడూ ఓపెన్ అయిన ఉచిత కోచింగ్ పథకం అని అధికారికంగా నిర్ధారించినది మాకు లేదు - కొత్త పథకాలు రావచ్చు, కాబట్టి నోటిఫికేషన్లు చూస్తూ ఉండండి.",
+          de: "Official portal to discover skill courses across India. Current course eligibility, fees and local batches are not verified by us - we cannot call it free coaching. Honestly: we have not verified any universally-open free coaching for every Class 10 student - new schemes may come, so keep watching notifications.",
+          bt: "పోర్టల్ తెరవండి", be: "Open portal", s: "https://www.skillindiadigital.gov.in/pmkvy-landing", sn: "skillindiadigital.gov.in", u: "23-10-2026" }
+      ] },
     {
       id: "student", icon: "🎓", te: "విద్యార్థి", en: "Student",
       items: [
