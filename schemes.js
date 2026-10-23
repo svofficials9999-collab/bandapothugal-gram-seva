@@ -250,6 +250,10 @@ window.GS_DATA = {
     {
       id: "certs", icon: "🪪", te: "సర్టిఫికెట్లు & గుర్తింపు", en: "Certificates & ID",
       items: [
+        { t: "ఉపాధి నమోదు (ఎంప్లాయ్‌మెంట్ ఎక్స్‌ఛేంజ్)", e: "Employment Exchange Registration",
+          d: "ఉద్యోగావకాశాల కోసం ప్రభుత్వ ఉపాధి పోర్టల్‌లో జాబ్ సీకర్‌గా నమోదు చేసుకోండి. పాత ఎంప్లాయ్‌మెంట్ కార్డు ఉంటే సీనియారిటీతో సరిచేసుకోవచ్చు; కొత్తవారు కొత్త నమోదు చేసుకోవచ్చు. మీ 10వ/ఐటిఐ/డిగ్రీ అర్హతలు అదే లాగిన్‌లో జోడించాలి. గుర్తుంచుకోండి: ఇది నమోదు మాత్రమే - ఉద్యోగ హామీ కాదు, ఐటిఐ వంటి టెక్నికల్ సర్టిఫికెట్ కాదు. సహాయానికి దగ్గరి ఎంప్లాయ్‌మెంట్ ఎక్స్‌ఛేంజ్ / మీసేవ కేంద్రం (అధికారిక FAQ ప్రకారం).",
+          de: "Register as a job seeker on the government employment portal for job opportunities. Old employment exchange card holders can regularize with seniority; new candidates register fresh. Add your 10th/ITI/degree qualifications in the same login. Remember: this is registration only - not a job guarantee and not a technical certificate like ITI. For help: nearest Employment Exchange / MeeSeva centre (per official FAQ).",
+          bt: "నమోదు పోర్టల్ తెరవండి", be: "Open registration portal", s: "https://employment.telangana.gov.in/", sn: "employment.telangana.gov.in", u: "23-10-2026" },
         { t: "ఆధార్ - కొత్త నమోదు / సవరణ", e: "Aadhaar - New Enrolment / Update",
           d: "కొత్త ఆధార్ నమోదు, చిరునామా/జన్మతేదీ సవరణ: ఆధార్ సేవా కేంద్రానికి వెళ్లాలి. కేంద్రాన్ని UIDAI అధికారిక సైట్‌లో వెతకండి. ఆన్‌లైన్ సేవలకు రిజిస్టర్డ్ మొబైల్ అవసరం.",
           de: "New Aadhaar enrolment and address/DOB updates happen at an Aadhaar Seva Kendra - find the centre on the official UIDAI site. Online services need your registered mobile.",
