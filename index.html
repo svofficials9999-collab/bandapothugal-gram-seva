@@ -340,15 +340,20 @@ async function runQueue(){
 }
 function playAudioFile(url, tok){
   return new Promise(res => {
-    let settled = false;
+    let settled = false, wd = null;
+    const done = ok => { if(settled) return; settled = true; if(wd) clearTimeout(wd); if(!ok){ try{ el.pause(); }catch(e){} if(audioEl === el) audioEl = null; } res(ok); };
+    let el = null;
     try{
-      const el = new Audio(url);
+      el = new Audio(url);
       audioEl = el;
-      el.onended = () => { settled = true; res(true); if(tok === playToken) runQueue(); };
-      el.onerror = () => { if(!settled){ settled = true; res(false); } };
+      el.onended = () => { done(true); if(tok === playToken) runQueue(); };
+      el.onerror = () => done(false);
       const p = el.play();
-      if(p && p.catch) p.catch(() => { if(!settled){ settled = true; res(false); } });
-    }catch(e){ res(false); }
+      if(p && p.catch) p.catch(() => done(false));
+      // Stall watchdog: play() resolving is not playback. If nothing is heard (no progress)
+      // shortly after start, abandon the clip and fall back to device TTS - never hang silently.
+      wd = setTimeout(() => { try{ if(!settled && !el.paused && el.currentTime === 0) done(false); }catch(e){} }, 2500);
+    }catch(e){ done(false); }
   });
 }
 function speakTTS(text, tok){
