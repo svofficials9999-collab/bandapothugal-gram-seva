@@ -97,7 +97,7 @@ window.GS_DETAILS = {
   "Apply online → test at the RTA office"
  ],
  "Anganwadi": [
-  "గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలు - పొదుపు/నిబంధనలు రాష్ట్ర నియమాల ప్రకారం",
+  "గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలు - లబ్ధిదారుల పరిధి/నిబంధనలు రాష్ట్ర నియమాల ప్రకారం",
   "Pregnant and lactating women, children under 6 - coverage and norms per state rules",
   "కేంద్రం అడిగిన పత్రాలు/వివరాలు - స్థానిక నిబంధనల ప్రకారం మారవచ్చు",
   "Documents/details as asked by the centre - may vary by local rules",
