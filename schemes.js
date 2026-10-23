@@ -16,7 +16,11 @@ window.GS_DATA = {
     { t: "విద్యుత్ ఫిర్యాదులు (TGSPDCL)", e: "Electricity Complaints (TGSPDCL)",
       d: "కరెంటు కోతలు, వైరు/పోలు మరమ్మతులు: 1912 నంబర్‌కి కాల్ చేయండి లేదా అధికారిక సైట్ కస్టమర్ సర్వీస్ వాడండి.",
       de: "Power cuts, wire/pole repairs: call 1912 or use the official customer service site.",
-      s: "https://tgsouthernpower.org/", sn: "tgsouthernpower.org", u: "23-10-2026", ph: "1912" }
+      s: "https://tgsouthernpower.org/", sn: "tgsouthernpower.org", u: "23-10-2026", ph: "1912" },
+    { t: "రేషన్ / బియ్యం ఫిర్యాదు", e: "Ration / Rice Complaint (Civil Supplies)",
+      d: "రేషన్ దుకాణంలో బియ్యం సరిగ్గా ఇవ్వకపోతే, రేషన్ కార్డు సమస్యలకు: 1967 లేదా 1800-425-00333 కి కాల్ చేయండి. ఆన్‌లైన్ సేవలు ePDS పోర్టల్‌లో.",
+      de: "If the ration shop short-changes rice or for ration card issues: call 1967 or 1800-425-00333. Online services on the ePDS portal.",
+      s: "https://epds.telangana.gov.in/FoodSecurityAct/", sn: "epds.telangana.gov.in", u: "23-10-2026", ph: "1967" }
   ],
   directory: [
     { t: "తహసీల్దార్ (MRO), చిలిపిచెడ్ మండలం", e: "Tahsildar (MRO), Chilpched Mandal",
@@ -83,10 +87,14 @@ window.GS_DATA = {
           d: "తక్కువ వడ్డీతో పంట అవసరాల రుణం. మీ బ్యాంక్ శాఖలో పాస్ బుక్, ఆధార్, భూమి పత్రాలతో దరఖాస్తు చేయండి.",
           de: "Low-interest crop loan. Apply at your bank branch with passbook, Aadhaar and land records.",
           s: "https://www.myscheme.gov.in/schemes/kcc", sn: "myscheme.gov.in", u: "23-10-2026" },
-        { t: "ఉపాధి హామీ (100 రోజుల పని)", e: "MGNREGS - 100 days work",
-          d: "గ్రామ కుటుంబానికి ఏటా 100 రోజుల వేతన పని హామీ. జాబ్ కార్డు / పని కోసం గ్రామ పంచాయతీని సంప్రదించండి. వేతనాలు నేరుగా బ్యాంక్/పోస్టాఫీసు ఖాతాకు జమ అవుతాయి.",
-          de: "100 days of guaranteed wage work per rural household per year. Contact the Gram Panchayat for a job card. Wages go straight to bank/post office account.",
-          s: "https://nrega.nic.in/", sn: "nrega.nic.in", u: "23-10-2026" }
+        { t: "ఉపాధి హామీ (VB-G RAM G - 125 రోజులు)", e: "VB-G RAM G - 125 days work guarantee",
+          d: "1 జూలై 2026 నుండి కొత్త చట్టం అమల్లో - పాత 100 రోజుల స్థానంలో ఇప్పుడు గ్రామ కుటుంబానికి ఏటా 125 రోజుల వేతన పని హామీ. తెలంగాణ రోజువారీ వేతనం ₹308 (2026-27 కేంద్ర గెజిట్). జాబ్ కార్డు / పని కోసం గ్రామ పంచాయతీని సంప్రదించండి; వేతనాలు నేరుగా బ్యాంక్ ఖాతాకు. పనులు, చెల్లింపులు తెలంగాణ పోర్టల్‌లో పబ్లిక్.",
+          de: "New law in force from 1 July 2026 - 125 days of guaranteed wage work per rural household per year (was 100). Telangana daily wage Rs 308 (central 2026-27 notification). Contact the Gram Panchayat for a job card; wages go straight to the bank account. Works and payments are public on the Telangana portal.",
+          s: "https://nrega.telangana.gov.in/Nregs/", sn: "nrega.telangana.gov.in", u: "23-10-2026" },
+        { t: "పశువైద్యం & పశుసంవర్ధకం (VAHD)", e: "Veterinary & Animal Husbandry (VAHD)",
+          d: "పశువుల వైద్యం, ఉచిత టీకాలు, గొర్రెల/పశువుల పంపిణీ పథకాలు - రాష్ట్ర పశుసంవర్ధక శాఖ అధికారిక పోర్టల్. స్థానిక వెటర్నరీ ఆసుపత్రి / శిబిరం వివరాలు మండల కార్యాలయంలో అడగండి.",
+          de: "Animal treatment, free vaccinations, sheep/livestock distribution schemes - official state Animal Husbandry department portal. Ask the mandal office for the local veterinary hospital / camp details.",
+          s: "https://vahd.telangana.gov.in/", sn: "vahd.telangana.gov.in", u: "23-10-2026" }
       ]
     },
     {
@@ -178,6 +186,120 @@ window.GS_DATA = {
           d: "6 గ్యారెంటీ పథకాలకు ఇచ్చిన దరఖాస్తుల స్థితి ఇక్కడ తనిఖీ చేయండి.",
           de: "Track your applications for the 6 guarantee schemes here.",
           s: "https://prajapalana.telangana.gov.in/Applicationstatus", sn: "prajapalana.telangana.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "certs", icon: "🪪", te: "సర్టిఫికెట్లు & గుర్తింపు", en: "Certificates & ID",
+      items: [
+        { t: "ఆధార్ - కొత్త నమోదు / సవరణ", e: "Aadhaar - New Enrolment / Update",
+          d: "కొత్త ఆధార్ నమోదు, చిరునామా/జన్మతేదీ సవరణ: ఆధార్ సేవా కేంద్రానికి వెళ్లాలి. కేంద్రాన్ని UIDAI అధికారిక సైట్‌లో వెతకండి. ఆన్‌లైన్ సేవలకు రిజిస్టర్డ్ మొబైల్ అవసరం.",
+          de: "New Aadhaar enrolment and address/DOB updates happen at an Aadhaar Seva Kendra - find the centre on the official UIDAI site. Online services need your registered mobile.",
+          s: "https://uidai.gov.in/en/enrolment-and-update", sn: "uidai.gov.in", u: "23-10-2026" },
+        { t: "PAN కార్డు", e: "PAN Card",
+          d: "ఆదాయపు పన్ను శాఖ అధికారిక పోర్టల్ నుండి PAN దరఖాస్తు మార్గాలు. అనధికారిక ఏజెంట్లకు అదనపు డబ్బులు ఇవ్వవద్దు.",
+          de: "PAN application routes from the official Income Tax department portal. Do not pay unofficial agents extra.",
+          s: "https://www.incometaxindia.gov.in/tax-services/apply-for-pan", sn: "incometaxindia.gov.in", u: "23-10-2026" },
+        { t: "మీసేవ - కుల / ఆదాయ / నివాస / జనన / మరణ సర్టిఫికెట్లు", e: "MeeSeva - Caste / Income / Residence / Birth / Death Certificates",
+          d: "పౌర సర్టిఫికెట్లన్నీ మీసేవ ద్వారా. దగ్గరి మీసేవ కేంద్రంలో దరఖాస్తు చేయవచ్చు; పౌరుల ఆన్‌లైన్ నమోదు పేజీ కూడా పోర్టల్‌లో ఉంది. పూర్తి సేవల జాబితా అధికారిక పేజీలో.",
+          de: "All citizen certificates via MeeSeva. Apply at the nearest MeeSeva centre; a citizen online registration page also exists on the portal. Full services list on the official page.",
+          s: "https://www.telangana.gov.in/services/meeseva-services/", sn: "telangana.gov.in", u: "23-10-2026" },
+        { t: "డ్రైవింగ్ లైసెన్స్", e: "Driving Licence",
+          d: "లెర్నర్ లైసెన్స్ ఆన్‌లైన్ దరఖాస్తు + RTA కార్యాలయంలో టెస్ట్. విధానం, ఫీజులు తెలంగాణ రవాణా శాఖ అధికారిక పేజీలో.",
+          de: "Learner licence applied online plus a test at the RTA office. Process and fees on the official Telangana Transport page.",
+          s: "https://transport.telangana.gov.in/html/driving-licencel-learners.html", sn: "transport.telangana.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "women", icon: "👩‍👧", te: "మహిళలు & పిల్లలు", en: "Women & Children",
+      items: [
+        { t: "అంగన్‌వాడీ కేంద్రం సేవలు", e: "Anganwadi Centre Services",
+          d: "గ్రామంలోనే అంగన్‌వాడీ: గర్భిణులు, పాలిచ్చే తల్లులు, 6 ఏళ్ల లోపు పిల్లలకు పోషకాహారం, ప్రీ-స్కూల్ విద్య, టీకాలు, ఆరోగ్య పరీక్షలు - అన్నీ ఉచితం (పోషన్ 2.0).",
+          de: "Village Anganwadi: free nutrition, pre-school education, immunization and health check-ups for pregnant/lactating women and children under 6 (Poshan 2.0).",
+          s: "https://www.wcd.gov.in/pregnant-lactating-women-children/nutrition-mission-saksham-anganwadi-and-poshan-2-0", sn: "wcd.gov.in", u: "23-10-2026" },
+        { t: "కళ్యాణ లక్ష్మీ / షాదీ ముబారక్", e: "Kalyana Lakshmi / Shaadi Mubarak",
+          d: "పెళ్లి వయసు (18+) పూర్తయిన అర్హులైన యువతుల వివాహానికి ఆర్థిక సాయం. ఆదాయ పరిమితులు: SC/ST ₹2 లక్షలు, BC/EBC గ్రామీణ ₹1.5 లక్షలు / పట్టణ ₹2 లక్షలు (అధికారిక ePASS పేజీ). దరఖాస్తు: ePASS పోర్టల్.",
+          de: "Marriage assistance for eligible young women (18+). Income limits: SC/ST Rs 2 lakh, BC/EBC rural Rs 1.5 lakh / urban Rs 2 lakh (official ePASS page). Apply on the ePASS portal.",
+          s: "https://telanganaepass.cgg.gov.in/", sn: "telanganaepass.cgg.gov.in", u: "23-10-2026" },
+        { t: "ఆశా వర్కర్ - గ్రామ ఆరోగ్య సహాయకురాలు", e: "ASHA Worker - Village Health Support",
+          d: "గర్భిణులు, శిశువుల ఆరోగ్యం, టీకాలు, ఆసుపత్రి అనుసంధానం - గ్రామంలోనే ఆశా వర్కర్ ఉచితంగా సహాయం చేస్తుంది (జాతీయ గ్రామీణ ఆరోగ్య మిషన్).",
+          de: "The village ASHA worker helps free of charge with maternal and child health, immunization and hospital linkage (National Health Mission).",
+          s: "https://nhm.gov.in/nammamihaan/index1.php?lang=1&level=1&lid=226&sublinkid=150", sn: "nhm.gov.in", u: "23-10-2026" },
+        { t: "HIV మద్దతు - ఉచితం, గోప్యం", e: "HIV Support - Free & Confidential",
+          d: "HIVతో బతుతున్నవారికి గౌరవంతో, పూర్తి గోప్యతతో ఉచిత ART చికిత్స, కౌన్సెలింగ్ - ప్రభుత్వ ART కేంద్రాలు, కేర్ & సపోర్ట్ సెంటర్లు (TGSACS). ఎవరి వివరాలు బహిర్గతం కావు. సంప్రదింపు: 040-24743897.",
+          de: "Free ART treatment and counselling with full confidentiality for people living with HIV - government ART centres and Care & Support Centres (TGSACS). Details are never disclosed. Contact: 040-24743897.",
+          s: "https://tgsacs.telangana.gov.in/care-support/", sn: "tgsacs.telangana.gov.in", u: "23-10-2026", ph: "04024743897" }
+      ]
+    },
+    {
+      id: "pwd", icon: "♿", te: "దివ్యాంగుల సంక్షేమం", en: "Disability Welfare",
+      items: [
+        { t: "SADAREM దివ్యాంగత్వ సర్టిఫికెట్", e: "SADAREM Disability Certificate",
+          d: "దివ్యాంగత నమోదు, SADAREM సర్టిఫికెట్, UDID కార్డు - ఈ సర్టిఫికెట్తో పింఛన్లు, స్కాలర్‌షిప్‌లు, సాధనాలు అందుతాయి. అధికారిక పోర్టల్‌లో వివరాలు.",
+          de: "Disability registration, SADAREM certificate and UDID card - this certificate unlocks pensions, scholarships and assistive devices. Details on the official portal.",
+          s: "https://sadarem.telangana.gov.in/aboutHome.do", sn: "sadarem.telangana.gov.in", u: "23-10-2026" },
+        { t: "దివ్యాంగుల సంక్షేమ శాఖ పథకాలు", e: "Disability Welfare Department Schemes",
+          d: "విద్యా స్కాలర్‌షిప్‌లు, ఆర్థిక పునరావాసం, వివాహ ప్రోత్సాహకం, సహాయక పరికరాలు, హాస్టళ్లు - శాఖా అధికారిక పోర్టల్‌లో పూర్తి జాబితా. చేయూత పింఛనులో దివ్యాంగులకు ప్రత్యేక వర్గం కూడా ఉంది.",
+          de: "Education scholarships, economic rehabilitation, marriage incentive, assistive devices, hostels - full list on the department's official portal. Cheyutha pension also has a special disability category.",
+          s: "https://wdsc.telangana.gov.in/pwd_portal.html", sn: "wdsc.telangana.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "water", icon: "💧", te: "నీళ్లు • బియ్యం • భూమి", en: "Water • Rice • Land",
+      items: [
+        { t: "మిషన్ భగీరథ - ఇంటి నీళ్ల కనెక్షన్", e: "Mission Bhagiratha - Household Tap Water",
+          d: "ప్రతి ఇంటికి పైప్ తాగునీరు - కొత్త కనెక్షన్, రిపేర్లు స్థానిక మిషన్ భగీరథ / RWS కార్యాలయం ద్వారా. అధికారిక పోర్టల్‌లో పథకం వివరాలు.",
+          de: "Piped drinking water to every home - new connections and repairs through the local Mission Bhagiratha / RWS office. Scheme details on the official portal.",
+          s: "https://missionbhagiratha.telangana.gov.in/", sn: "missionbhagiratha.telangana.gov.in", u: "23-10-2026" },
+        { t: "ePDS - రేషన్ / బియ్యం సేవలు", e: "ePDS - Ration / Rice Services",
+          d: "రేషన్ కార్డు వివరాలు, నెలవారీ సరుకు కేటాయింపు, స్మార్ట్ రేషన్ కార్డు - అధికారిక ePDS పోర్టల్‌లో ఆన్‌లైన్ చూడవచ్చు. ఫిర్యాదులకు 1967.",
+          de: "Ration card details, monthly allocation and smart ration card updates can be checked online on the official ePDS portal. Complaints: 1967.",
+          s: "https://epds.telangana.gov.in/FoodSecurityAct/", sn: "epds.telangana.gov.in", u: "23-10-2026", ph: "1967" },
+        { t: "భూ భారతి - భూమి రికార్డులు", e: "Bhu Bharati - Land Records",
+          d: "భూమి రికార్డులు (ROR), పట్టాదారు పాస్‌బుక్, మ్యూటేషన్ - దరాని స్థానంలో వచ్చిన కొత్త అధికారిక పోర్టల్. ఏ సేవలు ఆన్‌లైన్ అందుబాటులో ఉన్నాయో పోర్టల్‌లోనే చూడండి.",
+          de: "Land records (ROR), pattadar passbook, mutations - the new official portal that replaced Dharani. Check the portal itself for which services are online.",
+          s: "https://bhubharati.telangana.gov.in/gis/", sn: "bhubharati.telangana.gov.in", u: "23-10-2026" },
+        { t: "స్వచ్ఛ భారత్ - ఇంటి మరుగుదొడ్డి", e: "Swachh Bharat - Household Toilet (IHHL)",
+          d: "ఇంటి మరుగుదొడ్డి (IHHL) నిర్మాణానికి ₹12,000 ప్రోత్సాహకం (కేంద్ర + రాష్ట్ర వాటా). దరఖాస్తు గ్రామ పంచాయతీ ద్వారా. వివరాలు అధికారిక FAQ లో.",
+          de: "Rs 12,000 incentive for building a household toilet (IHHL), central + state share. Apply through the Gram Panchayat. Details in the official FAQ.",
+          s: "https://swachhbharatmission.ddws.gov.in/faq", sn: "swachhbharatmission.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "funds", icon: "💰", te: "గ్రామ నిధులు & లెక్కలు", en: "Village Funds & Accounts",
+      items: [
+        { t: "eGramSwaraj - పంచాయతీ నిధులు & ఖర్చు", e: "eGramSwaraj - Panchayat Funds & Spending",
+          d: "మన గ్రామ పంచాయతీకి ఏ సంవత్సరం ఎంత నిధి వచ్చింది, ఏ పనికి ఎంత ఖర్చైంది - ఎవరైనా ఈ పబ్లిక్ పోర్టల్‌లో ఉచితంగా చూడవచ్చు. లాగిన్ అవసరం లేదు.",
+          de: "Anyone can see free of charge how much money our Gram Panchayat received each year and what it was spent on - on this public portal. No login needed.",
+          s: "https://egramswaraj.gov.in/", sn: "egramswaraj.gov.in", u: "23-10-2026" },
+        { t: "MPLADS - MP అభివృద్ధి నిధి డ్యాష్‌బోర్డ్", e: "MPLADS - MP Development Fund Dashboard",
+          d: "మెదక్ పార్లమెంట్ నియోజకవర్గంలో MP నిధులతో ఏ పనులు జరిగాయి, ఎంత ఖర్చైంది - పబ్లిక్ డ్యాష్‌బోర్డ్‌లో చూడండి.",
+          de: "See what works were done with MP funds in the Medak Lok Sabha constituency and how much was spent - on the public dashboard.",
+          s: "https://mplads.gov.in/mplads/dashboard/DashBoard.aspx", sn: "mplads.gov.in", u: "23-10-2026" },
+        { t: "మన ప్రతినిధులు (MLA / MP)", e: "Our Representatives (MLA / MP)",
+          d: "నర్సాపూర్ MLA: శ్రీమతి వాకిటి సునీత లక్ష్మా రెడ్డి - అధికారిక శాసనసభ్యుల జాబితాలో తనిఖీ చేశాం. ప్రస్తుత మెదక్ MP వివరాలు అధికారిక జాబితాల్లోనే చూడండి.",
+          de: "Narsapur MLA: Smt Vakiti Sunitha Laxma Reddy - verified on the official MLAs list. Check the official lists for the current Medak MP details.",
+          s: "https://www.telangana.gov.in/legislature/members-of-legislative-assembly/", sn: "telangana.gov.in", u: "23-10-2026" }
+      ]
+    },
+    {
+      id: "digital", icon: "📱", te: "డిజిటల్ అవగాహన & నేర్చుకోవడం", en: "Digital Awareness & Learning",
+      items: [
+        { t: "సైబర్ మోసాల నుండి జాగ్రత్త", e: "Stay Safe from Cyber Fraud",
+          d: "OTP, పాస్‌వర్డ్, ఆధార్ నంబరు ఎవరికీ ఇవ్వవద్దు - బ్యాంక్/ప్రభుత్వం ఫోన్‌లో అడగదు. మోసం జరిగితే వెంటనే 1930 కి కాల్ చేయండి లేదా జాతీయ సైబర్ క్రైమ్ పోర్టల్‌లో నమోదు చేయండి.",
+          de: "Never share OTP, passwords or Aadhaar number with anyone - banks/government never ask on phone. If cheated, call 1930 immediately or report on the National Cyber Crime portal.",
+          s: "https://cybercrime.gov.in/", sn: "cybercrime.gov.in", u: "23-10-2026", ph: "1930" },
+        { t: "సంచార్ సాథి - మీ పేరుపై సిమ్ కార్డులు చూడండి", e: "Sanchar Saathi - Check SIMs on Your Name",
+          d: "మీ ఆధార్/పేరుపై ఎన్ని మొబైల్ కనెక్షన్లు ఉన్నాయో, మీ ఫోన్ అసలైందా కాదా - ప్రభుత్వ అధికారిక పోర్టల్‌లో ఉచితంగా తనిఖీ చేయండి. పోయిన ఫోన్ బ్లాక్ కూడా ఇక్కడే.",
+          de: "Check free how many mobile connections exist on your Aadhaar/name and whether your phone is genuine, on the official government portal. Lost phones can be blocked here too.",
+          s: "https://sancharsaathi.gov.in/", sn: "sancharsaathi.gov.in", u: "23-10-2026" },
+        { t: "DIKSHA - ఉచిత పాఠాలు (పిల్లలు & టీచర్లు)", e: "DIKSHA - Free Lessons (Children & Teachers)",
+          d: "ప్రభుత్వ అధికారిక ఉచిత లెర్నింగ్ యాప్/వెబ్‌సైట్ - స్కూల్ పాఠ్యాంశాలు, వీడియో పాఠాలు, క్విజ్‌లు తెలుగుతో సహా. ఇంటర్నెట్ ఉంటే ఎవరైనా ఉచితంగా నేర్చుకోవచ్చు.",
+          de: "Official free government learning app/website - school syllabus, video lessons and quizzes including in Telugu. Anyone with internet can learn free.",
+          s: "https://diksha.gov.in/", sn: "diksha.gov.in", u: "23-10-2026" },
+        { t: "SWAYAM - ఉచిత కళాశాల కోర్సులు", e: "SWAYAM - Free College Courses",
+          d: "ప్రభుత్వ అధికారిక పోర్టల్ - IITలు, IIMలు, యూనివర్సిటీల ఉచిత ఆన్‌లైన్ కోర్సులు. పరీక్ష రాస్తే సర్టిఫికెట్ కూడా (పరీక్ష ఫీజు మాత్రమే). చదువుకున్న యువత ముందుకు రావడానికి మంచి మార్గం.",
+          de: "Official government portal - free online courses from IITs, IIMs and universities. Certificate available on exam (exam fee only). A good path for educated youth to move forward.",
+          s: "https://swayam.gov.in/", sn: "swayam.gov.in", u: "23-10-2026" }
       ]
     }
   ]
