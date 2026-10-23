@@ -98,7 +98,7 @@ window.GS_DATA = {
     {
       id: "farmer", icon: "🌾", te: "రైతు", en: "Farmer",
       items: [
-        { t: "మన జోన్ పంటలు - సెంట్రల్ తెలంగాణ జోన్", e: "Our Zone Crops - Central Telangana Zone",
+        { id: "farmer-zone-crops", t: "మన జోన్ పంటలు - సెంట్రల్ తెలంగాణ జోన్", e: "Our Zone Crops - Central Telangana Zone",
           d: "వ్యవసాయ యూనివర్సిటీ (PJTSAU) ప్రకారం మెదక్ సెంట్రల్ తెలంగాణ జోన్‌లో వస్తుంది. ఈ జోన్‌లో ప్రధానంగా సాగయ్యే పంటలు: పత్తి, వరి, మక్కజొన్న, పెసర, మామిడి, చెరకు, మిర్చి. ఇవి జోన్ ఉదాహరణలు మాత్రమే - ప్రతి పొలానికి ఇవే సరిపోతాయని కాదు.",
           de: "Per the agriculture university (PJTSAU), Medak falls in the Central Telangana Zone. Crops predominantly grown in this zone: cotton, rice, maize, greengram, mango, sugarcane, chillies. These are zone examples only - not a recommendation for every field.",
           bt: "జోన్ సమాచారం", be: "Zone info", s: "https://pjtsau.edu.in/ctz.html", sn: "pjtsau.edu.in", u: "23-10-2026" },

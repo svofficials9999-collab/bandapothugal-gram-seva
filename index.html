@@ -307,42 +307,81 @@ function speakGrv(i){ const g = D.grievance[i]; speak(T(g.t,g.e) + '. ' + T(g.d,
 // ---- Voice (explicit tap only) ----
 let queue = [];
 let voiceWarned = false;
+let audioEl = null;
+let playToken = 0;
 try{ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices(); }catch(e){}
 function hasVoiceFor(l){ try{ return speechSynthesis.getVoices().some(v=>v.lang && v.lang.toLowerCase().startsWith(l)); }catch(e){ return false; } }
-function speak(text){
-  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
-  speechSynthesis.cancel();
-  queue = [text]; runQueue();
+async function sha10(s){ try{ const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('').slice(0,10); }catch(e){ return null; } }
+function stopAudio(){ if(audioEl){ try{ audioEl.pause(); audioEl.removeAttribute('src'); audioEl.load(); }catch(e){} audioEl = null; } }
+function speak(text, id){
+  if(!('speechSynthesis' in window) && !id){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
+  try{ speechSynthesis.cancel(); }catch(e){}
+  stopAudio();
+  queue = [{text: text, id: id || null}]; runQueue();
 }
-function runQueue(){
+// Pre-generated natural-voice audio: file key = stable card id + hash of the CURRENT spoken text + lang.
+// Any card text edit changes the hash -> file 404s -> device TTS fallback (stale audio can never play).
+// Index is never part of the key, so reorders/insertions cannot mis-map audio to another card.
+async function runQueue(){
   if(!queue.length){ $('stopBtn').style.display='none'; return; }
+  const tok = ++playToken;
+  $('stopBtn').style.display='flex';
+  const item = queue.shift();
+  if(item.id){
+    const h = await sha10(item.text);
+    if(tok !== playToken) return;
+    if(h){
+      const ok = await playAudioFile('audio/' + item.id + '-' + h + '-' + (lang==='te'?'te':'en') + '.mp3', tok);
+      if(tok !== playToken) return;
+      if(ok) return;
+    }
+  }
+  speakTTS(item.text, tok);
+}
+function playAudioFile(url, tok){
+  return new Promise(res => {
+    let settled = false;
+    try{
+      const el = new Audio(url);
+      audioEl = el;
+      el.onended = () => { settled = true; res(true); if(tok === playToken) runQueue(); };
+      el.onerror = () => { if(!settled){ settled = true; res(false); } };
+      const p = el.play();
+      if(p && p.catch) p.catch(() => { if(!settled){ settled = true; res(false); } });
+    }catch(e){ res(false); }
+  });
+}
+function speakTTS(text, tok){
+  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); if(tok === playToken) runQueue(); return; }
   const want = lang==='te' ? 'te' : 'en';
   if(!voiceWarned && !hasVoiceFor(want)){
     voiceWarned = true;
     toast(T('ఈ ఫోన్‌లో తెలుగు వాయిస్ ఇన్‌స్టాల్ లేదు - అందుబాటులో ఉన్న వాయిస్‌తో ప్లే అవుతుంది','This phone has no Telugu voice installed - playing with the available voice'));
   }
-  $('stopBtn').style.display='flex';
-  const u = new SpeechSynthesisUtterance(queue.shift());
+  const u = new SpeechSynthesisUtterance(text);
   u.lang = lang==='te' ? 'te-IN' : 'en-IN'; u.rate = 0.95;
   const vs = speechSynthesis.getVoices();
   const v = vs.find(v=>v.lang && v.lang.toLowerCase().startsWith(want));
   if(v) u.voice = v;
-  u.onend = runQueue; u.onerror = runQueue;
+  u.onend = () => { if(tok === playToken) runQueue(); };
+  u.onerror = () => { if(tok === playToken) runQueue(); };
   speechSynthesis.speak(u);
 }
-function stopSpeak(){ queue=[]; try{speechSynthesis.cancel()}catch(e){} $('stopBtn').style.display='none'; }
+function stopSpeak(){ playToken++; queue=[]; stopAudio(); try{speechSynthesis.cancel()}catch(e){} $('stopBtn').style.display='none'; }
+window.__gsAudioState = () => ({ playing: !!(audioEl && !audioEl.paused && !audioEl.ended), t: audioEl ? audioEl.currentTime : 0, src: audioEl && audioEl.currentSrc ? audioEl.currentSrc : null, speaking: (function(){ try{ return speechSynthesis.speaking; }catch(e){ return false; } })(), queued: queue.length });
 $('stopBtn').onclick = stopSpeak;
 document.addEventListener('visibilitychange', ()=>{ if(document.hidden) stopSpeak(); });
 window.addEventListener('pagehide', stopSpeak);
 function speakItem(secId, i){
   const s = D.sections.find(x=>x.id===secId); const it = s.items[i];
-  speak(T(it.t,it.e) + '. ' + T(it.d,it.de));
+  speak(T(it.t,it.e) + '. ' + T(it.d,it.de), it.id || null);
 }
 $('listenAll').onclick = ()=>{
   const id = $('stName').dataset.sid; const s = D.sections.find(x=>x.id===id);
-  if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
-  speechSynthesis.cancel();
-  queue = s.items.map(it => T(it.t,it.e) + '. ' + T(it.d,it.de));
+  if(!('speechSynthesis' in window) && !s.items.some(it=>it.id)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); return; }
+  try{ speechSynthesis.cancel(); }catch(e){}
+  stopAudio();
+  queue = s.items.map(it => ({text: T(it.t,it.e) + '. ' + T(it.d,it.de), id: it.id || null}));
   runQueue();
 };
 function toast(msg){ const t=$('toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none',4500); }
