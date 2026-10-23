@@ -214,15 +214,15 @@ window.GS_DATA = {
         },
         {
           "id": "jobs-pm-internship-intake-check",
-          "t": "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (ప్రస్తుత స్థితి పోర్టల్‌లో చూడండి)",
-          "e": "Internship: PM Internship Scheme (check current status on portal)",
-          "d": "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలులో ఉందనే అధికారిక సమాచారం ఉంది. 23-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము అధికారికంగా నిర్ధారించలేదు - అధికారిక పోర్టల్‌లోనే ప్రస్తుత స్థితి, అర్హత, స్టైపెండ్ వివరాలు చూడండి. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
-          "de": "Central government (Ministry of Corporate Affairs) internship scheme - official information confirms pilot-phase implementation. As of 23-10-2026 we have not officially verified whether the current intake is open - check the official portal for the live status, eligibility and stipend details. Do not rely on older reports. Information card only - no application success or guarantee.",
-          "bt": "అధికారిక పోర్టల్ చూడండి",
-          "be": "See official portal",
-          "s": "https://pminternship.mca.gov.in/",
-          "sn": "pminternship.mca.gov.in",
-          "u": "23-10-2026"
+          "t": "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (అధికారిక సమాచారం)",
+          "e": "Internship: PM Internship Scheme (official information)",
+          "d": "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలు గురించి ప్రభుత్వ అధికారిక విడుదల (PIB, 20-02-2025) చెబుతోంది. ఆ విడుదల ప్రకారం: 21-24 ఏళ్ల, పూర్తి కాల విద్య లేదా ఉద్యోగంలో లేని యువతకు 12 నెలల చెల్లింపు ఇంటర్న్‌షిప్; నెలకు ₹5,000 ఆర్థిక సహాయం, అదనంగా ఒకేసారి ₹6,000. 24-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము నిర్ధారించలేదు - విడుదలలో పేర్కొన్న దరఖాస్తు పోర్టల్ ప్రస్తుతం అందుబాటులో లేదు, కాబట్టి కొత్త అధికారిక ప్రకటనలే సరైన సమాచారం. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
+          "de": "Central government (Ministry of Corporate Affairs) internship scheme - an official government release (PIB, 20-02-2025) confirms pilot-phase implementation. Per that release: 12-month paid internships for youth aged 21-24 not in full-time study or employment; Rs 5,000 monthly assistance plus a one-time Rs 6,000. As of 24-10-2026 we have not verified whether the current intake is open - the application portal named in the release is currently unreachable, so rely on the latest official announcements. Do not rely on older reports. Information card only - no application success or guarantee.",
+          "bt": "అధికారిక విడుదల చూడండి",
+          "be": "See official release",
+          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2104914",
+          "sn": "pib.gov.in",
+          "u": "24-10-2026"
         }
       ]
     },
@@ -243,7 +243,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249942",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "loans-pmegp-new-unit-subsidy",
@@ -279,7 +279,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238004&lang=1&reg=3",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "loans-pm-svanidhi-urban-vendors",
@@ -291,7 +291,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303797&lang=1&reg=48",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "loans-women-shg-serp-nrlm",
@@ -303,7 +303,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2222697&lang=1&reg=3",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "loans-standup-india-status-check",
@@ -337,7 +337,7 @@ window.GS_DATA = {
           "de": "Never pay any middleman who promises to 'get a government loan sanctioned' - no one can guarantee sanction. Apply directly through the official portal, your bank branch, or the village CSC. Banks may charge their own processing fees and interest - ask for the full cost in writing.",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249942",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         }
       ]
     },
@@ -1018,7 +1018,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2024337&lang=2&reg=48",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "insurance-term-vs-life",
@@ -1292,7 +1292,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?lang=1&PRID=2292320&reg=3",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "women-pm-poshan-school-meal",
@@ -1304,7 +1304,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294002&lang=1&reg=48",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "women-pmmvy-maternity-benefit",
@@ -1316,7 +1316,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270668&lang=1&reg=20",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         },
         {
           "id": "women-child-immunization-uip",
@@ -1328,7 +1328,7 @@ window.GS_DATA = {
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2085204&lang=2&reg=3",
           "sn": "pib.gov.in",
-          "u": "23-10-2026"
+          "u": "24-10-2026"
         }
       ],
       "nb": true
