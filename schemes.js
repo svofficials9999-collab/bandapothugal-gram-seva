@@ -18,8 +18,8 @@ window.GS_DATA = {
       de: "Power cuts, wire/pole repairs: call 1912 or use the official customer service site.",
       s: "https://tgsouthernpower.org/", sn: "tgsouthernpower.org", u: "23-10-2026", ph: "1912" },
     { id: "grv-ration-rice-complaint", t: "రేషన్ / బియ్యం ఫిర్యాదు", e: "Ration / Rice Complaint (Civil Supplies)",
-      d: "రేషన్ దుకాణంలో బియ్యం సరిగ్గా ఇవ్వకపోతే, రేషన్ కార్డు సమస్యలకు: 1967 లేదా 1800-425-00333 కి కాల్ చేయండి. ఆన్‌లైన్ సేవలు ePDS పోర్టల్‌లో.",
-      de: "If the ration shop short-changes rice or for ration card issues: call 1967 or 1800-425-00333. Online services on the ePDS portal.",
+      d: "రేషన్ దుకాణంలో బియ్యం సరిగ్గా ఇవ్వకపోతే, రేషన్ కార్డు సమస్యలకు: టోల్ ఫ్రీ 1967 కి కాల్ చేయండి. ఆన్‌లైన్ ఫిర్యాదు, సేవలు ePDS పోర్టల్‌లో.",
+      de: "If the ration shop short-changes rice or for ration card issues: call toll-free 1967. Online complaints and services on the ePDS portal.",
       bt: "రేషన్ వివరాలు చూడండి", be: "View ration details", s: "https://epds.telangana.gov.in/FoodSecurityAct/", sn: "epds.telangana.gov.in", u: "23-10-2026", ph: "1967" }
   ],
   directory: [
@@ -311,8 +311,8 @@ window.GS_DATA = {
       id: "aid", icon: "🏛️", te: "ప్రభుత్వ సాయం", en: "Govt Aid",
       items: [
         { id: "aid-maha-lakshmi-scheme", t: "మహాలక్ష్మి పథకం", e: "Maha Lakshmi Scheme",
-          d: "అర్హులైన మహిళలకు నెలకు ₹2,500 + గ్యాస్ సిలిండర్ ₹500 కే + మహిళలు, అమ్మాయిలు, ట్రాన్స్‌జెండర్లకు TSRTC బస్సుల్లో ఉచిత ప్రయాణం (ఆధార్ చూపిస్తే చాలు). దరఖాస్తు: MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రం.",
-          de: "Rs 2,500/month for eligible women + LPG cylinder at Rs 500 + free TSRTC bus travel for women/girls/transgenders (show Aadhaar). Apply at the Praja Palana Seva Kendram in the MPDO office.",
+          d: "అమలవుతున్నవి: మహిళలు, అమ్మాయిలు, ట్రాన్స్‌జెండర్లకు TSRTC బస్సుల్లో ఉచిత ప్రయాణం (ఆధార్ చూపిస్తే చాలు); అర్హ కుటుంబాలకు గ్యాస్ సిలిండర్ ₹500 కే. మహిళలకు నెలకు ₹2,500 ఆర్థిక సాయం ప్రకటిత పథకం - ఇంకా చెల్లింపులు మొదలవ్వలేదు. తాజా స్థితి, దరఖాస్తు: MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రం.",
+          de: "Running now: free TSRTC bus travel for women/girls/transgenders (show Aadhaar); LPG cylinder at Rs 500 for eligible households. The announced Rs 2,500/month assistance for women has not started paying yet. Latest status and applications: Praja Palana Seva Kendram in the MPDO office.",
           s: "https://prajapalana.telangana.gov.in/", sn: "prajapalana.telangana.gov.in", u: "23-10-2026" },
         { id: "aid-gruha-jyothi", t: "గృహ జ్యోతి (200 యూనిట్ల ఉచిత కరెంటు)", e: "Gruha Jyothi (200 units free electricity)",
           d: "నెలకు 200 యూనిట్ల వరకు వినియోగం ఉంటే కరెంట్ బిల్లు జీరో. వైట్ రేషన్ కార్డు + ఆధార్ అవసరం. దరఖాస్తు: ప్రజా పాలన.",
