@@ -186,8 +186,8 @@ function openSec(id){
   const s = D.sections.find(x=>x.id===id);
   stopSpeak();
   closeSearch(); $('searchBox').value='';
-  $('secGrid').style.display='none'; $('emgBox').style.display='none';
-  $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex';
+  $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
+  $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='inline-block';
   $('stIcon').textContent = s.icon; $('stName').textContent = T(s.te,s.en);
   $('cardList').innerHTML = s.items.map((it,i)=>renderCard(id,i,it)).join('');
   window.scrollTo(0,0);
@@ -200,7 +200,7 @@ function goBack(){
   $('noticeBox').style.display='block';
 }
 $('backBtn').onclick = goBack;
-$('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8)) : openSec(id); } };
+$('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8)) : openSec(id); } if($('searchResults').style.display==='flex'){ $('searchBox').dispatchEvent(new Event('input')); } };
 // track open section for lang re-render
 const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; origOpen(id); };
 
@@ -253,7 +253,7 @@ function openSpecial(id){
   stopSpeak();
   closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
-  $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex';
+  $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='none';
   $('stName').dataset.sid = 'special:' + id;
   if(id === 'offices'){
     $('stIcon').textContent = '🏢'; $('stName').textContent = T('మండల కార్యాలయాలు','Mandal Offices');
@@ -267,12 +267,12 @@ function openSpecial(id){
     $('stIcon').textContent = '📝'; $('stName').textContent = T('ఫిర్యాదు చేయండి','File a Complaint');
     $('cardList').innerHTML =
     '<div class="card frm">'+
-    '<label id="lc">'+T('సమస్య విభాగం *','Problem category *')+'</label>'+
+    '<label id="lc" for="fCat">'+T('సమస్య విభాగం *','Problem category *')+'</label>'+
     '<select id="fCat"><option value="">'+T('-- ఎంచుకోండి --','-- choose --')+'</option><option>'+T('రోడ్డు','Road')+'</option><option>'+T('మంచినీరు','Drinking water')+'</option><option>'+T('విద్యుత్','Electricity')+'</option><option>'+T('పారిశుధ్యం','Sanitation')+'</option></select>'+
-    '<label>'+T('సమస్య వివరాలు *','Problem details *')+'</label><textarea id="fDesc" placeholder="'+T('ఉదా: మా వీధిలో రోడ్డు పగిలి గొయ్యిలు ఏర్పడ్డాయి...','e.g. the road on our street is broken with potholes...')+'"></textarea>'+
-    '<label>'+T('సమస్య ఉన్న చోటు','Location of the problem')+'</label><input id="fLoc" placeholder="'+T('ఉదా: మెయిన్ రోడ్డు, బస్టాండ్ దగ్గర','e.g. main road, near bus stand')+'">'+
-    '<label>'+T('మీ పేరు (ఇవ్వకపోవచ్చు)','Your name (optional)')+'</label><input id="fName">'+
-    '<label>'+T('మీ మొబైల్ (ఇవ్వకపోవచ్చు)','Your mobile (optional)')+'</label><input id="fMob" type="tel" inputmode="numeric" maxlength="10">'+
+    '<label for="fDesc">'+T('సమస్య వివరాలు *','Problem details *')+'</label><textarea id="fDesc" placeholder="'+T('ఉదా: మా వీధిలో రోడ్డు పగిలి గొయ్యిలు ఏర్పడ్డాయి...','e.g. the road on our street is broken with potholes...')+'"></textarea>'+
+    '<label for="fLoc">'+T('సమస్య ఉన్న చోటు','Location of the problem')+'</label><input id="fLoc" placeholder="'+T('ఉదా: మెయిన్ రోడ్డు, బస్టాండ్ దగ్గర','e.g. main road, near bus stand')+'">'+
+    '<label for="fName">'+T('మీ పేరు (ఇవ్వకపోవచ్చు)','Your name (optional)')+'</label><input id="fName">'+
+    '<label for="fMob">'+T('మీ మొబైల్ (ఇవ్వకపోవచ్చు)','Your mobile (optional)')+'</label><input id="fMob" type="tel" inputmode="numeric" maxlength="10">'+
     '<div class="privacy">🔒 '+T('గోప్యత: ఈ యాప్ మీ సమాచారాన్ని ఎక్కడా నిల్వ చేయదు, ఏ సర్వర్‌కీ పంపదు. "పంపండి" నొక్కితే మీ ఫోన్‌లో WhatsApp తెరుస్తుంది - అక్కడ మీరే సందేశం చూసి, మీ స్వంత నంబర్ నుండి పంపుతారు (D. Srinivas గారికి, 91772 26638).','Privacy: this app stores nothing and sends nothing to any server. Tapping Send opens WhatsApp on your phone - you review the message and send it yourself from your own number to D. Srinivas, 91772 26638.')+'</div>'+
     '<button class="sendbtn" onclick="sendComplaint()">📤 '+T('WhatsApp లో పంపండి','Send via WhatsApp')+'</button>'+
     '</div>'+
