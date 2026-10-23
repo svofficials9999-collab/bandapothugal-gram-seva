@@ -184,8 +184,9 @@ function render(){
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>';
 }
-function openSec(id){
+function openSec(id, push){
   const s = D.sections.find(x=>x.id===id);
+  if(push !== false && history.state?.gs !== 'view:'+id) { try{ history.pushState({gs:'view:'+id, kind:'sec', id:id}, ''); }catch(e){} }
   stopSpeak();
   closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
@@ -201,10 +202,22 @@ function goBack(){
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
   $('noticeBox').style.display='block';
 }
-$('backBtn').onclick = goBack;
-$('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8)) : openSec(id); } if($('searchResults').style.display==='flex'){ $('searchBox').dispatchEvent(new Event('input')); } };
+$('backBtn').onclick = function(){ try{ history.back(); }catch(e){ goBack(); } };
+$('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8), false) : openSec(id, false); } if($('searchResults').style.display==='flex'){ $('searchBox').dispatchEvent(new Event('input')); } };
+// ---- History-aware back: phone/browser Back returns exactly one view inside the app ----
+try{ history.replaceState({gs:'home'}, ''); }catch(e){}
+window.addEventListener('popstate', function(e){
+  stopSpeak();
+  if($('searchResults').style.display==='flex'){ closeSearch(); $('searchBox').value=''; }
+  const st = e.state;
+  if(st && st.gs && st.gs.startsWith('view:')){
+    if(st.kind === 'special'){ openSpecial(st.id, false); } else { openSec(st.id, false); }
+  } else {
+    goBack();
+  }
+});
 // track open section for lang re-render
-const origOpen = openSec; openSec = function(id){ $('stName').dataset.sid=id; origOpen(id); };
+const origOpen = openSec; openSec = function(id, push){ $('stName').dataset.sid=id; origOpen(id, push); };
 
 // ---- Shared card renderer (section view + search results) ----
 function detRow(ic, lab, val){ return val ? '<div class="det"><span class="dic">'+ic+'</span><div><b>'+lab+':</b> '+val+'</div></div>' : ''; }
@@ -251,7 +264,8 @@ function closeSearch(){
 }
 
 // ---- Special views: complaint form + mandal offices directory ----
-function openSpecial(id){
+function openSpecial(id, push){
+  if(push !== false && history.state?.gs !== 'view:special:'+id) { try{ history.pushState({gs:'view:special:'+id, kind:'special', id:id}, ''); }catch(e){} }
   stopSpeak();
   closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
