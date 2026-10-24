@@ -1,7 +1,7 @@
-const CACHE = 'gramseva-v90';
+const CACHE = 'gramseva-v91';
 const BASE=new URL('./',self.location).pathname;
-const DATA_SHA='76903c6501dd20e47c754d6b59379e70ee6990e501c0164046f51977b8bf0d64';
-const ASSETS = ['./','./index.html','./schemes.js?v=90','./manifest.webmanifest','./icon.svg','./icon-192-v3.png','./icon-512-v3.png','./icon-maskable-v3.png','./apple-touch-icon-v3.png','./details.js?v=90','./notifications.js','./notifications.json','./resources.js','./utilities.js','./fonts/Ramabhadra-Regular.ttf'];
+const DATA_SHA='deaa953110c8e1c9186171b9eef45616ca1eba77c03698ecd40438854566d267';
+const ASSETS = ['./','./index.html','./schemes.js?v=91','./manifest.webmanifest','./icon.svg','./icon-192-v3.png','./icon-512-v3.png','./icon-maskable-v3.png','./apple-touch-icon-v3.png','./details.js?v=91','./notifications.js','./notifications.json','./resources.js','./utilities.js','./fonts/Ramabhadra-Regular.ttf'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
  const entries=await Promise.all(ASSETS.map(async path=>{const r=await fetch(new Request(path,{cache:'reload'}));if(!r.ok)throw Error('Incomplete release');if(path.startsWith('./schemes.js')){const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',await r.clone().arrayBuffer())),b=>b.toString(16).padStart(2,'0')).join('');if(hash!==DATA_SHA)throw Error('Release data has not propagated')}return[path,r]}));
  const c=await caches.open(CACHE);await Promise.all(entries.map(([path,r])=>c.put(path,r)));await self.skipWaiting();

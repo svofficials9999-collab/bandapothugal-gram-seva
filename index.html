@@ -60,6 +60,7 @@ h1{font-size:18px;font-weight:800;line-height:1.22;letter-spacing:.3px;backgroun
 .cards{display:none;flex-direction:column;gap:12px}
 .card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:16px;padding:14px;box-shadow:0 2px 8px rgba(15,40,80,.05)}
 .card h3{font-size:15.5px;font-weight:800;margin-bottom:6px;line-height:1.35}
+.access-note{background:#fff4d6;border-left:3px solid #ad6500;padding:10px;border-radius:6px}
 .card .desc{font-size:13px;color:#3f4f63;line-height:1.6;white-space:pre-line}
 .calhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
 .calhead b{font-size:15px}
@@ -210,14 +211,15 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=90"></script>
-<script src="details.js?v=90"></script>
+<script src="schemes.js?v=91"></script>
+<script src="details.js?v=91"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
 const $ = id => document.getElementById(id);
 const T = (te,en) => lang==='te' ? te : en;
 
+function accessNote(it){return it.accessNote?'<p class="desc access-note" role="note">'+T(it.accessNote.te,it.accessNote.en)+'</p>':''}
 function sectionIcon(s){
  const paths={childrenschess:'<path d="M8 29h18M10 25h14l-2-4 5-7-8-10-7 4-3 8 7 2-5 5z"/>',cropguide:'<path d="M16 29V15M16 22C5 22 3 15 4 7c9-1 13 4 12 12M16 16C16 7 22 3 29 4c1 8-3 13-13 13M9 12l7 7M24 9l-8 7"/>',civic:'<path d="M3 5h10a5 5 0 0 1 3 2 5 5 0 0 1 3-2h10v22H19a4 4 0 0 0-3 2 4 4 0 0 0-3-2H3zM16 7v22M7 11h5M20 11h5M7 16h5M20 16h5"/>',localtraining:'<path d="M3 11 16 4l13 7-13 7z"/><path d="M8 15v8c5 4 11 4 16 0v-8M29 11v11"/>',womenskills:'<circle cx="16" cy="9" r="4"/><path d="M8 28v-5a8 8 0 0 1 16 0v5M8 22h16"/>'};
  return paths[s.id]?'<svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+paths[s.id]+'</svg>':s.icon;
@@ -302,7 +304,7 @@ function esc(t){ return String(t).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&l
 function renderCard(sid, i, it){
   const dk = Object.keys(window.GS_DETAILS||{}).find(k=>it.e.includes(k));
   const dd = dk ? GS_DETAILS[dk] : null;
-  return '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+
+  return '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+accessNote(it)+
     (sid==='childrenschess' ? '' : '<div class="dets">'+
     detRow('✅',T('అర్హత','Eligibility'), dd ? T(dd[0],dd[1]) : null)+
     detRow('📄',T('కావాల్సిన పత్రాలు','Documents'), dd ? T(dd[2],dd[3]) : null)+
@@ -374,7 +376,7 @@ function openSpecial(id, push){
   } else if(id === 'offices'){
     $('stIcon').textContent = '🏢'; $('stName').textContent = T('మండల కార్యాలయాలు','Mandal Offices');
     $('cardList').innerHTML = D.directory.map((it,i) =>
-      '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+
+      '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+accessNote(it)+
       '<div class="meta">'+(it.unverified ? '<span class="chip unv">⚠️ '+T('స్థానిక నంబర్ ధృవీకరించలేదు','local number unverified')+'</span>' : (it.em ? '<a class="mailchip" href="mailto:'+it.em+'">✉️ '+it.em+'</a>' : ''))+
       '<a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
       '<div class="cbtns">'+(it.ph ? '<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+it.ph+'</a>' : '')+
