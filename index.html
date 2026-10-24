@@ -104,6 +104,9 @@ footer b{color:#334155}
 .frm input:focus,.frm textarea:focus,.frm select:focus{border-color:#16a34a}
 .frm textarea{min-height:90px;resize:vertical}
 .frm select{appearance:none}
+.frm .inrow{display:flex;gap:8px;align-items:stretch}
+.frm .inrow input{flex:1 1 0;min-width:0;width:auto}
+.frm .inrow select{flex:0 1 auto;width:auto;max-width:48%}
 .privacy{margin-top:12px;font-size:11.5px;color:#5a6b7f;line-height:1.6;background:rgba(217,119,6,.06);border:1px dashed rgba(217,119,6,.4);border-radius:12px;padding:10px 12px}
 .sendbtn{margin-top:14px;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#16a34a,#22c55e);border:none;color:#fff;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer;box-shadow:0 4px 16px rgba(34,197,94,.4);text-decoration:none}
 .sendbtn:active{transform:scale(.97)}
@@ -158,8 +161,8 @@ footer b{color:#334155}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=55"></script>
-<script src="details.js?v=55"></script>
+<script src="schemes.js?v=56"></script>
+<script src="details.js?v=56"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -301,8 +304,8 @@ function openSpecial(id, push){
     '<div class="card frm"><h3>💰 '+T('వడ్డీ లెక్క (సాదా వడ్డీ)','Interest calculator (simple interest)')+'</h3>'+
     '<div class="desc">'+T('అసలుపై మాత్రమే వడ్డీ లెక్కిస్తుంది (flat/simple interest). చక్రవడ్డీ కాదు. నెలవారీ రేటు ఇస్తే ×12 చేసి వార్షికంగా మార్చి లెక్కిస్తుంది.','Calculates interest on the principal only (flat/simple interest), not compound. A monthly rate is converted to annual (x12) before calculating.')+'</div>'+
     '<label for="siP">'+T('అసలు (₹) *','Principal amount (₹) *')+'</label><input id="siP" type="number" inputmode="decimal" min="0" placeholder="'+T('ఉదా: 50000','e.g. 50000')+'">'+
-    '<label for="siR">'+T('వడ్డీ రేటు (%) *','Interest rate (%) *')+'</label><div style="display:flex;gap:8px"><input id="siR" type="number" inputmode="decimal" min="0" step="0.01" placeholder="'+T('ఉదా: 2','e.g. 2')+'" style="flex:1"><select id="siRP" style="flex:0 0 auto"><option value="m">'+T('% నెలకు','% per month')+'</option><option value="y">'+T('% ఏటికి','% per year')+'</option></select></div>'+
-    '<label for="siT">'+T('కాలం *','Period *')+'</label><div style="display:flex;gap:8px"><input id="siT" type="number" inputmode="decimal" min="0" step="1" placeholder="'+T('ఉదా: 12','e.g. 12')+'" style="flex:1"><select id="siTP" style="flex:0 0 auto"><option value="m">'+T('నెలలు','months')+'</option><option value="y">'+T('సంవత్సరాలు','years')+'</option></select></div>'+
+    '<label for="siR">'+T('వడ్డీ రేటు (%) *','Interest rate (%) *')+'</label><div class="inrow"><input id="siR" type="number" inputmode="decimal" min="0" step="0.01" placeholder="'+T('ఉదా: 2','e.g. 2')+'"><select id="siRP"><option value="m">'+T('% నెలకు','% per month')+'</option><option value="y">'+T('% ఏటికి','% per year')+'</option></select></div>'+
+    '<label for="siT">'+T('కాలం *','Period *')+'</label><div class="inrow"><input id="siT" type="number" inputmode="decimal" min="0" step="1" placeholder="'+T('ఉదా: 12','e.g. 12')+'"><select id="siTP"><option value="m">'+T('నెలలు','months')+'</option><option value="y">'+T('సంవత్సరాలు','years')+'</option></select></div>'+
     '<button class="sendbtn" onclick="calcSI()">🧮 '+T('లెక్కించండి','Calculate')+'</button>'+
     '<div class="calcres" id="siRes"></div></div>'+
     '<div class="card frm"><h3>🏦 '+T('EMI లెక్క (తగ్గే నిల్వ పద్ధతి)','EMI calculator (reducing balance)')+'</h3>'+
