@@ -178,8 +178,8 @@ footer b{color:#334155}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=60"></script>
-<script src="details.js?v=60"></script>
+<script src="schemes.js?v=61"></script>
+<script src="details.js?v=61"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -559,7 +559,7 @@ window.addEventListener('offline', updNet);
 
 render();
 updNet();
-if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js', {updateViaCache:'none'});
 </script>
 <script>
 /* sv-voice.js v2 - app-wide female-leaning Indic voice selection for device TTS.
@@ -598,6 +598,6 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=60"></script>
+<script src="notifications.js?v=61"></script>
 </body>
 </html>
