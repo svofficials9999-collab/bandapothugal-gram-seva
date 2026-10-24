@@ -9,6 +9,8 @@
 <link rel="apple-touch-icon" href="apple-touch-icon-v3.png">
 <link rel="icon" href="icon.svg?v=3" type="image/svg+xml">
 <style>
+@font-face{font-family:'GS Ramabhadra';src:url('./fonts/Ramabhadra-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#eef2f7;color:#1c2733;min-height:100vh;overflow-x:hidden}
 .bg{position:fixed;inset:0;z-index:0;background:
@@ -39,6 +41,16 @@ h1{font-size:18px;font-weight:800;line-height:1.22;letter-spacing:.3px;backgroun
 .sec .ic{font-size:30px}
 .sec h2{font-size:17px;margin:8px 0 3px;font-weight:800}
 .sec p{font-size:11px;color:#5a6b7f}
+/* Index heading styling only: self-hosted Telugu shaping, dark readable colours. */
+#secGrid .sec{--index-heading:#166534}
+#secGrid .sec:nth-child(6n+2){--index-heading:#1d4ed8}
+#secGrid .sec:nth-child(6n+3){--index-heading:#9a3412}
+#secGrid .sec:nth-child(6n+4){--index-heading:#6d28d9}
+#secGrid .sec:nth-child(6n+5){--index-heading:#0f766e}
+#secGrid .sec:nth-child(6n){--index-heading:#b91c1c}
+#secGrid .sec h2{font-family:'GS Ramabhadra','Nirmala UI',sans-serif;font-weight:400;font-size:19px;line-height:1.55;color:var(--index-heading);letter-spacing:0;text-wrap:pretty}
+#emgTitle{font-family:'GS Ramabhadra','Nirmala UI',sans-serif;font-weight:400;font-size:15px;line-height:1.55;color:#b91c1c;letter-spacing:0}
+
 .back{display:none;align-items:center;gap:6px;background:#fff;border:1px solid rgba(0,0,0,.14);color:#1c2733;border-radius:12px;padding:8px 14px;font-size:13px;font-weight:700;cursor:pointer;margin:14px 0 4px}
 .back:active{transform:scale(.95)}
 .sectitle{display:none;margin:10px 0 12px;align-items:center;gap:10px}
@@ -198,8 +210,8 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=76"></script>
-<script src="details.js?v=76"></script>
+<script src="schemes.js?v=77"></script>
+<script src="details.js?v=77"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
