@@ -6,7 +6,12 @@ self.addEventListener('install',e=>e.waitUntil((async()=>{
  const entries=await Promise.all(ASSETS.map(async path=>{const r=await fetch(new Request(path,{cache:'reload'}));if(!r.ok)throw Error('Incomplete release');if(path.startsWith('./schemes.js')){const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',await r.clone().arrayBuffer())),b=>b.toString(16).padStart(2,'0')).join('');if(hash!==DATA_SHA)throw Error('Release data has not propagated')}return[path,r]}));
  const c=await caches.open(CACHE);await Promise.all(entries.map(([path,r])=>c.put(path,r)));await self.skipWaiting();
 })()));
-self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('gramseva-') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
+self.addEventListener('activate',e=>e.waitUntil((async()=>{
+ const keys=await caches.keys(),upgrading=keys.some(k=>k.startsWith('gramseva-')&&k!==CACHE);
+ await Promise.all(keys.filter(k=>k.startsWith('gramseva-')&&k!==CACHE).map(k=>caches.delete(k)));
+ await self.clients.claim();
+ if(upgrading){const windows=await self.clients.matchAll({type:'window'});windows.filter(c=>new URL(c.url).pathname.startsWith(BASE)).forEach(c=>{c.navigate(c.url).catch(()=>{})})}
+})()));
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin || !url.pathname.startsWith(BASE)) return;
