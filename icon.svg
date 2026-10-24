@@ -1,8 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#14532d"/><stop offset=".55" stop-color="#166534"/><stop offset="1" stop-color="#1d4ed8"/>
-  </linearGradient></defs>
-  <rect width="512" height="512" rx="110" fill="url(#g)"/>
-  <text x="50%" y="56%" font-size="240" text-anchor="middle" dominant-baseline="middle">🌾</text>
-  <text x="50%" y="86%" font-size="58" text-anchor="middle" fill="#e8ecf4" font-family="sans-serif" font-weight="bold">గ్రామ సేవ</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>Gram Seva - farmer and student, village knowledge and services</title>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#04b87d"/><stop offset=".48" stop-color="#087c84"/><stop offset="1" stop-color="#1456c7"/></linearGradient>
+<linearGradient id="field" x2="0" y2="1"><stop stop-color="#b2ee51"/><stop offset="1" stop-color="#35b65a"/></linearGradient>
+<linearGradient id="book" x2="0" y2="1"><stop stop-color="#fffef0"/><stop offset="1" stop-color="#d9f4e7"/></linearGradient>
+<linearGradient id="shine" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="512" height="512" rx="108" fill="url(#bg)"/>
+<rect x="14" y="14" width="484" height="484" rx="96" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="4"/>
+<circle cx="256" cy="153" r="63" fill="#ffd85b"/>
+<path d="M60 319Q167 260 256 312Q354 256 452 315V421Q257 476 60 421Z" fill="url(#field)"/>
+<path d="M73 359Q172 307 243 348M302 342Q367 311 441 345M87 392Q166 349 216 371" fill="none" stroke="#087d54" stroke-width="9" stroke-linecap="round" opacity=".55"/>
+<!-- Farmer: broad sun hat, face, shirt. -->
+<path d="M105 301Q107 253 157 250Q204 251 212 301L218 350H100Z" fill="#fffdf0"/>
+<path d="M143 254L158 275L173 254" fill="none" stroke="#087b66" stroke-width="9"/>
+<ellipse cx="157" cy="216" rx="35" ry="40" fill="#a95a34"/>
+<path d="M103 196Q114 173 123 157Q158 140 192 160L208 196Z" fill="#f7bb3f"/>
+<path d="M97 198H218" stroke="#ffdb70" stroke-width="15" stroke-linecap="round"/>
+<path d="M128 182H188" stroke="#a96322" stroke-width="6"/>
+<!-- Student: graduation cap and blue shirt. -->
+<path d="M293 300Q296 254 350 251Q399 253 406 302L412 350H289Z" fill="#95d9fc"/>
+<path d="M336 256L350 277L365 255" fill="none" stroke="#174e91" stroke-width="9"/>
+<ellipse cx="350" cy="216" rx="35" ry="40" fill="#c87c50"/>
+<path d="M317 190V214Q349 198 383 213V190" fill="#183b74"/>
+<path d="M289 179L350 155L411 179L350 205Z" fill="#163c79" stroke="#d3eeff" stroke-width="5" stroke-linejoin="round"/>
+<path d="M404 182V224" stroke="#ffdb70" stroke-width="6" stroke-linecap="round"/>
+<!-- Open book: useful information for everyone. -->
+<path d="M121 339Q189 318 256 353Q326 318 391 339V408Q321 391 256 426Q188 391 121 408Z" fill="url(#book)" stroke="#fff" stroke-width="7" stroke-linejoin="round"/>
+<path d="M256 354V424" stroke="#108c85" stroke-width="7"/>
+<path d="M145 361Q190 353 231 373M145 382Q190 374 231 394M282 373Q324 353 367 361M282 394Q324 374 367 382" fill="none" stroke="#4b9e8c" stroke-width="6" stroke-linecap="round"/>
+<path d="M35 106Q35 35 106 35H406Q470 35 477 100Q252 177 35 106Z" fill="url(#shine)"/>
 </svg>
