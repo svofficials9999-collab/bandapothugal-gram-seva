@@ -1,5 +1,5 @@
 window.GS_DATA = {
-  "built": "23-10-2026",
+  "built": "24-10-2026",
   "village": {
     "te": "బండపోతుగల్ గ్రామం • చిలిపిచెడ్ మండలం • మెదక్ జిల్లా • నార్సాపూర్ నియోజకవర్గం",
     "en": "Bandapothugal village · Chilpched Mandal · Medak district · Narsapur constituency"
@@ -2156,8 +2156,8 @@ window.GS_DATA = {
           "e": "Rights • duties • RTI",
           "d": "ఆర్టికల్19 మాట / శాంతియుత సమావేశం వంటి హక్కులకు రాజ్యాంగ పరిమితులు వర్తిస్తాయి. ఆర్టికల్51A: రాజ్యాంగ గౌరవం, సామరస్యం, ప్రజా ఆస్తి పరిరక్షణ, హింసకు దూరం.\nRTI ఉన్న రికార్డుల సమాచారం కోసం; ఫిర్యాదు పరిష్కారం / ప్రయోజనం మంజూరు కాదు. సరైన PIO, మినహాయింపులు, ఫీజు / అప్పీల్ నిబంధనలు వర్తిస్తాయి. కేంద్ర పోర్టల్ అన్ని తెలంగాణ స్థానిక దరఖాస్తులు స్వీకరిస్తుందని అనుకోకండి.\nఆధారాలు తనిఖీ చేయండి; బెదిరింపు, లంచం, కుల / మత విద్వేషం వద్దు.",
           "de": "Article19 rights including speech/peaceful assembly have constitutional restrictions. Article51A includes Constitution, harmony, public property and rejecting violence.\nRTI concerns existing records, not grievance resolution or benefit sanction. Correct PIO, exemptions, fee/appeal rules apply; central portal does not necessarily cover Telangana local requests.\nCheck evidence; avoid threats, bribery and caste/religious hatred.",
-          "s": "https://rti.gov.in/webactrti.htm",
-          "sn": "rti.gov.in",
+          "s": "https://cic.gov.in/rti_act",
+          "sn": "cic.gov.in",
           "u": "24-10-2026"
         },
         {
