@@ -47,7 +47,7 @@ h1{font-size:18px;font-weight:800;line-height:1.22;letter-spacing:.3px;backgroun
 .cards{display:none;flex-direction:column;gap:12px}
 .card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:16px;padding:14px;box-shadow:0 2px 8px rgba(15,40,80,.05)}
 .card h3{font-size:15.5px;font-weight:800;margin-bottom:6px;line-height:1.35}
-.card .desc{font-size:13px;color:#3f4f63;line-height:1.6}
+.card .desc{font-size:13px;color:#3f4f63;line-height:1.6;white-space:pre-line}
 .meta{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .chip{font-size:10.5px;border-radius:12px;padding:4px 9px}
 .chip.src{background:rgba(37,99,235,.1);color:#1d4ed8;border:1px solid rgba(37,99,235,.3);text-decoration:none}
@@ -148,8 +148,8 @@ footer b{color:#334155}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=51"></script>
-<script src="details.js?v=51"></script>
+<script src="schemes.js?v=52"></script>
+<script src="details.js?v=52"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
