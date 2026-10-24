@@ -1,4 +1,4 @@
-const CACHE = 'gramseva-v81';
+const CACHE = 'gramseva-v82';
 const ASSETS = ['./','./index.html','./schemes.js','./manifest.webmanifest','./icon.svg','./icon-192-v3.png','./icon-512-v3.png','./icon-maskable-v3.png','./apple-touch-icon-v3.png','./details.js','./notifications.js','./notifications.json','./resources.js','./utilities.js'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS.map(url => new Request(url, {cache: 'reload'})))).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('gramseva-') && k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });

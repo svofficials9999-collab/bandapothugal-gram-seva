@@ -197,15 +197,19 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <div id="toast"></div><section id="printArea" aria-label="Print preview"></section>
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
-<script src="resources.js?v=69"></script>
-<script src="schemes.js?v=69"></script>
-<script src="details.js?v=69"></script>
+<script src="resources.js?v=70"></script>
+<script src="schemes.js?v=70"></script>
+<script src="details.js?v=70"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
 const $ = id => document.getElementById(id);
 const T = (te,en) => lang==='te' ? te : en;
 
+function sectionIcon(s){
+ const paths={localtraining:'<path d="M3 11 16 4l13 7-13 7z"/><path d="M8 15v8c5 4 11 4 16 0v-8M29 11v11"/>',womenskills:'<circle cx="16" cy="9" r="4"/><path d="M8 28v-5a8 8 0 0 1 16 0v5M8 22h16"/>'};
+ return paths[s.id]?'<svg viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+paths[s.id]+'</svg>':s.icon;
+}
 function render(){
   document.documentElement.lang = lang;
   document.dispatchEvent(new Event('gs-language'));
@@ -230,7 +234,7 @@ function render(){
     '<a class="ebtn" href="tel:'+e.n+'"><b>'+e.n+'</b><span>'+T(e.te,e.en)+'</span></a>').join('');
   // sections
   $('secGrid').innerHTML = D.sections.map(s =>
-    '<div data-notice-section="'+s.id+'" class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
+    '<div data-notice-section="'+s.id+'" class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+sectionIcon(s)+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
   ['news','draft'].map(id=>'<div class="sec" role="button" tabindex="0" aria-label="'+id+'" onclick="openSpecial(\''+id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\''+id+'\')}"><div class="ic">'+(id==='news'?'📰':'📄')+'</div><h2>'+T(id==='news'?'వార్తాపత్రికలు':'ముసాయిదా & PDF',id==='news'?'Newspapers':'Draft & PDF')+'</h2></div>').join('')+
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
@@ -245,7 +249,7 @@ function openSec(id, push){
   closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='inline-block';
-  $('stIcon').textContent = s.icon; $('stName').textContent = T(s.te,s.en);
+  $('stIcon').innerHTML = sectionIcon(s); $('stName').textContent = T(s.te,s.en);
   $('cardList').innerHTML = s.items.map((it,i)=>renderCard(id,i,it)).join('');
   updateSectionNotices();
   window.scrollTo(0,0);
@@ -310,7 +314,7 @@ $('searchBox').addEventListener('input', e => {
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
   const sr = $('searchResults'); sr.style.display='flex';
   sr.innerHTML = res.length
-    ? res.map(r => '<div class="srctag">'+r.s.icon+' '+T(r.s.te,r.s.en)+'</div>'+renderCard(r.s.id, r.i, r.it)).join('')
+    ? res.map(r => '<div class="srctag">'+sectionIcon(r.s)+' '+T(r.s.te,r.s.en)+'</div>'+renderCard(r.s.id, r.i, r.it)).join('')
     : '<div class="empty">'+T('దురదృష్టం - "'+esc(raw)+'" తో పథకం కనబడలేదు. మరో పేరుతో ప్రయత్నించండి (ఉదా: పెన్షన్, విద్య, బీమా)','Sorry - no scheme matches "'+esc(raw)+'". Try another word (e.g. pension, education, insurance)')+'</div>';
 });
 function closeSearch(){
@@ -647,7 +651,7 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=69"></script>
-<script src="utilities.js?v=69"></script>
+<script src="notifications.js?v=70"></script>
+<script src="utilities.js?v=70"></script>
 </body>
 </html>
