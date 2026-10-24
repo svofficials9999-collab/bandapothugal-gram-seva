@@ -1,4 +1,4 @@
-// Official sources only. Local training checked 24-10-2026.
+// Official training sources checked24-10-2026.
 window.GS_DATA = {
   "built": "23-10-2026",
   "village": {
@@ -215,10 +215,10 @@ window.GS_DATA = {
         },
         {
           "id": "local-training-hyderabad",
-          "t": "హైదరాబాద్ - మహిళల NSTI: ఉచితం కాదు",
-          "e": "Hyderabad - NSTI Women: NOT free",
-          "d": "అధికారిక చిరునామా: Shivam Road, opp. Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007. మహిళల వృత్తి శిక్షణ సంస్థ.\nముఖ్య హెచ్చరిక: అధికారిక Fee Structure పేజీ అడ్మిషన్ / ట్యూషన్ / పరీక్ష రుసుములు చూపిస్తోంది. కాబట్టి మీ ఉచిత జాబితాలో చేరే కోర్సుగా సిఫార్సు చేయడం లేదు. ఉచిత హాస్టల్ అని కూడా చెప్పడం లేదు.\nహైదరాబాద్‌లో ప్రస్తుతం అందరికీ అందుబాటులో ఉన్న ఉచిత శిక్షణ + ఉచిత వసతి బ్యాచ్ ఈ తనిఖీలో నిర్ధారించలేదు. ఉచిత మొబైల్ పాఠాలు క్రింది ఎంపిక.",
-          "de": "Official address: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007; women’s vocational institute.\nWarning: official Fee Structure lists admission/tuition/exam fees, so it is NOT recommended as a free enrollment option. Free hostel is not claimed.\nA currently open universally free training-and-stay batch in Hyderabad was not verified in this check. Use free mobile learning below.",
+          "t": "హైదరాబాద్ - NSTI మహిళలు: ఫీజు ఎంపిక",
+          "e": "Hyderabad - NSTI Women: paid option",
+          "d": "చిరునామా: Shivam Road, opp. Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007.\nఫీజు ఉన్న కోర్సుల సమాచారం కూడా చూడవచ్చని మీరు కోరారు. ఇది ఫీజు ఎంపిక; క్రింది కొత్త విభాగంలో కోర్సులు / రుసుముల వివరాలు ఉన్నాయి. ఉచితంగా చూపించడం లేదు.\nశిక్షణ / హాస్టల్ / మెస్‌కు వేర్వేరు చార్జీలు ఉండవచ్చు. ప్రస్తుత ప్రవేశ తేదీలు, సీట్లు, మీ కోర్సుకు మొత్తం ఖర్చు / వసతి ఇంకా నిర్ధారించలేదు. యాప్ నమోదు / చెల్లింపు చేయదు.",
+          "de": "Address: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007.\nPaid courses are now included for interested learners. This is a PAID option; see the new section for courses and published fees, not a free course.\nTraining/hostel/mess may carry separate charges. Current admission dates, seats, total cost for your course and stay remain unverified. No enrollment or payment is made by the app.",
           "s": "https://nstiwhyderabad.dgt.gov.in/en",
           "sn": "nstiwhyderabad.dgt.gov.in",
           "u": "24-10-2026",
@@ -251,6 +251,82 @@ window.GS_DATA = {
           "sn": "sbi.bank.in",
           "u": "24-10-2026",
           "refs": []
+        }
+      ]
+    },
+    {
+      "id": "paidcourses",
+      "te": "ఫీజు కోర్సులు - ఆసక్తిగలవారికి",
+      "en": "Paid courses - optional choices",
+      "icon": "🎓",
+      "items": [
+        {
+          "id": "paid-cits",
+          "t": "NSTI హైదరాబాద్ - CITS: ఫ్యాషన్ / బ్యూటీ / ఆఫీస్",
+          "e": "NSTI Hyderabad - CITS: fashion / beauty / office",
+          "d": "మహిళల NSTI అధికారిక About పేజీ: Fashion Design Technology, Cosmetology, Office Management CITS కోర్సులు.\nఇవి ప్రారంభ స్థాయి చిన్న బ్యూటీ క్లాసులు కాదు; శిక్షకుల శిక్షణ మార్గం. సంబంధిత ITI / NCVT సర్టిఫికేట్ లేదా సంబంధిత డిప్లొమా / డిగ్రీ, కనీస వయస్సు 18 అని పేజీ చెబుతోంది. ఖచ్చిత ట్రేడ్ అర్హతలు ప్రస్తుత అధికారిక ప్రవేశ నోటీసుతో చూడాలి.\nఫీజు ఉంది. ప్రస్తుత బ్యాచ్ / దరఖాస్తు చివరి తేదీ / సీట్లు నిర్ధారించలేదు; పాత తేదీలతో ఇప్పుడు ప్రవేశం ఉందని చెప్పడం లేదు.\nస్థలం: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad 500007.",
+          "de": "Official women’s NSTI About page lists CITS in Fashion Design Technology, Cosmetology and Office Management.\nInstructor training, not a short beginner beauty class. Page lists a relevant ITI/NCVT certificate or related diploma/degree and minimum age18; exact trade eligibility must be checked in the current admission notice.\nPAID. Current batch, application deadline and vacancies not verified. Old dates are not presented as open admissions.\nLocation: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad500007.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/about-us",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "paid-cts",
+          "t": "NSTI హైదరాబాద్ - CTS: ఐటీ / AI / వ్యవసాయ IoT",
+          "e": "NSTI Hyderabad - CTS: IT / AI / agriculture IoT",
+          "d": "అధికారిక About పేజీలో Artificial Intelligence Programming Assistant, Information Technology, IoT (Smart Agriculture), Architectural Draughtsman ఉన్నాయి.\nవిద్యార్హత సాధారణంగా 10వ తరగతి లేదా పై స్థాయి అని పేజీ వివరిస్తోంది; ప్రతి కోర్సుకు అదే అర్హత అని అనుకోకండి. వయస్సు / ఎంపిక విధానం ప్రస్తుత కోర్సు నోటీసుతో నిర్ధారించాలి.\nఫీజు కోర్సులు. ప్రస్తుత ప్రవేశాలు / సీట్లు / తెలుగు బోధన నిర్ధారించలేదు. కోర్సు పేరు ఉండటం అడ్మిషన్ ప్రారంభమైందని కాదు.",
+          "de": "Official About page lists Artificial Intelligence Programming Assistant, Information Technology, IoT (Smart Agriculture) and Architectural Draughtsman under CTS.\nPage describes usual eligibility as10th pass or higher; do not assume identical eligibility for every trade. Verify age and selection in the current course notice.\nPAID courses. Current admissions, vacancies and Telugu teaching not verified. A listed course is not an open admission announcement.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/about-us",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "paid-fees",
+          "t": "NSTI - ప్రచురించిన రుసుములు / హాస్టల్",
+          "e": "NSTI - published fees / hostel",
+          "d": "అధికారిక Fee Structure పేజీ (మీ కోర్సుకు తుది కోట్ కాదు):\nGeneral/OBC: అడ్మిషన్ ₹100; ట్యూషన్ నెలకు ₹150; మొదటి పరీక్ష ₹100; Gymkhana ₹100.\nSC/ST: అడ్మిషన్ ₹25; ట్యూషన్ నెలకు ₹50; మొదటి పరీక్ష ₹25; Gymkhana రుసుము లేదు.\nఅందరికీ కోర్సు కాషన్ డిపాజిట్ ₹250 (రిఫండబుల్ అని పేజీలో ఉంది). తదుపరి పరీక్షలు / ఇతర సేవలకు వేరు రుసుములు.\nఐచ్ఛిక హాస్టల్ అందుబాటులో ఉంటే: నెలకు ₹100 accommodation fee అని పట్టికలో ఉంది; ₹125 రిఫండబుల్ కాషన్; ₹50 service charge. మెస్ అదనం. ముందు వచ్చిన వారికి ప్రాధాన్యం; ఖాళీ హామీ లేదు.\nఈ మొత్తాలను కలిపి పూర్తి కోర్సు ఖర్చుగా చూపించడం లేదు. కోర్సు కాలం, వర్గం, తాజా రుసుములు, మెస్ / ప్రయాణ ఖర్చు సంస్థ వద్ద నిర్ధారించాలి.",
+          "de": "Official Fee Structure page, not a final quote for your course:\nGeneral/OBC: admission₹100, tuition₹150/month, first exam₹100, Gymkhana₹100.\nSC/ST: admission₹25, tuition₹50/month, first exam₹25, no Gymkhana fee.\nCourse caution deposit₹250 for all, described as refundable. Repeat exams/other services have separate fees.\nOptional hostel if available: table lists monthly accommodation₹100, refundable caution₹125 and service charge₹50; mess extra. First come, first served, no vacancy guarantee.\nThese are not combined into a full-course total. Confirm duration, category, current applicable fees, mess/travel and availability with institute.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/fee-structure",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "paid-choice",
+          "t": "ఎంచుకునే ముందు - ఫీజు / రీఫండ్ / కొత్త ప్రకటనలు",
+          "e": "Before choosing - fees / refund / new notices",
+          "d": "ఫీజు ఉన్న కోర్సులు ఆసక్తిగలవారు పోల్చుకోవడానికే. యాప్ మీ తరఫున చేరదు, డబ్బు చెల్లించదు, పత్రాలు పంపదు.\nకోర్సు అర్హత, మొత్తం ఫీజు, రీఫండ్ / రద్దు నిబంధనలు, సర్టిఫికేట్, హాస్టల్ / మహిళల భద్రత, మెస్ అదనపు ఖర్చు రాతపూర్వకంగా నిర్ధారించండి. ఉద్యోగం / రుణం హామీ కాదు.\nకొత్తగా అధికారికంగా ధృవీకరించిన కోర్సు / వసతి ప్రకటనలు గంట గుర్తులో చూడండి. యాప్ తెరిచినప్పుడు / తిరిగి వచ్చినప్పుడు / మళ్ళీ చూడండి నొక్కితే నవీకరణ. యాప్ మూసి ఉన్నప్పుడు పుష్ అలర్ట్ లేదు. ఇప్పటి జాబితాను కొత్త బ్యాచ్ నోటిఫికేషన్‌గా చూపించడం లేదు.",
+          "de": "Paid listings are for interested learners to compare. The app does not enroll, pay or send documents on your behalf.\nConfirm eligibility, total fee, refund/cancellation terms, certificate, hostel/women’s safety and extra mess costs in writing. No job/loan guarantee.\nSee the bell for newly verified official course/accommodation announcements. Updates load on opening, returning or Refresh; no push alerts while closed. Existing listings are not reclassified as new batch announcements.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/fee-structure",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
         }
       ]
     },

@@ -2,7 +2,7 @@
 (function(root){
 'use strict';
 const KEY='gs.notice.read.v1';
-function official(url){try{const u=new URL(url);return u.protocol==='https:' && /(^|\.)(gov\.in|nic\.in)$/.test(u.hostname);}catch(e){return false;}}
+function official(url){try{const u=new URL(url);return u.protocol==='https:' && (/(^|\.)(gov\.in|nic\.in)$/.test(u.hostname)||['sbi.bank.in','bankofbaroda.bank.in','www.unionbankofindia.bank.in'].includes(u.hostname));}catch(e){return false;}}
 function validDate(d){return typeof d==='string' && /^\d{4}-\d{2}-\d{2}$/.test(d) && !Number.isNaN(Date.parse(d+'T00:00:00Z'));}
 function cleanFeed(data,today){
  if(!data || data.schema!==1 || !Array.isArray(data.items)) throw Error('Invalid notification feed');
@@ -10,6 +10,8 @@ function cleanFeed(data,today){
  return data.items.filter(n=>{
   if(!n || !/^[a-z0-9-]{1,100}$/.test(n.id||'') || !/^[a-z0-9-]{1,40}$/.test(n.revision||'') || seen.has(n.id))return false;
   if(!n.te || !n.en || !n.quote || !official(n.source) || !validDate(n.published) || !validDate(n.checked) || n.published>today || n.checked>today)return false;
+  if(n.category && !['scheme','course','accommodation'].includes(n.category))return false;
+  if(n.cost && !['free','paid','unknown'].includes(n.cost))return false;
   if(n.expires && (!validDate(n.expires)||n.expires<today))return false;
   seen.add(n.id);return true;
  });
@@ -20,13 +22,14 @@ function unread(items,read){return items.filter(n=>!read.has(token(n)));}
 const api={cleanFeed,token,readSet,unread,KEY};
 if(typeof module==='object' && module.exports){module.exports=api;return;}
 let store;try{store=localStorage;}catch(e){store={getItem:()=>null,setItem:()=>{}};}
+let filter='all';
 let items=[],read=readSet(store),state='loading',pending=false,lastSuccess=null;
 const tr=(a,b)=>document.documentElement.lang==='te'?a:b;
 const el=id=>document.getElementById(id);
 function esc(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function paint(){
  const count=unread(items,read).length;
- const label=tr('కొత్త పథకాల సమాచారం','Scheme updates');
+ const label=tr('పథకాలు / కోర్సులు / వసతి సమాచారం','Schemes / courses / accommodation');
  el('notifyBtn').setAttribute('aria-label',label+': '+count+' '+tr('చదవనివి','unread'));
  el('notifyBtn').title=label;
  el('notifyCount').textContent=count>99?'99+':String(count);
@@ -35,9 +38,12 @@ function paint(){
  el('notifyRefresh').textContent=tr('మళ్ళీ చూడండి','Refresh');
  el('notifyRefresh').disabled=pending;
  el('notifyClose').setAttribute('aria-label',tr('మూసివేయండి','Close'));
- el('notifyInfo').textContent=tr('అధికారికంగా సరిచూసిన కొత్త పథకాలు / మార్పులు మాత్రమే. యాప్ తెరిచినప్పుడు లేదా తిరిగి వచ్చినప్పుడు ఆన్‌లైన్‌లో సమాచారం తెస్తుంది. యాప్ మూసి ఉన్నప్పుడు పుష్ అలర్ట్‌లు రావు. ఫోన్ ఐకాన్ బాడ్జ్ మీ ఫోన్ / బ్రౌజర్ మద్దతుపై ఆధారపడుతుంది; ఆకుపచ్చ రంగు హామీ లేదు.','Only new schemes / changes checked against official sources. Updates load online when you open or return to the app. No push alerts while the app is closed. A phone-icon badge depends on your phone / browser; its color cannot be guaranteed.');
+ el('notifyInfo').textContent=tr('అధికారికంగా సరిచూసిన పథకాలు, ఉచిత / ఫీజు కోర్సులు, వసతి ప్రకటనలు మాత్రమే. ఫీజు ఉన్నది అంటే చెల్లింపు అనుమతి కాదు; నమోదు / చెల్లింపు జరగదు. యాప్ తెరిచినప్పుడు లేదా తిరిగి వచ్చినప్పుడు ఆన్‌లైన్‌లో సమాచారం తెస్తుంది. యాప్ మూసి ఉన్నప్పుడు పుష్ అలర్ట్‌లు రావు. ఫోన్ ఐకాన్ బాడ్జ్ మీ ఫోన్ / బ్రౌజర్ మద్దతుపై ఆధారపడుతుంది; ఆకుపచ్చ రంగు హామీ లేదు.','Only schemes, free/paid courses and accommodation notices checked against official sources. A paid listing is not payment permission; no enrollment or payment is made. Updates load online when you open or return to the app. No push alerts while the app is closed. A phone-icon badge depends on your phone / browser; its color cannot be guaranteed.');
  el('notifyState').textContent=state==='loading'?tr('సమాచారం తెస్తున్నాం...','Loading updates...'):state==='offline'?tr('ఆఫ్‌లైన్ / సమాచారం తెచ్చుకోలేకపోయాం. చివరిసారి సేవ్ అయిన సమాచారం మాత్రమే; తాజా సమాచారం నిర్ధారించలేదు.','Offline / unable to refresh. Showing saved information only; latest updates are not confirmed.'):tr('చివరి విజయవంతమైన సమాచారం: ','Last successful refresh: ')+(lastSuccess?new Date(lastSuccess).toLocaleString(document.documentElement.lang==='te'?'te-IN':'en-IN'):'');
- el('notifyList').innerHTML=items.length?items.map((n,i)=>'<article class="ncard"><h3>'+esc(tr(n.te,n.en))+'</h3><p>'+esc(tr(n.summaryTe||'',n.summaryEn||''))+'</p><p class="nmeta">'+esc(tr('ప్రకటన: ','Published: ')+n.published+' · '+tr('సరిచూసిన తేదీ: ','Checked: ')+n.checked)+'</p><details><summary>'+tr('అధికారిక మూలంలోని వాక్యం','Exact official source text')+'</summary><blockquote>'+esc(n.quote)+'</blockquote></details><a href="'+esc(n.source)+'" target="_blank" rel="noopener">'+tr('అధికారిక మూలం తెరవండి','Open official source')+'</a><button data-read="'+i+'" '+(read.has(token(n))?'disabled':'')+'>'+ (read.has(token(n))?tr('చదివారు ✓','Read ✓'):tr('చదివినట్లుగా గుర్తించండి','Mark as read'))+'</button></article>').join(''):'<p class="nempty">'+(state==='ok'?tr('ఇప్పటికి కొత్తగా ధృవీకరించిన పథకాల నోటిఫికేషన్లు చేర్చలేదు.','No newly verified scheme notifications have been added yet.'):tr('సేవ్ చేసిన నోటిఫికేషన్లు లేవు. ఆన్‌లైన్‌లో మళ్ళీ చూడండి.','No saved notifications. Try refreshing online.'))+'</p>';
+ const visible=items.filter(n=>filter==='all'||(n.category||'scheme')===filter);
+ el('noticeFilterLabel').textContent=tr('రకం: ','Type: ');
+ el('noticeFilter').innerHTML=[['all','అన్నీ','All'],['scheme','పథకాలు','Schemes'],['course','కోర్సులు','Courses'],['accommodation','వసతి','Accommodation']].map(a=>'<option value="'+a[0]+'" '+(filter===a[0]?'selected':'')+'>'+tr(a[1],a[2])+'</option>').join('');
+ el('notifyList').innerHTML=visible.length?visible.map(n=>{const i=items.indexOf(n);return '<article class="ncard"><h3>'+esc(tr(n.te,n.en))+'</h3><p class="nmeta">'+esc(tr({scheme:'పథకం',course:'కోర్సు',accommodation:'వసతి'}[n.category||'scheme'],{scheme:'Scheme',course:'Course',accommodation:'Accommodation'}[n.category||'scheme'])+' · '+tr({free:'ఉచితం',paid:'ఫీజు ఉంది',unknown:'ఖర్చు నిర్ధారించలేదు'}[n.cost||'unknown'],{free:'Free',paid:'Paid',unknown:'Cost not confirmed'}[n.cost||'unknown']))+'</p><p>'+esc(tr(n.summaryTe||'',n.summaryEn||''))+'</p><p class="nmeta">'+esc(tr('ప్రకటన: ','Published: ')+n.published+' · '+tr('సరిచూసిన తేదీ: ','Checked: ')+n.checked)+'</p><details><summary>'+tr('అధికారిక మూలంలోని వాక్యం','Exact official source text')+'</summary><blockquote>'+esc(n.quote)+'</blockquote></details><a href="'+esc(n.source)+'" target="_blank" rel="noopener">'+tr('అధికారిక మూలం తెరవండి','Open official source')+'</a><button data-read="'+i+'" '+(read.has(token(n))?'disabled':'')+'>'+ (read.has(token(n))?tr('చదివారు ✓','Read ✓'):tr('చదివినట్లుగా గుర్తించండి','Mark as read'))+'</button></article>';}).join(''):'<p class="nempty">'+(state==='ok'?tr('ఈ రకంలో కొత్తగా ధృవీకరించిన నోటిఫికేషన్లు ఇంకా లేవు. కోర్సు జాబితా ఉండటం కొత్త బ్యాచ్ ప్రకటన కాదు.','No newly verified notifications in this category yet. A course listing is not a new batch announcement.'):tr('సేవ్ చేసిన నోటిఫికేషన్లు లేవు. ఆన్‌లైన్‌లో మళ్ళీ చూడండి.','No saved notifications. Try refreshing online.'))+'</p>';
  el('notifyList').querySelectorAll('[data-read]').forEach(b=>b.onclick=()=>{
   read.add(token(items[Number(b.dataset.read)]));
   try{localStorage.setItem(KEY,JSON.stringify([...read]));}catch(e){}
@@ -59,6 +65,8 @@ async function refresh(){
 function init(){
  try{items=cleanFeed(JSON.parse(localStorage.getItem('gs.notice.cache.v1')),new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'}));}catch(e){}
  const dialog=el('notifyDialog');
+ const label=document.createElement('label');label.innerHTML='<span id="noticeFilterLabel"></span><select id="noticeFilter" style="min-height:44px;max-width:100%;padding:8px;border:1px solid #b8c7d9;border-radius:8px;background:white"></select>';el('notifyList').before(label);
+ el('noticeFilter').onchange=e=>{filter=e.target.value;paint();};
  el('notifyBtn').onclick=()=>{paint();dialog.showModal();};
  el('notifyClose').onclick=()=>dialog.close();
  el('notifyRefresh').onclick=refresh;
