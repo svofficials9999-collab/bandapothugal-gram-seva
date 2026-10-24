@@ -1,4 +1,4 @@
-// Verified government, bank and publisher resource information.
+// Verified official resources. Women skills checked 24-10-2026.
 window.GS_DATA = {
   "built": "23-10-2026",
   "village": {
@@ -179,6 +179,114 @@ window.GS_DATA = {
     }
   ],
   "sections": [
+    {
+      "id": "womenskills",
+      "te": "మహిళలు & విద్యార్థినుల నైపుణ్యాలు",
+      "en": "Women & girl students - skills",
+      "icon": "🌸",
+      "items": [
+        {
+          "id": "women-skill-beauty",
+          "t": "బ్యూటీషియన్ / Cosmetology - స్వీయ అభ్యాసం",
+          "e": "Beautician / Cosmetology - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=5Ftn0L4jpwpVZTiA3RDGXg%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-dress",
+          "t": "డ్రెస్ మేకింగ్ / దుస్తుల కుట్టు - స్వీయ అభ్యాసం",
+          "e": "Dress Making - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=K6RTFr66o1wP65kVk2dH6g%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-fashion",
+          "t": "ఫ్యాషన్ డిజైన్ & టెక్నాలజీ - స్వీయ అభ్యాసం",
+          "e": "Fashion Design & Technology - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=KV0p%2FZlf01J%2Bnk3WegJMfw%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-food",
+          "t": "వంట / Food Production - స్వీయ అభ్యాసం",
+          "e": "Food Production - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=C6qtnwk2PvD8nHaDV9XhYg%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-preserve",
+          "t": "పండ్లు, కూరగాయల ప్రాసెసింగ్ - స్వీయ అభ్యాసం",
+          "e": "Fruits & Vegetables Processing - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=%2Fzm5d7KuvwvhNZnQXEQdrw%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-baker",
+          "t": "బేకరీ & మిఠాయిల తయారీ - స్వీయ అభ్యాసం",
+          "e": "Baker & Confectioner - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=BwzH8TlXoqvAC818a3MY1w%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-rseti",
+          "t": "ఉచిత ప్రత్యక్ష శిక్షణ - RSETI మార్గం",
+          "e": "Free in-person training - RSETI route",
+          "d": "విధానం: సంస్థలో ప్రత్యక్ష శిక్షణ. SBI అధికారిక పేజీ RSETI శిక్షణ, భోజనం / వసతి ఉచితం అని చెబుతోంది.\nమీ ప్రాంతానికి అందుబాటులో ఉన్న సంస్థ, వయస్సు / నివాస అర్హత, కోర్సు, తాజా బ్యాచ్ తేదీలు, పత్రాలు సంస్థ వద్ద నిర్ధారించాలి. ఈ తనిఖీలో మెదక్‌లో ప్రస్తుతం చేరే బ్యాచ్ / ఖాళీలు నిర్ధారించలేదు.\n18 ఏళ్లలోపు విద్యార్థినులకు ప్రవేశం ఉందని ఊహించవద్దు. బ్యాంకు రుణం / ఉద్యోగం హామీ కాదు. ఈ యాప్ ఎవరినీ నమోదు చేయదు.",
+          "de": "Mode: in-person institutional training. SBI’s official page states RSETI training includes free food and lodging.\nConfirm the relevant institute, age/residence eligibility, course, current batch dates and documents directly with the institute. A currently open Medak batch / vacancies were not verified in this check.\nDo not assume admission for students under 18. No bank-loan or job guarantee. Gram Seva does not enroll anyone.",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-home-enterprise",
+          "t": "ఇంటి ఆధారిత నైపుణ్యాలు - కోర్సుల జాబితా",
+          "e": "Home-based skills - course menu",
+          "d": "Bank of Baroda అధికారిక RSETI పేజీలో జాబితా చేసిన అంశాలు:\n• మహిళల టైలరింగ్\n• బ్యూటీ పార్లర్ మేనేజ్‌మెంట్\n• జ్యువెలరీ / జ్యూట్ వస్తువులు\n• అప్పడాలు, పచ్చళ్లు, మసాలా పొడులు\n• సాఫ్ట్ టాయ్స్\n• పేపర్ కవర్లు, ఎన్వలప్‌లు, ఫైళ్ల తయారీ\n• ఎంబ్రాయిడరీ & ఫ్యాబ్రిక్ పెయింటింగ్\n• కంప్యూటరైజ్డ్ అకౌంటింగ్\nపేజీ శిక్షణ ఉచితం అని చెబుతోంది; ఇవి దేశవ్యాప్త కోర్సుల ఉదాహరణలు మాత్రమే. ఇవన్నీ మన జిల్లాలో ఇప్పుడు జరుగుతున్నాయనే హామీ లేదు. స్థానిక బ్యాచ్, అర్హత, భాష నిర్ధారించాలి.",
+          "de": "Bank of Baroda’s official RSETI page lists:\n• Women tailoring\n• Beauty parlour management\n• Costume jewellery / jute products\n• Papad, pickle and masala powder making\n• Soft toys\n• Paper covers, envelopes and files\n• Embroidery & fabric painting\n• Computerized accounting\nThe page describes free training. These are nationwide course examples, not a promise that all are running locally now. Verify the local batch, eligibility and language.",
+          "s": "https://bankofbaroda.bank.in/baroda-swarojgar-vikas-sansthan",
+          "sn": "bankofbaroda.bank.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-soap",
+          "t": "సబ్బులు / డిటర్జెంట్ - కోర్సు నిర్ధారణ అవసరం",
+          "e": "Soap / detergent - course confirmation needed",
+          "d": "సబ్బులు, డిటర్జెంట్ / ఫినాయిల్ వంటి ఇంటి ఉత్పత్తులపై ఆసక్తి ఉంటే స్థానిక RSETIలో ప్రస్తుత కోర్సును అడగవచ్చు. ప్రభుత్వ PM-AJAY కోర్సు క్యాటలాగ్‌లో Phenyl & Liquid Soap Making (RSETI/341) ఉంది; క్యాటలాగ్‌లో పేరు ఉండటం ఇప్పుడు సీటు / ఉచిత స్థానిక బ్యాచ్ ఉందని కాదు.\nఈ తనిఖీలో మెదక్‌లో ప్రస్తుత ఉచిత సబ్బుల తయారీ బ్యాచ్, తేదీలు, తెలుగు బోధన నిర్ధారించలేదు. రసాయనాలతో ఇంట్లో ఒంటరిగా ప్రయోగాలు చేయవద్దు; శిక్షణ, రక్షణ, నాణ్యత నియమాలు అవసరం.",
+          "de": "For soap, detergent / phenyl production, ask the local RSETI about its current course. The government PM-AJAY catalogue lists Phenyl & Liquid Soap Making (RSETI/341); a catalogue entry does not prove a current local seat / free batch.\nA currently free soap-making batch, dates and Telugu instruction in Medak were not verified. Do not experiment with chemicals alone at home; training, protection and quality rules are needed.",
+          "s": "https://pmajay.dosje.gov.in/CourseList",
+          "sn": "pmajay.dosje.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-coconut",
+          "t": "కొబ్బరి ఉత్పత్తులు / యంత్ర శిక్షణ - ఉచితం నిర్ధారించలేదు",
+          "e": "Coconut products / machinery - free status unverified",
+          "d": "కొబ్బరి ఉత్పత్తుల శిక్షణ గురించి Coconut Development Boardకు సంబంధించిన 2022 ప్రభుత్వ ప్రకటన ఉంది. అది పాత ప్రకటన; ప్రస్తుత అడ్మిషన్ కాదు. అందులో రిజిస్ట్రేషన్ / ఫీజుల వివరాలు తెలుసుకోవాలని స్పష్టంగా ఉంది.\nకాబట్టి దీన్ని ఉచిత కోర్సుగా సిఫార్సు చేయడం లేదు. ప్రస్తుతం ఉచిత బ్యాచ్, మన ప్రాంతంలో యంత్ర శిక్షణ, తేదీలు నిర్ధారించలేదు. క్రింది లింక్ నేపథ్య సమాచారం మాత్రమే.\nమీరు చెప్పిన కోకోనట్ మిషన్ అనే పదానికి ఖచ్చితమైన యంత్రం / కోర్సు ఏదో నిర్ధారణ లేదు.",
+          "de": "A 2022 government notice describes Coconut Development Board value-added coconut-product training. It is old, not a current admission notice, and explicitly refers to registration / fees.\nIt is NOT recommended here as a free course. A current free batch, local machinery training and dates were not verified. Link is background information only.\nThe exact machine / course meant by “coconut machine” remains unclear.",
+          "s": "https://pib.gov.in/PressReleasePage.aspx?PRID=1870067",
+          "sn": "pib.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
     {
       "id": "freelearning",
       "te": "ఉచిత నైపుణ్య అభ్యాసం",
