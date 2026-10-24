@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#eef2f7">
 <title>బండపోతుగల్ గ్రామ సేవ</title>
-<link rel="manifest" href="manifest.webmanifest?v=2">
-<link rel="apple-touch-icon" href="apple-touch-icon-v2.png">
-<link rel="icon" href="icon.svg?v=2" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest?v=3">
+<link rel="apple-touch-icon" href="apple-touch-icon-v3.png">
+<link rel="icon" href="icon.svg?v=3" type="image/svg+xml">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#eef2f7;color:#1c2733;min-height:100vh;overflow-x:hidden}
@@ -143,7 +143,7 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <div class="wrap" role="main">
 <header role="banner">
   <div class="hrow">
-    <img class="logo" src="icon-192-v2.png" width="56" height="56" alt="రైతు, విద్యార్థి, గ్రామ సేవ">
+    <img class="logo" src="icon-192-v3.png" width="56" height="56" alt="రైతు, విద్యార్థి, గ్రామ సేవ">
     <div>
       <h1 id="appTitle">బండపోతుగల్ గ్రామ సేవ</h1>
     </div>
@@ -191,8 +191,8 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=62"></script>
-<script src="details.js?v=62"></script>
+<script src="schemes.js?v=63"></script>
+<script src="details.js?v=63"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -211,7 +211,7 @@ function render(){
   $('note').textContent = T(
     'గమనిక: ఈ సమాచారమంతా అధికారిక ప్రభుత్వ వెబ్‌సైట్ల నుండి మాత్రమే సేకరించాం (చివరి సరిచూపు: '+D.built+'). పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
     'Note: all information is collected only from official government websites (last checked: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
-  $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b>';
+  $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b><br>' + T('స్వతంత్ర సమాచార యాప్ - ప్రభుత్వ / పంచాయతీ అధికారిక యాప్ కాదు.','Independent information app - not an official government / panchayat app.');
   // emergency
   $('searchBox').placeholder = T('🔍 పథకం పేరు టైప్ చేయండి... (ఉదా: పెన్షన్, బీమా)','🔍 Type a scheme name... (e.g. pension, insurance)');
   $('emgVer').textContent = '✓ ' + T('అధికారిక సైట్లతో సరిచూశాం','Verified with official sites') + ': ' + (D.emergencyVerified || D.built);
@@ -611,6 +611,6 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=62"></script>
+<script src="notifications.js?v=63"></script>
 </body>
 </html>

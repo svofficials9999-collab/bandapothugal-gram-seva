@@ -1,14 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-<title>Gram Seva - farmer and student, village knowledge and services</title>
+<title>Bandapothugal Gram Seva - independent community information app</title>
 <defs>
 <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#04b87d"/><stop offset=".48" stop-color="#087c84"/><stop offset="1" stop-color="#1456c7"/></linearGradient>
 <linearGradient id="field" x2="0" y2="1"><stop stop-color="#b2ee51"/><stop offset="1" stop-color="#35b65a"/></linearGradient>
 <linearGradient id="book" x2="0" y2="1"><stop stop-color="#fffef0"/><stop offset="1" stop-color="#d9f4e7"/></linearGradient>
 <linearGradient id="shine" x2="0" y2="1"><stop stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
 </defs>
-<rect width="512" height="512" rx="108" fill="url(#bg)"/>
-<rect x="14" y="14" width="484" height="484" rx="96" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="4"/>
-<circle cx="256" cy="153" r="63" fill="#ffd85b"/>
+<circle cx="256" cy="256" r="252" fill="#065d69"/>
+<circle cx="256" cy="256" r="242" fill="url(#bg)" stroke="#a9f5d1" stroke-width="3"/>
+<circle cx="256" cy="256" r="218" fill="#fffdf0" stroke="#ffdb70" stroke-width="5"/>
+<path d="M75 120Q256 28 437 120V175Q256 95 75 175Z" fill="#0d7e7b" opacity=".1"/>
+<text x="256" y="104" text-anchor="middle" font-family="Noto Sans Telugu,sans-serif" font-size="37" font-weight="900" fill="#075c60">బండపోతుగల్</text>
+<!-- Civic services building, deliberately not an official government insignia. -->
+<g fill="none" stroke="#287b9d" stroke-width="7" stroke-linejoin="round">
+<path d="M209 204V166H303V204M198 167L256 133L314 167ZM226 178V201M256 178V201M286 178V201M199 207H313"/>
+</g>
+<!-- Technology connections: inclusive digital access. -->
+<g fill="none" stroke="#0b9f86" stroke-width="5" stroke-linecap="round"><path d="M164 171H133V216M348 171H379V216M172 240H111M340 240H401"/></g>
+<g fill="#ffd76b" stroke="#0b8c80" stroke-width="4"><circle cx="133" cy="220" r="9"/><circle cx="379" cy="220" r="9"/><circle cx="108" cy="240" r="8"/><circle cx="404" cy="240" r="8"/></g>
+<g fill="none" stroke="#596cba" stroke-width="2.5" transform="translate(256 267)"><ellipse rx="21" ry="8"/><ellipse rx="21" ry="8" transform="rotate(60)"/><ellipse rx="21" ry="8" transform="rotate(120)"/><circle r="3" fill="#596cba"/></g>
+<g transform="translate(82 110) scale(.68)">
 <path d="M60 319Q167 260 256 312Q354 256 452 315V421Q257 476 60 421Z" fill="url(#field)"/>
 <path d="M73 359Q172 307 243 348M302 342Q367 311 441 345M87 392Q166 349 216 371" fill="none" stroke="#087d54" stroke-width="9" stroke-linecap="round" opacity=".55"/>
 <!-- Farmer: broad sun hat, face, shirt. -->
@@ -29,5 +40,8 @@
 <path d="M121 339Q189 318 256 353Q326 318 391 339V408Q321 391 256 426Q188 391 121 408Z" fill="url(#book)" stroke="#fff" stroke-width="7" stroke-linejoin="round"/>
 <path d="M256 354V424" stroke="#108c85" stroke-width="7"/>
 <path d="M145 361Q190 353 231 373M145 382Q190 374 231 394M282 373Q324 353 367 361M282 394Q324 374 367 382" fill="none" stroke="#4b9e8c" stroke-width="6" stroke-linecap="round"/>
-<path d="M35 106Q35 35 106 35H406Q470 35 477 100Q252 177 35 106Z" fill="url(#shine)"/>
+</g>
+<text x="256" y="448" text-anchor="middle" font-family="Noto Sans Telugu,sans-serif" font-size="34" font-weight="800" fill="#075c60">గ్రామ సేవ</text>
+
+<path d="M55 122Q256 -12 457 122" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="15" stroke-linecap="round"/>
 </svg>
