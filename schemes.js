@@ -179,6 +179,26 @@ window.GS_DATA = {
   ],
   "sections": [
     {
+      "id": "childrenschess",
+      "te": "పిల్లల కోసం రాయల్ చెస్",
+      "en": "Royal Chess for children",
+      "icon": "♟",
+      "items": [
+        {
+          "id": "childrenschess-open",
+          "t": "రాయల్ చెస్ - ఉచితంగా ఆడండి",
+          "e": "Royal Chess - play free",
+          "d": "తెలుగు / Englishలో చదరంగం. ఒకే ఫోన్‌లో ఇద్దరు ఆడవచ్చు; కంప్యూటర్‌తో Beginner నుంచి Expert వరకు5 స్థాయిలు ఉన్నాయి. మొదట Game Guideలో నియమాలు చూడండి.\nకింద “చెస్ ఆడండి” నొక్కితే మన ప్రత్యేక ROYAL CHESS యాప్ కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది. ప్రకటనలు, చెల్లింపు, సైన్-అప్ లేవు. గ్రామ సేవ సమాచారం అలాగే ఉంటుంది; తిరిగి రావడానికి చెస్ ట్యాబ్ మూసి గ్రామ సేవ ట్యాబ్ ఎంచుకోండి.\nరెండు ఫోన్ల మోడ్ బీటా. వేర్వేరు నెట్‌వర్క్‌లలో ఆట ఇంకా ధృవీకరించబడలేదు; పిల్లలకు ఒకే ఫోన్ / కంప్యూటర్ మోడ్‌తో మొదలు పెట్టండి. గేమ్ కోడ్‌లను పబ్లిక్‌గా పెట్టవద్దు. నెట్‌వర్క్ సహాయం ఎంచుకుంటే దాని గోప్యతా గమనిక ముందుగా చదవండి.",
+          "de": "Chess in Telugu/English. Two people can play on one phone, or play the computer at5 levels from Beginner to Expert. Read Game Guide first.\n“Play chess” opens our separate ROYAL CHESS app in a new tab. No ads, payment or sign-up. Gram Seva stays intact; close the chess tab and select Gram Seva to return.\nTwo Phones is beta; different-network play remains unverified. Start children with same-phone/computer mode. Never post game codes publicly; read the privacy note before choosing network assistance.",
+          "bt": "చెస్ ఆడండి",
+          "be": "Play chess",
+          "s": "https://svofficials9999-collab.github.io/sv-chess/",
+          "sn": "ROYAL CHESS • D. Srinivas",
+          "u": "24-10-2026"
+        }
+      ]
+    },
+    {
       "id": "cropguide",
       "te": "పంటల సాగు & సేంద్రీయ వ్యవసాయం",
       "en": "Crop growing & organic farming",
