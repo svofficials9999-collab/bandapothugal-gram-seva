@@ -48,6 +48,17 @@ h1{font-size:18px;font-weight:800;line-height:1.22;letter-spacing:.3px;backgroun
 .card{background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:16px;padding:14px;box-shadow:0 2px 8px rgba(15,40,80,.05)}
 .card h3{font-size:15.5px;font-weight:800;margin-bottom:6px;line-height:1.35}
 .card .desc{font-size:13px;color:#3f4f63;line-height:1.6;white-space:pre-line}
+.calhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.calhead b{font-size:15px}
+.calnav{border:1px solid rgba(0,0,0,.14);background:#fff;border-radius:10px;padding:6px 14px;font-size:16px;font-weight:800;cursor:pointer;color:#1c2733}
+.calnav:disabled{opacity:.35;cursor:default}
+.calgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.calgrid .dow{font-weight:800;color:#5a6b7f;font-size:10.5px;padding:2px 0}
+.calcell{padding:6px 0;border-radius:8px;background:#f8fafc;font-size:12.5px}
+.calcell.hol{background:#fee2e2;color:#b91c1c;font-weight:800}
+.calcell.today{outline:2px solid #1d4ed8}
+.calhol{margin-top:10px;font-size:12.5px;color:#3f4f63;line-height:1.6;white-space:pre-line}
+.calcres{margin-top:10px;padding:10px;background:#f0fdf4;border:1px solid rgba(5,150,105,.25);border-radius:10px;font-size:13.5px;line-height:1.7;white-space:pre-line;display:none}
 .meta{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .chip{font-size:10.5px;border-radius:12px;padding:4px 9px}
 .chip.src{background:rgba(37,99,235,.1);color:#1d4ed8;border:1px solid rgba(37,99,235,.3);text-decoration:none}
@@ -148,8 +159,8 @@ footer b{color:#334155}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=53"></script>
-<script src="details.js?v=53"></script>
+<script src="schemes.js?v=54"></script>
+<script src="details.js?v=54"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -182,7 +193,8 @@ function render(){
   $('secGrid').innerHTML = D.sections.map(s =>
     '<div class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
-  '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>';
+  '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
+  '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
 }
 function openSec(id, push){
   const s = D.sections.find(x=>x.id===id);
@@ -279,6 +291,30 @@ function openSpecial(id, push){
       '<a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
       '<div class="cbtns">'+(it.ph ? '<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+it.ph+'</a>' : '')+
       '<button class="cbtn listen" onclick="speakDir('+i+')">🔊 '+T('వినండి','Listen')+'</button></div></div>').join('');
+  } else if(id === 'calendar'){
+    $('stIcon').textContent = '📅'; $('stName').textContent = T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators');
+    $('cardList').innerHTML =
+    '<div class="card"><h3>📅 '+T('తెలంగాణ ప్రభుత్వ క్యాలెండర్ 2026','Telangana Government Calendar 2026')+'</h3>'+
+    '<div class="calhead"><button class="calnav" id="calPrev" onclick="calMove(-1)" aria-label="previous month">‹</button><b id="calTitle"></b><button class="calnav" id="calNext" onclick="calMove(1)" aria-label="next month">›</button></div>'+
+    '<div class="calgrid" id="calGrid"></div>'+
+    '<div class="calhol" id="calHol"></div>'+
+    '<div class="desc" style="margin-top:10px">'+T('గమనిక: ఇది తెలంగాణ ప్రభుత్వ అధికారిక వెబ్‌సైట్‌లో ప్రచురించిన 2026 క్యాలెండర్ జాబితా - జనరల్ మరియు ఆప్షనల్ సెలవులు కలిపి ఉన్నాయి (మూల పేజీ వాటిని వేరువేరుగా చూపలేదు). పండగ తేదీలు మూలం పేజీలో మారవచ్చు - ముఖ్యమైన పనులకు ముందు మళ్ళీ చూసుకోండి.','Note: this is the 2026 calendar list published on the Telangana government official website - general and optional holidays combined (the source page does not separate them). Festival dates may change on the source page - re-check before important work.')+'</div>'+
+    '<div class="meta"><a class="chip src" href="'+GS_CAL.src+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+GS_CAL.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+GS_CAL.u+'</span></div></div>'+
+    '<div class="card frm"><h3>💰 '+T('వడ్డీ లెక్క (సాదా వడ్డీ)','Interest calculator (simple interest)')+'</h3>'+
+    '<div class="desc">'+T('అసలుపై మాత్రమే వడ్డీ లెక్కిస్తుంది (flat/simple interest). చక్రవడ్డీ కాదు. నెలవారీ రేటు ఇస్తే ×12 చేసి వార్షికంగా మార్చి లెక్కిస్తుంది.','Calculates interest on the principal only (flat/simple interest), not compound. A monthly rate is converted to annual (x12) before calculating.')+'</div>'+
+    '<label for="siP">'+T('అసలు (₹) *','Principal amount (₹) *')+'</label><input id="siP" type="number" inputmode="decimal" min="0" placeholder="'+T('ఉదా: 50000','e.g. 50000')+'">'+
+    '<label for="siR">'+T('వడ్డీ రేటు (%) *','Interest rate (%) *')+'</label><div style="display:flex;gap:8px"><input id="siR" type="number" inputmode="decimal" min="0" step="0.01" placeholder="'+T('ఉదా: 2','e.g. 2')+'" style="flex:1"><select id="siRP" style="flex:0 0 auto"><option value="m">'+T('% నెలకు','% per month')+'</option><option value="y">'+T('% ఏటికి','% per year')+'</option></select></div>'+
+    '<label for="siT">'+T('కాలం *','Period *')+'</label><div style="display:flex;gap:8px"><input id="siT" type="number" inputmode="decimal" min="0" step="1" placeholder="'+T('ఉదా: 12','e.g. 12')+'" style="flex:1"><select id="siTP" style="flex:0 0 auto"><option value="m">'+T('నెలలు','months')+'</option><option value="y">'+T('సంవత్సరాలు','years')+'</option></select></div>'+
+    '<button class="sendbtn" onclick="calcSI()">🧮 '+T('లెక్కించండి','Calculate')+'</button>'+
+    '<div class="calcres" id="siRes"></div></div>'+
+    '<div class="card frm"><h3>🏦 '+T('EMI లెక్క (తగ్గే నిల్వ పద్ధతి)','EMI calculator (reducing balance)')+'</h3>'+
+    '<div class="desc">'+T('బ్యాంకు లోన్‌ల లాగా తగ్గే నిల్వ (reducing balance) పద్ధతిలో నెలవారీ EMI అంచనా. ఇది కేవలం అంచనా: ప్రాసెసింగ్ ఫీజు, ఇన్షూరెన్స్, ఇతర ఛార్జీలు ఇందులో చేరవు - బ్యాంకు/సంస్థ చెప్పే EMI కొంచెం భిన్నం కావచ్చు. ఇది లోన్ సలహా కాదు.','Monthly EMI estimate on the reducing balance method, like bank loans. Estimate only: processing fee, insurance and other charges are not included - the EMI quoted by a bank/institution may differ slightly. This is not loan advice.')+'</div>'+
+    '<label for="emiP">'+T('లోన్ మొత్తం (₹) *','Loan amount (₹) *')+'</label><input id="emiP" type="number" inputmode="decimal" min="0" placeholder="'+T('ఉదా: 100000','e.g. 100000')+'">'+
+    '<label for="emiR">'+T('వార్షిక వడ్డీ రేటు (% ఏటికి) *','Annual interest rate (% per year) *')+'</label><input id="emiR" type="number" inputmode="decimal" min="0" step="0.01" placeholder="'+T('ఉదా: 12','e.g. 12')+'">'+
+    '<label for="emiN">'+T('కాలం (నెలలు) *','Period (months) *')+'</label><input id="emiN" type="number" inputmode="numeric" min="1" step="1" placeholder="'+T('ఉదా: 24','e.g. 24')+'">'+
+    '<button class="sendbtn" onclick="calcEMI()">🧮 '+T('EMI లెక్కించండి','Calculate EMI')+'</button>'+
+    '<div class="calcres" id="emiRes"></div></div>';
+    calShow();
   } else {
     $('stIcon').textContent = '📝'; $('stName').textContent = T('ఫిర్యాదు చేయండి','File a Complaint');
     $('cardList').innerHTML =
@@ -318,6 +354,56 @@ function sendComplaint(){
 }
 function speakDir(i){ const it = D.directory[i]; speak(T(it.t,it.e) + '. ' + T(it.d,it.de), it.id || null); }
 function speakGrv(i){ const g = D.grievance[i]; speak(T(g.t,g.e) + '. ' + T(g.d,g.de), g.id || null); }
+
+// ---- Calendar + calculators ----
+const CAL_MTE = ['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జూలై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
+const CAL_MEN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const CAL_DOW_TE = ['ఆది','సోమ','మం','బుధ','గురు','శుక్ర','శని'];
+const CAL_DOW_EN = ['Su','Mo','Tu','We','Th','Fr','Sa'];
+let calMonth = (new Date().getFullYear() === GS_CAL.year) ? new Date().getMonth() : 0;
+function calMove(d){ calMonth += d; if(calMonth < 0) calMonth = 0; if(calMonth > 11) calMonth = 11; calShow(); }
+function calShow(){
+  const y = GS_CAL.year, m = calMonth;
+  $('calTitle').textContent = T(CAL_MTE[m], CAL_MEN[m]) + ' ' + y;
+  $('calPrev').disabled = (m === 0); $('calNext').disabled = (m === 11);
+  const first = new Date(y, m, 1).getDay();
+  const days = new Date(y, m + 1, 0).getDate();
+  const today = new Date();
+  const isThisMonth = today.getFullYear() === y && today.getMonth() === m;
+  const hol = {};
+  GS_CAL.h.forEach(x => { if(x[0] === m + 1){ (hol[x[1]] = hol[x[1]] || []).push(x); } });
+  let html = (lang === 'te' ? CAL_DOW_TE : CAL_DOW_EN).map(d => '<div class="dow">' + d + '</div>').join('');
+  for(let i = 0; i < first; i++) html += '<div></div>';
+  for(let d = 1; d <= days; d++){
+    const cls = 'calcell' + (hol[d] ? ' hol' : '') + (isThisMonth && today.getDate() === d ? ' today' : '');
+    html += '<div class="' + cls + '">' + d + '</div>';
+  }
+  $('calGrid').innerHTML = html;
+  const keys = Object.keys(hol).sort((a,b) => a - b);
+  $('calHol').innerHTML = keys.length ? keys.map(d => hol[d].map(x => '🎉 <b>' + d + '</b> - ' + (lang === 'te' && x[3] ? x[3] + ' (' + x[2] + ')' : (lang === 'te' ? x[2] : (x[3] ? x[2] + ' - ' + x[3] : x[2])))).join('<br>')).join('<br>') : T('ఈ నెలలో జాబితాలో సెలవులు లేవు','No listed holidays this month');
+}
+function fmtIN(n){ return n.toLocaleString('en-IN', {maximumFractionDigits: 2}); }
+function calcSI(){
+  const P = parseFloat($('siP').value), r = parseFloat($('siR').value), t = parseFloat($('siT').value);
+  const res = $('siRes');
+  if(!(P > 0) || !(r >= 0) || !(t > 0)){ toast(T('దయచేసి అసలు, రేటు, కాలం సరిగ్గా ఇవ్వండి (0 కంటే ఎక్కువ)','Please enter a valid principal, rate and period (above 0)')); return; }
+  const rA = $('siRP').value === 'm' ? r * 12 : r;
+  const tY = $('siTP').value === 'm' ? t / 12 : t;
+  const I = P * (rA / 100) * tY;
+  res.style.display = 'block';
+  res.textContent = T('వడ్డీ','Interest') + ': ₹' + fmtIN(I) + '\n' + T('మొత్తం (అసలు + వడ్డీ)','Total (principal + interest)') + ': ₹' + fmtIN(P + I);
+}
+function calcEMI(){
+  const P = parseFloat($('emiP').value), rA = parseFloat($('emiR').value), nm = Math.round(parseFloat($('emiN').value));
+  const res = $('emiRes');
+  if(!(P > 0) || !(rA >= 0) || !(nm >= 1)){ toast(T('దయచేసి లోన్ మొత్తం, రేటు, నెలల సంఖ్య సరిగ్గా ఇవ్వండి','Please enter a valid loan amount, rate and number of months')); return; }
+  const r = rA / 1200;
+  let emi;
+  if(r === 0){ emi = P / nm; } else { const f = Math.pow(1 + r, nm); emi = P * r * f / (f - 1); }
+  const total = emi * nm;
+  res.style.display = 'block';
+  res.textContent = T('నెలవారీ EMI','Monthly EMI') + ': ₹' + fmtIN(emi) + '\n' + T('మొత్తం వడ్డీ','Total interest') + ': ₹' + fmtIN(total - P) + '\n' + T('మొత్తం చెల్లింపు','Total payment') + ': ₹' + fmtIN(total);
+}
 
 // ---- Voice (explicit tap only) ----
 let queue = [];
