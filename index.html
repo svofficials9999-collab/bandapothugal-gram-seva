@@ -124,7 +124,6 @@ footer b{color:#334155}
     </div>
     <div class="hbtns">
       <button class="pill" id="langBtn">EN</button>
-      <a class="pill call" href="tel:+919177226638" id="helpBtn">📞 <span id="helpLbl">సహాయం</span></a>
     </div>
   </div>
 </header>
@@ -159,8 +158,8 @@ footer b{color:#334155}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=54"></script>
-<script src="details.js?v=54"></script>
+<script src="schemes.js?v=55"></script>
+<script src="details.js?v=55"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -172,14 +171,13 @@ function render(){
   $('appTitle').innerHTML = T('బండపోతుగల్ గ్రామ<br>సేవ','Bandapothugal<br>Gram Seva');
   $('villageLine').textContent = T(D.village.te, D.village.en);
   $('langBtn').textContent = lang==='te' ? 'EN' : 'తె';
-  $('helpLbl').textContent = T('సహాయం','Help');
   $('emgTitle').textContent = T('🚨 అత్యవసర నంబర్లు','🚨 Emergency numbers');
   $('backLbl').textContent = T('వెనుకకు','Back');
   $('listenAllLbl').textContent = T('అన్నీ వినండి','Listen to all');
   $('note').textContent = T(
     'గమనిక: ఈ సమాచారమంతా అధికారిక ప్రభుత్వ వెబ్‌సైట్ల నుండి మాత్రమే సేకరించాం (చివరి సరిచూపు: '+D.built+'). పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
     'Note: all information is collected only from official government websites (last checked: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
-  $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b> · ' + T('సహాయం కావాలంటే:','For help:') + ' <a href="tel:+919177226638" style="color:#15803d;text-decoration:none">📞 91772 26638</a>';
+  $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b>';
   // emergency
   $('searchBox').placeholder = T('🔍 పథకం పేరు టైప్ చేయండి... (ఉదా: పెన్షన్, బీమా)','🔍 Type a scheme name... (e.g. pension, insurance)');
   $('emgVer').textContent = '✓ ' + T('అధికారిక సైట్లతో సరిచూశాం','Verified with official sites') + ': ' + (D.emergencyVerified || D.built);
@@ -325,8 +323,11 @@ function openSpecial(id, push){
     '<label for="fLoc">'+T('సమస్య ఉన్న చోటు','Location of the problem')+'</label><input id="fLoc" placeholder="'+T('ఉదా: మెయిన్ రోడ్డు, బస్టాండ్ దగ్గర','e.g. main road, near bus stand')+'">'+
     '<label for="fName">'+T('మీ పేరు (ఇవ్వకపోవచ్చు)','Your name (optional)')+'</label><input id="fName">'+
     '<label for="fMob">'+T('మీ మొబైల్ (ఇవ్వకపోవచ్చు)','Your mobile (optional)')+'</label><input id="fMob" type="tel" inputmode="numeric" maxlength="10">'+
-    '<div class="privacy">🔒 '+T('గోప్యత: ఈ యాప్ మీ సమాచారాన్ని ఎక్కడా నిల్వ చేయదు, ఏ సర్వర్‌కీ పంపదు. "పంపండి" నొక్కితే మీ ఫోన్‌లో WhatsApp తెరుస్తుంది - అక్కడ మీరే సందేశం చూసి, మీ స్వంత నంబర్ నుండి పంపుతారు (D. Srinivas గారికి, 91772 26638).','Privacy: this app stores nothing and sends nothing to any server. Tapping Send opens WhatsApp on your phone - you review the message and send it yourself from your own number to D. Srinivas, 91772 26638.')+'</div>'+
-    '<button class="sendbtn" onclick="sendComplaint()">📤 '+T('WhatsApp లో పంపండి','Send via WhatsApp')+'</button>'+
+    '<div class="privacy">🔒 '+T('గోప్యత: ఈ యాప్ మీ సమాచారాన్ని ఎక్కడా నిల్వ చేయదు, ఏ సర్వర్‌కీ పంపదు - ఫిర్యాదు టెక్స్ట్ మీ ఫోన్‌లోనే తయారవుతుంది.','Privacy: this app stores nothing and sends nothing to any server - the complaint text is composed on your phone only.')+'</div>'+
+    '<div class="privacy">📌 '+T('ఈ ఫిర్యాదు నేరుగా సర్పంచ్ మరియు పంచాయతీ సెక్రటరీకి పంపే సదుపాయం చేరుస్తాం - వారి ప్రస్తుత అధికారిక సంప్రదింపు వివరాలు ఇంకా నిర్ధారించలేదు. ప్రస్తుతం టెక్స్ట్ తయారు చేసి కాపీ చేసుకుని మీరే పంపవచ్చు, లేదా క్రింది అధికారిక మార్గాలు వాడవచ్చు.','Direct sending of this complaint to the sarpanch and panchayat secretary will be added - their current official contact details are not yet verified. For now, compose the text, copy it and send it yourself, or use the official channels below.')+'</div>'+
+    '<button class="sendbtn" onclick="composeComplaint()">📝 '+T('ఫిర్యాదు టెక్స్ట్ తయారు చేయండి','Compose complaint text')+'</button>'+
+    '<div id="compOut" style="display:none;margin-top:10px"><textarea id="compText" readonly rows="8" style="width:100%;font-size:13px"></textarea>'+
+    '<button class="sendbtn" onclick="copyComplaint()">📋 '+T('కాపీ చేయండి','Copy text')+'</button></div>'+
     '</div>'+
     '<div class="srctag">🏛️ '+T('అధికారిక ఫిర్యాదు మార్గాలు కూడా','Official grievance channels too')+'</div>'+
     D.grievance.map((g,i) =>
@@ -338,7 +339,7 @@ function openSpecial(id, push){
   }
   window.scrollTo(0,0);
 }
-function sendComplaint(){
+function composeComplaint(){
   const clean = s => s.replace(/<[^>]*>/g, '').trim();
   const cat = $('fCat').value, desc = clean($('fDesc').value), loc = clean($('fLoc').value);
   const name = clean($('fName').value), mob = $('fMob').value.trim();
@@ -350,7 +351,15 @@ function sendComplaint(){
   if(loc) lines.push(T('చోటు','Location')+': '+loc);
   if(name) lines.push(T('పేరు','Name')+': '+name);
   if(mob) lines.push(T('మొబైల్','Mobile')+': '+mob);
-  window.open('https://wa.me/919177226638?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+  $('compText').value = lines.join('\n');
+  $('compOut').style.display = 'block';
+  $('compOut').scrollIntoView({block:'nearest'});
+}
+function copyComplaint(){
+  const t = $('compText');
+  const done = () => toast(T('కాపీ అయింది - ఇప్పుడు మీరు కావలసిన చోటికి పంపవచ్చు','Copied - you can now send it where you want'));
+  if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(t.value).then(done).catch(() => { t.select(); document.execCommand('copy'); done(); }); }
+  else { t.select(); document.execCommand('copy'); done(); }
 }
 function speakDir(i){ const it = D.directory[i]; speak(T(it.t,it.e) + '. ' + T(it.d,it.de), it.id || null); }
 function speakGrv(i){ const g = D.grievance[i]; speak(T(g.t,g.e) + '. ' + T(g.d,g.de), g.id || null); }
