@@ -1174,6 +1174,54 @@ window.GS_DATA = {
       ]
     },
     {
+          "id": "contacts",
+          "icon": "📞",
+          "te": "అధికారులు & సంప్రదింపులు",
+          "en": "Officials & Contacts",
+          "items": [
+                {
+                      "id": "contacts-mandal-offices",
+                      "t": "మండల స్థాయి అధికారులు & సేవా ఫోన్లు",
+                      "e": "Mandal officers & service phones",
+                      "d": "చిలిప్చెడ్ మండల స్థాయి అధికారిక సంప్రదింపు వివరాలు (24-10-2026 న అధికారిక పేజీల్లో చూశాం):\n• MPDO (మండల పరిషత్ అభివృద్ధి అధికారి): 7337422356 (mpdochilipiched@gmail.com)\n• MRO/తహసీల్దార్: 9346999296 (mro.chilipched@gmail.com)\n- మూలం: మెదక్ జిల్లా అధికారిక సైట్ MPDO/తహసీల్దార్ జాబితాలు (medak.telangana.gov.in)\n• పోలీసులు: చిలిప్చెడ్ పోలీస్ స్టేషన్ SI - 8712657943; నర్సాపూర్ సర్కిల్ CI - 8712657940; పోలీసు కంట్రోల్ రూమ్ - 100\n- మూలం: మెదక్ జిల్లా సైట్ పోలీస్ పేజీ\n• విద్యుత్: చిలిప్చెడ్ మండల సబ్‌స్టేషన్లు AE (ఆపరేషన్) కౌడిపల్లి పరిధిలో జాబితా చేయబడ్డాయి - 9440813686\n- మూలం: మెదక్ జిల్లా సైట్ పబ్లిక్ యూటిలిటీస్\n• వ్యవసాయం: MAO చిలిప్చెడ్ - 8977750830; AEO చిలిప్చెడ్ క్లస్టర్ - 9281065854; AEO చిట్కుల్ క్లస్టర్ - 9281065859\n- మూలం: రైతుభరోసా పోర్టల్ అధికారుల జాబితా (rythubharosa.telangana.gov.in)\n• సహకార సంఘం (PACS): చిలిప్చెడ్ మండలానికి DCCB జాబితాలో సొమక్కపేట PACS (కౌడిపల్లి బ్రాంచ్) ఉంది\n- మూలం: medakdccb.bank.in\nగ్రామ సర్పంచ్, పంచాయతీ సెక్రటరీ ప్రస్తుత పేర్లు-ఫోన్లు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల్లో నిర్ధారించలేదు; ఎన్నికల సంఘం సైట్ tsec.gov.in లో 'Know Your Sarpanch' లేదా gpsap-prrd.telangana.gov.in లో మన గ్రామ పంచాయతీ పేజీ చూడవచ్చు.",
+                      "de": "Chilipched mandal-level official contacts (checked on official pages on 24-10-2026):\n- MPDO (Mandal Parishad Development Officer): 7337422356 (mpdochilipiched@gmail.com)\n- MRO/Tahsildar: 9346999296 (mro.chilipched@gmail.com)\nSource: Medak district official site MPDO/Tehsil directories (medak.telangana.gov.in)\n- Police: Chilipched Police Station SI - 8712657943; Narsapur Circle CI - 8712657940; police control room - 100\nSource: Medak district site police page\n- Electricity: Chilipched mandal substations are listed under AE (Operation) Kowdipally - 9440813686\nSource: Medak district site public utilities page\n- Agriculture: MAO Chilipched - 8977750830; AEO Chilipched cluster - 9281065854; AEO Chitkul cluster - 9281065859\nSource: Rythu Bharosa portal officer lists (rythubharosa.telangana.gov.in)\n- Cooperative society (PACS): the DCCB list shows Somakkapet PACS (Kowdipally branch) for Chilipched mandal\nSource: medakdccb.bank.in\nCurrent sarpanch and panchayat secretary names/phones could not be verified from the official pages accessible during this check; see 'Know Your Sarpanch' at tsec.gov.in or our gram panchayat page at gpsap-prrd.telangana.gov.in.",
+                      "s": "https://medak.telangana.gov.in/mpdos/",
+                      "sn": "medak.telangana.gov.in",
+                      "u": "24-10-2026"
+                },
+                {
+                      "id": "contacts-district-offices",
+                      "t": "జిల్లా స్థాయి అధికారులు",
+                      "e": "District-level officers",
+                      "d": "మెదక్ జిల్లా స్థాయి అధికారులు (మూలం: మెదక్ జిల్లా అధికారిక సైట్ Who's Who / డైరెక్టరీ / పోలీస్ పేజీలు, 24-10-2026 న చూశాం):\n• కలెక్టర్ & జిల్లా మేజిస్ట్రేట్: 08452-223111 (IDOC, మెదక్)\n• అదనపు కలెక్టర్ (రెవెన్యూ): 7995088717\n• జిల్లా రెవెన్యూ అధికారి (DRO): 7815903228\n• SP (పోలీసు అధీక్షకులు): 8712657888 / 08452-223533\n• DEO (జిల్లా విద్యాధికారి): 7207704500\n• సివిల్ సప్లయ్స్ కార్పొరేషన్ డిస్ట్రిక్ట్ మేనేజర్: 7780771167\n• DRDO (గ్రామీణాభివృద్ధి అధికారి): 9281484100\nఇవి ప్రభుత్వ కార్యాలయాల బహిరంగ సేవా నంబర్లు; సమాధానం హామీ ఇవ్వలేము. నియోజకవర్గ (MLA) స్థాయి సమాచారం ఈ తనిఖీలో చేర్చలేదు - అది తదుపరి దశ.",
+                      "de": "Medak district-level officers (source: Medak district official site Who's Who / Directory / Police pages, checked 24-10-2026):\n- Collector & District Magistrate: 08452-223111 (IDOC, Medak)\n- Additional Collector (Revenue): 7995088717\n- District Revenue Officer (DRO): 7815903228\n- SP (Superintendent of Police): 8712657888 / 08452-223533\n- DEO (District Education Officer): 7207704500\n- District Manager, Civil Supplies Corporation: 7780771167\n- DRDO (District Rural Development Officer): 9281484100\nThese are public service numbers of government offices; we cannot guarantee a response. Constituency (MLA) level information is not added in this check - that is a later stage.",
+                      "s": "https://medak.telangana.gov.in/whos-who/",
+                      "sn": "medak.telangana.gov.in",
+                      "u": "24-10-2026"
+                },
+                {
+                      "id": "contacts-legal-aid",
+                      "t": "కోర్టు & ఉచిత న్యాయ సహాయం",
+                      "e": "Courts & free legal aid",
+                      "d": "ఉచిత న్యాయ సహాయం (అర్హులైనవారికి):\n• జిల్లా న్యాయ సేవా అధికార సంస్థ (DLSA) మెదక్ - న్యాయ సేవా సదన్, జిల్లా కోర్టు భవనాలు, మెదక్ 502110. సెక్రటరీ శ్రీమతి R.M. సుభవల్లి: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\n- మూలం: తెలంగాణా రాష్ట్ర న్యాయ సేవా అధికార సంస్థ డైరెక్టరీ (telangana.nalsa.gov.in), 24-10-2026 న చూశాం\n• NALSA టోల్ ఫ్రీ: 15100 (అత్యవసర న్యాయ సహాయం కోసం) - మూలం: nalsa.gov.in\n• ఉచిత సహాయం అర్హత (లీగల్ సర్వీసెస్ అథారిటీస్ చట్టం సెక్షన్ 12): SC/ST సభ్యులు, మహిళలు, పిల్లలు, మానసిక/శారీరక దివ్యాంగులు, పారిశ్రామిక కార్మికులు, ఖైదులో ఉన్నవారు, విపత్తు/హింస బాధితులు, మానవ అక్రమ రవాణా బాధితులు; లేదా తెలంగాణాలో సంవత్సర ఆదాయం రూ.3,00,000 కంటే తక్కువ ఉంటే - మూలం: nalsa.gov.in (24-10-2026)\n• కేసు స్థితి తెలుసుకోవడానికి: services.ecourts.gov.in లో CNR నంబర్ లేదా పార్టీ పేరుతో వెతకవచ్చు\n• మెదక్ జిల్లా కోర్టు అధికారిక సైట్: medak.dcourts.gov.in\n• లోక్ అదాలత్: కేసుల రాజీ-పరిష్కార వేదిక; తదుపరి తేదీలు DLSA మెదక్‌ను అడిగి తెలుసుకోండి\nఇది సాధారణ సమాచారం మాత్రమే, న్యాయ సలహా కాదు; మీ కేసు గురించి DLSA లేదా న్యాయవాదిని సంప్రదించండి.",
+                      "de": "Free legal aid (for those eligible):\n- District Legal Services Authority (DLSA) Medak - Nyaya Seva Sadan, District Court Buildings, Medak 502110. Secretary Smt. R.M. Subhavalli: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\nSource: Telangana State Legal Services Authority directory (telangana.nalsa.gov.in), checked 24-10-2026\n- NALSA toll-free: 15100 (for urgent legal assistance) - source: nalsa.gov.in\n- Eligibility for free aid (Section 12, Legal Services Authorities Act): SC/ST members, women, children, mentally or physically disabled persons, industrial workmen, persons in custody, victims of disasters/violence, victims of trafficking; or annual income below Rs.3,00,000 in Telangana - source: nalsa.gov.in (24-10-2026)\n- To check case status: search by CNR number or party name at services.ecourts.gov.in\n- Medak district court official site: medak.dcourts.gov.in\n- Lok Adalat: a forum for settling cases by compromise; ask DLSA Medak for upcoming dates\nThis is general information only, not legal advice; consult DLSA or an advocate about your case.",
+                      "s": "https://telangana.nalsa.gov.in/directory/",
+                      "sn": "telangana.nalsa.gov.in",
+                      "u": "24-10-2026"
+                },
+                {
+                      "id": "contacts-education",
+                      "t": "విద్య - పాఠశాల, MEO-DEO & అక్షరాస్యత",
+                      "e": "Education - school, MEO-DEO & literacy",
+                      "d": "పాఠశాలలు & విద్య (24-10-2026 తనిఖీ):\n• గ్రామ ప్రభుత్వ ప్రాథమిక పాఠశాల: బహిరంగ రికార్డుల్లో 'MPPS బండపోతుగల్' (UDISE కోడ్ 36171400801) గా కనిపిస్తుంది; అధికారిక UDISE+ పేజీలో ఈ తనిఖీలో నిర్ధారణ అయ్యేలేదు (ఆ సైట్‌లో క్యాప్చా ఉంటుంది). kys.udiseplus.gov.in లో UDISE కోడ్‌తో మీరే నిర్ధారించుకోవచ్చు\n• మండల కేంద్రంలో ఉన్నత పాఠశాల: ZPHS చిలిప్చెడ్\n• జిల్లా విద్యాధికారి (DEO) మెదక్: 7207704500 (deomedak2016@gmail.com) - మూలం: మెదక్ జిల్లా సైట్ డైరెక్టరీ\n• MEO (మండల విద్యాధికారి) చిలిప్చెడ్ ప్రస్తుత ఫోన్ ఈ తనిఖీలో అధికారిక పేజీల్లో దొరకలేదు\n• అక్షరాస్యత కార్యక్రమం (15 ఏళ్లు పైబడి చదవరాయని వారికి): ప్రస్తుత జాతీయ అధికారిక కార్యక్రమం 'నవ భారత సాక్షరతా కార్యక్రమం (NILP/ఉల్లాస్)', 2022-27; స్వచ్ఛందుల ద్వారా బోధన, DIKSHA యాప్‌లో ఆన్‌లైన్ పాఠాలు - మూలం: dsel.education.gov.in/nilp",
+                      "de": "Schools & education (checked 24-10-2026):\n- Village government primary school: public records list 'MPPS Bandapothugal' (UDISE code 36171400801); it could not be confirmed on the official UDISE+ page during this check (that site uses a captcha). You can confirm it yourself with the UDISE code at kys.udiseplus.gov.in\n- High school at the mandal headquarters: ZPHS Chilipched\n- District Education Officer (DEO) Medak: 7207704500 (deomedak2016@gmail.com) - source: Medak district site directory\n- The current phone of the MEO (Mandal Education Officer) Chilipched was not found on official pages during this check\n- Literacy programme (for non-literates aged 15+): the current official national programme is the New India Literacy Programme (NILP/ULLAS), 2022-27; volunteer-based teaching, online lessons on the DIKSHA app - source: dsel.education.gov.in/nilp",
+                      "s": "https://kys.udiseplus.gov.in/",
+                      "sn": "kys.udiseplus.gov.in",
+                      "u": "24-10-2026"
+                }
+          ]
+    },
+    {
       "id": "certs",
       "icon": "🪪",
       "te": "సర్టిఫికెట్లు & గుర్తింపు",
