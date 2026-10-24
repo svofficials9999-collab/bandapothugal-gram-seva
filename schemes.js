@@ -1,4 +1,4 @@
-// Verified official resources. Women skills checked 24-10-2026.
+// Official sources only. Local training checked 24-10-2026.
 window.GS_DATA = {
   "built": "23-10-2026",
   "village": {
@@ -179,6 +179,81 @@ window.GS_DATA = {
     }
   ],
   "sections": [
+    {
+      "id": "localtraining",
+      "te": "మన ప్రాంతంలో శిక్షణ & వసతి",
+      "en": "Local training & accommodation",
+      "icon": "🏫",
+      "items": [
+        {
+          "id": "local-training-sangareddy",
+          "t": "సంగారెడ్డి - SBI RSETI (ప్రత్యక్షం)",
+          "e": "Sangareddy - SBI RSETI (in-person)",
+          "d": "అధికారిక జిల్లా పేజీలో చిరునామా: SBI RSETI, Beside Velugu Office, Bypass Road, Sangareddy, Telangana - 502001.\nజాబితా చేసిన కోర్సులు: టైలరింగ్, ఎంబ్రాయిడరీ, బ్యూటీ & వెల్‌నెస్, కంప్యూటర్ బేసిక్స్ / Tally, మొబైల్ రిపేర్, CCTV, టూ-వీలర్ మెకానిక్, ఫోటో / వీడియో, ఎలక్ట్రికల్ మోటర్ రిపేర్, వ్యాపార అభివృద్ధి.\nఅర్హత: గ్రామీణ నిరుద్యోగ యువత 18-45 సంవత్సరాలు; జిల్లా పేజీ శిక్షణ / మెటీరియల్ ఉచితం అంటోంది.\nవసతి: SBI సాధారణ RSETI విధానంలో భోజనం, వసతి ఉచితం అని ఉంది. ఈ కేంద్రంలో మీ బ్యాచ్‌కు హాస్టల్ సీటు / మహిళల వసతి / అందుబాటు ప్రత్యేకంగా నిర్ధారించలేదు.\nచేరే ముందు సంస్థ వద్ద కోర్సు, తేదీ, నివాస అర్హత, పత్రాలు, వసతి నిర్ధారించాలి. ప్రస్తుత బ్యాచ్ / ఖాళీలు ఇంకా ధృవీకరించలేదు.",
+          "de": "Official district-page address: SBI RSETI, Beside Velugu Office, Bypass Road, Sangareddy, Telangana - 502001.\nListed subjects: tailoring, embroidery, beauty/wellness, computer basics/Tally, mobile repair, CCTV, two-wheelers, photography/video, electrical motor repair and entrepreneurship.\nEligibility listed: rural unemployed youth aged 18-45; training/materials free.\nStay: SBI’s general RSETI policy says food/lodging are free. Hostel space, women’s accommodation and availability for your batch at this centre were not separately confirmed.\nConfirm course, date, residence eligibility, documents and stay before travelling. Current batches/vacancies not verified.",
+          "s": "https://sangareddy.telangana.gov.in/instituitions-fro-skill-and-technology/",
+          "sn": "sangareddy.telangana.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "SBI ఉచిత భోజనం / వసతి విధానం",
+              "en": "SBI free food/lodging policy",
+              "url": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis"
+            }
+          ]
+        },
+        {
+          "id": "local-training-medak-narsapur",
+          "t": "మెదక్ / నర్సాపూర్ - ముందుగా నిర్ధారించాలి",
+          "e": "Medak / Narsapur - verification needed",
+          "d": "మీ గ్రామం మెదక్ జిల్లా. సంగారెడ్డి కేంద్రం దగ్గర ప్రాంతపు ఎంపిక మాత్రమే; మెదక్ / నర్సాపూర్ వారందరికీ అక్కడ ప్రవేశం ఉంటుందని హామీ లేదు.\nఈ తనిఖీలో నర్సాపూర్ పట్టణం లేదా మెదక్‌లోనే ప్రస్తుతం నడుస్తున్న పూర్తిగా ఉచిత + ఉచిత వసతి బ్యాచ్, ఖచ్చిత చిరునామా, తేదీలు అధికారిక మూలంతో నిర్ధారించలేకపోయాం. పాత జిల్లా పేర్లతో ఉన్న డైరెక్టరీలను ప్రస్తుత కేంద్రాలుగా చూపించడం లేదు.\nచేయాల్సింది: క్రింది అధికారిక SBI RSETI మార్గంలో మీ జిల్లా / నివాస అర్హతకు సరిపోయే సంస్థ, కోర్సు, తేదీ, మహిళల భద్రత / వసతి వివరాలు నిర్ధారించండి. వెంటనే నేర్చుకోవడానికి మన ఉచిత మొబైల్ పాఠాలు వాడవచ్చు.",
+          "de": "The village is in Medak district. Sangareddy is a regional option, not a promise that every Medak/Narsapur resident is eligible there.\nA currently running fully free course with free stay, exact address and dates within Medak/Narsapur itself could not be verified from official sources in this check. Old district-name directories are not presented as current centres.\nUse the official SBI RSETI route below to confirm an institute for your residence, course/date, women’s safety and stay. Free mobile self-study is available immediately through our learning sections.",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "24-10-2026",
+          "refs": []
+        },
+        {
+          "id": "local-training-hyderabad",
+          "t": "హైదరాబాద్ - మహిళల NSTI: ఉచితం కాదు",
+          "e": "Hyderabad - NSTI Women: NOT free",
+          "d": "అధికారిక చిరునామా: Shivam Road, opp. Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007. మహిళల వృత్తి శిక్షణ సంస్థ.\nముఖ్య హెచ్చరిక: అధికారిక Fee Structure పేజీ అడ్మిషన్ / ట్యూషన్ / పరీక్ష రుసుములు చూపిస్తోంది. కాబట్టి మీ ఉచిత జాబితాలో చేరే కోర్సుగా సిఫార్సు చేయడం లేదు. ఉచిత హాస్టల్ అని కూడా చెప్పడం లేదు.\nహైదరాబాద్‌లో ప్రస్తుతం అందరికీ అందుబాటులో ఉన్న ఉచిత శిక్షణ + ఉచిత వసతి బ్యాచ్ ఈ తనిఖీలో నిర్ధారించలేదు. ఉచిత మొబైల్ పాఠాలు క్రింది ఎంపిక.",
+          "de": "Official address: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007; women’s vocational institute.\nWarning: official Fee Structure lists admission/tuition/exam fees, so it is NOT recommended as a free enrollment option. Free hostel is not claimed.\nA currently open universally free training-and-stay batch in Hyderabad was not verified in this check. Use free mobile learning below.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/en",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "అధికారిక రుసుములు - ఉచితం కాదు",
+              "en": "Official fees - not free",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "local-training-mobile",
+          "t": "ఈ నాలుగు ప్రాంతాల నుంచి - ఉచిత మొబైల్ అభ్యాసం",
+          "e": "All four areas - free mobile self-study",
+          "d": "విధానం: మీ మొబైల్ బ్రౌజర్‌లోనే చదవడం / వీడియో వనరులు. వసతి అవసరం లేదు. ఇంటర్నెట్ / డేటా ఖర్చు మీ కనెక్షన్‌పై ఆధారపడుతుంది.\nDGT Bharat Skills: ఫిట్టర్, ఎలక్ట్రీషియన్, వెల్డర్, కుట్టు, బ్యూటీషియన్, డ్రెస్ మేకింగ్, ఫుడ్ ప్రాసెసింగ్, బేకరీ. మెటీరియల్ పేజీలు చెల్లింపు లేకుండా తెరుచుకున్నాయి; ప్రస్తుత లైవ్ తరగతి కాదు.\nఫిట్టర్ / ఎలక్ట్రీషియన్‌కు తెలుగు పుస్తకాలు పేజీలు జాబితా చేస్తున్నాయి. మిగిలిన వాటి తెలుగు ఆడియో / బోధన నిర్ధారించలేదు.\nఎలా మొదలు: లింక్ తెరవండి → ట్రేడ్ ఎంచుకోండి → అందుబాటులో ఉన్న భాషలో థియరీ / ప్రాక్టికల్ చదవండి. ప్రమాదకర ప్రాక్టీస్‌కు శిక్షకుడి పర్యవేక్షణ అవసరం.",
+          "de": "Mode: study/resources in your mobile browser; no accommodation needed. Internet/data costs depend on your connection.\nDGT Bharat Skills: fitter, electrician, welder, sewing, cosmetology, dress making, food processing and bakery. Material pages opened without payment; not current live classes.\nFitter/electrician list Telugu books. Telugu audio/teaching for the other subjects not verified.\nStart: open link → select trade → choose available language/material. Hazardous practical work requires qualified supervision.",
+          "s": "https://bharatskills.gov.in/",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026",
+          "refs": []
+        },
+        {
+          "id": "local-training-join",
+          "t": "చేరే ముందు - సులభమైన చెక్‌లిస్ట్",
+          "e": "Before joining - easy checklist",
+          "d": "1. ప్రాంతం: మెదక్ / సంగారెడ్డి / నర్సాపూర్ / హైదరాబాద్ అని చెప్పండి; మీ నివాసానికి ప్రవేశం ఉందో నిర్ధారించండి.\n2. మీ కోర్సు పేరు, ప్రస్తుత బ్యాచ్ తేదీ, వయస్సు / విద్యార్హత అడగండి.\n3. శిక్షణ రుసుము NILనా? భోజనం, హాస్టల్, మహిళలకు సురక్షిత వసతి నిజంగా ఉన్నాయా? రాతపూర్వకంగా నిర్ధారించండి.\n4. పత్రాల ఖచ్చిత జాబితా సంస్థ నుంచే తీసుకోండి; ఏజెంట్లకు డబ్బు / OTP ఇవ్వవద్దు.\n5. బ్యాచ్ నిర్ధారణ తరువాతే ప్రయాణం చేయండి. ఈ యాప్ మీ తరఫున సంప్రదించదు / నమోదు చేయదు / డబ్బు చెల్లించదు.",
+          "de": "1. State Medak/Sangareddy/Narsapur/Hyderabad and confirm residence eligibility.\n2. Ask for your course, current batch date, age and education requirements.\n3. Confirm zero training fee, meals, hostel and safe women’s stay in writing.\n4. Obtain the document checklist from the institute; do not give agents money or OTPs.\n5. Travel only after batch confirmation. Gram Seva does not contact, enroll or pay on your behalf.",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "24-10-2026",
+          "refs": []
+        }
+      ]
+    },
     {
       "id": "womenskills",
       "te": "మహిళలు & విద్యార్థినుల నైపుణ్యాలు",
