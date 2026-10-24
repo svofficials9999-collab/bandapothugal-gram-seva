@@ -198,8 +198,8 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=73"></script>
-<script src="details.js?v=73"></script>
+<script src="schemes.js?v=74"></script>
+<script src="details.js?v=74"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -292,7 +292,7 @@ function renderCard(sid, i, it){
     detRow('📝',T('దరఖాస్తు విధానం','How to apply'), dd ? T(dd[4],dd[5]) : null)+
     '<div class="det disc"><span class="dic">🌐</span><div>'+T('అధికారిక లింక్ పేజీ ఇంగ్లీష్/హిందీలో ఉండవచ్చు - ముఖ్యమైన వివరాలన్నీ పైన తెలుగులోనే ఉన్నాయి.','The official link page may be in English/Hindi - all key details are in Telugu above.')+'</div></div>'+
     '<div class="det disc"><span class="dic">⚠️</span><div>'+T('చివరి నిర్ధారణ అధికారిక వెబ్‌సైట్ / కార్యాలయం ద్వారానే చేసుకోండి.','Always confirm final details on the official website / office.')+'</div></div>'+
-    '</div>'+
+    '</div>')+
     '<div class="meta"><a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
     (it.refs ? '<div class="meta">'+it.refs.map(r=>'<a class="chip src" href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(T(r.te,r.en))+'</a>').join('')+'</div>' : '')+
     '<div class="cbtns"><button class="cbtn listen" aria-label="'+T('వినండి','Listen')+'" onclick="speakItem(\''+sid+'\','+i+')">🔊 '+T('వినండి','Listen')+'</button>'+
