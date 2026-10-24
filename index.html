@@ -105,8 +105,9 @@ footer b{color:#334155}
 .frm textarea{min-height:90px;resize:vertical}
 .frm select{appearance:none}
 .frm .inrow{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap}
-.frm .inrow input{flex:1 1 140px;min-width:120px;width:auto}
-.frm .inrow select{flex:1 1 90px;min-width:70px;width:auto;max-width:60%}
+.frm .inrow>input{flex:1 1 140px;min-width:120px;width:auto}
+.frm .inrow>select,.frm .inrow>div{flex:1 1 90px;min-width:70px;width:auto;max-width:60%}
+.frm .inrow select{max-width:100%}
 .privacy{margin-top:12px;font-size:11.5px;color:#5a6b7f;line-height:1.6;background:rgba(217,119,6,.06);border:1px dashed rgba(217,119,6,.4);border-radius:12px;padding:10px 12px}
 .sendbtn{margin-top:14px;width:100%;display:flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg,#16a34a,#22c55e);border:none;color:#fff;border-radius:14px;padding:14px;font-size:15px;font-weight:800;cursor:pointer;box-shadow:0 4px 16px rgba(34,197,94,.4);text-decoration:none}
 .sendbtn:active{transform:scale(.97)}
@@ -161,8 +162,8 @@ footer b{color:#334155}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=58"></script>
-<script src="details.js?v=58"></script>
+<script src="schemes.js?v=59"></script>
+<script src="details.js?v=59"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
