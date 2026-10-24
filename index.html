@@ -197,9 +197,9 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <div id="toast"></div><section id="printArea" aria-label="Print preview"></section>
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
-<script src="resources.js?v=68"></script>
-<script src="schemes.js?v=68"></script>
-<script src="details.js?v=68"></script>
+<script src="resources.js?v=69"></script>
+<script src="schemes.js?v=69"></script>
+<script src="details.js?v=69"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -230,12 +230,14 @@ function render(){
     '<a class="ebtn" href="tel:'+e.n+'"><b>'+e.n+'</b><span>'+T(e.te,e.en)+'</span></a>').join('');
   // sections
   $('secGrid').innerHTML = D.sections.map(s =>
-    '<div class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
+    '<div data-notice-section="'+s.id+'" class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
   ['news','draft'].map(id=>'<div class="sec" role="button" tabindex="0" aria-label="'+id+'" onclick="openSpecial(\''+id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\''+id+'\')}"><div class="ic">'+(id==='news'?'📰':'📄')+'</div><h2>'+T(id==='news'?'వార్తాపత్రికలు':'ముసాయిదా & PDF',id==='news'?'Newspapers':'Draft & PDF')+'</h2></div>').join('')+
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
+  window.GS_NOTIFICATIONS?.paintSections();
 }
+function updateSectionNotices(){if(!document.getElementById('sectionNoticeBar')){const b=document.createElement('div');b.id='sectionNoticeBar';document.getElementById('cardList').before(b);}window.GS_NOTIFICATIONS?.paintSections();}
 function openSec(id, push){
   const s = D.sections.find(x=>x.id===id);
   if(push !== false && history.state?.gs !== 'view:'+id) { try{ history.pushState({gs:'view:'+id, kind:'sec', id:id}, ''); }catch(e){} }
@@ -245,9 +247,11 @@ function openSec(id, push){
   $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='inline-block';
   $('stIcon').textContent = s.icon; $('stName').textContent = T(s.te,s.en);
   $('cardList').innerHTML = s.items.map((it,i)=>renderCard(id,i,it)).join('');
+  updateSectionNotices();
   window.scrollTo(0,0);
 }
 function goBack(){
+ if($('sectionNoticeBar'))$('sectionNoticeBar').hidden=true;
   stopSpeak();
   closeSearch(); $('searchBox').value='';
   $('secGrid').style.display='grid'; $('emgBox').style.display='block';
@@ -337,6 +341,7 @@ function gsOpenDraft(){
 
 // ---- Special views: complaint form + mandal offices directory ----
 function openSpecial(id, push){
+ if($('sectionNoticeBar'))$('sectionNoticeBar').hidden=true;
   if(push !== false && history.state?.gs !== 'view:special:'+id) { try{ history.pushState({gs:'view:special:'+id, kind:'special', id:id}, ''); }catch(e){} }
   stopSpeak();
   closeSearch(); $('searchBox').value='';
@@ -642,7 +647,7 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=68"></script>
-<script src="utilities.js?v=68"></script>
+<script src="notifications.js?v=69"></script>
+<script src="utilities.js?v=69"></script>
 </body>
 </html>
