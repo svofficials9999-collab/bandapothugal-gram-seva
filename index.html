@@ -191,8 +191,8 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <button id="installBtn" title="Install">⬇️</button>
 <div id="toast"></div>
 
-<script src="schemes.js?v=63"></script>
-<script src="details.js?v=63"></script>
+<script src="schemes.js?v=64"></script>
+<script src="details.js?v=64"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -209,8 +209,8 @@ function render(){
   $('backLbl').textContent = T('వెనుకకు','Back');
   $('listenAllLbl').textContent = T('అన్నీ వినండి','Listen to all');
   $('note').textContent = T(
-    'గమనిక: ఈ సమాచారమంతా అధికారిక ప్రభుత్వ వెబ్‌సైట్ల నుండి మాత్రమే సేకరించాం (చివరి సరిచూపు: '+D.built+'). పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
-    'Note: all information is collected only from official government websites (last checked: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
+    'గమనిక: ఈ సమాచారమంతా అధికారిక ప్రభుత్వ / సంబంధిత బ్యాంకు వెబ్‌సైట్ల నుండి మాత్రమే సేకరించాం (చివరి సరిచూపు: '+D.built+'). పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
+    'Note: all information is collected only from official government / relevant bank websites (last checked: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
   $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b><br>' + T('స్వతంత్ర సమాచార యాప్ - ప్రభుత్వ / పంచాయతీ అధికారిక యాప్ కాదు.','Independent information app - not an official government / panchayat app.');
   // emergency
   $('searchBox').placeholder = T('🔍 పథకం పేరు టైప్ చేయండి... (ఉదా: పెన్షన్, బీమా)','🔍 Type a scheme name... (e.g. pension, insurance)');
@@ -278,6 +278,7 @@ function renderCard(sid, i, it){
     '<div class="det disc"><span class="dic">⚠️</span><div>'+T('చివరి నిర్ధారణ అధికారిక వెబ్‌సైట్ / కార్యాలయం ద్వారానే చేసుకోండి.','Always confirm final details on the official website / office.')+'</div></div>'+
     '</div>'+
     '<div class="meta"><a class="chip src" href="'+it.s+'" target="_blank" rel="noopener">🔗 '+T('మూలం','Source')+': '+it.sn+'</a><span class="chip upd">🕒 '+T('సరిచూసిన తేదీ','Checked')+': '+it.u+'</span></div>'+
+    (it.refs ? '<div class="meta">'+it.refs.map(r=>'<a class="chip src" href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(T(r.te,r.en))+'</a>').join('')+'</div>' : '')+
     '<div class="cbtns"><button class="cbtn listen" aria-label="'+T('వినండి','Listen')+'" onclick="speakItem(\''+sid+'\','+i+')">🔊 '+T('వినండి','Listen')+'</button>'+
     '<a class="cbtn open" href="'+it.s+'" target="_blank" rel="noopener">🌐 '+T(it.bt || 'లింక్ తెరవండి',it.be || 'Open link')+'</a>'+
     (it.ph?'<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+T('కాల్','Call')+'</a>':'')+'</div></div>';
@@ -611,6 +612,6 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=63"></script>
+<script src="notifications.js?v=64"></script>
 </body>
 </html>

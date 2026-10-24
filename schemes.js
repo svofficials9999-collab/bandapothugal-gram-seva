@@ -1,5 +1,4 @@
-// Bandapothugal Gram Seva - verified scheme data
-// RULE: every fact from official government sources only. Update "u" date after re-verifying the source link.
+// Verified government and official-bank information. Banking checked 24-10-2026.
 window.GS_DATA = {
   "built": "23-10-2026",
   "village": {
@@ -180,6 +179,137 @@ window.GS_DATA = {
     }
   ],
   "sections": [
+    {
+      "id": "banking",
+      "te": "బ్యాంకు ఖాతాలు & మహిళల రుణాలు",
+      "en": "Bank accounts & women’s loans",
+      "icon": "🏦",
+      "items": [
+        {
+          "id": "bank-pmjdy",
+          "t": "జీరో బ్యాలెన్స్ - జనధన్ ఖాతా",
+          "e": "Zero balance - PMJDY account",
+          "d": "ఇంతకు ముందు బ్యాంకు ఖాతా లేని వారికి ప్రాథమిక పొదుపు ఖాతా. కనీస బ్యాలెన్స్ ఉంచాల్సిన అవసరం లేదు.\n1. బ్యాంకు శాఖ / అధికారిక బ్యాంక్ మిత్రను ఎంచుకోండి.\n2. జనధన్ ఖాతా కోరండి; KYC పత్రాలను బ్యాంకుతో నిర్ధారించండి.\n3. బ్యాంకు ఫారమ్ నింపి, పత్రాలను నేరుగా బ్యాంకుకే ఇవ్వండి.\n4. పాస్‌బుక్, నామినేషన్, కార్డు నిబంధనలు తెలుసుకోండి.\nఖాతా తెరిచినంత మాత్రాన రుణం / ఓవర్‌డ్రాఫ్ట్ హామీ కాదు; అర్హత, బ్యాంకు ఆమోదం అవసరం.",
+          "de": "For an unbanked person: a basic savings account with no minimum-balance requirement.\n1. Choose a bank branch / official Bank Mitra.\n2. Ask for PMJDY and confirm the bank’s KYC checklist.\n3. Complete its form and submit documents directly to the bank.\n4. Ask about passbook, nomination and card conditions.\nOpening an account does not guarantee a loan / overdraft; eligibility and bank approval apply.",
+          "s": "https://www.pmjdy.gov.in/scheme",
+          "sn": "www.pmjdy.gov.in",
+          "u": "24-10-2026",
+          "quote": "Under the scheme, a basic savings bank deposit (BSBD) account can be opened in any bank branch or Business Correspondent (Bank Mitra) outlet, by persons not having any other account."
+        },
+        {
+          "id": "bank-tgb-basic",
+          "t": "తెలంగాణ గ్రామీణ బ్యాంక్ - బేసిక్ ఖాతా",
+          "e": "TGB - Basic Savings account",
+          "d": "చెల్లుబాటు అయ్యే KYC పత్రాలున్న వ్యక్తులు BSBDA ఖాతా గురించి శాఖలో అడగవచ్చు. కనీస బ్యాలెన్స్ NIL; చెక్‌బుక్ సదుపాయం లేదు; బేసిక్ రూపే కార్డు ఉంటుంది.\n1. మీకు ఇప్పటికే ఉన్న పొదుపు ఖాతాలను శాఖకు చెప్పండి.\n2. గుర్తింపు, చిరునామా పత్రాల ప్రస్తుత జాబితా మరియు ఖాతా ప్రారంభ ఫారమ్ శాఖ వద్ద తీసుకోండి.\n3. KYC పూర్తి చేసి, వర్తించే సేవలు / చార్జీలు తెలుసుకోండి.\nబ్యాంకు వెబ్‌పేజీ ఇతర పొదుపు ఖాతాలపై పరిమితి చెబుతోంది; మీ పరిస్థితికి వర్తించే నిబంధనను శాఖతో నిర్ధారించండి. జీరో బ్యాలెన్స్ అంటే ప్రతి అదనపు సేవ ఉచితం అని కాదు.",
+          "de": "Individuals with valid KYC documents can ask a branch about BSBDA. Minimum balance NIL; no cheque book; basic RuPay card.\n1. Disclose your existing savings accounts.\n2. Obtain the current identity/address checklist and account-opening form from the branch.\n3. Complete KYC and confirm included services / charges.\nThe bank page states restrictions on other savings accounts; confirm how they apply to you. Zero balance does not mean every extra service is free.",
+          "s": "https://tgb.bank.in/deposits/basic-savings-bank-account",
+          "sn": "tgb.bank.in",
+          "u": "24-10-2026",
+          "quote": "Available at all branches; Minimum balance amount Nil"
+        },
+        {
+          "id": "bank-kyc-docs",
+          "t": "ఖాతా తెరవడానికి పత్రాలు - RBI KYC",
+          "e": "Account documents - RBI KYC",
+          "d": "RBI FAQ ప్రకారం వ్యక్తిగత ఖాతాకు:\n1. పేరు, చిరునామా ఉన్న ఒక అధికారిక గుర్తింపు పత్రం: పాస్‌పోర్ట్ / డ్రైవింగ్ లైసెన్స్ / ఆధార్ నంబర్ కలిగి ఉన్నట్లు రుజువు / ఓటర్ ID / ప్రభుత్వ అధికారి సంతకంతో NREGA జాబ్ కార్డు / National Population Register లేఖ.\n2. PAN లేదా Form 60. PAN మాత్రమే చిరునామా గుర్తింపు పత్రానికి ప్రత్యామ్నాయం కాదు.\n3. అవసరమైతే వృత్తి / ఆర్థిక స్థితికి సంబంధించిన పత్రాలు బ్యాంకు అడగవచ్చు.\nఎంచుకున్న ఖాతా విధానానికి తాజా ఫోటో, అసలు పత్రాలు / కాపీల అవసరం, ప్రస్తుత చిరునామా ధృవీకరణను శాఖతో నిర్ధారించండి. TGB Video-KYC మార్గంలో ప్రత్యేకంగా మొబైల్‌కు లింకైన ఆధార్ మరియు PAN అవసరం.\nపత్రాలు ఇక్కడ అప్‌లోడ్ చేయవద్దు; బ్యాంకు వద్దనే KYC పూర్తి చేయండి.",
+          "de": "RBI FAQ for an individual account:\n1. One officially valid document with name and address: passport / driving licence / proof of possession of Aadhaar number / voter ID / NREGA job card signed by a State Government officer / National Population Register letter.\n2. PAN or Form 60. PAN alone does not replace the identity/address document.\n3. The bank may require business / financial-status documents.\nConfirm the photo, original/copy and current-address requirements for your selected route with the branch. TGB Video-KYC specifically requires mobile-linked Aadhaar and PAN.\nDo not upload documents here; complete KYC with the bank.",
+          "s": "https://www.rbi.org.in/Commonperson/english/scripts/FAQs.aspx?Id=3782",
+          "sn": "rbi.org.in",
+          "u": "24-10-2026",
+          "quote": "Following documents are required for opening of an account by an individual: (a) any one of the following Officially Valid Documents (OVDs) ... (b) the Permanent Account Number (PAN) ... or Form No. 60",
+          "refs": [
+            {
+              "te": "RBI KYC అధికారిక PDF",
+              "en": "RBI KYC official PDF",
+              "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/KYC09062025.pdf"
+            }
+          ]
+        },
+        {
+          "id": "bank-tgb-18",
+          "t": "18 ఏళ్లు నిండిన యువత - ఇంటి నుంచే ఖాతా",
+          "e": "Age 18+ - TGB Video-KYC account",
+          "d": "బ్యాంకు చెప్పిన అర్హత: భారత నివాసి, 18 ఏళ్లు లేదా ఎక్కువ, TGBలో ఇప్పటికే సంబంధం లేనివారు; మొబైల్‌కు లింకైన ఆధార్, PAN కార్డు ఉండాలి. ఇది ఈ డిజిటల్ మార్గానికి వర్తించే వయస్సు; అన్ని బ్యాంకు ఖాతాలకు 18 ఏళ్లే కనీస వయస్సు అని కాదు.\n1. క్రింది బ్యాంకు అధికారిక Video-KYC పేజీ చదవండి.\n2. బ్యాంకు సూచించిన DISA విధానంలో వివరాలు / పత్రాలు ఇవ్వండి.\n3. స్మార్ట్‌ఫోన్‌లో బ్యాంకు Video-KYC పూర్తి చేయండి.\n4. బ్యాంకు పరిశీలన / ఆమోదం తరువాత ఖాతా వివరాలు వస్తాయి.\nసింగిల్ పేరు, జీరో బ్యాలెన్స్ ఖాతాగా పేజీ పేర్కొంది. యాప్‌లో ఆధార్ / PAN / OTP ఇవ్వకండి.",
+          "de": "Bank eligibility for this digital route: resident Indian aged 18+, no existing relationship with TGB, mobile-linked Aadhaar and PAN card. This age rule is for this route, not a claim that every bank account requires age 18.\n1. Read the official bank Video-KYC page below.\n2. Follow the bank’s DISA process for details / documents.\n3. Complete bank Video-KYC on a smartphone.\n4. Account details follow bank verification and approval.\nThe page describes a single-name, zero-balance account. Do not enter Aadhaar / PAN / OTP in Gram Seva.",
+          "s": "https://tgb.bank.in/digital-banking/video-kyc",
+          "sn": "tgb.bank.in",
+          "u": "24-10-2026",
+          "quote": "Resident Indian Individual aged 18 years and above."
+        },
+        {
+          "id": "bank-women-shg",
+          "t": "మహిళల సంఘాలు - SHG ఖాతా / రుణ మార్గం",
+          "e": "Women’s groups - SHG banking / loans",
+          "d": "ఇది మహిళల స్వయం సహాయక సంఘాల (SHG) బ్యాంకు రుణ మార్గం; ప్రతి మహిళకు ఆటోమేటిక్ వ్యక్తిగత రుణం కాదు.\nబ్యాంకు పేర్కొన్న పంచసూత్రాలు: క్రమమైన సమావేశాలు, పొదుపు, అంతర్గత రుణాలు, వసూళ్లు, సరైన ఖాతా పుస్తకాలు. జీవనోపాధి / సంఘం ఆర్థిక కార్యకలాపాలకు రుణాన్ని బ్యాంకు పరిశీలిస్తుంది.\n1. మీ సంఘం ప్రతినిధులతో శాఖను సంప్రదించండి.\n2. సంఘం ఖాతా / రుణానికి ప్రస్తుత చెక్‌లిస్ట్, ఫారమ్ అడగండి.\n3. సమావేశం నిర్ణయం, ఖాతా పుస్తకాలు, సభ్యుల రుణ అవసరాలు ఎలా సమర్పించాలో బ్యాంకుతో నిర్ధారించండి.\n4. వడ్డీ, చార్జీలు, తిరిగి చెల్లింపు, తాకట్టు నిబంధనలను రాతపూర్వకంగా తెలుసుకోండి.\nTGB ప్రస్తుత SHG దరఖాస్తు PDF / పూర్తి పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేకపోయాం; శాఖ వద్ద తీసుకోండి. ఆమోదం హామీ కాదు.",
+          "de": "This is a bank-loan route for women’s self-help groups, not an automatic individual loan for every woman.\nThe bank lists five practices: regular meetings, savings, internal lending, recoveries and proper books. Livelihood / group activities are assessed by the bank.\n1. Approach the branch with your group representatives.\n2. Request its current SHG account / loan checklist and form.\n3. Confirm how to provide the group decision, books and member credit needs.\n4. Obtain written interest, fees, repayment and security terms.\nA current TGB SHG application PDF / full document checklist could not be verified in this check; obtain it from the branch. Approval is not guaranteed.",
+          "s": "https://tgb.bank.in/loans/shg",
+          "sn": "tgb.bank.in",
+          "u": "24-10-2026",
+          "quote": "Panchasutras: Regular meetings; Regular savings; Regular internal lending; Regular recoveries; Maintenance of proper books of accounts"
+        },
+        {
+          "id": "bank-local-tgb",
+          "t": "మన మండలంలో బ్యాంకు మార్గం - చిట్కుల్",
+          "e": "Local bank route - Chitkul, Chilipched",
+          "d": "తెలంగాణలోని పాత APGVB శాఖలు 01-01-2025 నుంచి తెలంగాణ గ్రామీణ బ్యాంక్ (TGB)లో విలీనమయ్యాయని బ్యాంకు అధికారిక పేజీ తెలిపింది.\nఅధికారిక బ్రాంచ్ లోకేటర్‌లో: CHITKUL శాఖ; 3-73, CHITKOL, CHILIPCHED, MEDAK. IFSC: TGRB0008105.\nఇది చిలిపిచెడ్ మండలంలో ఉన్న ధృవీకరించిన శాఖ వివరమే. బండపోతుగల్‌కు ఇదే కేటాయించిన / అత్యంత దగ్గరి శాఖ అని నిర్ధారించలేదు. బయలుదేరే ముందు అధికారిక లోకేటర్‌లో ప్రస్తుత వివరాలు చూసుకోండి.\nమన గ్రామం మెదక్ జిల్లా; సంగారెడ్డి జిల్లా అని మార్చడం లేదు.",
+          "de": "The bank’s official overview says former APGVB branches in Telangana merged into TGB effective 01-01-2025.\nOfficial locator entry: CHITKUL branch; 3-73, CHITKOL, CHILIPCHED, MEDAK. IFSC TGRB0008105.\nThis verifies a branch in Chilipched mandal, not that it is the assigned / nearest branch for Bandapothugal. Check the official locator before travelling.\nThe village remains in Medak district, not Sangareddy.",
+          "s": "https://tgb.bank.in/branch-locator",
+          "sn": "tgb.bank.in",
+          "u": "24-10-2026",
+          "quote": "Branch Name : CHITKUL; Address 3-73, CHITKOL, CHILIPCHED, MEDAK; IFSC TGRB0008105",
+          "refs": [
+            {
+              "te": "TGB విలీనం - అధికారిక వివరాలు",
+              "en": "TGB merger - official overview",
+              "url": "https://tgb.bank.in/about/overview"
+            }
+          ]
+        },
+        {
+          "id": "bank-form-pmjdy",
+          "t": "అధికారిక జనధన్ ఖాతా ప్రారంభ ఫారమ్ (PDF)",
+          "e": "Official PMJDY account-opening form (PDF)",
+          "d": "అధికారిక PMJDY సైట్‌లో లింక్ చేసిన ఇంగ్లీష్ ఫారమ్. బ్యాంకు / శాఖ, పేరు, పుట్టిన తేదీ, చిరునామా, ఆధార్ / PAN తదితర వివరాలు, ఫోటో, సంతకం / వేలిముద్ర, నామినేషన్ స్థలాలు ఉన్నాయి.\nజాగ్రత్త: ఈ PDFలో పాత ₹5,000 ఓవర్‌డ్రాఫ్ట్ వాక్యం ఉంది; ప్రస్తుత పథకం పేజీ అర్హులకు ₹10,000 వరకు చెబుతోంది. పాత PDF వాక్యాన్ని ప్రస్తుత హామీగా భావించకండి. శాఖ అంగీకరించే తాజా ఫారమ్, పత్రాలు నిర్ధారించి వాడండి.\nఫారమ్‌ను బ్యాంకుకే ఇవ్వాలి; ఈ యాప్ నింపదు / సబ్మిట్ చేయదు. తెలుగు అధికారిక ఫారమ్ ఈ తనిఖీలో దొరకలేదు.",
+          "de": "English form linked by the official PMJDY site. It includes bank/branch, personal and address details, Aadhaar/PAN fields, photo, signature/thumb impression and nomination.\nWarning: this PDF contains an old ₹5,000 overdraft statement; the current scheme page says up to ₹10,000 for eligible holders. Do not treat old form text as a current guarantee. Confirm the latest accepted form and documents with your branch.\nSubmit only to the bank. Gram Seva does not fill / submit it. An official Telugu form was not found in this check.",
+          "s": "https://pmjdy.gov.in/files/forms/account-opening/English.pdf",
+          "sn": "pmjdy.gov.in",
+          "u": "24-10-2026",
+          "quote": "FINANCIAL INCLUSION ACCOUNT OPENING FORM",
+          "bt": "ఫారమ్ PDF చూడండి",
+          "be": "View form PDF",
+          "refs": [
+            {
+              "te": "ప్రస్తుత జనధన్ పథకం నిబంధనలు",
+              "en": "Current PMJDY scheme terms",
+              "url": "https://www.pmjdy.gov.in/scheme"
+            }
+          ]
+        },
+        {
+          "id": "bank-form-rekyc",
+          "t": "TGB రీ-KYC ఫారమ్ - కొత్త ఖాతా కోసం కాదు",
+          "e": "TGB Re-KYC form - NOT for a new account",
+          "d": "ఇది ఇప్పటికే ఉన్న ఖాతాలో గుర్తింపు / చిరునామా వివరాలు మారలేదని ప్రకటించే Annexure-A మాత్రమే. కొత్త ఖాతా ప్రారంభ ఫారమ్ కాదు.\nఅధికారిక పేజీలో చిరునామా మాత్రమే మారితే Annexure-B కూడా ఉంది. కొత్త BSBDA / SHG ఖాతా ప్రారంభ ఫారమ్‌గా వీటిని వాడకండి. కొత్త ఖాతాకు శాఖ వద్ద సరైన ఫారమ్ తీసుకోండి.\nయాప్ మీ ఆధార్, PAN, బ్యాంకు ఖాతా, సంతకం, OTP సేకరించదు. అవసరమైన పత్రాలు బ్యాంకు అధికారిక మార్గంలోనే ఇవ్వండి.",
+          "de": "Annexure-A is a declaration of no change in identity / address for an existing account, NOT a new-account opening form.\nThe official page also links Annexure-B for address-only changes. Do not use either as a new BSBDA / SHG account-opening form; obtain that form from the branch.\nGram Seva does not collect Aadhaar, PAN, bank account, signatures or OTPs. Give documents only through official bank channels.",
+          "s": "https://tgb.bank.in/kyc-guidelines",
+          "sn": "tgb.bank.in",
+          "u": "24-10-2026",
+          "quote": "Self-declaration in case of no change in KYC information (including PAN / Form 60) of Individual Customer",
+          "refs": [
+            {
+              "te": "Annexure-A PDF - వివరాలు మారనప్పుడు",
+              "en": "Annexure-A PDF - no change",
+              "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE A.pdf"
+            },
+            {
+              "te": "Annexure-B PDF - చిరునామా మారినప్పుడు",
+              "en": "Annexure-B PDF - address change",
+              "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE B.pdf"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "jobs",
       "icon": "💼",
@@ -1174,52 +1304,52 @@ window.GS_DATA = {
       ]
     },
     {
-          "id": "contacts",
-          "icon": "📞",
-          "te": "అధికారులు & సంప్రదింపులు",
-          "en": "Officials & Contacts",
-          "items": [
-                {
-                      "id": "contacts-mandal-offices",
-                      "t": "మండల స్థాయి అధికారులు & సేవా ఫోన్లు",
-                      "e": "Mandal officers & service phones",
-                      "d": "చిలిప్చెడ్ మండల స్థాయి అధికారిక సంప్రదింపు వివరాలు (24-10-2026 న అధికారిక పేజీల్లో చూశాం):\n• MPDO (మండల పరిషత్ అభివృద్ధి అధికారి): 7337422356 (mpdochilipiched@gmail.com)\n• MRO/తహసీల్దార్: 9346999296 (mro.chilipched@gmail.com)\n- మూలం: మెదక్ జిల్లా అధికారిక సైట్ MPDO/తహసీల్దార్ జాబితాలు (medak.telangana.gov.in)\n• పోలీసులు: చిలిప్చెడ్ పోలీస్ స్టేషన్ SI - 8712657943; నర్సాపూర్ సర్కిల్ CI - 8712657940; పోలీసు కంట్రోల్ రూమ్ - 100\n- మూలం: మెదక్ జిల్లా సైట్ పోలీస్ పేజీ\n• విద్యుత్: చిలిప్చెడ్ మండల సబ్‌స్టేషన్లు AE (ఆపరేషన్) కౌడిపల్లి పరిధిలో జాబితా చేయబడ్డాయి - 9440813686\n- మూలం: మెదక్ జిల్లా సైట్ పబ్లిక్ యూటిలిటీస్\n• వ్యవసాయం: MAO చిలిప్చెడ్ - 8977750830; AEO చిలిప్చెడ్ క్లస్టర్ - 9281065854; AEO చిట్కుల్ క్లస్టర్ - 9281065859\n- మూలం: రైతుభరోసా పోర్టల్ అధికారుల జాబితా (rythubharosa.telangana.gov.in)\n• సహకార సంఘం (PACS): చిలిప్చెడ్ మండలానికి DCCB జాబితాలో సొమక్కపేట PACS (కౌడిపల్లి బ్రాంచ్) ఉంది\n- మూలం: medakdccb.bank.in\nగ్రామ సర్పంచ్, పంచాయతీ సెక్రటరీ ప్రస్తుత పేర్లు-ఫోన్లు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల్లో నిర్ధారించలేదు; ఎన్నికల సంఘం సైట్ tsec.gov.in లో 'Know Your Sarpanch' లేదా gpsap-prrd.telangana.gov.in లో మన గ్రామ పంచాయతీ పేజీ చూడవచ్చు.",
-                      "de": "Chilipched mandal-level official contacts (checked on official pages on 24-10-2026):\n- MPDO (Mandal Parishad Development Officer): 7337422356 (mpdochilipiched@gmail.com)\n- MRO/Tahsildar: 9346999296 (mro.chilipched@gmail.com)\nSource: Medak district official site MPDO/Tehsil directories (medak.telangana.gov.in)\n- Police: Chilipched Police Station SI - 8712657943; Narsapur Circle CI - 8712657940; police control room - 100\nSource: Medak district site police page\n- Electricity: Chilipched mandal substations are listed under AE (Operation) Kowdipally - 9440813686\nSource: Medak district site public utilities page\n- Agriculture: MAO Chilipched - 8977750830; AEO Chilipched cluster - 9281065854; AEO Chitkul cluster - 9281065859\nSource: Rythu Bharosa portal officer lists (rythubharosa.telangana.gov.in)\n- Cooperative society (PACS): the DCCB list shows Somakkapet PACS (Kowdipally branch) for Chilipched mandal\nSource: medakdccb.bank.in\nCurrent sarpanch and panchayat secretary names/phones could not be verified from the official pages accessible during this check; see 'Know Your Sarpanch' at tsec.gov.in or our gram panchayat page at gpsap-prrd.telangana.gov.in.",
-                      "s": "https://medak.telangana.gov.in/mpdos/",
-                      "sn": "medak.telangana.gov.in",
-                      "u": "24-10-2026"
-                },
-                {
-                      "id": "contacts-district-offices",
-                      "t": "జిల్లా స్థాయి అధికారులు",
-                      "e": "District-level officers",
-                      "d": "మెదక్ జిల్లా స్థాయి అధికారులు (మూలం: మెదక్ జిల్లా అధికారిక సైట్ Who's Who / డైరెక్టరీ / జిల్లా అధికారుల పేజీలు, 24-10-2026 న చూశాం):\n• కలెక్టర్ & జిల్లా మేజిస్ట్రేట్: 08452-223111 (IDOC, మెదక్)\n• అదనపు కలెక్టర్ (రెవెన్యూ): 7995088717\n• జిల్లా రెవెన్యూ అధికారి (DRO): 7815903228\n• SP (పోలీసు అధీక్షకులు): 8712657888 / 08452-223533\n• DEO (జిల్లా విద్యాధికారి): 7207704500\n• DIEO (ఇంటర్మీడియట్ విద్యాధికారి): 9059049090\n• సివిల్ సప్లయ్స్ కార్పొరేషన్ డిస్ట్రిక్ట్ మేనేజర్: 7780771167\n• DRDO (గ్రామీణాభివృద్ధి అధికారి): 9281484100\n• TGSPDCL SE (విద్యుత్) మెదక్: 7901093542\n• EE మంచినీటి సరఫరా (Rural Water Supply): 9440307321\n• EE పంచాయతీ రాజ్: 9676930666\n• అసిస్టెంట్ డైరెక్టర్, సర్వే & భూ రికార్డులు: 9440763024\n• జిల్లా అటవీ అధికారి (DFO): 9948801276\n• జిల్లా అగ్నిమాపక అధికారి: 8712699145\n• జిల్లా SC డెవలప్‌మెంట్ అధికారి: 8555894019\n• గ్రౌండ్ వాటర్ విభాగం (I/C): 7032982024\nఇవి ప్రభుత్వ కార్యాలయాల బహిరంగ సేవా నంబర్లు; సమాధానం హామీ ఇవ్వలేము.\n• మన నియోజకవర్గం (నర్సాపూర్) MLA: శ్రీమతి వాకిటి సునీత లక్ష్మారెడ్డి (BRS) - మూలం: తెలంగాణ ప్రభుత్వ అధికారిక సైట్ MLA జాబితా (telangana.gov.in), 24-10-2026 న చూశాం",
-                      "de": "Medak district-level officers (source: Medak district official site Who's Who / Directory / District Officers pages, checked 24-10-2026):\n- Collector & District Magistrate: 08452-223111 (IDOC, Medak)\n- Additional Collector (Revenue): 7995088717\n- District Revenue Officer (DRO): 7815903228\n- SP (Superintendent of Police): 8712657888 / 08452-223533\n- DEO (District Education Officer): 7207704500\n- DIEO (Intermediate Education Officer): 9059049090\n- District Manager, Civil Supplies Corporation: 7780771167\n- DRDO (District Rural Development Officer): 9281484100\n- TGSPDCL SE (Electricity) Medak: 7901093542\n- EE Rural Water Supply: 9440307321\n- EE Panchayat Raj: 9676930666\n- Assistant Director, Survey & Land Records: 9440763024\n- District Forest Officer (DFO): 9948801276\n- District Fire Officer: 8712699145\n- District SC Development Officer: 8555894019\n- Ground Water Department (I/C): 7032982024\nThese are public service numbers of government offices; we cannot guarantee a response.\n- Our constituency (Narsapur) MLA: Smt. Vakiti Sunitha Laxma Reddy (BRS) - source: Telangana government official MLA list (telangana.gov.in), checked 24-10-2026",
-                      "s": "https://medak.telangana.gov.in/whos-who/",
-                      "sn": "medak.telangana.gov.in",
-                      "u": "24-10-2026"
-                },
-                {
-                      "id": "contacts-legal-aid",
-                      "t": "కోర్టు & ఉచిత న్యాయ సహాయం",
-                      "e": "Courts & free legal aid",
-                      "d": "ఉచిత న్యాయ సహాయం (అర్హులైనవారికి):\n• జిల్లా న్యాయ సేవా అధికార సంస్థ (DLSA) మెదక్ - న్యాయ సేవా సదన్, జిల్లా కోర్టు భవనాలు, మెదక్ 502110. సెక్రటరీ శ్రీమతి R.M. సుభవల్లి: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\n- మూలం: తెలంగాణా రాష్ట్ర న్యాయ సేవా అధికార సంస్థ డైరెక్టరీ (telangana.nalsa.gov.in), 24-10-2026 న చూశాం\n• NALSA టోల్ ఫ్రీ: 15100 (అత్యవసర న్యాయ సహాయం కోసం) - మూలం: nalsa.gov.in\n• ఉచిత సహాయం అర్హత (లీగల్ సర్వీసెస్ అథారిటీస్ చట్టం సెక్షన్ 12): ఈ వర్గాలవారు నేరుగా అర్హులు - SC/ST సభ్యులు, మహిళలు, పిల్లలు, మానసిక/శారీరక దివ్యాంగులు, పారిశ్రామిక కార్మికులు, ఖైదులో ఉన్నవారు, విపత్తు/హింస బాధితులు, మానవ అక్రమ రవాణా బాధితులు. ఈ వర్గాల్లో లేకుండా ఆదాయ ప్రాతిపదికన అర్హత కోరేవారికి, తెలంగాణాకు NALSA పేజీలో చూపిన సంవత్సర ఆదాయ పరిమితి రూ.3,00,000 - మూలం: nalsa.gov.in (24-10-2026)\n• కేసు స్థితి తెలుసుకోవడానికి: services.ecourts.gov.in లో CNR నంబర్ లేదా పార్టీ పేరుతో వెతకవచ్చు\n• మెదక్ జిల్లా కోర్టు అధికారిక సైట్: medak.dcourts.gov.in\n• లోక్ అదాలత్: సివిల్ కేసులు, కొన్ని కంపౌండబుల్ క్రిమినల్ కేసులు కోర్టులో పెండింగ్ ఉన్నా, కొత్తవైనా రాజీ ద్వారా పరిష్కరించే వేదిక; ఫీజు ఉండదు; తీర్పు సివిల్ కోర్టు డిక్రీ వలె ఫైనల్. విద్యుత్, నీటి సరఫరా, రవాణా, ఆసుపత్రి, బీమా వంటి పబ్లిక్ యూటిలిటీ సేవలతో వివాదాలకు ప్రత్యేక 'పర్మనెంట్ లోక్ అదాలత్' ఉంది. తేదీలు DLSA మెదక్‌ను అడిగి తెలుసుకోండి - మూలం: nalsa.gov.in\nఇది సాధారణ సమాచారం మాత్రమే, న్యాయ సలహా కాదు; మీ కేసు గురించి DLSA లేదా న్యాయవాదిని సంప్రదించండి.",
-                      "de": "Free legal aid (for those eligible):\n- District Legal Services Authority (DLSA) Medak - Nyaya Seva Sadan, District Court Buildings, Medak 502110. Secretary Smt. R.M. Subhavalli: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\nSource: Telangana State Legal Services Authority directory (telangana.nalsa.gov.in), checked 24-10-2026\n- NALSA toll-free: 15100 (for urgent legal assistance) - source: nalsa.gov.in\n- Eligibility for free aid (Section 12, Legal Services Authorities Act): these categories qualify directly - SC/ST members, women, children, mentally or physically disabled persons, industrial workmen, persons in custody, victims of disasters/violence, victims of trafficking. Separately, for those applying on the income basis, the NALSA page lists an annual income ceiling of Rs.3,00,000 for Telangana - source: nalsa.gov.in (24-10-2026)\n- To check case status: search by CNR number or party name at services.ecourts.gov.in\n- Medak district court official site: medak.dcourts.gov.in\n- Lok Adalat: a no-fee forum that settles civil cases and some compoundable criminal cases - pending or pre-litigation - by compromise; its award is final like a civil court decree. A separate Permanent Lok Adalat covers disputes with public utility services (power, water, transport, hospital, insurance, etc.). Ask DLSA Medak for dates - source: nalsa.gov.in\nThis is general information only, not legal advice; consult DLSA or an advocate about your case.",
-                      "s": "https://telangana.nalsa.gov.in/directory/",
-                      "sn": "telangana.nalsa.gov.in",
-                      "u": "24-10-2026"
-                },
-                {
-                      "id": "contacts-education",
-                      "t": "విద్య - పాఠశాల, MEO-DEO & అక్షరాస్యత",
-                      "e": "Education - school, MEO-DEO & literacy",
-                      "d": "పాఠశాలలు & విద్య (24-10-2026 తనిఖీ):\n• గ్రామ పాఠశాల వివరాలు: మన గ్రామ పాఠశాల పేరు, UDISE కోడ్ ఈ తనిఖీలో అధికారిక పేజీల్లో నిర్ధారించలేదు (UDISE+ సైట్‌లో క్యాప్చా ఉన్నది; దాన్ని దాటవేయలేము). పాఠశాల సమాచారం kys.udiseplus.gov.in ('Know Your School') లో లేదా DEO కార్యాలయంలో నిర్ధారించుకోవచ్చు\n• దగ్గరి ప్రభుత్వ హైస్కూల్: ZPHS చిలిప్చెడ్ (పాఠశాల కోడ్ 36171400503) - ఫోన్ 9490522737 - మూలం: మెదక్ జిల్లా అధికారిక సైట్ పబ్లిక్ యూటిలిటీ పేజీ (24-10-2026 న చూశాం)\n• జిల్లా విద్యాధికారి (DEO) మెదక్: 7207704500 (deomedak2016@gmail.com) - మూలం: మెదక్ జిల్లా సైట్ డైరెక్టరీ\n• MEO (మండల విద్యాధికారి) చిలిప్చెడ్ ప్రస్తుత ఫోన్ ఈ తనిఖీలో అధికారిక పేజీల్లో దొరకలేదు\n• అక్షరాస్యత కార్యక్రమం (15 ఏళ్లు పైబడి చదవరాయని వారికి): ప్రస్తుత జాతీయ అధికారిక కార్యక్రమం 'నవ భారత సాక్షరతా కార్యక్రమం (NILP/ఉల్లాస్)', 2022-27; స్వచ్ఛందుల ద్వారా బోధన, DIKSHA యాప్‌లో ఆన్‌లైన్ పాఠాలు - మూలం: dsel.education.gov.in/nilp",
-                      "de": "Schools & education (checked 24-10-2026):\n- Village school details: the village school's name and UDISE code could not be verified on official pages during this check (the UDISE+ site uses a captcha we cannot clear). Confirm school information at kys.udiseplus.gov.in ('Know Your School') or with the DEO office\n- Nearest government high school: ZPHS Chilipched (school code 36171400503) - phone 9490522737 - source: Medak district official site public utility page (checked 24-10-2026)\n- District Education Officer (DEO) Medak: 7207704500 (deomedak2016@gmail.com) - source: Medak district site directory\n- The current phone of the MEO (Mandal Education Officer) Chilipched was not found on official pages during this check\n- Literacy programme (for non-literates aged 15+): the current official national programme is the New India Literacy Programme (NILP/ULLAS), 2022-27; volunteer-based teaching, online lessons on the DIKSHA app - source: dsel.education.gov.in/nilp",
-                      "s": "https://kys.udiseplus.gov.in/",
-                      "sn": "kys.udiseplus.gov.in",
-                      "u": "24-10-2026"
-                }
-          ]
+      "id": "contacts",
+      "icon": "📞",
+      "te": "అధికారులు & సంప్రదింపులు",
+      "en": "Officials & Contacts",
+      "items": [
+        {
+          "id": "contacts-mandal-offices",
+          "t": "మండల స్థాయి అధికారులు & సేవా ఫోన్లు",
+          "e": "Mandal officers & service phones",
+          "d": "చిలిప్చెడ్ మండల స్థాయి అధికారిక సంప్రదింపు వివరాలు (24-10-2026 న అధికారిక పేజీల్లో చూశాం):\n• MPDO (మండల పరిషత్ అభివృద్ధి అధికారి): 7337422356 (mpdochilipiched@gmail.com)\n• MRO/తహసీల్దార్: 9346999296 (mro.chilipched@gmail.com)\n- మూలం: మెదక్ జిల్లా అధికారిక సైట్ MPDO/తహసీల్దార్ జాబితాలు (medak.telangana.gov.in)\n• పోలీసులు: చిలిప్చెడ్ పోలీస్ స్టేషన్ SI - 8712657943; నర్సాపూర్ సర్కిల్ CI - 8712657940; పోలీసు కంట్రోల్ రూమ్ - 100\n- మూలం: మెదక్ జిల్లా సైట్ పోలీస్ పేజీ\n• విద్యుత్: చిలిప్చెడ్ మండల సబ్‌స్టేషన్లు AE (ఆపరేషన్) కౌడిపల్లి పరిధిలో జాబితా చేయబడ్డాయి - 9440813686\n- మూలం: మెదక్ జిల్లా సైట్ పబ్లిక్ యూటిలిటీస్\n• వ్యవసాయం: MAO చిలిప్చెడ్ - 8977750830; AEO చిలిప్చెడ్ క్లస్టర్ - 9281065854; AEO చిట్కుల్ క్లస్టర్ - 9281065859\n- మూలం: రైతుభరోసా పోర్టల్ అధికారుల జాబితా (rythubharosa.telangana.gov.in)\n• సహకార సంఘం (PACS): చిలిప్చెడ్ మండలానికి DCCB జాబితాలో సొమక్కపేట PACS (కౌడిపల్లి బ్రాంచ్) ఉంది\n- మూలం: medakdccb.bank.in\nగ్రామ సర్పంచ్, పంచాయతీ సెక్రటరీ ప్రస్తుత పేర్లు-ఫోన్లు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల్లో నిర్ధారించలేదు; ఎన్నికల సంఘం సైట్ tsec.gov.in లో 'Know Your Sarpanch' లేదా gpsap-prrd.telangana.gov.in లో మన గ్రామ పంచాయతీ పేజీ చూడవచ్చు.",
+          "de": "Chilipched mandal-level official contacts (checked on official pages on 24-10-2026):\n- MPDO (Mandal Parishad Development Officer): 7337422356 (mpdochilipiched@gmail.com)\n- MRO/Tahsildar: 9346999296 (mro.chilipched@gmail.com)\nSource: Medak district official site MPDO/Tehsil directories (medak.telangana.gov.in)\n- Police: Chilipched Police Station SI - 8712657943; Narsapur Circle CI - 8712657940; police control room - 100\nSource: Medak district site police page\n- Electricity: Chilipched mandal substations are listed under AE (Operation) Kowdipally - 9440813686\nSource: Medak district site public utilities page\n- Agriculture: MAO Chilipched - 8977750830; AEO Chilipched cluster - 9281065854; AEO Chitkul cluster - 9281065859\nSource: Rythu Bharosa portal officer lists (rythubharosa.telangana.gov.in)\n- Cooperative society (PACS): the DCCB list shows Somakkapet PACS (Kowdipally branch) for Chilipched mandal\nSource: medakdccb.bank.in\nCurrent sarpanch and panchayat secretary names/phones could not be verified from the official pages accessible during this check; see 'Know Your Sarpanch' at tsec.gov.in or our gram panchayat page at gpsap-prrd.telangana.gov.in.",
+          "s": "https://medak.telangana.gov.in/mpdos/",
+          "sn": "medak.telangana.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "contacts-district-offices",
+          "t": "జిల్లా స్థాయి అధికారులు",
+          "e": "District-level officers",
+          "d": "మెదక్ జిల్లా స్థాయి అధికారులు (మూలం: మెదక్ జిల్లా అధికారిక సైట్ Who's Who / డైరెక్టరీ / జిల్లా అధికారుల పేజీలు, 24-10-2026 న చూశాం):\n• కలెక్టర్ & జిల్లా మేజిస్ట్రేట్: 08452-223111 (IDOC, మెదక్)\n• అదనపు కలెక్టర్ (రెవెన్యూ): 7995088717\n• జిల్లా రెవెన్యూ అధికారి (DRO): 7815903228\n• SP (పోలీసు అధీక్షకులు): 8712657888 / 08452-223533\n• DEO (జిల్లా విద్యాధికారి): 7207704500\n• DIEO (ఇంటర్మీడియట్ విద్యాధికారి): 9059049090\n• సివిల్ సప్లయ్స్ కార్పొరేషన్ డిస్ట్రిక్ట్ మేనేజర్: 7780771167\n• DRDO (గ్రామీణాభివృద్ధి అధికారి): 9281484100\n• TGSPDCL SE (విద్యుత్) మెదక్: 7901093542\n• EE మంచినీటి సరఫరా (Rural Water Supply): 9440307321\n• EE పంచాయతీ రాజ్: 9676930666\n• అసిస్టెంట్ డైరెక్టర్, సర్వే & భూ రికార్డులు: 9440763024\n• జిల్లా అటవీ అధికారి (DFO): 9948801276\n• జిల్లా అగ్నిమాపక అధికారి: 8712699145\n• జిల్లా SC డెవలప్‌మెంట్ అధికారి: 8555894019\n• గ్రౌండ్ వాటర్ విభాగం (I/C): 7032982024\nఇవి ప్రభుత్వ కార్యాలయాల బహిరంగ సేవా నంబర్లు; సమాధానం హామీ ఇవ్వలేము.\n• మన నియోజకవర్గం (నర్సాపూర్) MLA: శ్రీమతి వాకిటి సునీత లక్ష్మారెడ్డి (BRS) - మూలం: తెలంగాణ ప్రభుత్వ అధికారిక సైట్ MLA జాబితా (telangana.gov.in), 24-10-2026 న చూశాం",
+          "de": "Medak district-level officers (source: Medak district official site Who's Who / Directory / District Officers pages, checked 24-10-2026):\n- Collector & District Magistrate: 08452-223111 (IDOC, Medak)\n- Additional Collector (Revenue): 7995088717\n- District Revenue Officer (DRO): 7815903228\n- SP (Superintendent of Police): 8712657888 / 08452-223533\n- DEO (District Education Officer): 7207704500\n- DIEO (Intermediate Education Officer): 9059049090\n- District Manager, Civil Supplies Corporation: 7780771167\n- DRDO (District Rural Development Officer): 9281484100\n- TGSPDCL SE (Electricity) Medak: 7901093542\n- EE Rural Water Supply: 9440307321\n- EE Panchayat Raj: 9676930666\n- Assistant Director, Survey & Land Records: 9440763024\n- District Forest Officer (DFO): 9948801276\n- District Fire Officer: 8712699145\n- District SC Development Officer: 8555894019\n- Ground Water Department (I/C): 7032982024\nThese are public service numbers of government offices; we cannot guarantee a response.\n- Our constituency (Narsapur) MLA: Smt. Vakiti Sunitha Laxma Reddy (BRS) - source: Telangana government official MLA list (telangana.gov.in), checked 24-10-2026",
+          "s": "https://medak.telangana.gov.in/whos-who/",
+          "sn": "medak.telangana.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "contacts-legal-aid",
+          "t": "కోర్టు & ఉచిత న్యాయ సహాయం",
+          "e": "Courts & free legal aid",
+          "d": "ఉచిత న్యాయ సహాయం (అర్హులైనవారికి):\n• జిల్లా న్యాయ సేవా అధికార సంస్థ (DLSA) మెదక్ - న్యాయ సేవా సదన్, జిల్లా కోర్టు భవనాలు, మెదక్ 502110. సెక్రటరీ శ్రీమతి R.M. సుభవల్లి: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\n- మూలం: తెలంగాణా రాష్ట్ర న్యాయ సేవా అధికార సంస్థ డైరెక్టరీ (telangana.nalsa.gov.in), 24-10-2026 న చూశాం\n• NALSA టోల్ ఫ్రీ: 15100 (అత్యవసర న్యాయ సహాయం కోసం) - మూలం: nalsa.gov.in\n• ఉచిత సహాయం అర్హత (లీగల్ సర్వీసెస్ అథారిటీస్ చట్టం సెక్షన్ 12): ఈ వర్గాలవారు నేరుగా అర్హులు - SC/ST సభ్యులు, మహిళలు, పిల్లలు, మానసిక/శారీరక దివ్యాంగులు, పారిశ్రామిక కార్మికులు, ఖైదులో ఉన్నవారు, విపత్తు/హింస బాధితులు, మానవ అక్రమ రవాణా బాధితులు. ఈ వర్గాల్లో లేకుండా ఆదాయ ప్రాతిపదికన అర్హత కోరేవారికి, తెలంగాణాకు NALSA పేజీలో చూపిన సంవత్సర ఆదాయ పరిమితి రూ.3,00,000 - మూలం: nalsa.gov.in (24-10-2026)\n• కేసు స్థితి తెలుసుకోవడానికి: services.ecourts.gov.in లో CNR నంబర్ లేదా పార్టీ పేరుతో వెతకవచ్చు\n• మెదక్ జిల్లా కోర్టు అధికారిక సైట్: medak.dcourts.gov.in\n• లోక్ అదాలత్: సివిల్ కేసులు, కొన్ని కంపౌండబుల్ క్రిమినల్ కేసులు కోర్టులో పెండింగ్ ఉన్నా, కొత్తవైనా రాజీ ద్వారా పరిష్కరించే వేదిక; ఫీజు ఉండదు; తీర్పు సివిల్ కోర్టు డిక్రీ వలె ఫైనల్. విద్యుత్, నీటి సరఫరా, రవాణా, ఆసుపత్రి, బీమా వంటి పబ్లిక్ యూటిలిటీ సేవలతో వివాదాలకు ప్రత్యేక 'పర్మనెంట్ లోక్ అదాలత్' ఉంది. తేదీలు DLSA మెదక్‌ను అడిగి తెలుసుకోండి - మూలం: nalsa.gov.in\nఇది సాధారణ సమాచారం మాత్రమే, న్యాయ సలహా కాదు; మీ కేసు గురించి DLSA లేదా న్యాయవాదిని సంప్రదించండి.",
+          "de": "Free legal aid (for those eligible):\n- District Legal Services Authority (DLSA) Medak - Nyaya Seva Sadan, District Court Buildings, Medak 502110. Secretary Smt. R.M. Subhavalli: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\nSource: Telangana State Legal Services Authority directory (telangana.nalsa.gov.in), checked 24-10-2026\n- NALSA toll-free: 15100 (for urgent legal assistance) - source: nalsa.gov.in\n- Eligibility for free aid (Section 12, Legal Services Authorities Act): these categories qualify directly - SC/ST members, women, children, mentally or physically disabled persons, industrial workmen, persons in custody, victims of disasters/violence, victims of trafficking. Separately, for those applying on the income basis, the NALSA page lists an annual income ceiling of Rs.3,00,000 for Telangana - source: nalsa.gov.in (24-10-2026)\n- To check case status: search by CNR number or party name at services.ecourts.gov.in\n- Medak district court official site: medak.dcourts.gov.in\n- Lok Adalat: a no-fee forum that settles civil cases and some compoundable criminal cases - pending or pre-litigation - by compromise; its award is final like a civil court decree. A separate Permanent Lok Adalat covers disputes with public utility services (power, water, transport, hospital, insurance, etc.). Ask DLSA Medak for dates - source: nalsa.gov.in\nThis is general information only, not legal advice; consult DLSA or an advocate about your case.",
+          "s": "https://telangana.nalsa.gov.in/directory/",
+          "sn": "telangana.nalsa.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "contacts-education",
+          "t": "విద్య - పాఠశాల, MEO-DEO & అక్షరాస్యత",
+          "e": "Education - school, MEO-DEO & literacy",
+          "d": "పాఠశాలలు & విద్య (24-10-2026 తనిఖీ):\n• గ్రామ పాఠశాల వివరాలు: మన గ్రామ పాఠశాల పేరు, UDISE కోడ్ ఈ తనిఖీలో అధికారిక పేజీల్లో నిర్ధారించలేదు (UDISE+ సైట్‌లో క్యాప్చా ఉన్నది; దాన్ని దాటవేయలేము). పాఠశాల సమాచారం kys.udiseplus.gov.in ('Know Your School') లో లేదా DEO కార్యాలయంలో నిర్ధారించుకోవచ్చు\n• దగ్గరి ప్రభుత్వ హైస్కూల్: ZPHS చిలిప్చెడ్ (పాఠశాల కోడ్ 36171400503) - ఫోన్ 9490522737 - మూలం: మెదక్ జిల్లా అధికారిక సైట్ పబ్లిక్ యూటిలిటీ పేజీ (24-10-2026 న చూశాం)\n• జిల్లా విద్యాధికారి (DEO) మెదక్: 7207704500 (deomedak2016@gmail.com) - మూలం: మెదక్ జిల్లా సైట్ డైరెక్టరీ\n• MEO (మండల విద్యాధికారి) చిలిప్చెడ్ ప్రస్తుత ఫోన్ ఈ తనిఖీలో అధికారిక పేజీల్లో దొరకలేదు\n• అక్షరాస్యత కార్యక్రమం (15 ఏళ్లు పైబడి చదవరాయని వారికి): ప్రస్తుత జాతీయ అధికారిక కార్యక్రమం 'నవ భారత సాక్షరతా కార్యక్రమం (NILP/ఉల్లాస్)', 2022-27; స్వచ్ఛందుల ద్వారా బోధన, DIKSHA యాప్‌లో ఆన్‌లైన్ పాఠాలు - మూలం: dsel.education.gov.in/nilp",
+          "de": "Schools & education (checked 24-10-2026):\n- Village school details: the village school's name and UDISE code could not be verified on official pages during this check (the UDISE+ site uses a captcha we cannot clear). Confirm school information at kys.udiseplus.gov.in ('Know Your School') or with the DEO office\n- Nearest government high school: ZPHS Chilipched (school code 36171400503) - phone 9490522737 - source: Medak district official site public utility page (checked 24-10-2026)\n- District Education Officer (DEO) Medak: 7207704500 (deomedak2016@gmail.com) - source: Medak district site directory\n- The current phone of the MEO (Mandal Education Officer) Chilipched was not found on official pages during this check\n- Literacy programme (for non-literates aged 15+): the current official national programme is the New India Literacy Programme (NILP/ULLAS), 2022-27; volunteer-based teaching, online lessons on the DIKSHA app - source: dsel.education.gov.in/nilp",
+          "s": "https://kys.udiseplus.gov.in/",
+          "sn": "kys.udiseplus.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
     },
     {
       "id": "certs",
@@ -1619,9 +1749,6 @@ window.GS_DATA = {
     }
   ]
 };
-
-// Telangana govt official Calendar 2026 holiday list (general + optional combined, as published)
-// Source: https://www.telangana.gov.in/downloads/calendar-2026/ - checked 24-10-2026
 window.GS_CAL = {
   year: 2026,
   src: 'https://www.telangana.gov.in/downloads/calendar-2026/',
