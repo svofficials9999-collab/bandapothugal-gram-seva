@@ -136,6 +136,11 @@ h1{font-size:inherit;line-height:1.3;letter-spacing:0;background:none;-webkit-te
 .hmeta{display:flex;align-items:center;gap:10px;margin-top:8px}.hmeta .sub{min-width:0;flex:1;font-size:10px;margin:0;line-height:1.5}.hbtns{margin-left:auto}
 html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 @media(max-width:360px){.hrow{gap:9px}.logo{width:48px;height:48px;border-radius:14px}.servicename{font-size:16px}.hmeta{gap:7px}}
+
+.ecopywrap{min-width:0}.ecopywrap>.linkcopy{display:block;width:100%;margin:3px 0;font-size:10px;padding:5px}.ecopywrap>.ebtn{min-height:64px}
+.linkcopy{display:inline-block;min-height:44px;padding:8px 10px;margin:4px;border:1px solid #a7c9de;background:#f0f9ff;color:#155e75;font-size:11px;border-radius:10px;cursor:pointer;vertical-align:middle}
+#copyDialog{margin:auto;padding:18px;max-width:90%;border-radius:16px;border:1px solid #a7c9de}#copyValue{width:100%;margin-top:10px}#printArea{display:none}
+@media print{body.gs-printing>*{display:none!important}body.gs-printing>#printArea{display:block!important;color:#111;background:white;padding:12mm}#printArea h1{font-size:22px;color:#111;background:none;-webkit-text-fill-color:#111}#printArea pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 'Noto Sans Telugu',sans-serif;margin:20px 0}#printArea p{font-size:11px}}
 </style>
 </head>
 <body>
@@ -189,10 +194,12 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 </dialog>
 <button class="stopbtn" id="stopBtn" title="Stop">⏹</button>
 <button id="installBtn" title="Install">⬇️</button>
-<div id="toast"></div>
+<div id="toast"></div><section id="printArea" aria-label="Print preview"></section>
+<dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
-<script src="schemes.js?v=64"></script>
-<script src="details.js?v=64"></script>
+<script src="resources.js?v=65"></script>
+<script src="schemes.js?v=65"></script>
+<script src="details.js?v=65"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -224,6 +231,7 @@ function render(){
   // sections
   $('secGrid').innerHTML = D.sections.map(s =>
     '<div class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+s.icon+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
+  ['news','draft'].map(id=>'<div class="sec" role="button" tabindex="0" aria-label="'+id+'" onclick="openSpecial(\''+id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\''+id+'\')}"><div class="ic">'+(id==='news'?'📰':'📄')+'</div><h2>'+T(id==='news'?'వార్తాపత్రికలు':'ముసాయిదా & PDF',id==='news'?'Newspapers':'Draft & PDF')+'</h2></div>').join('')+
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
@@ -308,6 +316,25 @@ function closeSearch(){
   }
 }
 
+function gsToday(){return new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Kolkata'});}
+function gsNewsList(){
+ const q=($('paperQuery').value||'').toLowerCase().replace(/today|టుడే|ఈరోజు|నేటి|paper|పేపర్/g,'').trim();
+ const date=$('paperDate').value||gsToday(),district=$('paperDistrict').value.trim();
+ const papers=GS_PAPERS.filter(p=>(p.aliases+' '+p.te+' '+p.en).toLowerCase().includes(q)||!q);
+ $('paperResults').innerHTML='<p class="privacy">'+esc(T('మీ ఎంపిక: ','Your selection: ')+date+(district?' · '+district:''))+'. '+T('క్రింది లింక్ తేదీకి నేరుగా కాదు. ప్రచురణకర్త సైట్‌లో ఇదే తేదీ, ఎడిషన్ ఎంచుకోండి.','Links below are not date-specific. Select this date and edition on the publisher site.')+'</p>'+papers.map(p=>'<div class="card"><h3>'+esc(T(p.te,p.en))+'</h3><p class="desc">'+T(p.articles?'నేటి వార్తల వెబ్ పేజీ; ముద్రిత జిల్లా e-paper కాదు.':'అధికారిక e-paper హోమ్. అందుబాటులో ఉన్న తేదీ / జిల్లా ఎడిషన్‌ను అక్కడ ఎంచుకోండి.',p.articles?'Today’s articles page, not a printed district e-paper.':'Official e-paper home. Choose an available date / district edition there.')+'</p><a class="cbtn open" href="'+p.url+'" target="_blank" rel="noopener">'+T('ప్రచురణకర్త సైట్ తెరవండి','Open publisher site')+'</a></div>').join('')+(!papers.length?'<p class="privacy">'+T('ఈ పేరుతో ధృవీకరించిన పత్రిక మన జాబితాలో లేదు. అన్ని భారతీయ పత్రికలు / జిల్లా ఎడిషన్లు ఇందులో లేవు. క్రింది వెబ్ సెర్చ్ కేవలం వెతకడానికి; ఫలితాలు ధృవీకరించిన అధికారిక లింకులు కావు.','No verified publisher matches this name in this directory. It does not cover every Indian paper / district. Web search below is discovery only, not verified official results.')+'</p>':'');
+ const query=($('paperQuery').value||'newspaper')+' official epaper '+date+' '+district;
+ $('paperWebSearch').href='https://www.google.com/search?q='+encodeURIComponent(query);
+}
+function gsOpenNews(){
+ $('stIcon').textContent='📰';$('stName').textContent=T('వార్తాపత్రికలు','Newspapers');
+ $('cardList').innerHTML='<div class="card frm"><label for="paperQuery">'+T('పేపర్ పేరు (తెలుగు / English)','Paper name (Telugu / English)')+'</label><input id="paperQuery" placeholder="నమస్తే తెలంగాణ / Eenadu / The Hindu" oninput="gsNewsList()"><label for="paperDate">'+T('కావాల్సిన తేదీ (IST)','Requested date (IST)')+'</label><input id="paperDate" type="date" value="'+gsToday()+'" max="'+gsToday()+'" onchange="gsNewsList()"><label for="paperDistrict">'+T('జిల్లా / నగరం - ప్రచురణకర్త వద్ద ఎంచుకోండి','District / city - select at publisher')+'</label><input id="paperDistrict" placeholder="మెదక్ / Hyderabad" oninput="gsNewsList()"><div class="privacy">'+T('పేపర్లు ఇక్కడ హోస్ట్ చేయము. ఏ పత్రికకు ఏ రోజు / అన్ని జిల్లా ఎడిషన్లు అందుబాటులో ఉన్నాయో హామీ లేదు. నేరుగా తేదీకి వెళ్లే URL విధానం ఈ తనిఖీలో నిర్ధారించలేదు; అధికారిక హోమ్ లింకులు మాత్రమే. సైట్‌లో తేదీ మార్చండి / ఎడిషన్ మార్చండి వాడండి. లాగిన్ / చందా కోరవచ్చు; యాప్ చెల్లింపు చేయదు, చందా దాటించదు.','No newspaper content is hosted here. Availability of any date / every district is not guaranteed. A reliable date-specific URL pattern was not verified in this check; links open official homes. Use the publisher’s date / edition controls. Login / subscription may be required; Gram Seva makes no payment or paywall bypass.')+'</div><a id="paperWebSearch" target="_blank" rel="noopener">'+T('ఇతర పేపర్ కోసం వెబ్‌లో వెతకండి (ధృవీకరించని ఫలితాలు)','Search web for another paper (unverified results)')+'</a></div><div id="paperResults" class="cards" style="display:flex"></div>';
+ gsNewsList();
+}
+function gsOpenDraft(){
+ $('stIcon').textContent='📄';$('stName').textContent=T('ముసాయిదా & PDF','Draft & PDF');
+ $('cardList').innerHTML='<div class="card frm"><div class="privacy">'+T('మీ ఫోన్‌లోనే వ్రాసి Print / Save as PDF వాడండి. ముసాయిదా ఎక్కడా సేవ్ / పంపబడదు; వెనక్కి వెళ్తే పోతుంది. ఇది బ్యాంకు / ప్రభుత్వ అసలు ఫారమ్‌కు ప్రత్యామ్నాయం కాదు. అధికారిక PDF ఫారమ్‌ను సంబంధిత సైట్‌లోనే నింపి సేవ్ చేయాలి; బయట సైట్‌లో నింపిన వివరాలు ఈ యాప్ చదవదు.','Write locally and use Print / Save as PDF. Drafts are not stored or sent and are lost when you leave. This is not a substitute for an official bank / government form. Complete and save external official PDFs on their own site; Gram Seva cannot read forms filled on other sites.')+'</div><label for="draftTitle">'+T('శీర్షిక','Title')+'</label><input id="draftTitle"><label for="draftBody">'+T('వివరాలు','Details')+'</label><textarea id="draftBody" rows="12"></textarea><button class="sendbtn" onclick="gsPrintDraft()">'+T('Print / PDFగా సేవ్ చేయండి','Print / Save as PDF')+'</button><p class="privacy">'+T('Print తెరలో Save as PDF ఎంచుకోండి. మీ ఫోన్ / బ్రౌజర్‌లో ఆ ఎంపిక ఉంటే ఫైల్ సేవ్ చేసి జిరాక్స్ తీసుకోవచ్చు. ఈ బటన్ ప్రింట్ డైలాగ్ తెరుస్తుంది; ఆటోమేటిక్ PDF డౌన్‌లోడ్ కాదు.','Choose Save as PDF in the print screen if your phone/browser offers it, then save and print the file. This opens the print dialog; it is not an automatic PDF download.')+'</p></div>';
+}
+
 // ---- Special views: complaint form + mandal offices directory ----
 function openSpecial(id, push){
   if(push !== false && history.state?.gs !== 'view:special:'+id) { try{ history.pushState({gs:'view:special:'+id, kind:'special', id:id}, ''); }catch(e){} }
@@ -316,7 +343,9 @@ function openSpecial(id, push){
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='none';
   $('stName').dataset.sid = 'special:' + id;
-  if(id === 'offices'){
+  if(id === 'news'){gsOpenNews();
+  } else if(id === 'draft'){gsOpenDraft();
+  } else if(id === 'offices'){
     $('stIcon').textContent = '🏢'; $('stName').textContent = T('మండల కార్యాలయాలు','Mandal Offices');
     $('cardList').innerHTML = D.directory.map((it,i) =>
       '<div class="card"><h3>'+T(it.t,it.e)+'</h3><div class="desc">'+T(it.d,it.de)+'</div>'+
@@ -339,14 +368,14 @@ function openSpecial(id, push){
     '<label for="siR">'+T('వడ్డీ రేటు (%) *','Interest rate (%) *')+'</label><div class="inrow"><input id="siR" type="number" inputmode="decimal" min="0" step="0.01" placeholder="'+T('ఉదా: 2','e.g. 2')+'"><select id="siRP"><option value="m">'+T('% నెలకు','% per month')+'</option><option value="y">'+T('% ఏటికి','% per year')+'</option></select></div>'+
     '<label for="siT">'+T('కాలం *','Period *')+'</label><div class="inrow"><input id="siT" type="number" inputmode="decimal" min="0" step="1" placeholder="'+T('ఉదా: 12','e.g. 12')+'"><select id="siTP"><option value="m">'+T('నెలలు','months')+'</option><option value="y">'+T('సంవత్సరాలు','years')+'</option></select></div>'+
     '<button class="sendbtn" onclick="calcSI()">🧮 '+T('లెక్కించండి','Calculate')+'</button>'+
-    '<div class="calcres" id="siRes"></div></div>'+
+    '<div class="calcres" id="siRes"></div><button class="pill" onclick="gsPrintCalc(\'si\')">Print / PDF</button></div>'+
     '<div class="card frm"><h3>🏦 '+T('EMI లెక్క (తగ్గే నిల్వ పద్ధతి)','EMI calculator (reducing balance)')+'</h3>'+
     '<div class="desc">'+T('బ్యాంకు లోన్‌ల లాగా తగ్గే నిల్వ (reducing balance) పద్ధతిలో నెలవారీ EMI అంచనా. ఇది కేవలం అంచనా: ప్రాసెసింగ్ ఫీజు, ఇన్షూరెన్స్, ఇతర ఛార్జీలు ఇందులో చేరవు - బ్యాంకు/సంస్థ చెప్పే EMI కొంచెం భిన్నం కావచ్చు. ఇది లోన్ సలహా కాదు.','Monthly EMI estimate on the reducing balance method, like bank loans. Estimate only: processing fee, insurance and other charges are not included - the EMI quoted by a bank/institution may differ slightly. This is not loan advice.')+'</div>'+
     '<label for="emiP">'+T('లోన్ మొత్తం (₹) *','Loan amount (₹) *')+'</label><input id="emiP" type="number" inputmode="decimal" min="0" placeholder="'+T('ఉదా: 100000','e.g. 100000')+'">'+
     '<label for="emiR">'+T('వార్షిక వడ్డీ రేటు (% ఏటికి) *','Annual interest rate (% per year) *')+'</label><input id="emiR" type="number" inputmode="decimal" min="0" step="0.01" placeholder="'+T('ఉదా: 12','e.g. 12')+'">'+
     '<label for="emiN">'+T('కాలం (నెలలు) *','Period (months) *')+'</label><input id="emiN" type="number" inputmode="numeric" min="1" step="1" placeholder="'+T('ఉదా: 24','e.g. 24')+'">'+
     '<button class="sendbtn" onclick="calcEMI()">🧮 '+T('EMI లెక్కించండి','Calculate EMI')+'</button>'+
-    '<div class="calcres" id="emiRes"></div></div>';
+    '<div class="calcres" id="emiRes"></div><button class="pill" onclick="gsPrintCalc(\'emi\')">Print / PDF</button></div>';
     calShow();
   } else {
     $('stIcon').textContent = '📝'; $('stName').textContent = T('ఫిర్యాదు చేయండి','File a Complaint');
@@ -362,6 +391,7 @@ function openSpecial(id, push){
     '<div class="privacy">📌 '+T('ఈ ఫిర్యాదు నేరుగా సర్పంచ్ మరియు పంచాయతీ సెక్రటరీకి పంపే సదుపాయం చేరుస్తాం - వారి ప్రస్తుత అధికారిక సంప్రదింపు వివరాలు ఇంకా నిర్ధారించలేదు. ప్రస్తుతం టెక్స్ట్ తయారు చేసి కాపీ చేసుకుని మీరే పంపవచ్చు, లేదా క్రింది అధికారిక మార్గాలు వాడవచ్చు.','Direct sending of this complaint to the sarpanch and panchayat secretary will be added - their current official contact details are not yet verified. For now, compose the text, copy it and send it yourself, or use the official channels below.')+'</div>'+
     '<button class="sendbtn" onclick="composeComplaint()">📝 '+T('ఫిర్యాదు టెక్స్ట్ తయారు చేయండి','Compose complaint text')+'</button>'+
     '<div id="compOut" style="display:none;margin-top:10px"><textarea id="compText" readonly rows="8" style="width:100%;font-size:13px"></textarea>'+
+    '<button class="sendbtn" onclick="gsPrintComplaint()">'+T('Print / PDFగా సేవ్ చేయండి','Print / Save as PDF')+'</button>'+
     '<button class="sendbtn" onclick="copyComplaint()">📋 '+T('కాపీ చేయండి','Copy text')+'</button></div>'+
     '</div>'+
     '<div class="srctag">🏛️ '+T('అధికారిక ఫిర్యాదు మార్గాలు కూడా','Official grievance channels too')+'</div>'+
@@ -612,6 +642,7 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=64"></script>
+<script src="notifications.js?v=65"></script>
+<script src="utilities.js?v=65"></script>
 </body>
 </html>

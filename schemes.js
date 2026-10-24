@@ -1,4 +1,4 @@
-// Verified government and official-bank information. Banking checked 24-10-2026.
+// Verified government, bank and publisher resource information.
 window.GS_DATA = {
   "built": "23-10-2026",
   "village": {
@@ -179,6 +179,64 @@ window.GS_DATA = {
     }
   ],
   "sections": [
+    {
+      "id": "freelearning",
+      "te": "ఉచిత నైపుణ్య అభ్యాసం",
+      "en": "Free skill learning",
+      "icon": "🛠️",
+      "items": [
+        {
+          "id": "learn-fitter",
+          "t": "ఫిట్టర్ - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Fitter - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nఈ ట్రేడ్‌కు తెలుగు Practical / Theory పుస్తకాలను పేజీ జాబితా చేస్తోంది.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nThe trade page lists Telugu practical/theory books.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=HIryMME3UqmQNYriQLEEFA==",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-electrician",
+          "t": "ఎలక్ట్రీషియన్ - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Electrician - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nఈ ట్రేడ్‌కు తెలుగు Practical / Theory పుస్తకాలను పేజీ జాబితా చేస్తోంది.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nThe trade page lists Telugu practical/theory books.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=WSdYV6aWadK8jUuNKxoBWg==",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-welder",
+          "t": "వెల్డర్ - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Welder - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nతెలుగు బోధన / ఆడియో ఈ ట్రేడ్‌కు నిర్ధారించలేదు; అందుబాటులో ఉన్న భాషను పేజీలో చూడండి.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nTelugu teaching/audio for this trade was not verified; check the available language on the page.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=vNuH8QjfGrhOzGTIvfa6cA==",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-sewing",
+          "t": "కుట్టు / Sewing Technology - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Sewing Technology - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nతెలుగు బోధన / ఆడియో ఈ ట్రేడ్‌కు నిర్ధారించలేదు; అందుబాటులో ఉన్న భాషను పేజీలో చూడండి.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nTelugu teaching/audio for this trade was not verified; check the available language on the page.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://www.bharatskills.gov.in/Home/StudyMaterial?Default=YES&var=zfIkBIwZDBnS2+0m6kz%2FqA%3D%3D",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-swayam",
+          "t": "SWAYAM - ఉచితంగా నేర్చుకోవడం మాత్రమే",
+          "e": "SWAYAM - free learning access only",
+          "d": "అధికారిక FAQ ప్రకారం SWAYAM కోర్సులు నేర్చుకోవడానికి ఉచితం. సర్టిఫికేట్ కోసం పరీక్షకు రుసుము ఉండవచ్చు; చెల్లింపు పరీక్షను ఈ యాప్ నమోదు చేయదు.\nమీ అంశానికి అందుబాటులో ఉన్న కోర్సు, భాష, చేరే తేదీలు అధికారిక సైట్‌లో చూడండి. ప్రస్తుతం ఉచిత లైవ్ క్లాస్ ఉందని / అన్ని కోర్సులు తెలుగులో ఉన్నాయని నిర్ధారించలేదు. ఉచిత పాఠాలు మాత్రమే ఎంచుకోండి.",
+          "de": "The official FAQ says SWAYAM courses are free to learn. Certificate exams can carry fees; Gram Seva does not enroll you in paid exams.\nCheck the current subject, language and enrollment dates on the official site. No claim that a free live class is currently open or every course is in Telugu. Use the free learning materials only.",
+          "s": "https://swayam.gov.in/faq",
+          "sn": "swayam.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
     {
       "id": "banking",
       "te": "బ్యాంకు ఖాతాలు & మహిళల రుణాలు",
