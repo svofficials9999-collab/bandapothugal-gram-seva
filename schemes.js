@@ -179,6 +179,174 @@ window.GS_DATA = {
   ],
   "sections": [
     {
+      "id": "cropguide",
+      "te": "పంటల సాగు & సేంద్రీయ వ్యవసాయం",
+      "en": "Crop growing & organic farming",
+      "icon": "🌱",
+      "items": [
+        {
+          "id": "cropguide-start",
+          "t": "ముందుగా చదవండి - పంటల సాగు సూచిక",
+          "e": "Start here - crop-growing index",
+          "d": "వరి • పత్తి • వేరుశనగ • మినుములు • కుసుమలు • టమాటా • బ్రోకోలి • కూరగాయలు • పండ్ల తోటలు • సేంద్రీయ సాగు.\nఉచిత పరిచయం, చదివే లింకులు. ఇది మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ప్రతి పంట బండపోతుగల్‌కు అనుకూలమని నిర్ధారణ కాదు.\nనేల పరీక్ష → స్థానిక సీజన్ / రకం → నీరు → విత్తనం / నారు → దశల పరిశీలన → కోత / మార్కెట్ ప్రణాళిక.\nతమిళనాడు / విదేశీ మూలాల్లో నెలలు, రకాలు, మోతాదులు మన గ్రామానికి నేరుగా వర్తింపజేయవద్దు. మూలం తనిఖీ:24-10-2026; పేజీ పాతది కావచ్చు. తాజా స్థానిక సూచన వ్యవసాయ అధికారి / KVK వద్ద నిర్ధారించండి.",
+          "de": "Rice, cotton, groundnut, blackgram, safflower, tomato, broccoli, vegetables, fruits and organic farming.\nFree introduction/reading links, not a field-specific prescription or proof that every crop suits Bandapothugal.\nSoil test → local season/variety → water → seed/nursery → stage checks → harvest/market plan.\nDo not transfer Tamil Nadu/overseas calendars, varieties or doses directly to this village. Sources checked24-10-2026; underlying pages may be older. Confirm current local advice with agriculture officer/KVK.",
+          "s": "https://www.pjtsau.edu.in/pjtsau-vyavasaaya-diksoochi.html",
+          "sn": "www.pjtsau.edu.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-planning",
+          "t": "నేల • సీజన్ • నీరు - సాగుకు ముందు",
+          "e": "Soil • season • water - before planting",
+          "d": "ప్రణాళిక జాబితా: నేల పరీక్ష, గత పంట, నీటి నాణ్యత / లభ్యత, డ్రైనేజీ, పెట్టుబడి, కూలీలు, కొనుగోలుదారు.\nనేలను చూసి ఊహించి సున్నం / జిప్సం / ఎరువు వేయవద్దు. పరీక్ష ఆధారంగా స్థానిక నిపుణుడి ప్రణాళిక తీసుకోండి.\nతెలంగాణ విశ్వవిద్యాలయం తెలుగు వ్యవసాయ పంచాంగం పంటల నిర్వహణను వివరిస్తుంది. ఈ పేజీలో కనిపించిన సంచికలు2021-22 /2019-20 /2018-19; తాజా2026 సంచికగా చూపడం లేదు.",
+          "de": "Planning checklist: soil test, previous crop, water quality/availability, drainage, budget, labour and buyer.\nDo not guess lime/gypsum/fertilizer treatment from appearance; obtain a test-based local plan.\nTelangana university publishes Telugu crop-management almanacs. Editions visible here are2021-22,2019-20,2018-19, not a verified2026 edition.",
+          "s": "https://www.pjtsau.edu.in/pjtsau-vyavasaaya-diksoochi.html",
+          "sn": "www.pjtsau.edu.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-rice",
+          "t": "వరి సాగు - పద్ధతి, సీజన్ ముందుగా",
+          "e": "Rice - method and local season",
+          "d": "విత్తే ముందు స్థానిక రకం, పంట కాలం, నీటి లభ్యత నిర్ణయించండి. నారు నాటడం / నేరుగా విత్తడం నిర్వహణ ఒకేలా ఉండదు.\nచదివే దశలు: విత్తనం / నారు → పొలం సిద్ధం → నాటడం / విత్తడం → నీరు / కలుపు / పోషకాల పరిశీలన → తెగుళ్ల నిర్ధారణ → కోత.\nకింద పేజీ తమిళనాడు సీజన్లు / రకాలు చూపుతుంది; ఆ నెలలు / రకాలు మెదక్ సిఫార్సు కావు. స్థిర నీటి / మందుల మోతాదు ఇక్కడ ఇవ్వలేదు.",
+          "de": "Confirm local variety, duration and water before planting. Transplanting and direct seeding need different management.\nStudy seed/nursery → field preparation → planting → water/weeds/nutrition checks → diagnosis → harvest.\nLinked seasons/varieties are for Tamil Nadu, not a Medak recommendation. No fixed irrigation/product dose is prescribed.",
+          "s": "https://agritech.tnau.ac.in/agriculture/agri_seasonandvarieties_rice.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-cotton",
+          "t": "పత్తి - పద్ధతులను కలపవద్దు",
+          "e": "Cotton - distinguish growing systems",
+          "d": "మూలంలో నీటి పారుదల, వర్షాధార, వరి తర్వాత, అధిక సాంద్రత, సేంద్రీయ పత్తి పద్ధతులు వేరు.\nస్థానిక నేల / సీజన్ / నీటికి పద్ధతి, విత్తనం, దూరం నిపుణుడితో నిర్ణయించండి. HDPS దూరాన్ని ప్రతి రకానికి వర్తింపజేయవద్దు.\nపెరుగుదల → పూత → కాయ దశల్లో పరిశీలించండి. సమస్య పేరు నిర్ధారించకుండా మందులు కలపవద్దు. లింకులోని పాత రసాయన సూచనలు ప్రస్తుత తెలంగాణ అనుమతి / లేబుల్‌కు బదులు కావు.",
+          "de": "Source separates irrigated, rainfed, rice-fallow, high-density and organic cotton systems.\nConfirm system, seed and spacing for local soil/season/water. HDPS spacing is not for every variety.\nMonitor growth → flowering → bolls. Do not mix products before diagnosis. Old linked chemical guidance does not replace current Telangana approval/label.",
+          "s": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_cotton.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-groundnut",
+          "t": "వేరుశనగ - పూత, ఊడలు, కాయలు",
+          "e": "Groundnut - flowering, pegging and pods",
+          "d": "మూలం ప్రకారం పూత, ఊడలు నేలలోకి దిగే దశ, కాయ అభివృద్ధిలో తేమ ముఖ్యం.\nపొలం / మంచి విత్తనం → విత్తడం → కలుపు పరిశీలన → పూత / ఊడలు / కాయలు → పరిపక్వత / కోత చదవండి.\nనేల, వర్షం, దశను బట్టి నీరు నిర్ణయించాలి. మూలంలోని రోజుల పట్టిక స్థిర మెదక్ షెడ్యూల్ కాదు. జిప్సం / ఎరువు / మందుల మోతాదు స్థానిక పరీక్ష, నిపుణుడి సలహా ఆధారమే.",
+          "de": "Source identifies flowering, pegging and pod development as important moisture stages.\nStudy field/seed → sowing → weeds → flowering/pegging/pods → maturity/harvest.\nIrrigation depends on soil, rain and stage; source day tables are not a fixed Medak schedule. Gypsum/fertilizer/protection need local tests and advice.",
+          "s": "https://agritech.tnau.ac.in/agriculture/CropProduction/Oilseeds/oilseeds_groundnut01.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-blackgram",
+          "t": "మినుములు - నీరు నిలవకుండా",
+          "e": "Blackgram - avoid water stagnation",
+          "d": "మూలంలో పూత / కాయ ఏర్పడే దశల్లో తేమ ముఖ్యం; అన్ని దశల్లో నీరు నిలవకుండా చూడాలని ఉంది.\nమంచి విత్తనం → సీజన్ / పద్ధతి → మొలకలు / కలుపు → పూత / కాయలు → కోత.\nవరి తర్వాత మిగిలిన తేమ, నీటి పారుదల, వర్షాధార సాగు సూచనలు వేరు. తమిళనాడు నెలలు, రకాలు, మోతాదులను మన గ్రామానికి కాపీ చేయవద్దు.",
+          "de": "Source identifies flowering/pod formation as moisture-sensitive and advises avoiding stagnation at all stages.\nSeed quality → season/system → establishment/weeds → flowers/pods → harvest.\nRice-fallow, irrigated and rainfed systems differ. Do not copy Tamil Nadu calendars, varieties or doses into village prescriptions.",
+          "s": "https://agritech.tnau.ac.in/agriculture/pulses_blackgram.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-safflower",
+          "t": "కుసుమలు - విత్తనం నుంచి కోత వరకు",
+          "e": "Safflower - seed to harvest",
+          "d": "కుసుమలు / Safflower (Carthamus tinctorius): పొలం సిద్ధం, మంచి విత్తనం, వరుస విత్తడం, మొక్కల సర్దుబాటు, కలుపు, పరిపక్వత / కోత మూలంలో ఉన్నాయి.\nవిత్తే సమయం, రకం, నేల తేమ, కాలాన్ని స్థానిక అధికారితో నిర్ణయించండి. మూలంలోని నవంబర్ సూచన తమిళనాడు పరిధి; ప్రతి మెదక్ పొలానికి హామీ కాదు.\nరసాయన విత్తన శుద్ధి / ఎరువు సూచనలు సేంద్రీయ ప్రమాణాలకు ఆటోమేటిక్‌గా సరిపోవు.",
+          "de": "Safflower (Carthamus tinctorius) source covers field preparation, good seed, line sowing, thinning, weeds and maturity/harvest.\nConfirm local timing, variety, moisture and duration. Its November timing is Tamil Nadu guidance, not a guarantee for Medak fields.\nChemical seed/fertilizer treatments are not automatically organic-compatible.",
+          "s": "https://agritech.tnau.ac.in/agriculture/oilseeds_safflower.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-pulses",
+          "t": "ఇతర పప్పుధాన్యాలు - పేరు నిర్ధారణ",
+          "e": "Other pulses - identify first",
+          "d": "సూచికలో మినుములు, పెసలు, అలసందలు, కందులు వేరు పంటలు.\nస్థానిక పేరు స్పష్టంగా లేకపోతే విత్తన ప్యాకెట్, మొక్క / కాయ ఫోటోతో పంటను నిర్ధారించండి. పేరు తెలియకుండా మరో పంట మోతాదు వాడవద్దు.\nపేరు తెలిసిన తర్వాత నేల, కాలం, నీరు, రకానికి సరైన మార్గదర్శిని ఎంచుకోండి.",
+          "de": "Index distinguishes blackgram, greengram, cowpea and redgram.\nIf a local crop name is unclear, identify it with seed label and plant/pod photos; never use another crop’s dose by guesswork.\nThen match the guide to soil, season, water and variety.",
+          "s": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_fieldcrops.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-tomato",
+          "t": "టమాటా - నారు, ఆధారం, తేమ",
+          "e": "Tomato - nursery, support and moisture",
+          "d": "సూచికలో నారు / విత్తనం, సీజన్ / పొలం సిద్ధం, నీరు, తెగుళ్లు, కోత తర్వాత నిర్వహణ ఉన్నాయి. కొన్ని హైబ్రిడ్లకు ఆధారం, మల్చింగ్ ప్రత్యేక పద్ధతులు.\nఎండిన తర్వాత ఒక్కసారిగా నీరు ఇవ్వడం పండ్లు పగలడానికి దారితీయవచ్చని నీటి మార్గదర్శిని వివరిస్తుంది. నీటి అంతరాన్ని నేల / వాతావరణానికి సరిపోల్చండి.\nనారు రకం, డ్రైనేజీ, మార్కెట్ స్థానికంగా ప్రణాళిక చేయండి. ప్రతి టమాటా పద్ధతి సేంద్రీయం కాదు.",
+          "de": "Index covers nursery/seed, season/field, water, disorders and post-harvest handling. Support/mulching depend on the growing system.\nWater guide warns drought followed by sudden irrigation can crack fruit; adapt to soil/weather.\nPlan seedlings, drainage and market locally. Not every tomato method is organic.",
+          "s": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_index.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-broccoli",
+          "t": "బ్రోకోలి - చల్లని కాలం, చిన్న ప్రయోగం",
+          "e": "Broccoli - cool season, small trial",
+          "d": "చల్లని కాలపు పంట; వేడి ఎక్కువైతే తల / పుష్పగుచ్ఛం నాణ్యత తగ్గవచ్చు. డ్రైనేజీ, సరిపడ తేమ, నారు / రకం ఎంపిక ముఖ్యం.\nమొగ్గలు తెరుచుకోకముందు కోత, తర్వాత త్వరగా చల్లబరచడం మూలంలో ఉన్నాయి.\nఇది అమెరికా NC State విశ్వవిద్యాలయ Extension పరిచయం; దాని నెలలు, మందులు, మోతాదులు తెలంగాణ సిఫార్సు కావు. మెదక్ సమయం / రకం / కొనుగోలుదారు నిర్ధారించి చిన్న ప్రయోగం చేయండి; లాభం / అనుకూలత హామీ లేదు.",
+          "de": "Cool-season crop; high heat can impair head quality. Drainage, moisture and variety/seedlings matter.\nSource describes harvest before buds open and prompt cooling.\nNC State university Extension is US guidance, not Telangana dates, approvals or doses. Confirm local timing/variety/buyer and trial small; no suitability/profit guarantee.",
+          "s": "https://content.ces.ncsu.edu/basics-of-broccoli-production",
+          "sn": "content.ces.ncsu.edu",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-vegetables",
+          "t": "ఇతర కూరగాయలు - పంటవారీ సమాచారం",
+          "e": "Other vegetables - crop-specific reading",
+          "d": "కూరగాయల సూచికలో పంటను ఎంచుకుని నేల / వాతావరణం, నారు / విత్తనం, నీరు, కలుపు, సమస్యలు, కోత చదవండి.\nవేర్వేరు కూరగాయలకు ఒకే నీటి షెడ్యూల్ / మందు కాదు. స్థానిక సీజన్, రకం, వ్యాధి నిర్ధారణ అవసరం.\nతమిళనాడు మార్గదర్శిని, మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ఖర్చు / అమ్మకం ప్రణాళికతో మొదలుపెట్టండి.",
+          "de": "Select a crop in the vegetable index for soil/climate, nursery/seed, water, weeds, disorders and harvest.\nDifferent vegetables do not share one irrigation/protection schedule. Confirm local season, variety and diagnosis.\nTamil Nadu guidance, not a field prescription. Plan costs/sales before starting.",
+          "s": "https://agritech.tnau.ac.in/horticulture/horti_Vegetables.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-fruits",
+          "t": "పండ్ల తోటలు - దీర్ఘకాల ప్రణాళిక",
+          "e": "Fruit orchards - long-term planning",
+          "d": "సూచికలో మామిడి, అరటి, జామ, బొప్పాయి, నిమ్మ, దానిమ్మ తదితర పంటలు ఉన్నాయి.\nతోటకు ముందు నేల / నీటి నాణ్యత, డ్రైనేజీ, ఉష్ణోగ్రత, నమ్మకమైన నర్సరీ, దూరం, సంవత్సరాల నిర్వహణ ఖర్చు, మార్కెట్ పరిశీలించండి.\nజామకు నీరు బయటకు వెళ్లే నేల అనుకూలమని మూలం వివరిస్తుంది. ప్రతి పండు / రకం బండపోతుగల్‌కు సరిపోతుందని నిర్ధారణ కాదు; ఉద్యాన అధికారితో ప్రణాళిక చేయండి.",
+          "de": "Index includes mango, banana, guava, papaya, citrus and pomegranate.\nAssess soil/water, drainage, temperature, reliable nursery, spacing, multi-year costs and market.\nSource describes well-drained soils for guava. Not proof that every fruit/variety suits Bandapothugal; plan with horticulture staff.",
+          "s": "https://agritech.tnau.ac.in/horticulture/horti_fruits.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-organic",
+          "t": "సేంద్రీయ సాగు - నేల నుంచి ప్రణాళిక",
+          "e": "Organic farming - soil-led planning",
+          "d": "NCONF పాఠ్యాంశాలు: నేల ఆరోగ్యం, పంట మార్పిడి / అంతర పంటలు, కంపోస్టింగ్, మల్చింగ్, నీటి / పోషకాల నిర్వహణ, జీవ ఎరువులు, సమగ్ర చీడపీడ నిర్వహణ.\nసేంద్రీయం అంటే ఏ ఇంటి మిశ్రమమైనా సురక్షితం కాదు. ఇన్‌పుట్ నాణ్యత, పంట / దశ, అనుమతించిన వినియోగం, కార్మికుల / ఆహార భద్రత చూడాలి.\nస్థానిక నిపుణుడితో మార్పిడి ప్రణాళిక, ఖర్చు / దిగుబడి రికార్డులు ఉంచండి. దిగుబడి / లాభం హామీ లేదు.",
+          "de": "NCONF curriculum covers soil health, rotation/intercropping, composting, mulch, water/nutrients, biofertilizers and integrated pest management.\nOrganic does not make every homemade mixture safe. Check input quality, crop/stage, permitted use and worker/food safety.\nPlan transition and keep cost/yield records with local advice. No yield/profit guarantee.",
+          "s": "https://nconf.dac.gov.in/21DaysCertificateCourse",
+          "sn": "nconf.dac.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-organic-study",
+          "t": "ఉచితంగా చదవండి - సేంద్రీయ / సహజ సాగు",
+          "e": "Free reading - organic / natural farming",
+          "d": "MANAGE హైదరాబాద్ ప్రభుత్వ వనరుల్లో నేల, నీరు, విత్తనం, పంట వైవిధ్యం, తెగుళ్లు, సర్టిఫికేషన్ / మార్కెటింగ్ PPTలు ఉన్నాయి.\nఇవి చదివే వనరులు; ఇప్పుడు ఉచిత సీటు / స్థానిక బ్యాచ్ / వసతి ప్రకటన కాదు. నమోదు / చెల్లింపు చేయలేదు.\nసేంద్రీయంగా అమ్మడానికి ప్రమాణాలు / రికార్డులు / సర్టిఫికేషన్ వర్తించవచ్చు. ఒక మిశ్రమం వాడితే ధృవపత్రం రాదు. సేంద్రీయ, సహజ సాగు ఒకే ఆటోమేటిక్ సర్టిఫికేషన్ కాదు.",
+          "de": "MANAGE government resources cover soil, water, seed, diversification, pests and certification/marketing.\nReading materials, not current free local seats, batches or hostel availability. No registration/payment.\nOrganic marketing may require standards, records and certification. Using a mixture grants no certificate; organic/natural farming are not one automatic certification.",
+          "s": "https://www.manage.gov.in/nf/Trainings/Trainings.asp",
+          "sn": "www.manage.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-weather",
+          "t": "వాతావరణం - బులెటిన్ తేదీ చూడండి",
+          "e": "Weather - check bulletin date",
+          "d": "IMD పేజీలో రాష్ట్రం, జిల్లా, పంట ఎంపిక ఉంది. తేదీ, జిల్లా, పంట / దశ సరిపోతున్నాయో చూడండి.\nఈ తనిఖీలో పేజీ03-07-2026 చూపించింది; ఈరోజు మెదక్ సలహాగా చూపడం లేదు. పాత బులెటిన్‌పై స్ప్రే / నీటి నిర్ణయం తీసుకోవద్దు.\nవర్షం, తేమ, దశ ఆధారంగా స్థానిక సూచన తీసుకోండి. యాప్ పొలం తేమ కొలవదు; ఆటోమేటిక్ నీటి షెడ్యూల్ కాదు.",
+          "de": "IMD offers state/district/crop selection; check bulletin date and crop/stage.\nDuring this check it displayed03-07-2026, not presented as today’s Medak advisory. Do not use an outdated bulletin for spray/irrigation decisions.\nUse local rain, moisture and stage advice. App measures no field moisture or automatic schedule.",
+          "s": "https://imdagrimet.gov.in/cropAdvisory_3.php",
+          "sn": "imdagrimet.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-diagnosis",
+          "t": "పురుగు / తెగులు - ముందుగా నిర్ధారణ",
+          "e": "Pests / disease - diagnose first",
+          "d": "పంట / రకం, విత్తిన తేదీ, దశ, ఆకుల రెండు వైపుల ఫోటోలు, ప్రభావిత విస్తీర్ణం, ఇటీవల నీరు / ఇన్‌పుట్ వివరాలు అధికారికి / KVKకి చూపండి.\nపసుపు ఆకు ఒక్కటే చూసి పురుగు / లోపం నిర్ణయించవద్దు. పొలం నిర్ధారణ లేకుండా మందు / ఎరువు మోతాదు ఇక్కడ ఇవ్వలేదు.\nపాత వెబ్ రసాయన జాబితా ప్రస్తుత అనుమతి కాదు. నిర్ధారణ తర్వాత చట్టబద్ధ పంట-లేబుల్, భద్రతా పరికరాలు, కోతకు ముందు గడువు పాటించే స్థానిక సలహా తీసుకోండి. యాప్ అధికారికి పంపదు.",
+          "de": "Show officer/KVK crop/variety, sowing date/stage, both sides of affected leaves, area and recent water/inputs.\nYellowing alone does not identify a pest/deficiency. No product dose is given without diagnosis.\nOld web lists do not establish current approval. After diagnosis use lawful crop-label, protection and pre-harvest interval advice. App sends nothing.",
+          "s": "https://www.manage.gov.in/nf/Trainings/Trainings.asp",
+          "sn": "www.manage.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
+    {
       "id": "civic",
       "te": "పౌర అవగాహన & నాయకత్వం",
       "en": "Civic awareness & leadership",
