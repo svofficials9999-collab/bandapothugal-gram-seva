@@ -198,8 +198,8 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=74"></script>
-<script src="details.js?v=74"></script>
+<script src="schemes.js?v=75"></script>
+<script src="details.js?v=75"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -232,6 +232,9 @@ function render(){
     : '<div class="nempty">'+T('ప్రస్తుతం కొత్త నోటీసులు లేవు','No new notices right now')+'</div>';
   $('emgGrid').innerHTML = D.emergency.map(e =>
     '<a class="ebtn" href="tel:'+e.n+'"><b>'+e.n+'</b><span>'+T(e.te,e.en)+'</span></a>').join('');
+  // Keep the original emergency block intact while placing it third in the index.
+  const emergencyBox = $('emgBox');
+  emergencyBox.remove();
   // sections
   $('secGrid').innerHTML = D.sections.map(s =>
     '<div data-notice-section="'+s.id+'" class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+sectionIcon(s)+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
@@ -239,6 +242,8 @@ function render(){
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
+  emergencyBox.style.gridColumn = '1 / -1';
+  $('secGrid').insertBefore(emergencyBox, $('secGrid').children[2]);
   window.GS_NOTIFICATIONS?.paintSections();
 }
 function updateSectionNotices(){if(!document.getElementById('sectionNoticeBar')){const b=document.createElement('div');b.id='sectionNoticeBar';document.getElementById('cardList').before(b);}window.GS_NOTIFICATIONS?.paintSections();}

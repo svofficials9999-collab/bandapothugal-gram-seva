@@ -179,635 +179,624 @@ window.GS_DATA = {
   ],
   "sections": [
     {
-      "id": "childrenschess",
-      "te": "పిల్లల కోసం రాయల్ చెస్",
-      "en": "Royal Chess for children",
-      "icon": "♟",
-      "items": [
-        {
-          "id": "childrenschess-open",
-          "t": "రాయల్ చెస్ - ఉచితంగా ఆడండి",
-          "e": "Royal Chess - play free",
-          "d": "తెలుగు / Englishలో చదరంగం. ఒకే ఫోన్‌లో ఇద్దరు ఆడవచ్చు; కంప్యూటర్‌తో Beginner నుంచి Expert వరకు5 స్థాయిలు ఉన్నాయి. మొదట Game Guideలో నియమాలు చూడండి.\nకింద “చెస్ ఆడండి” నొక్కితే మన ప్రత్యేక ROYAL CHESS యాప్ కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది. ప్రకటనలు, చెల్లింపు, సైన్-అప్ లేవు. గ్రామ సేవ సమాచారం అలాగే ఉంటుంది; తిరిగి రావడానికి చెస్ ట్యాబ్ మూసి గ్రామ సేవ ట్యాబ్ ఎంచుకోండి.\nరెండు ఫోన్ల మోడ్ బీటా. వేర్వేరు నెట్‌వర్క్‌లలో ఆట ఇంకా ధృవీకరించబడలేదు; పిల్లలకు ఒకే ఫోన్ / కంప్యూటర్ మోడ్‌తో మొదలు పెట్టండి. గేమ్ కోడ్‌లను పబ్లిక్‌గా పెట్టవద్దు. నెట్‌వర్క్ సహాయం ఎంచుకుంటే దాని గోప్యతా గమనిక ముందుగా చదవండి.",
-          "de": "Chess in Telugu/English. Two people can play on one phone, or play the computer at5 levels from Beginner to Expert. Read Game Guide first.\n“Play chess” opens our separate ROYAL CHESS app in a new tab. No ads, payment or sign-up. Gram Seva stays intact; close the chess tab and select Gram Seva to return.\nTwo Phones is beta; different-network play remains unverified. Start children with same-phone/computer mode. Never post game codes publicly; read the privacy note before choosing network assistance.",
-          "bt": "చెస్ ఆడండి",
-          "be": "Play chess",
-          "s": "https://svofficials9999-collab.github.io/sv-chess/",
-          "sn": "ROYAL CHESS • D. Srinivas",
-          "u": "24-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "cropguide",
-      "te": "పంటల సాగు & సేంద్రీయ వ్యవసాయం",
-      "en": "Crop growing & organic farming",
-      "icon": "🌱",
-      "items": [
-        {
-          "id": "cropguide-start",
-          "t": "ముందుగా చదవండి - పంటల సాగు సూచిక",
-          "e": "Start here - crop-growing index",
-          "d": "వరి • పత్తి • వేరుశనగ • మినుములు • కుసుమలు • టమాటా • బ్రోకోలి • కూరగాయలు • పండ్ల తోటలు • సేంద్రీయ సాగు.\nఉచిత పరిచయం, చదివే లింకులు. ఇది మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ప్రతి పంట బండపోతుగల్‌కు అనుకూలమని నిర్ధారణ కాదు.\nనేల పరీక్ష → స్థానిక సీజన్ / రకం → నీరు → విత్తనం / నారు → దశల పరిశీలన → కోత / మార్కెట్ ప్రణాళిక.\nతమిళనాడు / విదేశీ మూలాల్లో నెలలు, రకాలు, మోతాదులు మన గ్రామానికి నేరుగా వర్తింపజేయవద్దు. మూలం తనిఖీ:24-10-2026; పేజీ పాతది కావచ్చు. తాజా స్థానిక సూచన వ్యవసాయ అధికారి / KVK వద్ద నిర్ధారించండి.",
-          "de": "Rice, cotton, groundnut, blackgram, safflower, tomato, broccoli, vegetables, fruits and organic farming.\nFree introduction/reading links, not a field-specific prescription or proof that every crop suits Bandapothugal.\nSoil test → local season/variety → water → seed/nursery → stage checks → harvest/market plan.\nDo not transfer Tamil Nadu/overseas calendars, varieties or doses directly to this village. Sources checked24-10-2026; underlying pages may be older. Confirm current local advice with agriculture officer/KVK.",
-          "s": "https://www.pjtsau.edu.in/pjtsau-vyavasaaya-diksoochi.html",
-          "sn": "www.pjtsau.edu.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-planning",
-          "t": "నేల • సీజన్ • నీరు - సాగుకు ముందు",
-          "e": "Soil • season • water - before planting",
-          "d": "ప్రణాళిక జాబితా: నేల పరీక్ష, గత పంట, నీటి నాణ్యత / లభ్యత, డ్రైనేజీ, పెట్టుబడి, కూలీలు, కొనుగోలుదారు.\nనేలను చూసి ఊహించి సున్నం / జిప్సం / ఎరువు వేయవద్దు. పరీక్ష ఆధారంగా స్థానిక నిపుణుడి ప్రణాళిక తీసుకోండి.\nతెలంగాణ విశ్వవిద్యాలయం తెలుగు వ్యవసాయ పంచాంగం పంటల నిర్వహణను వివరిస్తుంది. ఈ పేజీలో కనిపించిన సంచికలు2021-22 /2019-20 /2018-19; తాజా2026 సంచికగా చూపడం లేదు.",
-          "de": "Planning checklist: soil test, previous crop, water quality/availability, drainage, budget, labour and buyer.\nDo not guess lime/gypsum/fertilizer treatment from appearance; obtain a test-based local plan.\nTelangana university publishes Telugu crop-management almanacs. Editions visible here are2021-22,2019-20,2018-19, not a verified2026 edition.",
-          "s": "https://www.pjtsau.edu.in/pjtsau-vyavasaaya-diksoochi.html",
-          "sn": "www.pjtsau.edu.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-rice",
-          "t": "వరి సాగు - పద్ధతి, సీజన్ ముందుగా",
-          "e": "Rice - method and local season",
-          "d": "విత్తే ముందు స్థానిక రకం, పంట కాలం, నీటి లభ్యత నిర్ణయించండి. నారు నాటడం / నేరుగా విత్తడం నిర్వహణ ఒకేలా ఉండదు.\nచదివే దశలు: విత్తనం / నారు → పొలం సిద్ధం → నాటడం / విత్తడం → నీరు / కలుపు / పోషకాల పరిశీలన → తెగుళ్ల నిర్ధారణ → కోత.\nకింద పేజీ తమిళనాడు సీజన్లు / రకాలు చూపుతుంది; ఆ నెలలు / రకాలు మెదక్ సిఫార్సు కావు. స్థిర నీటి / మందుల మోతాదు ఇక్కడ ఇవ్వలేదు.",
-          "de": "Confirm local variety, duration and water before planting. Transplanting and direct seeding need different management.\nStudy seed/nursery → field preparation → planting → water/weeds/nutrition checks → diagnosis → harvest.\nLinked seasons/varieties are for Tamil Nadu, not a Medak recommendation. No fixed irrigation/product dose is prescribed.",
-          "s": "https://agritech.tnau.ac.in/agriculture/agri_seasonandvarieties_rice.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-cotton",
-          "t": "పత్తి - పద్ధతులను కలపవద్దు",
-          "e": "Cotton - distinguish growing systems",
-          "d": "మూలంలో నీటి పారుదల, వర్షాధార, వరి తర్వాత, అధిక సాంద్రత, సేంద్రీయ పత్తి పద్ధతులు వేరు.\nస్థానిక నేల / సీజన్ / నీటికి పద్ధతి, విత్తనం, దూరం నిపుణుడితో నిర్ణయించండి. HDPS దూరాన్ని ప్రతి రకానికి వర్తింపజేయవద్దు.\nపెరుగుదల → పూత → కాయ దశల్లో పరిశీలించండి. సమస్య పేరు నిర్ధారించకుండా మందులు కలపవద్దు. లింకులోని పాత రసాయన సూచనలు ప్రస్తుత తెలంగాణ అనుమతి / లేబుల్‌కు బదులు కావు.",
-          "de": "Source separates irrigated, rainfed, rice-fallow, high-density and organic cotton systems.\nConfirm system, seed and spacing for local soil/season/water. HDPS spacing is not for every variety.\nMonitor growth → flowering → bolls. Do not mix products before diagnosis. Old linked chemical guidance does not replace current Telangana approval/label.",
-          "s": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_cotton.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-groundnut",
-          "t": "వేరుశనగ - పూత, ఊడలు, కాయలు",
-          "e": "Groundnut - flowering, pegging and pods",
-          "d": "మూలం ప్రకారం పూత, ఊడలు నేలలోకి దిగే దశ, కాయ అభివృద్ధిలో తేమ ముఖ్యం.\nపొలం / మంచి విత్తనం → విత్తడం → కలుపు పరిశీలన → పూత / ఊడలు / కాయలు → పరిపక్వత / కోత చదవండి.\nనేల, వర్షం, దశను బట్టి నీరు నిర్ణయించాలి. మూలంలోని రోజుల పట్టిక స్థిర మెదక్ షెడ్యూల్ కాదు. జిప్సం / ఎరువు / మందుల మోతాదు స్థానిక పరీక్ష, నిపుణుడి సలహా ఆధారమే.",
-          "de": "Source identifies flowering, pegging and pod development as important moisture stages.\nStudy field/seed → sowing → weeds → flowering/pegging/pods → maturity/harvest.\nIrrigation depends on soil, rain and stage; source day tables are not a fixed Medak schedule. Gypsum/fertilizer/protection need local tests and advice.",
-          "s": "https://agritech.tnau.ac.in/agriculture/CropProduction/Oilseeds/oilseeds_groundnut01.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-blackgram",
-          "t": "మినుములు - నీరు నిలవకుండా",
-          "e": "Blackgram - avoid water stagnation",
-          "d": "మూలంలో పూత / కాయ ఏర్పడే దశల్లో తేమ ముఖ్యం; అన్ని దశల్లో నీరు నిలవకుండా చూడాలని ఉంది.\nమంచి విత్తనం → సీజన్ / పద్ధతి → మొలకలు / కలుపు → పూత / కాయలు → కోత.\nవరి తర్వాత మిగిలిన తేమ, నీటి పారుదల, వర్షాధార సాగు సూచనలు వేరు. తమిళనాడు నెలలు, రకాలు, మోతాదులను మన గ్రామానికి కాపీ చేయవద్దు.",
-          "de": "Source identifies flowering/pod formation as moisture-sensitive and advises avoiding stagnation at all stages.\nSeed quality → season/system → establishment/weeds → flowers/pods → harvest.\nRice-fallow, irrigated and rainfed systems differ. Do not copy Tamil Nadu calendars, varieties or doses into village prescriptions.",
-          "s": "https://agritech.tnau.ac.in/agriculture/pulses_blackgram.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-safflower",
-          "t": "కుసుమలు - విత్తనం నుంచి కోత వరకు",
-          "e": "Safflower - seed to harvest",
-          "d": "కుసుమలు / Safflower (Carthamus tinctorius): పొలం సిద్ధం, మంచి విత్తనం, వరుస విత్తడం, మొక్కల సర్దుబాటు, కలుపు, పరిపక్వత / కోత మూలంలో ఉన్నాయి.\nవిత్తే సమయం, రకం, నేల తేమ, కాలాన్ని స్థానిక అధికారితో నిర్ణయించండి. మూలంలోని నవంబర్ సూచన తమిళనాడు పరిధి; ప్రతి మెదక్ పొలానికి హామీ కాదు.\nరసాయన విత్తన శుద్ధి / ఎరువు సూచనలు సేంద్రీయ ప్రమాణాలకు ఆటోమేటిక్‌గా సరిపోవు.",
-          "de": "Safflower (Carthamus tinctorius) source covers field preparation, good seed, line sowing, thinning, weeds and maturity/harvest.\nConfirm local timing, variety, moisture and duration. Its November timing is Tamil Nadu guidance, not a guarantee for Medak fields.\nChemical seed/fertilizer treatments are not automatically organic-compatible.",
-          "s": "https://agritech.tnau.ac.in/agriculture/oilseeds_safflower.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-pulses",
-          "t": "ఇతర పప్పుధాన్యాలు - పేరు నిర్ధారణ",
-          "e": "Other pulses - identify first",
-          "d": "సూచికలో మినుములు, పెసలు, అలసందలు, కందులు వేరు పంటలు.\nస్థానిక పేరు స్పష్టంగా లేకపోతే విత్తన ప్యాకెట్, మొక్క / కాయ ఫోటోతో పంటను నిర్ధారించండి. పేరు తెలియకుండా మరో పంట మోతాదు వాడవద్దు.\nపేరు తెలిసిన తర్వాత నేల, కాలం, నీరు, రకానికి సరైన మార్గదర్శిని ఎంచుకోండి.",
-          "de": "Index distinguishes blackgram, greengram, cowpea and redgram.\nIf a local crop name is unclear, identify it with seed label and plant/pod photos; never use another crop’s dose by guesswork.\nThen match the guide to soil, season, water and variety.",
-          "s": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_fieldcrops.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-tomato",
-          "t": "టమాటా - నారు, ఆధారం, తేమ",
-          "e": "Tomato - nursery, support and moisture",
-          "d": "సూచికలో నారు / విత్తనం, సీజన్ / పొలం సిద్ధం, నీరు, తెగుళ్లు, కోత తర్వాత నిర్వహణ ఉన్నాయి. కొన్ని హైబ్రిడ్లకు ఆధారం, మల్చింగ్ ప్రత్యేక పద్ధతులు.\nఎండిన తర్వాత ఒక్కసారిగా నీరు ఇవ్వడం పండ్లు పగలడానికి దారితీయవచ్చని నీటి మార్గదర్శిని వివరిస్తుంది. నీటి అంతరాన్ని నేల / వాతావరణానికి సరిపోల్చండి.\nనారు రకం, డ్రైనేజీ, మార్కెట్ స్థానికంగా ప్రణాళిక చేయండి. ప్రతి టమాటా పద్ధతి సేంద్రీయం కాదు.",
-          "de": "Index covers nursery/seed, season/field, water, disorders and post-harvest handling. Support/mulching depend on the growing system.\nWater guide warns drought followed by sudden irrigation can crack fruit; adapt to soil/weather.\nPlan seedlings, drainage and market locally. Not every tomato method is organic.",
-          "s": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_index.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-broccoli",
-          "t": "బ్రోకోలి - చల్లని కాలం, చిన్న ప్రయోగం",
-          "e": "Broccoli - cool season, small trial",
-          "d": "చల్లని కాలపు పంట; వేడి ఎక్కువైతే తల / పుష్పగుచ్ఛం నాణ్యత తగ్గవచ్చు. డ్రైనేజీ, సరిపడ తేమ, నారు / రకం ఎంపిక ముఖ్యం.\nమొగ్గలు తెరుచుకోకముందు కోత, తర్వాత త్వరగా చల్లబరచడం మూలంలో ఉన్నాయి.\nఇది అమెరికా NC State విశ్వవిద్యాలయ Extension పరిచయం; దాని నెలలు, మందులు, మోతాదులు తెలంగాణ సిఫార్సు కావు. మెదక్ సమయం / రకం / కొనుగోలుదారు నిర్ధారించి చిన్న ప్రయోగం చేయండి; లాభం / అనుకూలత హామీ లేదు.",
-          "de": "Cool-season crop; high heat can impair head quality. Drainage, moisture and variety/seedlings matter.\nSource describes harvest before buds open and prompt cooling.\nNC State university Extension is US guidance, not Telangana dates, approvals or doses. Confirm local timing/variety/buyer and trial small; no suitability/profit guarantee.",
-          "s": "https://content.ces.ncsu.edu/basics-of-broccoli-production",
-          "sn": "content.ces.ncsu.edu",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-vegetables",
-          "t": "ఇతర కూరగాయలు - పంటవారీ సమాచారం",
-          "e": "Other vegetables - crop-specific reading",
-          "d": "కూరగాయల సూచికలో పంటను ఎంచుకుని నేల / వాతావరణం, నారు / విత్తనం, నీరు, కలుపు, సమస్యలు, కోత చదవండి.\nవేర్వేరు కూరగాయలకు ఒకే నీటి షెడ్యూల్ / మందు కాదు. స్థానిక సీజన్, రకం, వ్యాధి నిర్ధారణ అవసరం.\nతమిళనాడు మార్గదర్శిని, మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ఖర్చు / అమ్మకం ప్రణాళికతో మొదలుపెట్టండి.",
-          "de": "Select a crop in the vegetable index for soil/climate, nursery/seed, water, weeds, disorders and harvest.\nDifferent vegetables do not share one irrigation/protection schedule. Confirm local season, variety and diagnosis.\nTamil Nadu guidance, not a field prescription. Plan costs/sales before starting.",
-          "s": "https://agritech.tnau.ac.in/horticulture/horti_Vegetables.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-fruits",
-          "t": "పండ్ల తోటలు - దీర్ఘకాల ప్రణాళిక",
-          "e": "Fruit orchards - long-term planning",
-          "d": "సూచికలో మామిడి, అరటి, జామ, బొప్పాయి, నిమ్మ, దానిమ్మ తదితర పంటలు ఉన్నాయి.\nతోటకు ముందు నేల / నీటి నాణ్యత, డ్రైనేజీ, ఉష్ణోగ్రత, నమ్మకమైన నర్సరీ, దూరం, సంవత్సరాల నిర్వహణ ఖర్చు, మార్కెట్ పరిశీలించండి.\nజామకు నీరు బయటకు వెళ్లే నేల అనుకూలమని మూలం వివరిస్తుంది. ప్రతి పండు / రకం బండపోతుగల్‌కు సరిపోతుందని నిర్ధారణ కాదు; ఉద్యాన అధికారితో ప్రణాళిక చేయండి.",
-          "de": "Index includes mango, banana, guava, papaya, citrus and pomegranate.\nAssess soil/water, drainage, temperature, reliable nursery, spacing, multi-year costs and market.\nSource describes well-drained soils for guava. Not proof that every fruit/variety suits Bandapothugal; plan with horticulture staff.",
-          "s": "https://agritech.tnau.ac.in/horticulture/horti_fruits.html",
-          "sn": "agritech.tnau.ac.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-organic",
-          "t": "సేంద్రీయ సాగు - నేల నుంచి ప్రణాళిక",
-          "e": "Organic farming - soil-led planning",
-          "d": "NCONF పాఠ్యాంశాలు: నేల ఆరోగ్యం, పంట మార్పిడి / అంతర పంటలు, కంపోస్టింగ్, మల్చింగ్, నీటి / పోషకాల నిర్వహణ, జీవ ఎరువులు, సమగ్ర చీడపీడ నిర్వహణ.\nసేంద్రీయం అంటే ఏ ఇంటి మిశ్రమమైనా సురక్షితం కాదు. ఇన్‌పుట్ నాణ్యత, పంట / దశ, అనుమతించిన వినియోగం, కార్మికుల / ఆహార భద్రత చూడాలి.\nస్థానిక నిపుణుడితో మార్పిడి ప్రణాళిక, ఖర్చు / దిగుబడి రికార్డులు ఉంచండి. దిగుబడి / లాభం హామీ లేదు.",
-          "de": "NCONF curriculum covers soil health, rotation/intercropping, composting, mulch, water/nutrients, biofertilizers and integrated pest management.\nOrganic does not make every homemade mixture safe. Check input quality, crop/stage, permitted use and worker/food safety.\nPlan transition and keep cost/yield records with local advice. No yield/profit guarantee.",
-          "s": "https://nconf.dac.gov.in/21DaysCertificateCourse",
-          "sn": "nconf.dac.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-organic-study",
-          "t": "ఉచితంగా చదవండి - సేంద్రీయ / సహజ సాగు",
-          "e": "Free reading - organic / natural farming",
-          "d": "MANAGE హైదరాబాద్ ప్రభుత్వ వనరుల్లో నేల, నీరు, విత్తనం, పంట వైవిధ్యం, తెగుళ్లు, సర్టిఫికేషన్ / మార్కెటింగ్ PPTలు ఉన్నాయి.\nఇవి చదివే వనరులు; ఇప్పుడు ఉచిత సీటు / స్థానిక బ్యాచ్ / వసతి ప్రకటన కాదు. నమోదు / చెల్లింపు చేయలేదు.\nసేంద్రీయంగా అమ్మడానికి ప్రమాణాలు / రికార్డులు / సర్టిఫికేషన్ వర్తించవచ్చు. ఒక మిశ్రమం వాడితే ధృవపత్రం రాదు. సేంద్రీయ, సహజ సాగు ఒకే ఆటోమేటిక్ సర్టిఫికేషన్ కాదు.",
-          "de": "MANAGE government resources cover soil, water, seed, diversification, pests and certification/marketing.\nReading materials, not current free local seats, batches or hostel availability. No registration/payment.\nOrganic marketing may require standards, records and certification. Using a mixture grants no certificate; organic/natural farming are not one automatic certification.",
-          "s": "https://www.manage.gov.in/nf/Trainings/Trainings.asp",
-          "sn": "www.manage.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-weather",
-          "t": "వాతావరణం - బులెటిన్ తేదీ చూడండి",
-          "e": "Weather - check bulletin date",
-          "d": "IMD పేజీలో రాష్ట్రం, జిల్లా, పంట ఎంపిక ఉంది. తేదీ, జిల్లా, పంట / దశ సరిపోతున్నాయో చూడండి.\nఈ తనిఖీలో పేజీ03-07-2026 చూపించింది; ఈరోజు మెదక్ సలహాగా చూపడం లేదు. పాత బులెటిన్‌పై స్ప్రే / నీటి నిర్ణయం తీసుకోవద్దు.\nవర్షం, తేమ, దశ ఆధారంగా స్థానిక సూచన తీసుకోండి. యాప్ పొలం తేమ కొలవదు; ఆటోమేటిక్ నీటి షెడ్యూల్ కాదు.",
-          "de": "IMD offers state/district/crop selection; check bulletin date and crop/stage.\nDuring this check it displayed03-07-2026, not presented as today’s Medak advisory. Do not use an outdated bulletin for spray/irrigation decisions.\nUse local rain, moisture and stage advice. App measures no field moisture or automatic schedule.",
-          "s": "https://imdagrimet.gov.in/cropAdvisory_3.php",
-          "sn": "imdagrimet.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "cropguide-diagnosis",
-          "t": "పురుగు / తెగులు - ముందుగా నిర్ధారణ",
-          "e": "Pests / disease - diagnose first",
-          "d": "పంట / రకం, విత్తిన తేదీ, దశ, ఆకుల రెండు వైపుల ఫోటోలు, ప్రభావిత విస్తీర్ణం, ఇటీవల నీరు / ఇన్‌పుట్ వివరాలు అధికారికి / KVKకి చూపండి.\nపసుపు ఆకు ఒక్కటే చూసి పురుగు / లోపం నిర్ణయించవద్దు. పొలం నిర్ధారణ లేకుండా మందు / ఎరువు మోతాదు ఇక్కడ ఇవ్వలేదు.\nపాత వెబ్ రసాయన జాబితా ప్రస్తుత అనుమతి కాదు. నిర్ధారణ తర్వాత చట్టబద్ధ పంట-లేబుల్, భద్రతా పరికరాలు, కోతకు ముందు గడువు పాటించే స్థానిక సలహా తీసుకోండి. యాప్ అధికారికి పంపదు.",
-          "de": "Show officer/KVK crop/variety, sowing date/stage, both sides of affected leaves, area and recent water/inputs.\nYellowing alone does not identify a pest/deficiency. No product dose is given without diagnosis.\nOld web lists do not establish current approval. After diagnosis use lawful crop-label, protection and pre-harvest interval advice. App sends nothing.",
-          "s": "https://www.manage.gov.in/nf/Trainings/Trainings.asp",
-          "sn": "www.manage.gov.in",
-          "u": "24-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "civic",
-      "te": "పౌర అవగాహన & నాయకత్వం",
-      "en": "Civic awareness & leadership",
-      "icon": "📖",
-      "items": [
-        {
-          "id": "civic-index",
-          "t": "ముందుగా చదవండి - పౌర అవగాహన సూచిక",
-          "e": "Start here - civic learning index",
-          "d": "అందరికీ తటస్థ పౌర అవగాహన; పార్టీ ప్రచారం / ఓటు సలహా కాదు.\n1 వినడం, మాట్లాడడం, గుర్తుపెట్టుకోవడం\n2 గ్రామ సమస్య నమోదు, ఆధారాలు\n3 గ్రామసభ, వార్డు సభ్యుడు, సర్పంచ్\n4 కార్యదర్శి, మండల / జిల్లా సంస్థలు\n5 MLA / MLC / MP, మంత్రులు, CM / PM\n6 హక్కులు, బాధ్యతలు, సరైన శాఖ, ఫాలోఅప్.\nఇది సులభ పరిచయం మాత్రమే; పూర్తి చట్టం / తాజా సవరణలు / న్యాయ సలహాకు ప్రత్యామ్నాయం కాదు. ప్రస్తుత పదవుల పేర్లు / ఫోన్లు నిర్ధారణ కాదు.",
-          "de": "Neutral civic education for everyone, not party promotion or voting advice.\n1 Listen, speak and recall\n2 Record village issues and evidence\n3 Gram Sabha, ward member, sarpanch\n4 Secretary, mandal/district bodies\n5 MLA/MLC/MP, ministers, CM/PM\n6 Rights, duties, correct department and follow-up.\nIntroduction only, not the whole law, latest-amendment certification or legal advice. Current office-holders/contacts not verified.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-speak",
-          "t": "వినడం • మాట్లాడడం • గుర్తుపెట్టుకోవడం",
-          "e": "Listen • speak • remember",
-          "d": "అభ్యాస సూచనలు మాత్రమే, చట్టబద్ధ విధులు కాదు.\nముందు మాట పూర్తిగా వినండి. అర్థమైన సమస్యను తిరిగి చెప్పి నిర్ధారించండి.\n60 సెకన్ల రూపం: సమస్య → ఎక్కడ / ఎప్పటి నుంచి → ప్రభావం → ఆధారం → కోరే చర్య.\nమీ అధికార పరిధి తెలుసుకోకుండా ఫలితం హామీ ఇవ్వవద్దు. తేదీతో చిన్న నోట్ రాయండి; చూడకుండా మీ మాటల్లో చెప్పి మళ్లీ తనిఖీ చేయండి. సాధన మాత్రమే, జ్ఞాపకశక్తి హామీ కాదు.",
-          "de": "Suggested practice, not statutory duties.\nListen fully, restate the issue and check understanding.\nUse a60-second outline: issue → where/since when → impact → evidence → requested action.\nDo not promise outcomes beyond your authority. Write dated notes, recall in your own words, then check them. Practice, not a memory-performance guarantee.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-record",
-          "t": "గ్రామ సమస్యను ఆధారాలతో నమోదు చేయండి",
-          "e": "Record a village issue with evidence",
-          "d": "అభ్యాస నమూనా: తేదీ / ప్రదేశం / సమస్య / ప్రభావం / స్వయంగా చూసిన విషయం / ఆధారం / కోరే చర్య / రసీదు నంబర్ / ఫాలోఅప్ తేదీ.\nవాస్తవం, విన్న సమాచారం, అభిప్రాయం వేరుగా రాయండి. అనుమతి లేకుండా ఆధార్, ఆరోగ్య వివరాలు, పిల్లల ఫోటోలు, వ్యక్తిగత నంబర్లు పబ్లిక్ చేయవద్దు.\nప్రజలతో ప్రాధాన్యం చర్చించండి. తక్షణ ప్రమాదానికి అత్యవసర సేవలు వాడండి; మీరే శిక్ష అమలు చేయవద్దు. యాప్ ఎవరికీ పంపదు.",
-          "de": "Suggested record: date/place/issue/impact/observation/evidence/request/receipt/follow-up date.\nSeparate fact, hearsay and opinion. Do not publish Aadhaar, health details, children’s photos or private numbers without appropriate permission.\nDiscuss priorities with residents. Use emergency services for immediate danger; do not impose punishment yourself. The app sends nothing.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-gramsabha",
-          "t": "గ్రామసభ - ప్రజల ప్రశ్నలు, ప్రణాళికలు",
-          "e": "Gram Sabha - residents, questions and plans",
-          "d": "తెలంగాణ పంచాయతీ రాజ్ చట్టం2018 సెక్షన్6: గ్రామ పంచాయతీ ఓటర్ల జాబితాలో ఉన్నవారంతా గ్రామసభ సభ్యులు. గ్రామసభ, ఎన్నికైన గ్రామ పంచాయతీ వేరు.\nఅభివృద్ధి పనులు, ఖర్చులు, ఖాతాలు / ఆడిట్, ప్రాధాన్యాలపై నిబంధనలు ఉన్నాయి. అధికారిక సమావేశ తేదీ, అజెండా, మినిట్స్ చూడండి.\nతీర్మానం ఏ చట్టాన్నీ దాటవేయదు; అమలు అధికారం / నిధులు / అర్హతలకు లోబడి ఉంటుంది. మన గ్రామ ప్రస్తుత సమావేశ తేదీ నిర్ధారించలేదు.",
-          "de": "Telangana Act2018 section6: everyone on the Gram Panchayat electoral roll belongs to Gram Sabha. It differs from the elected Gram Panchayat body.\nThe Act covers development, spending, accounts/audit and priorities. Check official meeting date, agenda and minutes.\nA resolution cannot override law; authority, funds and eligibility still apply. Current village meeting date unverified.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-ward",
-          "t": "వార్డు సభ్యుడు - ప్రజా ప్రతినిధి",
-          "e": "Ward member - elected representative",
-          "d": "ప్రజల సమస్యలు / సూచనలు పంచాయతీ సమావేశంలో ప్రస్తావించి చట్టపరమైన నిర్ణయాల్లో పాల్గొంటారు. సెక్షన్40లో సభ్యుల సూచనలు / ప్రశ్నలు, సెక్షన్16లో శిక్షణ చూడండి.\nఒంటరిగా ప్రభుత్వ భూమి పంచడం, రుణం / పింఛన్ మంజూరు, పోలీసు / రెవెన్యూ తీర్పులు ఇచ్చే అధికారం కాదు. సంస్థ నిర్ణయం, సంబంధిత అధికారి ప్రక్రియ అవసరం. పదవి ఓట్లకు బదులు ప్రయోజనాల హామీ కాదు.",
-          "de": "Members raise residents’ issues/suggestions and participate in lawful Panchayat deliberations. See section40 for suggestions/questions, section16 for training.\nNot personal power to allot government land, sanction loans/pensions or decide police/revenue matters. Institutional decisions and official procedures apply. Public office is not benefits in return for votes.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-sarpanch",
-          "t": "సర్పంచ్ • ఉప సర్పంచ్",
-          "e": "Sarpanch • Upa-sarpanch",
-          "d": "సెక్షన్32: చట్టం ఇచ్చిన విధులు, తీర్మానాల అమలులో కార్యదర్శి పని పర్యవేక్షణ, అనుమతుల పరిధిలో చర్యలు, పారిశుధ్యం / పచ్చదనం బాధ్యతలు.\nఉప సర్పంచ్ పాత్ర చట్టం / అప్పగింత ప్రకారం; గైర్హాజరులో గ్రామసభ పాత్ర సెక్షన్6లో ఉంది. అన్ని అధికారాలు స్వయంగా బదిలీ కావు.\nప్రజా నిధులు వ్యక్తి సొంత డబ్బు కాదు; తీర్మానాలు / ఆమోదాలు / రికార్డులు అవసరం. మన గ్రామ ప్రస్తుత పేర్లు / ఫోన్లు నిర్ధారించలేదు.",
-          "de": "Section32: statutory functions, supervising secretary for resolutions, approved action, sanitation/greenery responsibilities.\nUpa-sarpanch acts under law/assignment; section6 covers Gram Sabha in the sarpanch’s absence, not automatic transfer of every power.\nPublic funds are not personal money; resolutions/approvals/records matter. Current village office-holders/phones unverified.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-secretary",
-          "t": "పంచాయతీ కార్యదర్శి - అమలు పాత్ర",
-          "e": "Panchayat secretary - official implementation",
-          "d": "సెక్షన్43: సమావేశ ఏర్పాట్లు, హాజరు, తీర్మానాల ప్రతులు / అమలు, నిర్దేశిత పరిపాలనా / పారిశుధ్య పనులు.\nకార్యదర్శి ఎన్నికైన వార్డు సభ్యుడు కాదు. సెక్షన్43(2): చర్చలో పాల్గొనవచ్చు కానీ ఓటు / తీర్మానం ప్రతిపాదించే హక్కు లేదు.\nఅధికారి, ప్రతినిధి వేరు. గ్రామ కార్యదర్శి ప్రస్తుత పేరు / నంబరు నిర్ధారించలేదు; నేరుగా ఫిర్యాదు పంపే సదుపాయం లేదు.",
-          "de": "Section43: meeting arrangements/attendance, resolution copies/implementation and specified administration/sanitation duties.\nNot an elected ward member. Section43(2) allows discussion but not voting or moving resolutions.\nOfficial and representative differ. Village secretary/contact unverified; no direct complaint-send feature.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-mandal",
-          "t": "మండలం • జిల్లా - ప్రతినిధులు / అధికారులు",
-          "e": "Mandal • district - members / officials",
-          "d": "మండల, జిల్లా ప్రజా పరిషత్ వేర్వేరు చట్టబద్ధ స్థానిక సంస్థలు. MPTC / ZPTC ప్రతినిధులు; అధ్యక్షుడు / చైర్‌పర్సన్, సభ్యులు, అధికారులు ఒకే పాత్ర కాదు.\nమండల విధులకు సెక్షన్156, జిల్లా సంస్థకు188 చూడండి. MPDO / ZP CEO కార్యనిర్వాహక పాత్రలు వేరు. కలెక్టర్ వేరు జిల్లా పరిపాలనా అధికారి.\nప్రతి సమస్య అన్ని మెట్లూ ఎక్కాల్సిందే కాదు; సంబంధిత శాఖ / చట్టపరమైన అప్పీల్ మార్గం ముఖ్యం. ప్రస్తుత పదవుల భర్తీ / పేర్లు నిర్ధారణ కాదు.",
-          "de": "Mandal and Zilla Praja Parishads are distinct statutory bodies. MPTC/ZPTC members represent constituencies; presidents/chairpersons, members and officials differ.\nSee sections156/188. MPDO/ZP CEO executive roles differ; Collector is a separate district administrative official.\nNot every issue must climb every tier. Use the responsible department/statutory appeal route. Current vacancies/office-holders not verified.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-legislature",
-          "t": "MLA • MLC • MP - చట్టసభ పాత్ర",
-          "e": "MLA • MLC • MP - legislative role",
-          "d": "MLA రాష్ట్ర శాసనసభ; MLC శాసన మండలి; MP లోక్‌సభ లేదా రాజ్యసభ సభ్యుడు. చట్టాల చర్చ / ఓటింగ్, సభా నియమాల ప్రకారం ప్రభుత్వ ప్రశ్నలు, బడ్జెట్ / కమిటీల పనుల్లో పాత్ర.\nMP జాతీయ, MLA / MLC రాష్ట్ర చట్టసభలో. ఒక్క సభ్యుడు ఉద్యోగం / కోర్టు తీర్పు / పింఛన్ / భూ హక్కు వ్యక్తిగతంగా మంజూరు చేయరు. సభ్యుడైనంత మాత్రాన మంత్రి కారు.\nరాజ్యాంగం ఆర్టికల్స్118 /208, పార్లమెంట్ చట్టనిర్మాణ వివరణ చూడండి.",
-          "de": "MLA: state Assembly; MLC: Legislative Council; MP: Lok Sabha or Rajya Sabha. Roles include laws, government scrutiny, budgets and committees under House rules.\nMPs serve national and MLAs/MLCs state legislatures. One member cannot personally grant jobs, court judgments, pensions or land title. Membership does not automatically make a minister.\nSee Constitution articles118/208 and Parliament’s legislative explanation.",
-          "s": "https://sansad.in/ls/legislation/introduction",
-          "sn": "sansad.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-executive",
-          "t": "మంత్రి • ముఖ్యమంత్రి • ప్రధానమంత్రి",
-          "e": "Minister • Chief Minister • Prime Minister",
-          "d": "ఆర్టికల్స్163 /164: CM నాయకత్వంలోని రాష్ట్ర మంత్రివర్గం గవర్నర్‌కు సహాయం / సలహా; రాష్ట్ర శాసనసభకు సమిష్టి బాధ్యత. మంత్రి కేటాయించిన శాఖలో చట్టబద్ధ పాత్ర.\nఆర్టికల్స్74 /75: PM నాయకత్వంలోని కేంద్ర మంత్రివర్గం రాష్ట్రపతికి సహాయం / సలహా; లోక్‌సభకు సమిష్టి బాధ్యత.\nరాష్ట్రపతి / గవర్నర్, PM / CM వేరు పదవులు. రాజ్యాంగం, శాఖల అధికార విభజన, చట్టాలు, న్యాయ సమీక్ష వర్తిస్తాయి. ఏ నాయకుడూ చట్టానికి అతీతుడు కాదు. ఇది అందరూ PM వ్యక్తిగత సిబ్బంది అనే గొలుసు కాదు.",
-          "de": "Articles163/164: state Council of Ministers headed by CM aids/advises Governor and is collectively responsible to Assembly. Ministers administer assigned portfolios under law.\nArticles74/75: Union Council headed by PM aids/advises President and is collectively responsible to Lok Sabha.\nPresident/Governor and PM/CM differ. Constitution, divided powers, law and judicial review apply. No leader is above law; not a chain of personal staff reporting to PM.",
-          "s": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf",
-          "sn": "www.legislative.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-rights",
-          "t": "హక్కులు • బాధ్యతలు • RTI",
-          "e": "Rights • duties • RTI",
-          "d": "ఆర్టికల్19 మాట / శాంతియుత సమావేశం వంటి హక్కులకు రాజ్యాంగ పరిమితులు వర్తిస్తాయి. ఆర్టికల్51A: రాజ్యాంగ గౌరవం, సామరస్యం, ప్రజా ఆస్తి పరిరక్షణ, హింసకు దూరం.\nRTI ఉన్న రికార్డుల సమాచారం కోసం; ఫిర్యాదు పరిష్కారం / ప్రయోజనం మంజూరు కాదు. సరైన PIO, మినహాయింపులు, ఫీజు / అప్పీల్ నిబంధనలు వర్తిస్తాయి. కేంద్ర పోర్టల్ అన్ని తెలంగాణ స్థానిక దరఖాస్తులు స్వీకరిస్తుందని అనుకోకండి.\nఆధారాలు తనిఖీ చేయండి; బెదిరింపు, లంచం, కుల / మత విద్వేషం వద్దు.",
-          "de": "Article19 rights including speech/peaceful assembly have constitutional restrictions. Article51A includes Constitution, harmony, public property and rejecting violence.\nRTI concerns existing records, not grievance resolution or benefit sanction. Correct PIO, exemptions, fee/appeal rules apply; central portal does not necessarily cover Telangana local requests.\nCheck evidence; avoid threats, bribery and caste/religious hatred.",
-          "s": "https://rti.gov.in/webactrti.htm",
-          "sn": "rti.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "civic-followup",
-          "t": "సరైన శాఖ • మర్యాదపూర్వక ఫాలోఅప్",
-          "e": "Right department • polite follow-up",
-          "d": "అభ్యాస పద్ధతి: బాధ్యమైన శాఖ → అధికారిక మార్గం → రసీదు / తేదీ → ప్రచురించిన గడువు ప్రకారం ఫాలోఅప్ → సరైన అప్పీల్.\nనమూనా: “ఇక్కడ ఈ సమస్య ఉంది. ఈ ఆధారం ఉంది. మీ పరిధిలో ఏ చర్య సాధ్యం? రసీదు నంబరు, తదుపరి సమాధాన తేదీ చెప్పండి.”\nమహిళలు, వృద్ధులు, దివ్యాంగుల మాట వినండి; అందరికీ సమాన గౌరవం. తక్షణ ఫలితం హామీ వద్దు. యాప్ ఫిర్యాదు / RTI పంపదు; ఫీజు చెల్లించదు.",
-          "de": "Suggested process: responsible department → official route → receipt/date → published timeline → proper appeal.\nExample: “This issue affects this place. Here is the evidence. What action is within your authority? Please give a receipt and next update date.”\nListen to women, older people and people with disabilities; equal respect for all. No instant-outcome promises. App does not send complaints/RTI or pay fees.",
-          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
-          "sn": "cdnbbsr.s3waas.gov.in",
-          "u": "24-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "localtraining",
-      "te": "మన ప్రాంతంలో శిక్షణ & వసతి",
-      "en": "Local training & accommodation",
-      "icon": "🏫",
-      "items": [
-        {
-          "id": "local-training-sangareddy",
-          "t": "సంగారెడ్డి - SBI RSETI (ప్రత్యక్షం)",
-          "e": "Sangareddy - SBI RSETI (in-person)",
-          "d": "అధికారిక జిల్లా పేజీలో చిరునామా: SBI RSETI, Beside Velugu Office, Bypass Road, Sangareddy, Telangana - 502001.\nజాబితా చేసిన కోర్సులు: టైలరింగ్, ఎంబ్రాయిడరీ, బ్యూటీ & వెల్‌నెస్, కంప్యూటర్ బేసిక్స్ / Tally, మొబైల్ రిపేర్, CCTV, టూ-వీలర్ మెకానిక్, ఫోటో / వీడియో, ఎలక్ట్రికల్ మోటర్ రిపేర్, వ్యాపార అభివృద్ధి.\nఅర్హత: గ్రామీణ నిరుద్యోగ యువత 18-45 సంవత్సరాలు; జిల్లా పేజీ శిక్షణ / మెటీరియల్ ఉచితం అంటోంది.\nవసతి: SBI సాధారణ RSETI విధానంలో భోజనం, వసతి ఉచితం అని ఉంది. ఈ కేంద్రంలో మీ బ్యాచ్‌కు హాస్టల్ సీటు / మహిళల వసతి / అందుబాటు ప్రత్యేకంగా నిర్ధారించలేదు.\nచేరే ముందు సంస్థ వద్ద కోర్సు, తేదీ, నివాస అర్హత, పత్రాలు, వసతి నిర్ధారించాలి. ప్రస్తుత బ్యాచ్ / ఖాళీలు ఇంకా ధృవీకరించలేదు.",
-          "de": "Official district-page address: SBI RSETI, Beside Velugu Office, Bypass Road, Sangareddy, Telangana - 502001.\nListed subjects: tailoring, embroidery, beauty/wellness, computer basics/Tally, mobile repair, CCTV, two-wheelers, photography/video, electrical motor repair and entrepreneurship.\nEligibility listed: rural unemployed youth aged 18-45; training/materials free.\nStay: SBI’s general RSETI policy says food/lodging are free. Hostel space, women’s accommodation and availability for your batch at this centre were not separately confirmed.\nConfirm course, date, residence eligibility, documents and stay before travelling. Current batches/vacancies not verified.",
-          "s": "https://sangareddy.telangana.gov.in/instituitions-fro-skill-and-technology/",
-          "sn": "sangareddy.telangana.gov.in",
-          "u": "24-10-2026",
-          "refs": [
-            {
-              "te": "SBI ఉచిత భోజనం / వసతి విధానం",
-              "en": "SBI free food/lodging policy",
-              "url": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis"
-            }
-          ]
-        },
-        {
-          "id": "local-training-medak-narsapur",
-          "t": "మెదక్ / నర్సాపూర్ - ముందుగా నిర్ధారించాలి",
-          "e": "Medak / Narsapur - verification needed",
-          "d": "మీ గ్రామం మెదక్ జిల్లా. సంగారెడ్డి కేంద్రం దగ్గర ప్రాంతపు ఎంపిక మాత్రమే; మెదక్ / నర్సాపూర్ వారందరికీ అక్కడ ప్రవేశం ఉంటుందని హామీ లేదు.\nఈ తనిఖీలో నర్సాపూర్ పట్టణం లేదా మెదక్‌లోనే ప్రస్తుతం నడుస్తున్న పూర్తిగా ఉచిత + ఉచిత వసతి బ్యాచ్, ఖచ్చిత చిరునామా, తేదీలు అధికారిక మూలంతో నిర్ధారించలేకపోయాం. పాత జిల్లా పేర్లతో ఉన్న డైరెక్టరీలను ప్రస్తుత కేంద్రాలుగా చూపించడం లేదు.\nచేయాల్సింది: క్రింది అధికారిక SBI RSETI మార్గంలో మీ జిల్లా / నివాస అర్హతకు సరిపోయే సంస్థ, కోర్సు, తేదీ, మహిళల భద్రత / వసతి వివరాలు నిర్ధారించండి. వెంటనే నేర్చుకోవడానికి మన ఉచిత మొబైల్ పాఠాలు వాడవచ్చు.",
-          "de": "The village is in Medak district. Sangareddy is a regional option, not a promise that every Medak/Narsapur resident is eligible there.\nA currently running fully free course with free stay, exact address and dates within Medak/Narsapur itself could not be verified from official sources in this check. Old district-name directories are not presented as current centres.\nUse the official SBI RSETI route below to confirm an institute for your residence, course/date, women’s safety and stay. Free mobile self-study is available immediately through our learning sections.",
-          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
-          "sn": "sbi.bank.in",
-          "u": "24-10-2026",
-          "refs": []
-        },
-        {
-          "id": "local-training-hyderabad",
-          "t": "హైదరాబాద్ - NSTI మహిళలు: ఫీజు ఎంపిక",
-          "e": "Hyderabad - NSTI Women: paid option",
-          "d": "చిరునామా: Shivam Road, opp. Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007.\nఫీజు ఉన్న కోర్సుల సమాచారం కూడా చూడవచ్చని మీరు కోరారు. ఇది ఫీజు ఎంపిక; క్రింది కొత్త విభాగంలో కోర్సులు / రుసుముల వివరాలు ఉన్నాయి. ఉచితంగా చూపించడం లేదు.\nశిక్షణ / హాస్టల్ / మెస్‌కు వేర్వేరు చార్జీలు ఉండవచ్చు. ప్రస్తుత ప్రవేశ తేదీలు, సీట్లు, మీ కోర్సుకు మొత్తం ఖర్చు / వసతి ఇంకా నిర్ధారించలేదు. యాప్ నమోదు / చెల్లింపు చేయదు.",
-          "de": "Address: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007.\nPaid courses are now included for interested learners. This is a PAID option; see the new section for courses and published fees, not a free course.\nTraining/hostel/mess may carry separate charges. Current admission dates, seats, total cost for your course and stay remain unverified. No enrollment or payment is made by the app.",
-          "s": "https://nstiwhyderabad.dgt.gov.in/en",
-          "sn": "nstiwhyderabad.dgt.gov.in",
-          "u": "24-10-2026",
-          "refs": [
-            {
-              "te": "అధికారిక రుసుములు - ఉచితం కాదు",
-              "en": "Official fees - not free",
-              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
-            }
-          ]
-        },
-        {
-          "id": "local-training-mobile",
-          "t": "ఈ నాలుగు ప్రాంతాల నుంచి - ఉచిత మొబైల్ అభ్యాసం",
-          "e": "All four areas - free mobile self-study",
-          "d": "విధానం: మీ మొబైల్ బ్రౌజర్‌లోనే చదవడం / వీడియో వనరులు. వసతి అవసరం లేదు. ఇంటర్నెట్ / డేటా ఖర్చు మీ కనెక్షన్‌పై ఆధారపడుతుంది.\nDGT Bharat Skills: ఫిట్టర్, ఎలక్ట్రీషియన్, వెల్డర్, కుట్టు, బ్యూటీషియన్, డ్రెస్ మేకింగ్, ఫుడ్ ప్రాసెసింగ్, బేకరీ. మెటీరియల్ పేజీలు చెల్లింపు లేకుండా తెరుచుకున్నాయి; ప్రస్తుత లైవ్ తరగతి కాదు.\nఫిట్టర్ / ఎలక్ట్రీషియన్‌కు తెలుగు పుస్తకాలు పేజీలు జాబితా చేస్తున్నాయి. మిగిలిన వాటి తెలుగు ఆడియో / బోధన నిర్ధారించలేదు.\nఎలా మొదలు: లింక్ తెరవండి → ట్రేడ్ ఎంచుకోండి → అందుబాటులో ఉన్న భాషలో థియరీ / ప్రాక్టికల్ చదవండి. ప్రమాదకర ప్రాక్టీస్‌కు శిక్షకుడి పర్యవేక్షణ అవసరం.",
-          "de": "Mode: study/resources in your mobile browser; no accommodation needed. Internet/data costs depend on your connection.\nDGT Bharat Skills: fitter, electrician, welder, sewing, cosmetology, dress making, food processing and bakery. Material pages opened without payment; not current live classes.\nFitter/electrician list Telugu books. Telugu audio/teaching for the other subjects not verified.\nStart: open link → select trade → choose available language/material. Hazardous practical work requires qualified supervision.",
-          "s": "https://bharatskills.gov.in/",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026",
-          "refs": []
-        },
-        {
-          "id": "local-training-join",
-          "t": "చేరే ముందు - సులభమైన చెక్‌లిస్ట్",
-          "e": "Before joining - easy checklist",
-          "d": "1. ప్రాంతం: మెదక్ / సంగారెడ్డి / నర్సాపూర్ / హైదరాబాద్ అని చెప్పండి; మీ నివాసానికి ప్రవేశం ఉందో నిర్ధారించండి.\n2. మీ కోర్సు పేరు, ప్రస్తుత బ్యాచ్ తేదీ, వయస్సు / విద్యార్హత అడగండి.\n3. శిక్షణ రుసుము NILనా? భోజనం, హాస్టల్, మహిళలకు సురక్షిత వసతి నిజంగా ఉన్నాయా? రాతపూర్వకంగా నిర్ధారించండి.\n4. పత్రాల ఖచ్చిత జాబితా సంస్థ నుంచే తీసుకోండి; ఏజెంట్లకు డబ్బు / OTP ఇవ్వవద్దు.\n5. బ్యాచ్ నిర్ధారణ తరువాతే ప్రయాణం చేయండి. ఈ యాప్ మీ తరఫున సంప్రదించదు / నమోదు చేయదు / డబ్బు చెల్లించదు.",
-          "de": "1. State Medak/Sangareddy/Narsapur/Hyderabad and confirm residence eligibility.\n2. Ask for your course, current batch date, age and education requirements.\n3. Confirm zero training fee, meals, hostel and safe women’s stay in writing.\n4. Obtain the document checklist from the institute; do not give agents money or OTPs.\n5. Travel only after batch confirmation. Gram Seva does not contact, enroll or pay on your behalf.",
-          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
-          "sn": "sbi.bank.in",
-          "u": "24-10-2026",
-          "refs": []
-        }
-      ]
-    },
-    {
-      "id": "paidcourses",
-      "te": "ఫీజు కోర్సులు - ఆసక్తిగలవారికి",
-      "en": "Paid courses - optional choices",
+      "id": "student",
       "icon": "🎓",
+      "te": "విద్యార్థి",
+      "en": "Student",
       "items": [
         {
-          "id": "paid-cits",
-          "t": "NSTI హైదరాబాద్ - CITS: ఫ్యాషన్ / బ్యూటీ / ఆఫీస్",
-          "e": "NSTI Hyderabad - CITS: fashion / beauty / office",
-          "d": "మహిళల NSTI అధికారిక About పేజీ: Fashion Design Technology, Cosmetology, Office Management CITS కోర్సులు.\nఇవి ప్రారంభ స్థాయి చిన్న బ్యూటీ క్లాసులు కాదు; శిక్షకుల శిక్షణ మార్గం. సంబంధిత ITI / NCVT సర్టిఫికేట్ లేదా సంబంధిత డిప్లొమా / డిగ్రీ, కనీస వయస్సు 18 అని పేజీ చెబుతోంది. ఖచ్చిత ట్రేడ్ అర్హతలు ప్రస్తుత అధికారిక ప్రవేశ నోటీసుతో చూడాలి.\nఫీజు ఉంది. ప్రస్తుత బ్యాచ్ / దరఖాస్తు చివరి తేదీ / సీట్లు నిర్ధారించలేదు; పాత తేదీలతో ఇప్పుడు ప్రవేశం ఉందని చెప్పడం లేదు.\nస్థలం: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad 500007.",
-          "de": "Official women’s NSTI About page lists CITS in Fashion Design Technology, Cosmetology and Office Management.\nInstructor training, not a short beginner beauty class. Page lists a relevant ITI/NCVT certificate or related diploma/degree and minimum age18; exact trade eligibility must be checked in the current admission notice.\nPAID. Current batch, application deadline and vacancies not verified. Old dates are not presented as open admissions.\nLocation: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad500007.",
-          "s": "https://nstiwhyderabad.dgt.gov.in/about-us",
-          "sn": "nstiwhyderabad.dgt.gov.in",
-          "u": "24-10-2026",
-          "refs": [
-            {
-              "te": "రుసుముల అధికారిక పేజీ",
-              "en": "Official fee schedule",
-              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
-            }
-          ]
+          "id": "student-post-matric-scholarship",
+          "t": "పోస్ట్ మెట్రిక్ స్కాలర్‌షిప్ + ఫీజు రీయింబర్స్‌మెంట్",
+          "e": "Post-Matric Scholarship + Fee Reimbursement (ePASS)",
+          "d": "SC/ST/BC/EBC/మైనారిటీ/దివ్యాంగ విద్యార్థులకు ఇంటర్ తర్వాత చదువుకు స్కాలర్‌షిప్ మరియు ఫీజు సాయం. ఆన్‌లైన్ దరఖాస్తు చేసి అసలు పత్రాలు కళాశాలలో జమ చేయండి. సాంకేతిక సహాయం: 040-23120311 (పని దినాలు 10:30-5:00).",
+          "de": "Scholarship and fee reimbursement for SC/ST/BC/EBC/minority/disabled students after Class 10. Apply online, submit originals at college. Tech help: 040-23120311.",
+          "s": "https://telanganaepass.cgg.gov.in/",
+          "sn": "telanganaepass.cgg.gov.in",
+          "u": "23-10-2026",
+          "ph": "04023120311"
         },
         {
-          "id": "paid-cts",
-          "t": "NSTI హైదరాబాద్ - CTS: ఐటీ / AI / వ్యవసాయ IoT",
-          "e": "NSTI Hyderabad - CTS: IT / AI / agriculture IoT",
-          "d": "అధికారిక About పేజీలో Artificial Intelligence Programming Assistant, Information Technology, IoT (Smart Agriculture), Architectural Draughtsman ఉన్నాయి.\nవిద్యార్హత సాధారణంగా 10వ తరగతి లేదా పై స్థాయి అని పేజీ వివరిస్తోంది; ప్రతి కోర్సుకు అదే అర్హత అని అనుకోకండి. వయస్సు / ఎంపిక విధానం ప్రస్తుత కోర్సు నోటీసుతో నిర్ధారించాలి.\nఫీజు కోర్సులు. ప్రస్తుత ప్రవేశాలు / సీట్లు / తెలుగు బోధన నిర్ధారించలేదు. కోర్సు పేరు ఉండటం అడ్మిషన్ ప్రారంభమైందని కాదు.",
-          "de": "Official About page lists Artificial Intelligence Programming Assistant, Information Technology, IoT (Smart Agriculture) and Architectural Draughtsman under CTS.\nPage describes usual eligibility as10th pass or higher; do not assume identical eligibility for every trade. Verify age and selection in the current course notice.\nPAID courses. Current admissions, vacancies and Telugu teaching not verified. A listed course is not an open admission announcement.",
-          "s": "https://nstiwhyderabad.dgt.gov.in/about-us",
-          "sn": "nstiwhyderabad.dgt.gov.in",
-          "u": "24-10-2026",
-          "refs": [
-            {
-              "te": "రుసుముల అధికారిక పేజీ",
-              "en": "Official fee schedule",
-              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
-            }
-          ]
+          "id": "student-kalyana-lakshmi-shaadi-m",
+          "t": "కళ్యాణ లక్ష్మీ / షాదీ ముబారక్",
+          "e": "Kalyana Lakshmi / Shaadi Mubarak",
+          "d": "SC/ST/BC/EBC కుటుంబాల్లో ఆడపిల్ల వివాహానికి ఆర్థిక సాయం - అదే ePASS పోర్టల్ ద్వారా దరఖాస్తు.",
+          "de": "Marriage assistance for SC/ST/BC/EBC families - applied through the same ePASS portal.",
+          "s": "https://telanganaepass.cgg.gov.in/",
+          "sn": "telanganaepass.cgg.gov.in",
+          "u": "23-10-2026"
         },
         {
-          "id": "paid-fees",
-          "t": "NSTI - ప్రచురించిన రుసుములు / హాస్టల్",
-          "e": "NSTI - published fees / hostel",
-          "d": "అధికారిక Fee Structure పేజీ (మీ కోర్సుకు తుది కోట్ కాదు):\nGeneral/OBC: అడ్మిషన్ ₹100; ట్యూషన్ నెలకు ₹150; మొదటి పరీక్ష ₹100; Gymkhana ₹100.\nSC/ST: అడ్మిషన్ ₹25; ట్యూషన్ నెలకు ₹50; మొదటి పరీక్ష ₹25; Gymkhana రుసుము లేదు.\nఅందరికీ కోర్సు కాషన్ డిపాజిట్ ₹250 (రిఫండబుల్ అని పేజీలో ఉంది). తదుపరి పరీక్షలు / ఇతర సేవలకు వేరు రుసుములు.\nఐచ్ఛిక హాస్టల్ అందుబాటులో ఉంటే: నెలకు ₹100 accommodation fee అని పట్టికలో ఉంది; ₹125 రిఫండబుల్ కాషన్; ₹50 service charge. మెస్ అదనం. ముందు వచ్చిన వారికి ప్రాధాన్యం; ఖాళీ హామీ లేదు.\nఈ మొత్తాలను కలిపి పూర్తి కోర్సు ఖర్చుగా చూపించడం లేదు. కోర్సు కాలం, వర్గం, తాజా రుసుములు, మెస్ / ప్రయాణ ఖర్చు సంస్థ వద్ద నిర్ధారించాలి.",
-          "de": "Official Fee Structure page, not a final quote for your course:\nGeneral/OBC: admission₹100, tuition₹150/month, first exam₹100, Gymkhana₹100.\nSC/ST: admission₹25, tuition₹50/month, first exam₹25, no Gymkhana fee.\nCourse caution deposit₹250 for all, described as refundable. Repeat exams/other services have separate fees.\nOptional hostel if available: table lists monthly accommodation₹100, refundable caution₹125 and service charge₹50; mess extra. First come, first served, no vacancy guarantee.\nThese are not combined into a full-course total. Confirm duration, category, current applicable fees, mess/travel and availability with institute.",
-          "s": "https://nstiwhyderabad.dgt.gov.in/fee-structure",
-          "sn": "nstiwhyderabad.dgt.gov.in",
-          "u": "24-10-2026",
-          "refs": [
-            {
-              "te": "రుసుముల అధికారిక పేజీ",
-              "en": "Official fee schedule",
-              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
-            }
-          ]
+          "id": "student-national-scholarship-por",
+          "t": "జాతీయ స్కాలర్‌షిప్ పోర్టల్",
+          "e": "National Scholarship Portal (Central)",
+          "d": "కేంద్ర ప్రభుత్వ స్కాలర్‌షిప్‌లన్నీ ఒకే చోట - నమోదు, దరఖాస్తు, స్టేటస్ తనిఖీ.",
+          "de": "All central scholarships in one place - register, apply, track status.",
+          "s": "https://scholarships.gov.in/",
+          "sn": "scholarships.gov.in",
+          "u": "23-10-2026"
         },
         {
-          "id": "paid-choice",
-          "t": "ఎంచుకునే ముందు - ఫీజు / రీఫండ్ / కొత్త ప్రకటనలు",
-          "e": "Before choosing - fees / refund / new notices",
-          "d": "ఫీజు ఉన్న కోర్సులు ఆసక్తిగలవారు పోల్చుకోవడానికే. యాప్ మీ తరఫున చేరదు, డబ్బు చెల్లించదు, పత్రాలు పంపదు.\nకోర్సు అర్హత, మొత్తం ఫీజు, రీఫండ్ / రద్దు నిబంధనలు, సర్టిఫికేట్, హాస్టల్ / మహిళల భద్రత, మెస్ అదనపు ఖర్చు రాతపూర్వకంగా నిర్ధారించండి. ఉద్యోగం / రుణం హామీ కాదు.\nకొత్తగా అధికారికంగా ధృవీకరించిన కోర్సు / వసతి ప్రకటనలు గంట గుర్తులో చూడండి. యాప్ తెరిచినప్పుడు / తిరిగి వచ్చినప్పుడు / మళ్ళీ చూడండి నొక్కితే నవీకరణ. యాప్ మూసి ఉన్నప్పుడు పుష్ అలర్ట్ లేదు. ఇప్పటి జాబితాను కొత్త బ్యాచ్ నోటిఫికేషన్‌గా చూపించడం లేదు.",
-          "de": "Paid listings are for interested learners to compare. The app does not enroll, pay or send documents on your behalf.\nConfirm eligibility, total fee, refund/cancellation terms, certificate, hostel/women’s safety and extra mess costs in writing. No job/loan guarantee.\nSee the bell for newly verified official course/accommodation announcements. Updates load on opening, returning or Refresh; no push alerts while closed. Existing listings are not reclassified as new batch announcements.",
-          "s": "https://nstiwhyderabad.dgt.gov.in/fee-structure",
-          "sn": "nstiwhyderabad.dgt.gov.in",
-          "u": "24-10-2026",
-          "refs": [
-            {
-              "te": "రుసుముల అధికారిక పేజీ",
-              "en": "Official fee schedule",
-              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
-            }
-          ]
+          "id": "student-tgpsc-government-jobs",
+          "t": "TGPSC ప్రభుత్వ ఉద్యోగాలు",
+          "e": "TGPSC Government Jobs",
+          "d": "గ్రూప్-1 నుండి గ్రూప్-4 నోటిఫికేషన్లు, హాల్ టికెట్లు, ఫలితాలు - అధికారిక సైట్‌లోనే చూడండి. డబ్బులు అడిగే మోసపూరిత కాల్స్/సైట్ల పట్టించుకోవద్దు.",
+          "de": "Group-1 to Group-4 notifications, hall tickets, results - check only the official site. Ignore fraudulent calls/sites demanding money.",
+          "s": "https://www.tgpsc.gov.in/",
+          "sn": "www.tgpsc.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "student-police-fire-prisons-jobs",
+          "t": "పోలీస్ / ఫైర్ / జైలు ఉద్యోగాలు",
+          "e": "Police / Fire / Prisons Jobs (TGPRB)",
+          "d": "తెలంగాణ స్టేట్ లెవల్ పోలీస్ రిక్రూట్‌మెంట్ బోర్డ్ నోటిఫికేషన్లు - అధికారిక సైట్ మాత్రమే.",
+          "de": "Telangana police, fire and prisons recruitment notifications - official site only.",
+          "s": "https://www.tgprb.in/",
+          "sn": "tgprb.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "student-find-schemes-you-are-eli",
+          "t": "మీకు అర్హమైన పథకాలు వెతకండి",
+          "e": "Find schemes you are eligible for (myScheme)",
+          "d": "ప్రభుత్వ అధికారిక పోర్టల్ - మీ వయస్సు, వర్గం, ఆదాయం ఇస్తే అర్హమైన అన్ని పథకాలు చూపిస్తుంది.",
+          "de": "Official govt portal - enter your age, category and income to see every scheme you qualify for.",
+          "s": "https://www.myscheme.gov.in/",
+          "sn": "myscheme.gov.in",
+          "u": "23-10-2026"
         }
       ]
     },
     {
-      "id": "womenskills",
-      "te": "మహిళలు & విద్యార్థినుల నైపుణ్యాలు",
-      "en": "Women & girl students - skills",
-      "icon": "🌸",
+      "id": "farmer",
+      "icon": "🌾",
+      "te": "రైతు",
+      "en": "Farmer",
       "items": [
         {
-          "id": "women-skill-beauty",
-          "t": "బ్యూటీషియన్ / Cosmetology - స్వీయ అభ్యాసం",
-          "e": "Beautician / Cosmetology - self-study",
-          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
-          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=5Ftn0L4jpwpVZTiA3RDGXg%3D%3D&Default=YES",
-          "sn": "bharatskills.gov.in",
+          "id": "farmer-zone-crops",
+          "t": "మన జోన్ పంటలు - సెంట్రల్ తెలంగాణ జోన్",
+          "e": "Our Zone Crops - Central Telangana Zone",
+          "d": "వ్యవసాయ యూనివర్సిటీ (PJTSAU) ప్రకారం మెదక్ సెంట్రల్ తెలంగాణ జోన్‌లో వస్తుంది. ఈ జోన్‌లో ప్రధానంగా సాగయ్యే పంటలు: పత్తి, వరి, మక్కజొన్న, పెసర, మామిడి, చెరకు, మిర్చి. ఇవి జోన్ ఉదాహరణలు మాత్రమే - ప్రతి పొలానికి ఇవే సరిపోతాయని కాదు.",
+          "de": "Per the agriculture university (PJTSAU), Medak falls in the Central Telangana Zone. Crops predominantly grown in this zone: cotton, rice, maize, greengram, mango, sugarcane, chillies. These are zone examples only - not a recommendation for every field.",
+          "bt": "జోన్ సమాచారం",
+          "be": "Zone info",
+          "s": "https://pjtsau.edu.in/ctz.html",
+          "sn": "pjtsau.edu.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-soil-testing-kvk-medak-b",
+          "t": "మట్టి పరీక్ష & KVK మెదక్ - నిర్ణయం ముందు",
+          "e": "Soil Testing & KVK Medak - Before Deciding",
+          "d": "ఏ పంట వేయాలన్న నిర్ణయం మీ పొలం మట్టి పరీక్ష, సీజన్, నీటి లభ్యత, ఖర్చులు, మార్కెట్ కొనుగోలుదారు - ఇవన్నీ చూసే తీసుకోవాలి. మట్టి పరీక్ష అధికారిక మార్గం జిల్లా వ్యవసాయ శాఖ; శిక్షణ, మట్టి ల్యాబ్ కోసం KVK తునికి/కౌడిపల్లి, మెదక్.",
+          "de": "Deciding which crop to plant needs your field's soil test, season, water reliability, input costs and a market buyer. Soil testing route: the district agriculture department; for training and soil lab: KVK Tuniki/Kowdipally, Medak.",
+          "bt": "KVK సైట్ చూడండి",
+          "be": "See KVK site",
+          "s": "https://kvkmedak.org/",
+          "sn": "kvkmedak.org",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-rainfed-vs-irrigated-wat",
+          "t": "వర్షాధార vs నీటి సదుపాయం - ప్రాథమిక అవగాహన",
+          "e": "Rainfed vs Irrigated - Water Basics",
+          "d": "వర్షాధార అంటే నీరు అస్సలు ఉండదని కాదు - వర్షాపాతంపై ఆధారపడి సాగు చేయడం. నీరు ఎక్కువ కావాల్సిన పంటలకు నిశ్చితమైన నీటి సదుపాయం ముఖ్యం. అన్ని రబీ పంటలకూ నీటి సదుపాయం తప్పనిసరి కాదు (నేలలో నిల్వ ఉన్న తేమ కూడా పనిచేస్తుంది); అన్ని వర్షాధార పంటలకూ ఒకే వర్షాపాతం కావాలనీ లేదు. ఏ పంట మీ పొలానికి సరిపోతుందో KVK/MAO సూచనతో నిర్ణయించండి.",
+          "de": "Rainfed does NOT mean zero water - it means farming dependent on rainfall. Water-demanding crops need assured water supply. Not all rabi crops strictly need irrigation (stored soil moisture can matter); nor do all rainfed crops need the same rainfall. Decide which crop fits your field with KVK/MAO guidance.",
+          "bt": "KVK సమాచారం",
+          "be": "KVK info",
+          "s": "https://kvkmedak.org/about-us",
+          "sn": "kvkmedak.org",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-new-registered-varieties",
+          "t": "నమోదు అయిన కొత్త రకాలు గురించి",
+          "e": "About New Registered Varieties",
+          "d": "వ్యవసాయ యూనివర్సిటీ కొత్త పంట రకాలను నమోదు చేస్తూ ఉంటుంది. గుర్తుంచుకోండి: ఒక రకం నమోదు అయిందన్నమాటే - అది మీ పొలానికి సరిపోతుందని, దాని విత్తనం దొరుకుతుందని, దిగుబడి హామీ అని కాదు. ఏ రకం ఎంచుకోవాలో ఎంపిక ముందు KVK/మండల వ్యవసాయ అధికారిని అడగండి.",
+          "de": "The agriculture university keeps registering new crop varieties. Remember: a variety being registered only means it is registered - it is NOT a current local suitability recommendation, nor guaranteed seed availability or yield. Ask KVK/the Mandal Agriculture Officer before choosing.",
+          "bt": "యూనివర్సిటీ పేజీ",
+          "be": "University page",
+          "s": "https://pjtau.edu.in/ipr-research-wing/",
+          "sn": "pjtau.edu.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-check-market-prices-enam",
+          "t": "మార్కెట్ ధరలు చూడండి - eNAM & MSP",
+          "e": "Check Market Prices - eNAM & MSP",
+          "d": "ప్రస్తుత మండీ ధరలు అధికారిక eNAM పోర్టల్‌లో చూడవచ్చు. 2026-27 ఖరీఫ్ MSP ప్రభుత్వ ప్రకటన లింక్ కింద ఉంది - కానీ MSP ప్రతి పంటకు/గ్రేడ్‌కు/కేంద్రానికి వర్తించదు, అది ప్రస్తుత మండీ ధర కాదు. అత్యధిక ధర ఉన్న పంటే లాభం కాదు - దిగుబడి, ఖర్చులు, పాడయ్యే స్వభావం, కొనుగోలుదారులు, రవాణా కూడా చూడాలి. అమ్మకం/లాభం హామీ ఏదీ లేదు.",
+          "de": "Current mandi prices can be checked on the official eNAM portal. The 2026-27 kharif MSP announcement is linked - but MSP does not apply to every crop/grade/centre and it is not the current mandi price. The highest-priced crop is not automatically the most profitable - yield, costs, perishability, buyers and transport all matter. No sale or profit is guaranteed.",
+          "bt": "eNAM ధరలు చూడండి",
+          "be": "See eNAM prices",
+          "s": "https://enam.gov.in/",
+          "sn": "enam.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-rythu-bharosa",
+          "t": "రైతు భరోసా",
+          "e": "Rythu Bharosa (Telangana)",
+          "d": "ప్రతి పంట సీజన్ మొదట్లో పెట్టుబడి సాయం: ఎకరాకు సీజన్‌కు ₹6,000 - ఏటా ₹12,000 (ఖరీఫ్ + రబీ), నేరుగా బ్యాంక్ ఖాతాలో. పంట రుణ మాఫీ విధానంతో పాటు అమలవుతోంది. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి.",
+          "de": "Season-start investment support: Rs 6,000 per acre per season - Rs 12,000 per acre per year (Kharif + Rabi), direct to bank, alongside the crop loan waiver. Check eligibility, status and amounts only on the official portal.",
+          "s": "https://rythubharosa.telangana.gov.in/",
+          "sn": "rythubharosa.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-pm-kisan",
+          "t": "పీఎం కిసాన్ సమ్మాన్ నిధి",
+          "e": "PM-KISAN (Central)",
+          "d": "కేంద్ర ప్రభుత్వం: అర్హులైన రైతు కుటుంబానికి ఏటా ₹6,000 - మూడు వాయిదాల్లో నేరుగా బ్యాంక్ ఖాతాలో. కొత్త నమోదు/స్టేటస్: పోర్టల్ లేదా మీ CSC కేంద్రం.",
+          "de": "Central govt: Rs 6,000/year to eligible farmer families in 3 installments, direct to bank. Register or check status on the portal or at your CSC.",
+          "s": "https://pmkisan.gov.in/",
+          "sn": "pmkisan.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-crop-insurance",
+          "t": "పంట బీమా (PMFBY)",
+          "e": "Crop Insurance (PMFBY)",
+          "d": "పంట నష్టానికి కేంద్ర ప్రభుత్వ బీమా (PMFBY). 2020 ఖరీఫ్ నుంచి ఇది అన్ని రైతులకు ఐచ్ఛికం - రుణం తీసుకుంటే తప్పనిసరి అనే పాత నియమం లేదు. రైతు వాటా ప్రీమియం గరిష్ఠంగా: ఖరీఫ్ ఆహార/నూనెగింజ పంటలకు 2%, రబీ పంటలకు 1.5%, వార్షిక వాణిజ్య/తోట పంటలకు 5%. విస్తృత ప్రకృతి వైపరీత్యాల్లో రైతు ఏమీ తెలపనక్కరలేదు - జిల్లా స్థాయి అంచనా/రాష్ట్ర దిగుబడి డేటా ఆధారంగా క్లెయిమ్ లెక్కేసి నేరుగా బ్యాంక్ ఖాతాలో జమ చేస్తారు. స్థానిక వైపరీత్యాలు, కోత తర్వాత నష్టాల్లో మాత్రం 72 గంటల్లో టోల్-ఫ్రీ 14447 కు కాల్ చేసి, లేదా క్రాప్ ఇన్షూరెన్స్ యాప్/రాష్ట్ర ప్రభుత్వం/బీమా కంపెనీ/బ్యాంకుకు తెలపాలి. తెలంగాణ 2024లో PMFBYలో మళ్లీ చేరింది; మెదక్ జిల్లాలో మీ పంట/ప్రాంతం ప్రస్తుత సీజన్ నోటిఫికేషన్‌లో ఉందో లేదో మీ బ్యాంక్/CSC/వ్యవసాయ కార్యాలయంలో నమ్మకం చేసుకున్న తర్వాతే ఆధారపడండి. ఫిర్యాదు చేయాలంటే (షరతులు వర్తిస్తాయి - ఆటోమేటిక్ ప్రక్రియ కాదు): ముందు పాలసీ ఇచ్చిన బీమా కంపెనీ/బ్యాంక్ గ్రీవెన్స్ అధికారిని సంప్రదించండి (PMJJBY/PMSBY: బ్యాంక్ శాఖ; PMFBY: 14447 / బీమా కంపెనీ / క్రాప్ ఇన్షూరెన్స్ యాప్) - ఫిర్యాదు అందిన 15 రోజుల్లో కంపెనీ పరిష్కరించాలన్న అధికారిక నిబంధన ఉంది, కానీ ఇది చెల్లింపు హామీ కాదు. పరిష్కారం కాకపోతే: IRDAI Bima Bharosa పోర్టల్ (bimabharosa.irdai.gov.in), టోల్-ఫ్రీ 155255 లేదా 1800 4254 732 (ఉదయం 8 - రాత్రి 8, సోమ-శని), లేదా complaints@irdai.gov.in - ఫిర్యాదు 14 రోజుల్లో పరిశీలనకు తీసుకుంటారు. ఇన్షూరెన్స్ ఓంబుడ్స్‌మన్: ముందు కంపెనీకి ఫిర్యాదు చేసి ఉండాలి; కంపెనీ తిరస్కరిస్తే/పాక్షికంగా చెల్లిస్తే లేదా పరిష్కారంపై సంతృప్తి లేకపోతే, లేదా 30 రోజుల్లో సమాధానం రాకపోతే సంప్రదించవచ్చు (ప్రతిసారీ 30 రోజులు వేచడం తప్పనిసరి కాదు); క్లెయిమ్ విలువ ఖర్చులతో సహా ₹50 లక్షలు మించకూడదు; కంపెనీ తిరస్కరణ/పాక్షిక చెల్లింపు జరిగిన 1 సంవత్సరం లోపు; అదే విషయం ఏ ఇతర ఫోరం/కోర్టు/ఆర్బిట్రేటర్ దగ్గర పెండింగ్‌లో ఉండకూడదు; ఫీజు లేదు (cioins.co.in). గుర్తుంచుకోండి: ప్రీమియం డిపాజిట్ కాదు - బీమా చేసిన సంఘటన జరిగితే, పాలసీ నిబంధనలు/మినహాయింపుల ప్రకారం మాత్రమే చెల్లింపు ఉంటుంది.",
+          "de": "Central government crop insurance (PMFBY). Since Kharif 2020 it is voluntary for all farmers - the old loanee-compulsory rule no longer applies. Farmer premium share is capped at: 2% for kharif food/oilseed crops, 1.5% for rabi, 5% for annual commercial/horticulture crops. For widespread calamities the farmer need not report anything - claims are calculated from district-level assessment/state yield data and paid to the bank account. For localized calamities and post-harvest losses, the farmer must intimate within 72 hours via toll-free 14447, the Crop Insurance App, the State Government, the insurance company, or the bank. Telangana rejoined PMFBY in 2024; verify whether your crop/area in Medak district is in the current-season notification at your bank/CSC/agriculture office before relying on this. To complain (conditions apply - not automatic): first contact the grievance officer of the insurer/bank that issued the policy (PMJJBY/PMSBY: the bank branch; PMFBY: 14447 / insurer / Crop Insurance App) - per official rule the company should resolve the complaint within 15 days of receipt, but this is not a settlement guarantee. If unresolved or unsatisfactory: IRDAI Bima Bharosa portal (bimabharosa.irdai.gov.in), toll-free 155255 or 1800 4254 732 (8 AM-8 PM, Mon-Sat), or complaints@irdai.gov.in - complaints are attended to within 14 days. Insurance Ombudsman: you must first complain to the insurer; you may approach the Ombudsman if the insurer rejects or partly settles, or you are unsatisfied with the resolution, OR there is no response within 30 days (a 30-day wait is not always required); claim value including expenses must not exceed Rs 50 lakh; within 1 year of the insurer's rejection or partial settlement; the same matter must not be pending before any other forum/court/arbitrator; no fee (cioins.co.in). Remember: the premium is not a deposit - insurance pays only on the insured event and per policy conditions/exclusions.",
+          "s": "https://pmfby.gov.in/",
+          "sn": "pmfby.gov.in",
+          "u": "23-10-2026",
+          "ph": "14447"
+        },
+        {
+          "id": "farmer-urea-fertilizer-purchase",
+          "t": "యూరియా / ఎరువుల కొనుగోలు",
+          "e": "Urea / Fertilizer purchase (DBT)",
+          "d": "లైసెన్స్ ఎరువుల దుకాణంలో ఆధార్ + బయోమెట్రిక్ (PoS మెషిన్) తో ప్రభుత్వ సబ్సిడీ ధరకే కొనండి. రసీదు తీసుకోండి. ఆధార్-బ్యాంక్ లింకింగ్ స్టేటస్ కూడా ఈ DBT పోర్టల్‌లో చూడవచ్చు. స్టాక్/ధరల సమస్యలు: మండల వ్యవసాయ అధికారి (AEO) ని సంప్రదించండి.",
+          "de": "Buy at subsidized rates with Aadhaar + biometric PoS at licensed dealers; take the receipt. For stock/price issues contact the Mandal Agriculture Officer (AEO).",
+          "s": "https://dbtbharat.gov.in/",
+          "sn": "dbtbharat.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-soil-health-card",
+          "t": "సాయిల్ హెల్త్ కార్డ్",
+          "e": "Soil Health Card",
+          "d": "మీ పొలం మట్టి ఉచిత పరీక్ష - ఏ ఎరువు ఎంత వేయాలో శాస్త్రీయ సిఫార్సు. నమూనాల కోసం మండల వ్యవసాయ అధికారిని సంప్రదించండి.",
+          "de": "Free soil testing with scientific fertilizer advice. Contact the Mandal Agriculture Officer for sampling.",
+          "s": "https://soilhealth.dac.gov.in/",
+          "sn": "soilhealth.dac.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-kisan-credit-card",
+          "t": "కిసాన్ క్రెడిట్ కార్డ్",
+          "e": "Kisan Credit Card",
+          "d": "తక్కువ వడ్డీతో పంట అవసరాల రుణం. మీ బ్యాంక్ శాఖలో పాస్ బుక్, ఆధార్, భూమి పత్రాలతో దరఖాస్తు చేయండి.",
+          "de": "Low-interest crop loan. Apply at your bank branch with passbook, Aadhaar and land records.",
+          "s": "https://www.myscheme.gov.in/schemes/kcc",
+          "sn": "myscheme.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-vb-g-ram-g-125-days-work",
+          "t": "ఉపాధి హామీ (VB-G RAM G - 125 రోజులు)",
+          "e": "VB-G RAM G - 125 days work guarantee",
+          "d": "1 జూలై 2026 నుండి కొత్త చట్టం అమల్లో - పాత 100 రోజుల స్థానంలో ఇప్పుడు గ్రామ కుటుంబానికి ఏటా 125 రోజుల వేతన పని హామీ. తెలంగాణ రోజువారీ వేతనం ₹308 (2026-27 కేంద్ర గెజిట్). జాబ్ కార్డు / పని కోసం గ్రామ పంచాయతీని సంప్రదించండి; వేతనాలు నేరుగా బ్యాంక్ ఖాతాకు. పనులు, చెల్లింపులు తెలంగాణ పోర్టల్‌లో పబ్లిక్.",
+          "de": "New law in force from 1 July 2026 - 125 days of guaranteed wage work per rural household per year (was 100). Telangana daily wage Rs 308 (central 2026-27 notification). Contact the Gram Panchayat for a job card; wages go straight to the bank account. Works and payments are public on the Telangana portal.",
+          "bt": "పనులు & చెల్లింపులు చూడండి",
+          "be": "View works & payments",
+          "s": "https://nrega.telangana.gov.in/Nregs/",
+          "sn": "nrega.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-veterinary-animal-husban",
+          "t": "పశువైద్యం & పశుసంవర్ధకం (VAHD)",
+          "e": "Veterinary & Animal Husbandry (VAHD)",
+          "d": "పశువుల వైద్యం, ఉచిత టీకాలు, గొర్రెల/పశువుల పంపిణీ పథకాలు - రాష్ట్ర పశుసంవర్ధక శాఖ అధికారిక పోర్టల్. స్థానిక వెటర్నరీ ఆసుపత్రి / శిబిరం వివరాలు మండల కార్యాలయంలో అడగండి.",
+          "de": "Animal treatment, free vaccinations, sheep/livestock distribution schemes - official state Animal Husbandry department portal. Ask the mandal office for the local veterinary hospital / camp details.",
+          "bt": "సేవలు & పథకాలు చూడండి",
+          "be": "View services & schemes",
+          "s": "https://vahd.telangana.gov.in/",
+          "sn": "vahd.telangana.gov.in",
+          "u": "23-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "aid",
+      "icon": "🏛️",
+      "te": "ప్రభుత్వ సాయం",
+      "en": "Govt Aid",
+      "items": [
+        {
+          "id": "aid-maha-lakshmi-scheme",
+          "t": "మహాలక్ష్మి పథకం",
+          "e": "Maha Lakshmi Scheme",
+          "d": "అమలవుతున్నవి: మహిళలు, అమ్మాయిలు, ట్రాన్స్‌జెండర్లకు TSRTC బస్సుల్లో ఉచిత ప్రయాణం (ఆధార్ చూపిస్తే చాలు); అర్హ కుటుంబాలకు గ్యాస్ సిలిండర్ ₹500 కే. మహిళలకు నెలకు ₹2,500 ఆర్థిక సాయం ప్రకటిత పథకం - ఇంకా చెల్లింపులు మొదలవ్వలేదు. తాజా స్థితి, దరఖాస్తు: MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రం.",
+          "de": "Running now: free TSRTC bus travel for women/girls/transgenders (show Aadhaar); LPG cylinder at Rs 500 for eligible households. The announced Rs 2,500/month assistance for women has not started paying yet. Latest status and applications: Praja Palana Seva Kendram in the MPDO office.",
+          "s": "https://prajapalana.telangana.gov.in/",
+          "sn": "prajapalana.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-gruha-jyothi",
+          "t": "గృహ జ్యోతి (200 యూనిట్ల ఉచిత కరెంటు)",
+          "e": "Gruha Jyothi (200 units free electricity)",
+          "d": "నెలకు 200 యూనిట్ల వరకు వినియోగం ఉంటే కరెంట్ బిల్లు జీరో. వైట్ రేషన్ కార్డు + ఆధార్ అవసరం. దరఖాస్తు: ప్రజా పాలన.",
+          "de": "Zero electricity bill if monthly usage stays within 200 units. White ration card + Aadhaar needed. Apply via Praja Palana.",
+          "s": "https://prajapalana.telangana.gov.in/",
+          "sn": "prajapalana.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-cheyutha-pensions",
+          "t": "చేయుత పెన్షన్లు (ఆసరా)",
+          "e": "Cheyutha (Aasara) Pensions",
+          "d": "వృద్ధాప్య, వితంతు, దివ్యాంగ తదితర పెన్షన్లు. కింది లింక్ పెన్షనర్ వివరాల వెతుకులాటకు మాత్రమే; కొత్త దరఖాస్తు కాదు. దీనికి యూజర్‌నేమ్/పాస్‌వర్డ్ అవసరం లేదు. కొత్త దరఖాస్తుల స్వీకరణ, ప్రస్తుత మొత్తం కోసం గ్రామ పంచాయతీ కార్యదర్శి / MPDO కార్యాలయంలో నిర్ధారించుకోండి.",
+          "de": "Old-age, widow, disability and other pensions. The link below is only for pensioner-details search, not a new application. No username or password is needed for this search. Confirm new-application intake and current amounts with the Gram Panchayat Secretary / MPDO office.",
+          "s": "https://www.cheyutha.telangana.gov.in/SSPTG/UserInterface/Portal/GeneralSearch.aspx",
+          "sn": "cheyutha.telangana.gov.in",
+          "bt": "పెన్షనర్ వివరాలు చూడండి",
+          "be": "Search pensioner details",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-ration-card-civil-suppli",
+          "t": "రేషన్ కార్డు / ఉచిత బియ్యం",
+          "e": "Ration Card / Civil Supplies",
+          "d": "రేషన్ కార్డు కొత్త దరఖాస్తు విధానం, ఫిర్యాదు నమోదు, సివిల్ సప్లయ్స్ శాఖ సేవలు - అధికారిక శాఖా వెబ్‌సైట్‌లో చూడండి.",
+          "de": "How to apply for a ration card, lodge a complaint, and other Civil Supplies department services on the official site.",
+          "s": "https://civilsupplies.telangana.gov.in/",
+          "sn": "civilsupplies.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-ration-shop-distribution",
+          "t": "రేషన్ దుకాణం & నెల వితరణ - అధికారిక సమాచారం ఎక్కడ",
+          "e": "Ration shop & monthly distribution - where to check",
+          "d": "అధికారిక AePDS పోర్టల్ ప్రకారం మెదక్ జిల్లాలో చిలిప్చెడ్ మండల (AFSO) కార్యాలయం ఉంది; దాని పరిధిలో 14 రేషన్ దుకాణాలు, నంబర్లు 1790002 నుండి 1790015 వరకు జాబితాలో ఉన్నాయి (24-10-2026 న పోర్టల్‌లో చూశాం). మన గ్రామానికి ఏ దుకాణం కేటాయించబడిందో, సరుకు ఏ తేదీన అందుతుందో అనే గ్రామ-స్థాయి వివరాలు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల నుండి నిర్ధారించలేదు. ఈ తనిఖీ సమయంలో పోర్టల్‌లో అందుబాటులో ఉన్న నెల రిపోర్టు ఆగస్టు-2026 ది - అందులో రాష్ట్ర మొత్తం మీద ఫోర్టిఫైడ్ సన్న బియ్యం, గోధుమలు, చక్కెర అమ్మకాలు నమోదయ్యాయి; అది పాత నెల రాష్ట్ర-స్థాయి రిపోర్టు మాత్రమే, మన దుకాణంలో ప్రస్తుతం ఏమి ఎప్పుడు వస్తుందో చెప్పదు. మీ దుకాణ నంబరు, ఈ నెల సరుకు రాక సమయం దుకాణ బోర్డు, గ్రామ పంచాయతీ లేదా రేషన్ డీలర్ దగ్గర నిర్ధారించుకోండి. రేషన్ సమస్యలకు సివిల్ సప్లయ్స్ శాఖ టోల్ ఫ్రీ 1967 (అధికారిక ఫిర్యాదు పోర్టల్ IGRMS ప్రకారం 24x7 కాల్ సెంటర్).",
+          "de": "Per the official AePDS portal, Medak district has a Chilipched mandal (AFSO) office with 14 ration shops numbered 1790002 to 1790015 (observed on the portal 24-10-2026). Which shop is assigned to our village, and on what date supplies arrive, could not be verified from the official pages accessible during this check. The monthly report accessible during this check was for August-2026: statewide sales of fortified fine rice, wheat and sugar were recorded - that is an older statewide report only and does not say what is being supplied at our shop now or when. Confirm your shop number and this month's supply arrival at the shop board, gram panchayat or with the ration dealer. For ration problems: Civil Supplies toll-free 1967 (24x7 call centre per the official IGRMS grievance portal).",
+          "bt": "AePDS పోర్టల్ చూడండి",
+          "be": "See AePDS portal",
+          "s": "https://smartpds.telangana.gov.in/",
+          "sn": "smartpds.telangana.gov.in",
           "u": "24-10-2026"
         },
         {
-          "id": "women-skill-dress",
-          "t": "డ్రెస్ మేకింగ్ / దుస్తుల కుట్టు - స్వీయ అభ్యాసం",
-          "e": "Dress Making - self-study",
-          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
-          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=K6RTFr66o1wP65kVk2dH6g%3D%3D&Default=YES",
-          "sn": "bharatskills.gov.in",
+          "id": "aid-indiramma-housing",
+          "t": "ఇందిరమ్మ ఇళ్లు",
+          "e": "Indiramma Housing",
+          "d": "స్వంత ఇల్లు లేని పేద కుటుంబాలకు ఇళ్ల నిర్మాణ సాయం - ప్రజా పాలన ద్వారా దరఖాస్తు. అర్హత/స్టేటస్ పోర్టల్‌లో తనిఖీ చేయండి.",
+          "de": "Housing assistance for poor families without a house - apply via Praja Palana; check eligibility and status on the portal.",
+          "s": "https://prajapalana.telangana.gov.in/",
+          "sn": "prajapalana.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-stree-nidhi",
+          "t": "స్త్రీ నిధి (మహిళా రుణాలు)",
+          "e": "Stree Nidhi (Women's loans)",
+          "d": "మహిళా సంఘ (SHG) సభ్యులకు తక్కువ వడ్డీతో త్వరిత రుణాలు - జీవనోపాధి, వైద్యం, విద్య, అత్యవసర అవసరాలకు. మీ సంఘం / VO / మండల సమాఖ్య ద్వారా దరఖాస్తు.",
+          "de": "Quick low-interest loans for women SHG members - livelihood, health, education, emergencies. Apply through your SHG / VO / Mandal Samakhya.",
+          "s": "https://streenidhi.telangana.gov.in/SNTG/UI/Home.aspx",
+          "sn": "streenidhi.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-post-office-savings-sche",
+          "t": "పోస్టాఫీస్ చిన్న పొదుపు పథకాలు (PPF, సుకన్య, SCSS, NSC, KVP, RD, MIS, TD)",
+          "e": "Post Office Small Savings Schemes (PPF, Sukanya, SCSS, NSC, KVP, RD, MIS, TD)",
+          "d": "పోస్టాఫీసులో తెరవగల చిన్న పొదుపు పథకాలు: PPF, సుకన్య సమృద్ధి (ఆడపిల్ల), సీనియర్ సిటిజెన్ సేవింగ్స్ (SCSS, 60+), NSC, KVP, పోస్టాఫీస్ RD, మంత్లీ ఇన్కమ్ స్కీమ్ (MIS), టైమ్ డిపాజిట్లు. వడ్డీ రేట్లను కేంద్ర ఆర్థిక మంత్రిత్వ శాఖ ప్రతి త్రైమాసికం సమీక్షిస్తుంది - 30-09-2026 ఉత్తర్వు ప్రకారం ప్రస్తుత త్రైమాసికానికి (1 అక్టోబర్ - 31 డిసెంబర్ 2026) రేట్లు మారలేదు. పెట్టుబడి ముందు ఖచ్చితమైన ప్రస్తుత రేటును మీ పోస్టాఫీసులో లేదా nsiindia.gov.in లో నిర్ధారించండి. అన్ని పథకాలు అన్ని శాఖల్లో అందుబాటులో ఉండకపోవచ్చు - మీ శాఖలో అడిగి చూసుకోండి.",
+          "de": "Small savings schemes you can open at a post office: PPF, Sukanya Samriddhi (girl child), Senior Citizens Savings (SCSS, 60+), NSC, KVP, Post Office RD, Monthly Income Scheme (MIS), Time Deposits. Interest rates are reviewed every quarter by the Finance Ministry; per the 30-09-2026 order, rates are unchanged for the current quarter (1 Oct - 31 Dec 2026). Confirm the exact current rate at your post office or nsiindia.gov.in before investing. Not every product may be available at every branch - confirm at your branch.",
+          "s": "https://dea.gov.in/files/budget_division_documents/R.pdf",
+          "sn": "dea.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "aid-praja-palana-application",
+          "t": "ప్రజా పాలన - దరఖాస్తు స్టేటస్",
+          "e": "Praja Palana - Application Status",
+          "d": "6 గ్యారెంటీ పథకాలకు ఇచ్చిన దరఖాస్తుల స్థితి ఇక్కడ తనిఖీ చేయండి.",
+          "de": "Track your applications for the 6 guarantee schemes here.",
+          "s": "https://prajapalana.telangana.gov.in/Applicationstatus",
+          "sn": "prajapalana.telangana.gov.in",
+          "u": "23-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "icon": "💧",
+      "te": "నీళ్లు • బియ్యం • భూమి",
+      "en": "Water • Rice • Land",
+      "items": [
+        {
+          "id": "water-mission-bhagiratha-house",
+          "t": "మిషన్ భగీరథ - ఇంటి నీళ్ల కనెక్షన్",
+          "e": "Mission Bhagiratha - Household Tap Water",
+          "d": "ప్రతి ఇంటికి పైప్ తాగునీరు - కొత్త కనెక్షన్, రిపేర్లు స్థానిక మిషన్ భగీరథ / RWS కార్యాలయం ద్వారా. అధికారిక పోర్టల్‌లో పథకం వివరాలు.",
+          "de": "Piped drinking water to every home - new connections and repairs through the local Mission Bhagiratha / RWS office. Scheme details on the official portal.",
+          "bt": "పథకం వివరాలు చూడండి",
+          "be": "View scheme details",
+          "s": "https://missionbhagiratha.telangana.gov.in/",
+          "sn": "missionbhagiratha.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "water-epds-ration-rice-service",
+          "t": "ePDS - రేషన్ / బియ్యం సేవలు",
+          "e": "ePDS - Ration / Rice Services",
+          "d": "రేషన్ కార్డు వివరాలు, నెలవారీ సరుకు కేటాయింపు, స్మార్ట్ రేషన్ కార్డు - అధికారిక ePDS పోర్టల్‌లో ఆన్‌లైన్ చూడవచ్చు. ఫిర్యాదులకు 1967.",
+          "de": "Ration card details, monthly allocation and smart ration card updates can be checked online on the official ePDS portal. Complaints: 1967.",
+          "s": "https://epds.telangana.gov.in/FoodSecurityAct/",
+          "sn": "epds.telangana.gov.in",
+          "u": "23-10-2026",
+          "ph": "1967"
+        },
+        {
+          "id": "water-bhu-bharati-land-records",
+          "t": "భూ భారతి - భూమి రికార్డులు",
+          "e": "Bhu Bharati - Land Records",
+          "d": "భూమి రికార్డులు (ROR), పట్టాదారు పాస్‌బుక్, మ్యూటేషన్ - దరాని స్థానంలో వచ్చిన కొత్త అధికారిక పోర్టల్. ఏ సేవలు ఆన్‌లైన్ అందుబాటులో ఉన్నాయో పోర్టల్‌లోనే చూడండి.",
+          "de": "Land records (ROR), pattadar passbook, mutations - the new official portal that replaced Dharani. Check the portal itself for which services are online.",
+          "bt": "భూమి రికార్డులు చూడండి",
+          "be": "View land records",
+          "s": "https://bhubharati.telangana.gov.in/gis/",
+          "sn": "bhubharati.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "water-swachh-bharat-household",
+          "t": "స్వచ్ఛ భారత్ - ఇంటి మరుగుదొడ్డి",
+          "e": "Swachh Bharat - Household Toilet (IHHL)",
+          "d": "ఇంటి మరుగుదొడ్డి (IHHL) నిర్మాణానికి ₹12,000 ప్రోత్సాహకం (కేంద్ర + రాష్ట్ర వాటా). దరఖాస్తు గ్రామ పంచాయతీ ద్వారా. వివరాలు అధికారిక FAQ లో.",
+          "de": "Rs 12,000 incentive for building a household toilet (IHHL), central + state share. Apply through the Gram Panchayat. Details in the official FAQ.",
+          "bt": "వివరాలు (FAQ) చూడండి",
+          "be": "Read the FAQ",
+          "s": "https://swachhbharatmission.ddws.gov.in/faq",
+          "sn": "swachhbharatmission.gov.in",
+          "u": "23-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "icon": "🏥",
+      "te": "ఆరోగ్యం",
+      "en": "Health",
+      "items": [
+        {
+          "id": "health-cheyutha-rajiv-aarogyasr",
+          "t": "చేయుత - రాజీవ్ ఆరోగ్యశ్రీ (₹10 లక్షలు)",
+          "e": "Cheyutha - Rajiv Aarogyasri (Rs 10 lakh)",
+          "d": "వైట్ రేషన్ కార్డు కుటుంబాలకు ఏటా ₹10 లక్షల వరకు నగదు-రహిత చికిత్స - గుండె ఆపరేషన్లు, క్యాన్సర్, మూత్రపిండాలు సహా 1,672 ప్యాకేజీలు. గుర్తింపు పొందిన ప్రభుత్వ/ప్రైవేట్ ఆసుపత్రుల్లో చికిత్స. ఆరోగ్యశ్రీ ట్రస్ట్: 040-23547107.",
+          "de": "Cashless treatment up to Rs 10 lakh/year for white ration card families - 1,672 packages incl. heart surgery and cancer, at empanelled hospitals. Trust helpline: 040-23547107.",
+          "s": "https://aarogyasri.telangana.gov.in/",
+          "sn": "aarogyasri.telangana.gov.in",
+          "u": "23-10-2026",
+          "ph": "04023547107"
+        },
+        {
+          "id": "health-ayushman-bharat-pm-jay",
+          "t": "ఆయుష్మాన్ భారత్ (PM-JAY)",
+          "e": "Ayushman Bharat PM-JAY (Rs 5 lakh)",
+          "d": "కేంద్ర ప్రభుత్వం: అర్హులైన కుటుంబానికి ఏటా ₹5 లక్షల హాస్పిటలైజేషన్ కవర్. ఆయుష్మాన్ కార్డు: ఆధార్ + రేషన్ కార్డుతో CSC కేంద్రం లేదా ఆసుపత్రిలో పొందండి.",
+          "de": "Central govt: Rs 5 lakh/year hospitalization cover for eligible families. Get the Ayushman card at a CSC or empanelled hospital with Aadhaar + ration card.",
+          "s": "https://pmjay.gov.in/",
+          "sn": "pmjay.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "health-atal-pension-yojana",
+          "t": "అటల్ పెన్షన్ యోజన",
+          "e": "Atal Pension Yojana",
+          "d": "60 ఏళ్ల నుండి నెల పెన్షన్ గ్యారంటీ. 18-40 ఏళ్ల వయసులో బ్యాంక్ ద్వారా చేరండి - త్వరగా చేరితే అంత తక్కువ కంట్రిబ్యూషన్.",
+          "de": "Guaranteed monthly pension from age 60. Join via your bank between 18-40; earlier joining means lower contribution.",
+          "s": "https://www.myscheme.gov.in/schemes/apy",
+          "sn": "myscheme.gov.in",
+          "u": "23-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "women",
+      "icon": "👩‍👧",
+      "te": "మహిళలు & పిల్లలు",
+      "en": "Women & Children",
+      "items": [
+        {
+          "id": "women-kalyana-lakshmi-shaadi-m",
+          "t": "కళ్యాణ లక్ష్మీ / షాదీ ముబారక్",
+          "e": "Kalyana Lakshmi / Shaadi Mubarak",
+          "d": "పెళ్లి వయసు (18+) పూర్తయిన అర్హులైన యువతుల వివాహానికి ఆర్థిక సాయం. ఆదాయ పరిమితులు: SC/ST ₹2 లక్షలు, BC/EBC గ్రామీణ ₹1.5 లక్షలు / పట్టణ ₹2 లక్షలు (అధికారిక ePASS పేజీ). దరఖాస్తు: ePASS పోర్టల్.",
+          "de": "Marriage assistance for eligible young women (18+). Income limits: SC/ST Rs 2 lakh, BC/EBC rural Rs 1.5 lakh / urban Rs 2 lakh (official ePASS page). Apply on the ePASS portal.",
+          "s": "https://telanganaepass.cgg.gov.in/",
+          "sn": "telanganaepass.cgg.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "women-asha-worker-village-heal",
+          "t": "ఆశా వర్కర్ - గ్రామ ఆరోగ్య సహాయకురాలు",
+          "e": "ASHA Worker - Village Health Support",
+          "d": "గర్భిణులు, శిశువుల ఆరోగ్యం, టీకాలు, ఆసుపత్రి అనుసంధానం - గ్రామంలోనే ఆశా వర్కర్ ఉచితంగా సహాయం చేస్తుంది (జాతీయ గ్రామీణ ఆరోగ్య మిషన్).",
+          "de": "The village ASHA worker helps free of charge with maternal and child health, immunization and hospital linkage (National Health Mission).",
+          "bt": "వివరాలు చూడండి",
+          "be": "View details",
+          "s": "https://nhm.gov.in/nammamihaan/index1.php?lang=1&level=1&lid=226&sublinkid=150",
+          "sn": "nhm.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "women-hiv-support-free-governm",
+          "t": "HIV మద్దతు - ఉచిత ప్రభుత్వ సేవలు",
+          "e": "HIV Support - Free Government Services",
+          "d": "HIVతో బతుతున్నవారికి ఉచిత ART చికిత్స, కౌన్సెలింగ్, సంక్షేమ పథకాల అనుసంధానం - జాతీయ AIDS నియంత్రణ కార్యక్రమం కింద ప్రభుత్వ ART / కేర్ & సపోర్ట్ కేంద్రాలు (TGSACS). ఎవరికీ చెప్పాల్సిన అవసరం లేకుండా నేరుగా కేంద్రాన్ని సంప్రదించవచ్చు: 040-24743897.",
+          "de": "Free ART treatment, counselling and linkage to welfare schemes for people living with HIV - government ART / Care & Support Centres (TGSACS) under the National AIDS Control Programme. You can contact a centre directly without telling anyone: 040-24743897.",
+          "s": "https://tgsacs.telangana.gov.in/care-support/",
+          "sn": "tgsacs.telangana.gov.in",
+          "bt": "మద్దతు వివరాలు చూడండి",
+          "be": "View support details",
+          "u": "23-10-2026",
+          "ph": "04024743897"
+        },
+        {
+          "id": "women-sukanya-samriddhi-yojana",
+          "t": "సుకన్య సమృద్ధి యోజన - ఆడపిల్ల పేరు పొదుపు ఖాతా",
+          "e": "Sukanya Samriddhi Yojana - Girl Child Savings Account",
+          "d": "10 ఏళ్లు నిండక ముందు ఆడపిల్ల పేరు తల్లిదండ్రులు ఖాతా తెరవవచ్చు; ఒక అమ్మాయికి ఒక ఖాతా మాత్రమే. సంవత్సరానికి కనీసం ₹250, గరిష్ఠం ₹1.5 లక్షలు జమ చేయవచ్చు. పోస్టాఫీసులో లేదా అధీకృత బ్యాంకులో తెరవవచ్చు. ఖాతా తెరిచిన తేదీ నుంచి 21 సంవత్సరాలు పూర్తయినప్పుడు మెచ్యూర్ అవుతుంది. అమ్మాయి ఉన్నత విద్య కోసం డబ్బు తీయవచ్చు; ఆమెకు 18 ఏళ్లు నిండిన తర్వాత వివాహం జరిగితే ఖాతాను ముందస్తుగా మూసివేయవచ్చు. జమలపై 80-C పన్ను మినహాయింపు ఉంటుంది; వడ్డీ పన్ను రహితం. వడ్డీ రేటు త్రైమాసికానికి సమీక్షకు లోబడి ఉంటుంది - ప్రస్తుత రేటు పోస్టాఫీసు/బ్యాంకులో లేదా nsiindia.gov.in లో నిర్ధారించండి.",
+          "de": "Parents can open an account in a girl child's name before she turns 10; one account per girl. Minimum deposit Rs 250 and maximum Rs 1.5 lakh in a financial year. Can be opened at post offices and authorised banks. The account matures 21 years from the date of opening. Withdrawal is allowed for the account holder's higher education; the account can be closed early for the girl's marriage after she turns 18. Deposits qualify for 80-C deduction and the interest is tax-free. The interest rate is subject to quarterly review - confirm the current rate at the post office/bank or nsiindia.gov.in.",
+          "bt": "వివరాలు చూడండి",
+          "be": "See details",
+          "s": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+          "sn": "nsiindia.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "women-anganwadi-nutrition-poshan",
+          "t": "అంగన్‌వాడీ - పిల్లలు, తల్లులకు ఉచిత పోషకాహారం (పోషన్ 2.0)",
+          "e": "Anganwadi - Free Nutrition for Children and Mothers (Poshan 2.0)",
+          "d": "సక్షమ్ అంగన్‌వాడీ & పోషన్ 2.0 కింద 6 నెలల నుంచి 6 ఏళ్ల పిల్లలు, గర్భిణులు, పాలిచ్చే తల్లులు, యువతులకు వెచ్చి వంటకం (HCM) మరియు టేక్-హోమ్ రేషన్ (THR) రూపంలో ఉచిత పోషకాహారం అంగన్‌వాడీ కేంద్రంలో అందుతుంది. ఎవరికి ఎంత, ఏ నిబంధనలతో అనేది రాష్ట్ర నియమాల ప్రకారం ఉంటుంది - మీ అంగన్‌వాడీ కేంద్రంలో అడగండి.",
+          "de": "Under Saksham Anganwadi and Poshan 2.0, free supplementary nutrition as Hot Cooked Meal (HCM) and Take-Home Ration (THR) is provided at the Anganwadi Centre to children (6 months to 6 years), pregnant women, lactating mothers and adolescent girls. Beneficiary coverage and norms follow state rules - ask at your Anganwadi Centre.",
+          "bt": "వివరాలు చూడండి",
+          "be": "See details",
+          "s": "https://www.pib.gov.in/PressReleasePage.aspx?lang=1&PRID=2292320&reg=3",
+          "sn": "pib.gov.in",
           "u": "24-10-2026"
         },
         {
-          "id": "women-skill-fashion",
-          "t": "ఫ్యాషన్ డిజైన్ & టెక్నాలజీ - స్వీయ అభ్యాసం",
-          "e": "Fashion Design & Technology - self-study",
-          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
-          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=KV0p%2FZlf01J%2Bnk3WegJMfw%3D%3D&Default=YES",
-          "sn": "bharatskills.gov.in",
+          "id": "women-pm-poshan-school-meal",
+          "t": "PM POSHAN - పాఠశాలలో ఉచిత మధ్యాహ్న భోజనం",
+          "e": "PM POSHAN - Free Hot Cooked Meal in School",
+          "d": "ప్రభుత్వ మరియు ప్రభుత్వ సహాయక పాఠశాలల్లో బాలవాటిక మరియు 1-8 తరగతుల అర్హులైన పిల్లలందరికీ, పాఠశాల పనిదినాలన్నిటికీ, రోజుకు ఒక వెచ్చి వంటకం ఉచితంగా అందిస్తారు.",
+          "de": "One hot cooked meal is provided free to all eligible children of Bal Vatika and classes I-VIII in government and government-aided schools, on all school working days.",
+          "bt": "వివరాలు చూడండి",
+          "be": "See details",
+          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294002&lang=1&reg=48",
+          "sn": "pib.gov.in",
           "u": "24-10-2026"
         },
         {
-          "id": "women-skill-food",
-          "t": "వంట / Food Production - స్వీయ అభ్యాసం",
-          "e": "Food Production - self-study",
-          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
-          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=C6qtnwk2PvD8nHaDV9XhYg%3D%3D&Default=YES",
-          "sn": "bharatskills.gov.in",
+          "id": "women-pmmvy-maternity-benefit",
+          "t": "PMMVY - గర్భిణి తల్లులకు నగదు సాయం",
+          "e": "PMMVY - Maternity Benefit (Cash to Mother's Account)",
+          "d": "అర్హులైన తల్లులకు మొదటి జీవితంతో ఉన్న బిడ్డకు ₹5,000 (రెండు విడతల్లో), రెండో బిడ్డ ఆడపిల్ల అయితే ₹6,000 అందుతుంది. ఇది గర్భ నమోదు, ప్రసూతి పూర్వ సంరక్షణ, టీకాల మైలురాళ్లతో అనుసంధానించబడి ఉంటుంది; డబ్బు నేరుగా తల్లి బ్యాంక్ ఖాతాలో (DBT) జమ అవుతుంది. ఇది కేంద్ర పథకం; మన ప్రాంతంలో నమోదు ఎలా/ఎక్కడ జరుగుతుందో గ్రామ అంగన్‌వాడీ కేంద్రంలో నిర్ధారించండి.",
+          "de": "Eligible beneficiaries receive Rs 5,000 in two instalments for the first living child and Rs 6,000 for the second child (if the child is a girl). It is linked to pregnancy registration, antenatal care and immunization milestones, paid by DBT to the mother's bank account. This is a central scheme; confirm whether/how registration runs in our area at the village Anganwadi Centre.",
+          "bt": "వివరాలు చూడండి",
+          "be": "See details",
+          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270668&lang=1&reg=20",
+          "sn": "pib.gov.in",
           "u": "24-10-2026"
         },
         {
-          "id": "women-skill-preserve",
-          "t": "పండ్లు, కూరగాయల ప్రాసెసింగ్ - స్వీయ అభ్యాసం",
-          "e": "Fruits & Vegetables Processing - self-study",
-          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
-          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=%2Fzm5d7KuvwvhNZnQXEQdrw%3D%3D&Default=YES",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-skill-baker",
-          "t": "బేకరీ & మిఠాయిల తయారీ - స్వీయ అభ్యాసం",
-          "e": "Baker & Confectioner - self-study",
-          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
-          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=BwzH8TlXoqvAC818a3MY1w%3D%3D&Default=YES",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-skill-rseti",
-          "t": "ఉచిత ప్రత్యక్ష శిక్షణ - RSETI మార్గం",
-          "e": "Free in-person training - RSETI route",
-          "d": "విధానం: సంస్థలో ప్రత్యక్ష శిక్షణ. SBI అధికారిక పేజీ RSETI శిక్షణ, భోజనం / వసతి ఉచితం అని చెబుతోంది.\nమీ ప్రాంతానికి అందుబాటులో ఉన్న సంస్థ, వయస్సు / నివాస అర్హత, కోర్సు, తాజా బ్యాచ్ తేదీలు, పత్రాలు సంస్థ వద్ద నిర్ధారించాలి. ఈ తనిఖీలో మెదక్‌లో ప్రస్తుతం చేరే బ్యాచ్ / ఖాళీలు నిర్ధారించలేదు.\n18 ఏళ్లలోపు విద్యార్థినులకు ప్రవేశం ఉందని ఊహించవద్దు. బ్యాంకు రుణం / ఉద్యోగం హామీ కాదు. ఈ యాప్ ఎవరినీ నమోదు చేయదు.",
-          "de": "Mode: in-person institutional training. SBI’s official page states RSETI training includes free food and lodging.\nConfirm the relevant institute, age/residence eligibility, course, current batch dates and documents directly with the institute. A currently open Medak batch / vacancies were not verified in this check.\nDo not assume admission for students under 18. No bank-loan or job guarantee. Gram Seva does not enroll anyone.",
-          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
-          "sn": "sbi.bank.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-skill-home-enterprise",
-          "t": "ఇంటి ఆధారిత నైపుణ్యాలు - కోర్సుల జాబితా",
-          "e": "Home-based skills - course menu",
-          "d": "Bank of Baroda అధికారిక RSETI పేజీలో జాబితా చేసిన అంశాలు:\n• మహిళల టైలరింగ్\n• బ్యూటీ పార్లర్ మేనేజ్‌మెంట్\n• జ్యువెలరీ / జ్యూట్ వస్తువులు\n• అప్పడాలు, పచ్చళ్లు, మసాలా పొడులు\n• సాఫ్ట్ టాయ్స్\n• పేపర్ కవర్లు, ఎన్వలప్‌లు, ఫైళ్ల తయారీ\n• ఎంబ్రాయిడరీ & ఫ్యాబ్రిక్ పెయింటింగ్\n• కంప్యూటరైజ్డ్ అకౌంటింగ్\nపేజీ శిక్షణ ఉచితం అని చెబుతోంది; ఇవి దేశవ్యాప్త కోర్సుల ఉదాహరణలు మాత్రమే. ఇవన్నీ మన జిల్లాలో ఇప్పుడు జరుగుతున్నాయనే హామీ లేదు. స్థానిక బ్యాచ్, అర్హత, భాష నిర్ధారించాలి.",
-          "de": "Bank of Baroda’s official RSETI page lists:\n• Women tailoring\n• Beauty parlour management\n• Costume jewellery / jute products\n• Papad, pickle and masala powder making\n• Soft toys\n• Paper covers, envelopes and files\n• Embroidery & fabric painting\n• Computerized accounting\nThe page describes free training. These are nationwide course examples, not a promise that all are running locally now. Verify the local batch, eligibility and language.",
-          "s": "https://bankofbaroda.bank.in/baroda-swarojgar-vikas-sansthan",
-          "sn": "bankofbaroda.bank.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-skill-soap",
-          "t": "సబ్బులు / డిటర్జెంట్ - కోర్సు నిర్ధారణ అవసరం",
-          "e": "Soap / detergent - course confirmation needed",
-          "d": "సబ్బులు, డిటర్జెంట్ / ఫినాయిల్ వంటి ఇంటి ఉత్పత్తులపై ఆసక్తి ఉంటే స్థానిక RSETIలో ప్రస్తుత కోర్సును అడగవచ్చు. ప్రభుత్వ PM-AJAY కోర్సు క్యాటలాగ్‌లో Phenyl & Liquid Soap Making (RSETI/341) ఉంది; క్యాటలాగ్‌లో పేరు ఉండటం ఇప్పుడు సీటు / ఉచిత స్థానిక బ్యాచ్ ఉందని కాదు.\nఈ తనిఖీలో మెదక్‌లో ప్రస్తుత ఉచిత సబ్బుల తయారీ బ్యాచ్, తేదీలు, తెలుగు బోధన నిర్ధారించలేదు. రసాయనాలతో ఇంట్లో ఒంటరిగా ప్రయోగాలు చేయవద్దు; శిక్షణ, రక్షణ, నాణ్యత నియమాలు అవసరం.",
-          "de": "For soap, detergent / phenyl production, ask the local RSETI about its current course. The government PM-AJAY catalogue lists Phenyl & Liquid Soap Making (RSETI/341); a catalogue entry does not prove a current local seat / free batch.\nA currently free soap-making batch, dates and Telugu instruction in Medak were not verified. Do not experiment with chemicals alone at home; training, protection and quality rules are needed.",
-          "s": "https://pmajay.dosje.gov.in/CourseList",
-          "sn": "pmajay.dosje.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-skill-coconut",
-          "t": "కొబ్బరి ఉత్పత్తులు / యంత్ర శిక్షణ - ఉచితం నిర్ధారించలేదు",
-          "e": "Coconut products / machinery - free status unverified",
-          "d": "కొబ్బరి ఉత్పత్తుల శిక్షణ గురించి Coconut Development Boardకు సంబంధించిన 2022 ప్రభుత్వ ప్రకటన ఉంది. అది పాత ప్రకటన; ప్రస్తుత అడ్మిషన్ కాదు. అందులో రిజిస్ట్రేషన్ / ఫీజుల వివరాలు తెలుసుకోవాలని స్పష్టంగా ఉంది.\nకాబట్టి దీన్ని ఉచిత కోర్సుగా సిఫార్సు చేయడం లేదు. ప్రస్తుతం ఉచిత బ్యాచ్, మన ప్రాంతంలో యంత్ర శిక్షణ, తేదీలు నిర్ధారించలేదు. క్రింది లింక్ నేపథ్య సమాచారం మాత్రమే.\nమీరు చెప్పిన కోకోనట్ మిషన్ అనే పదానికి ఖచ్చితమైన యంత్రం / కోర్సు ఏదో నిర్ధారణ లేదు.",
-          "de": "A 2022 government notice describes Coconut Development Board value-added coconut-product training. It is old, not a current admission notice, and explicitly refers to registration / fees.\nIt is NOT recommended here as a free course. A current free batch, local machinery training and dates were not verified. Link is background information only.\nThe exact machine / course meant by “coconut machine” remains unclear.",
-          "s": "https://pib.gov.in/PressReleasePage.aspx?PRID=1870067",
+          "id": "women-child-immunization-uip",
+          "t": "ఉచిత పిల్లల టీకాలు (UIP) - ప్రభుత్వ ఆసుపత్రుల్లో",
+          "e": "Free Child Immunization (UIP) at Government Facilities",
+          "d": "ప్రభుత్వ ఆరోగ్య కేంద్రాల్లో పిల్లలు మరియు గర్భిణులకు టీకాలు ఉచితం (యూనివర్సల్ ఇమ్యునైజేషన్ ప్రోగ్రామ్). టీకా తప్పిన లేదా మధ్యలో ఆగిన పిల్లలు, గర్భిణుల కోసం మిషన్ ఇంద్రధనుష్ పేరుతో ప్రత్యేక క్యాచ్-అప్ క్యాంపైన్ నడుపుతారు.",
+          "de": "Vaccines for children and pregnant women are free at government health facilities under the Universal Immunization Programme. Mission Indradhanush is the special catch-up campaign for left-out and dropped-out children and pregnant women.",
+          "bt": "వివరాలు చూడండి",
+          "be": "See details",
+          "s": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2085204&lang=2&reg=3",
           "sn": "pib.gov.in",
           "u": "24-10-2026"
         }
+      ],
+      "nb": true
+    },
+    {
+      "id": "pwd",
+      "icon": "♿",
+      "te": "దివ్యాంగుల సంక్షేమం",
+      "en": "Disability Welfare",
+      "items": [
+        {
+          "id": "pwd-sadarem-disability-certi",
+          "t": "SADAREM దివ్యాంగత్వ సర్టిఫికెట్",
+          "e": "SADAREM Disability Certificate",
+          "d": "దివ్యాంగత నమోదు, SADAREM సర్టిఫికెట్, UDID కార్డు - ఈ సర్టిఫికెట్తో పింఛన్లు, స్కాలర్‌షిప్‌లు, సాధనాలు అందుతాయి. అధికారిక పోర్టల్‌లో వివరాలు.",
+          "de": "Disability registration, SADAREM certificate and UDID card - this certificate unlocks pensions, scholarships and assistive devices. Details on the official portal.",
+          "bt": "పోర్టల్ వివరాలు చూడండి",
+          "be": "View portal details",
+          "s": "https://sadarem.telangana.gov.in/aboutHome.do",
+          "sn": "sadarem.telangana.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "pwd-disability-welfare-depar",
+          "t": "దివ్యాంగుల సంక్షేమ శాఖ పథకాలు",
+          "e": "Disability Welfare Department Schemes",
+          "d": "విద్యా స్కాలర్‌షిప్‌లు, ఆర్థిక పునరావాసం, వివాహ ప్రోత్సాహకం, సహాయక పరికరాలు, హాస్టళ్లు - శాఖా అధికారిక పోర్టల్‌లో పూర్తి జాబితా. చేయూత పింఛనులో దివ్యాంగులకు ప్రత్యేక వర్గం కూడా ఉంది.",
+          "de": "Education scholarships, economic rehabilitation, marriage incentive, assistive devices, hostels - full list on the department's official portal. Cheyutha pension also has a special disability category.",
+          "bt": "పథకాలు చూడండి",
+          "be": "View schemes",
+          "s": "https://wdsc.telangana.gov.in/pwd_portal.html",
+          "sn": "wdsc.telangana.gov.in",
+          "u": "23-10-2026"
+        }
       ]
     },
     {
-      "id": "freelearning",
-      "te": "ఉచిత నైపుణ్య అభ్యాసం",
-      "en": "Free skill learning",
-      "icon": "🛠️",
+      "id": "certs",
+      "icon": "🪪",
+      "te": "సర్టిఫికెట్లు & గుర్తింపు",
+      "en": "Certificates & ID",
       "items": [
         {
-          "id": "learn-fitter",
-          "t": "ఫిట్టర్ - ఉచిత స్వీయ అభ్యాసం",
-          "e": "Fitter - free self-study materials",
-          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nఈ ట్రేడ్‌కు తెలుగు Practical / Theory పుస్తకాలను పేజీ జాబితా చేస్తోంది.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
-          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nThe trade page lists Telugu practical/theory books.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=HIryMME3UqmQNYriQLEEFA==",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026"
+          "id": "certs-employment-exchange-regi",
+          "t": "ఉపాధి నమోదు (ఎంప్లాయ్‌మెంట్ ఎక్స్‌ఛేంజ్)",
+          "e": "Employment Exchange Registration",
+          "d": "ఉద్యోగావకాశాల కోసం ప్రభుత్వ ఉపాధి పోర్టల్‌లో జాబ్ సీకర్‌గా నమోదు చేసుకోండి. పాత ఎంప్లాయ్‌మెంట్ కార్డు ఉంటే సీనియారిటీతో సరిచేసుకోవచ్చు; కొత్తవారు కొత్త నమోదు చేసుకోవచ్చు. మీ 10వ/ఐటిఐ/డిగ్రీ అర్హతలు అదే లాగిన్‌లో జోడించాలి. గుర్తుంచుకోండి: ఇది నమోదు మాత్రమే - ఉద్యోగ హామీ కాదు, ఐటిఐ వంటి టెక్నికల్ సర్టిఫికెట్ కాదు. సహాయానికి దగ్గరి ఎంప్లాయ్‌మెంట్ ఎక్స్‌ఛేంజ్ / మీసేవ కేంద్రం (అధికారిక FAQ ప్రకారం).",
+          "de": "Register as a job seeker on the government employment portal for job opportunities. Old employment exchange card holders can regularize with seniority; new candidates register fresh. Add your 10th/ITI/degree qualifications in the same login. Remember: this is registration only - not a job guarantee and not a technical certificate like ITI. For help: nearest Employment Exchange / MeeSeva centre (per official FAQ).",
+          "bt": "నమోదు పోర్టల్ తెరవండి",
+          "be": "Open registration portal",
+          "s": "https://employment.telangana.gov.in/",
+          "sn": "employment.telangana.gov.in",
+          "u": "23-10-2026"
         },
         {
-          "id": "learn-electrician",
-          "t": "ఎలక్ట్రీషియన్ - ఉచిత స్వీయ అభ్యాసం",
-          "e": "Electrician - free self-study materials",
-          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nఈ ట్రేడ్‌కు తెలుగు Practical / Theory పుస్తకాలను పేజీ జాబితా చేస్తోంది.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
-          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nThe trade page lists Telugu practical/theory books.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=WSdYV6aWadK8jUuNKxoBWg==",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026"
+          "id": "certs-aadhaar-new-enrolment-up",
+          "t": "ఆధార్ - కొత్త నమోదు / సవరణ",
+          "e": "Aadhaar - New Enrolment / Update",
+          "d": "కొత్త ఆధార్ నమోదు, చిరునామా/జన్మతేదీ సవరణ: ఆధార్ సేవా కేంద్రానికి వెళ్లాలి. కేంద్రాన్ని UIDAI అధికారిక సైట్‌లో వెతకండి. ఆన్‌లైన్ సేవలకు రిజిస్టర్డ్ మొబైల్ అవసరం.",
+          "de": "New Aadhaar enrolment and address/DOB updates happen at an Aadhaar Seva Kendra - find the centre on the official UIDAI site. Online services need your registered mobile.",
+          "bt": "కేంద్రం & వివరాలు చూడండి",
+          "be": "Find centre & details",
+          "s": "https://uidai.gov.in/en/enrolment-and-update",
+          "sn": "uidai.gov.in",
+          "u": "23-10-2026"
         },
         {
-          "id": "learn-welder",
-          "t": "వెల్డర్ - ఉచిత స్వీయ అభ్యాసం",
-          "e": "Welder - free self-study materials",
-          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nతెలుగు బోధన / ఆడియో ఈ ట్రేడ్‌కు నిర్ధారించలేదు; అందుబాటులో ఉన్న భాషను పేజీలో చూడండి.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
-          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nTelugu teaching/audio for this trade was not verified; check the available language on the page.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
-          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=vNuH8QjfGrhOzGTIvfa6cA==",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026"
+          "id": "certs-pan-card",
+          "t": "PAN కార్డు",
+          "e": "PAN Card",
+          "d": "ఆదాయపు పన్ను శాఖ అధికారిక పోర్టల్ నుండి PAN దరఖాస్తు మార్గాలు. అనధికారిక ఏజెంట్లకు అదనపు డబ్బులు ఇవ్వవద్దు.",
+          "de": "PAN application routes from the official Income Tax department portal. Do not pay unofficial agents extra.",
+          "bt": "దరఖాస్తు మార్గాలు చూడండి",
+          "be": "See application routes",
+          "s": "https://www.incometaxindia.gov.in/tax-services/apply-for-pan",
+          "sn": "incometaxindia.gov.in",
+          "u": "23-10-2026"
         },
         {
-          "id": "learn-sewing",
-          "t": "కుట్టు / Sewing Technology - ఉచిత స్వీయ అభ్యాసం",
-          "e": "Sewing Technology - free self-study materials",
-          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nతెలుగు బోధన / ఆడియో ఈ ట్రేడ్‌కు నిర్ధారించలేదు; అందుబాటులో ఉన్న భాషను పేజీలో చూడండి.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
-          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nTelugu teaching/audio for this trade was not verified; check the available language on the page.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
-          "s": "https://www.bharatskills.gov.in/Home/StudyMaterial?Default=YES&var=zfIkBIwZDBnS2+0m6kz%2FqA%3D%3D",
-          "sn": "bharatskills.gov.in",
-          "u": "24-10-2026"
+          "id": "certs-meeseva-caste-income-res",
+          "t": "మీసేవ - కుల / ఆదాయ / నివాస / జనన / మరణ సర్టిఫికెట్లు",
+          "e": "MeeSeva - Caste / Income / Residence / Birth / Death Certificates",
+          "d": "పౌర సర్టిఫికెట్లన్నీ మీసేవ ద్వారా. దగ్గరి మీసేవ కేంద్రంలో దరఖాస్తు చేయవచ్చు; పౌరుల ఆన్‌లైన్ నమోదు పేజీ కూడా పోర్టల్‌లో ఉంది. పూర్తి సేవల జాబితా అధికారిక పేజీలో.",
+          "de": "All citizen certificates via MeeSeva. Apply at the nearest MeeSeva centre; a citizen online registration page also exists on the portal. Full services list on the official page.",
+          "bt": "సేవల జాబితా చూడండి",
+          "be": "View services list",
+          "s": "https://www.telangana.gov.in/services/meeseva-services/",
+          "sn": "telangana.gov.in",
+          "u": "23-10-2026"
         },
         {
-          "id": "learn-swayam",
-          "t": "SWAYAM - ఉచితంగా నేర్చుకోవడం మాత్రమే",
-          "e": "SWAYAM - free learning access only",
-          "d": "అధికారిక FAQ ప్రకారం SWAYAM కోర్సులు నేర్చుకోవడానికి ఉచితం. సర్టిఫికేట్ కోసం పరీక్షకు రుసుము ఉండవచ్చు; చెల్లింపు పరీక్షను ఈ యాప్ నమోదు చేయదు.\nమీ అంశానికి అందుబాటులో ఉన్న కోర్సు, భాష, చేరే తేదీలు అధికారిక సైట్‌లో చూడండి. ప్రస్తుతం ఉచిత లైవ్ క్లాస్ ఉందని / అన్ని కోర్సులు తెలుగులో ఉన్నాయని నిర్ధారించలేదు. ఉచిత పాఠాలు మాత్రమే ఎంచుకోండి.",
-          "de": "The official FAQ says SWAYAM courses are free to learn. Certificate exams can carry fees; Gram Seva does not enroll you in paid exams.\nCheck the current subject, language and enrollment dates on the official site. No claim that a free live class is currently open or every course is in Telugu. Use the free learning materials only.",
-          "s": "https://swayam.gov.in/faq",
-          "sn": "swayam.gov.in",
-          "u": "24-10-2026"
+          "id": "certs-driving-licence",
+          "t": "డ్రైవింగ్ లైసెన్స్",
+          "e": "Driving Licence",
+          "d": "లెర్నర్ లైసెన్స్ ఆన్‌లైన్ దరఖాస్తు + RTA కార్యాలయంలో టెస్ట్. విధానం, ఫీజులు తెలంగాణ రవాణా శాఖ అధికారిక పేజీలో.",
+          "de": "Learner licence applied online plus a test at the RTA office. Process and fees on the official Telangana Transport page.",
+          "bt": "విధానం & ఫీజులు చూడండి",
+          "be": "See process & fees",
+          "s": "https://transport.telangana.gov.in/html/driving-licencel-learners.html",
+          "sn": "transport.telangana.gov.in",
+          "u": "23-10-2026"
         }
       ]
     },
@@ -939,52 +928,6 @@ window.GS_DATA = {
               "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE B.pdf"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "jobs",
-      "icon": "💼",
-      "nb": true,
-      "te": "ఉద్యోగాలు & ఇంటర్న్‌షిప్",
-      "en": "Jobs & Internships",
-      "items": [
-        {
-          "id": "jobs-p2e-yuwaah-free-skill-cour",
-          "t": "కోర్సు: YuWaah P2E - ఉచిత జాబ్-రెడీ స్కిల్స్ (15-24 ఏళ్లు)",
-          "e": "Course: UNICEF YuWaah Passport to Earning - Free Job-ready Skills (Age 15-24)",
-          "d": "UNICEF ఇండియా YuWaah యొక్క 'Passport to Earning' (P2E) - 15-24 ఏళ్ల యువతకు ఉచితం. మొబైల్‌లోనే స్వీయ-వేగంతో నేర్చుకునే జాబ్-రెడీ డిజిటల్ స్కిల్ కోర్సులు (10-30 గంటలు), సర్టిఫికెట్‌తో. ఇంగ్లీష్ + 6 ప్రాంతీయ భాషల్లో ఉంది - తెలుగు ఉందో లేదో పోర్టల్‌లోనే నిర్ధారించుకోండి. కోర్సు తర్వాత పార్ట్నర్ లింకుల ద్వారా ఇంటర్న్‌షిప్ అవకాశాలు కూడా చూపిస్తుంది - కానీ ఇది ఇంటర్న్‌షిప్ పోర్టల్ కాదు, నేర్చుకునే కోర్సు. యాక్సెస్: p2e.csccloud.in / myp2e.org. ఉద్యోగ హామీ లేదు.",
-          "de": "UNICEF India YuWaah's Passport to Earning (P2E) - free for youth aged 15-24. Self-paced job-ready digital skill courses (10-30 hours) on mobile, with certification. Available in English + 6 regional languages - confirm on the portal whether Telugu is included. After courses it shows internship opportunities via partner links - but this is a learning course, not an internship portal. Access: p2e.csccloud.in / myp2e.org. No job guarantee.",
-          "bt": "ఉచిత కోర్సు చూడండి",
-          "be": "See free course",
-          "s": "https://www.unicef.org/india/p2e",
-          "sn": "unicef.org/india",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "jobs-ncs-govt-job-portal-1514",
-          "t": "NCS - కేంద్ర ప్రభుత్వ ఉద్యోగ-శోధన పోర్టల్",
-          "e": "Job Portal: National Career Service (NCS) - Govt-run Job Search Portal",
-          "d": "కేంద్ర ప్రభుత్వం (కార్మిక & ఉపాధి మంత్రిత్వ శాఖ) నడిపే అధికారిక ఉద్యోగ-శోధన పోర్టల్ ncs.gov.in - ఇందులో ప్రభుత్వ, ప్రైవేట్ వివిధ యజమానుల ఖాళీలు ఉంటాయి (అన్నీ ప్రభుత్వ ఉద్యోగాలు కావు). 14 ఏళ్లు నిండిన ఎవరైనా నమోదు చేసుకోవచ్చు, కనీస విద్యార్హత లేదు. ఉద్యోగ శోధన, దరఖాస్తు వంటి జాబ్‌సీకర్ సేవలు ఉచితం; కౌన్సెలింగ్ సేవకు మాత్రం ₹200 వరకు రుసుము ఉండవచ్చు (అధికారిక FAQ ప్రకారం). ఇది ప్రధానంగా ఉద్యోగ శోధన/కెరీర్ సేవల పోర్టల్. నమోదు/దరఖాస్తు మీరే పోర్టల్‌లో చేయాలి. సందేహాలకు టోల్ ఫ్రీ 1514.",
-          "de": "An official job-search portal run by the central government (Ministry of Labour & Employment) - ncs.gov.in lists vacancies from various government and private employers (not all are government jobs). Anyone aged 14+ can register, no minimum qualification. Jobseeker services like job search and applications are free; only the counselling service may charge up to Rs 200 (per the official FAQ). It is primarily a job search and career services portal. Registration/application is done by you on the portal. Toll-free helpline 1514.",
-          "bt": "ఉద్యోగాలు చూడండి",
-          "be": "See jobs",
-          "s": "https://www.ncs.gov.in/",
-          "sn": "ncs.gov.in",
-          "u": "23-10-2026",
-          "ph": "1514"
-        },
-        {
-          "id": "jobs-pm-internship-intake-check",
-          "t": "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (అధికారిక సమాచారం)",
-          "e": "Internship: PM Internship Scheme (official information)",
-          "d": "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలు గురించి ప్రభుత్వ అధికారిక విడుదల (PIB, 20-02-2025) చెబుతోంది. ఆ విడుదల ప్రకారం: 21-24 ఏళ్ల, పూర్తి కాల విద్య లేదా ఉద్యోగంలో లేని యువతకు 12 నెలల చెల్లింపు ఇంటర్న్‌షిప్; నెలకు ₹5,000 ఆర్థిక సహాయం, అదనంగా ఒకేసారి ₹6,000. 24-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము నిర్ధారించలేదు - విడుదలలో పేర్కొన్న దరఖాస్తు పోర్టల్ ప్రస్తుతం అందుబాటులో లేదు, కాబట్టి కొత్త అధికారిక ప్రకటనలే సరైన సమాచారం. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
-          "de": "Central government (Ministry of Corporate Affairs) internship scheme - an official government release (PIB, 20-02-2025) confirms pilot-phase implementation. Per that release: 12-month paid internships for youth aged 21-24 not in full-time study or employment; Rs 5,000 monthly assistance plus a one-time Rs 6,000. As of 24-10-2026 we have not verified whether the current intake is open - the application portal named in the release is currently unreachable, so rely on the latest official announcements. Do not rely on older reports. Information card only - no application success or guarantee.",
-          "bt": "అధికారిక విడుదల చూడండి",
-          "be": "See official release",
-          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2104914",
-          "sn": "pib.gov.in",
-          "u": "24-10-2026"
         }
       ]
     },
@@ -1185,155 +1128,625 @@ window.GS_DATA = {
       ]
     },
     {
-      "id": "farmer",
-      "icon": "🌾",
-      "te": "రైతు",
-      "en": "Farmer",
+      "id": "cropguide",
+      "te": "పంటల సాగు & సేంద్రీయ వ్యవసాయం",
+      "en": "Crop growing & organic farming",
+      "icon": "🌱",
       "items": [
         {
-          "id": "farmer-zone-crops",
-          "t": "మన జోన్ పంటలు - సెంట్రల్ తెలంగాణ జోన్",
-          "e": "Our Zone Crops - Central Telangana Zone",
-          "d": "వ్యవసాయ యూనివర్సిటీ (PJTSAU) ప్రకారం మెదక్ సెంట్రల్ తెలంగాణ జోన్‌లో వస్తుంది. ఈ జోన్‌లో ప్రధానంగా సాగయ్యే పంటలు: పత్తి, వరి, మక్కజొన్న, పెసర, మామిడి, చెరకు, మిర్చి. ఇవి జోన్ ఉదాహరణలు మాత్రమే - ప్రతి పొలానికి ఇవే సరిపోతాయని కాదు.",
-          "de": "Per the agriculture university (PJTSAU), Medak falls in the Central Telangana Zone. Crops predominantly grown in this zone: cotton, rice, maize, greengram, mango, sugarcane, chillies. These are zone examples only - not a recommendation for every field.",
-          "bt": "జోన్ సమాచారం",
-          "be": "Zone info",
-          "s": "https://pjtsau.edu.in/ctz.html",
-          "sn": "pjtsau.edu.in",
+          "id": "cropguide-start",
+          "t": "ముందుగా చదవండి - పంటల సాగు సూచిక",
+          "e": "Start here - crop-growing index",
+          "d": "వరి • పత్తి • వేరుశనగ • మినుములు • కుసుమలు • టమాటా • బ్రోకోలి • కూరగాయలు • పండ్ల తోటలు • సేంద్రీయ సాగు.\nఉచిత పరిచయం, చదివే లింకులు. ఇది మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ప్రతి పంట బండపోతుగల్‌కు అనుకూలమని నిర్ధారణ కాదు.\nనేల పరీక్ష → స్థానిక సీజన్ / రకం → నీరు → విత్తనం / నారు → దశల పరిశీలన → కోత / మార్కెట్ ప్రణాళిక.\nతమిళనాడు / విదేశీ మూలాల్లో నెలలు, రకాలు, మోతాదులు మన గ్రామానికి నేరుగా వర్తింపజేయవద్దు. మూలం తనిఖీ:24-10-2026; పేజీ పాతది కావచ్చు. తాజా స్థానిక సూచన వ్యవసాయ అధికారి / KVK వద్ద నిర్ధారించండి.",
+          "de": "Rice, cotton, groundnut, blackgram, safflower, tomato, broccoli, vegetables, fruits and organic farming.\nFree introduction/reading links, not a field-specific prescription or proof that every crop suits Bandapothugal.\nSoil test → local season/variety → water → seed/nursery → stage checks → harvest/market plan.\nDo not transfer Tamil Nadu/overseas calendars, varieties or doses directly to this village. Sources checked24-10-2026; underlying pages may be older. Confirm current local advice with agriculture officer/KVK.",
+          "s": "https://www.pjtsau.edu.in/pjtsau-vyavasaaya-diksoochi.html",
+          "sn": "www.pjtsau.edu.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-planning",
+          "t": "నేల • సీజన్ • నీరు - సాగుకు ముందు",
+          "e": "Soil • season • water - before planting",
+          "d": "ప్రణాళిక జాబితా: నేల పరీక్ష, గత పంట, నీటి నాణ్యత / లభ్యత, డ్రైనేజీ, పెట్టుబడి, కూలీలు, కొనుగోలుదారు.\nనేలను చూసి ఊహించి సున్నం / జిప్సం / ఎరువు వేయవద్దు. పరీక్ష ఆధారంగా స్థానిక నిపుణుడి ప్రణాళిక తీసుకోండి.\nతెలంగాణ విశ్వవిద్యాలయం తెలుగు వ్యవసాయ పంచాంగం పంటల నిర్వహణను వివరిస్తుంది. ఈ పేజీలో కనిపించిన సంచికలు2021-22 /2019-20 /2018-19; తాజా2026 సంచికగా చూపడం లేదు.",
+          "de": "Planning checklist: soil test, previous crop, water quality/availability, drainage, budget, labour and buyer.\nDo not guess lime/gypsum/fertilizer treatment from appearance; obtain a test-based local plan.\nTelangana university publishes Telugu crop-management almanacs. Editions visible here are2021-22,2019-20,2018-19, not a verified2026 edition.",
+          "s": "https://www.pjtsau.edu.in/pjtsau-vyavasaaya-diksoochi.html",
+          "sn": "www.pjtsau.edu.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-rice",
+          "t": "వరి సాగు - పద్ధతి, సీజన్ ముందుగా",
+          "e": "Rice - method and local season",
+          "d": "విత్తే ముందు స్థానిక రకం, పంట కాలం, నీటి లభ్యత నిర్ణయించండి. నారు నాటడం / నేరుగా విత్తడం నిర్వహణ ఒకేలా ఉండదు.\nచదివే దశలు: విత్తనం / నారు → పొలం సిద్ధం → నాటడం / విత్తడం → నీరు / కలుపు / పోషకాల పరిశీలన → తెగుళ్ల నిర్ధారణ → కోత.\nకింద పేజీ తమిళనాడు సీజన్లు / రకాలు చూపుతుంది; ఆ నెలలు / రకాలు మెదక్ సిఫార్సు కావు. స్థిర నీటి / మందుల మోతాదు ఇక్కడ ఇవ్వలేదు.",
+          "de": "Confirm local variety, duration and water before planting. Transplanting and direct seeding need different management.\nStudy seed/nursery → field preparation → planting → water/weeds/nutrition checks → diagnosis → harvest.\nLinked seasons/varieties are for Tamil Nadu, not a Medak recommendation. No fixed irrigation/product dose is prescribed.",
+          "s": "https://agritech.tnau.ac.in/agriculture/agri_seasonandvarieties_rice.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-cotton",
+          "t": "పత్తి - పద్ధతులను కలపవద్దు",
+          "e": "Cotton - distinguish growing systems",
+          "d": "మూలంలో నీటి పారుదల, వర్షాధార, వరి తర్వాత, అధిక సాంద్రత, సేంద్రీయ పత్తి పద్ధతులు వేరు.\nస్థానిక నేల / సీజన్ / నీటికి పద్ధతి, విత్తనం, దూరం నిపుణుడితో నిర్ణయించండి. HDPS దూరాన్ని ప్రతి రకానికి వర్తింపజేయవద్దు.\nపెరుగుదల → పూత → కాయ దశల్లో పరిశీలించండి. సమస్య పేరు నిర్ధారించకుండా మందులు కలపవద్దు. లింకులోని పాత రసాయన సూచనలు ప్రస్తుత తెలంగాణ అనుమతి / లేబుల్‌కు బదులు కావు.",
+          "de": "Source separates irrigated, rainfed, rice-fallow, high-density and organic cotton systems.\nConfirm system, seed and spacing for local soil/season/water. HDPS spacing is not for every variety.\nMonitor growth → flowering → bolls. Do not mix products before diagnosis. Old linked chemical guidance does not replace current Telangana approval/label.",
+          "s": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_cotton.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-groundnut",
+          "t": "వేరుశనగ - పూత, ఊడలు, కాయలు",
+          "e": "Groundnut - flowering, pegging and pods",
+          "d": "మూలం ప్రకారం పూత, ఊడలు నేలలోకి దిగే దశ, కాయ అభివృద్ధిలో తేమ ముఖ్యం.\nపొలం / మంచి విత్తనం → విత్తడం → కలుపు పరిశీలన → పూత / ఊడలు / కాయలు → పరిపక్వత / కోత చదవండి.\nనేల, వర్షం, దశను బట్టి నీరు నిర్ణయించాలి. మూలంలోని రోజుల పట్టిక స్థిర మెదక్ షెడ్యూల్ కాదు. జిప్సం / ఎరువు / మందుల మోతాదు స్థానిక పరీక్ష, నిపుణుడి సలహా ఆధారమే.",
+          "de": "Source identifies flowering, pegging and pod development as important moisture stages.\nStudy field/seed → sowing → weeds → flowering/pegging/pods → maturity/harvest.\nIrrigation depends on soil, rain and stage; source day tables are not a fixed Medak schedule. Gypsum/fertilizer/protection need local tests and advice.",
+          "s": "https://agritech.tnau.ac.in/agriculture/CropProduction/Oilseeds/oilseeds_groundnut01.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-blackgram",
+          "t": "మినుములు - నీరు నిలవకుండా",
+          "e": "Blackgram - avoid water stagnation",
+          "d": "మూలంలో పూత / కాయ ఏర్పడే దశల్లో తేమ ముఖ్యం; అన్ని దశల్లో నీరు నిలవకుండా చూడాలని ఉంది.\nమంచి విత్తనం → సీజన్ / పద్ధతి → మొలకలు / కలుపు → పూత / కాయలు → కోత.\nవరి తర్వాత మిగిలిన తేమ, నీటి పారుదల, వర్షాధార సాగు సూచనలు వేరు. తమిళనాడు నెలలు, రకాలు, మోతాదులను మన గ్రామానికి కాపీ చేయవద్దు.",
+          "de": "Source identifies flowering/pod formation as moisture-sensitive and advises avoiding stagnation at all stages.\nSeed quality → season/system → establishment/weeds → flowers/pods → harvest.\nRice-fallow, irrigated and rainfed systems differ. Do not copy Tamil Nadu calendars, varieties or doses into village prescriptions.",
+          "s": "https://agritech.tnau.ac.in/agriculture/pulses_blackgram.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-safflower",
+          "t": "కుసుమలు - విత్తనం నుంచి కోత వరకు",
+          "e": "Safflower - seed to harvest",
+          "d": "కుసుమలు / Safflower (Carthamus tinctorius): పొలం సిద్ధం, మంచి విత్తనం, వరుస విత్తడం, మొక్కల సర్దుబాటు, కలుపు, పరిపక్వత / కోత మూలంలో ఉన్నాయి.\nవిత్తే సమయం, రకం, నేల తేమ, కాలాన్ని స్థానిక అధికారితో నిర్ణయించండి. మూలంలోని నవంబర్ సూచన తమిళనాడు పరిధి; ప్రతి మెదక్ పొలానికి హామీ కాదు.\nరసాయన విత్తన శుద్ధి / ఎరువు సూచనలు సేంద్రీయ ప్రమాణాలకు ఆటోమేటిక్‌గా సరిపోవు.",
+          "de": "Safflower (Carthamus tinctorius) source covers field preparation, good seed, line sowing, thinning, weeds and maturity/harvest.\nConfirm local timing, variety, moisture and duration. Its November timing is Tamil Nadu guidance, not a guarantee for Medak fields.\nChemical seed/fertilizer treatments are not automatically organic-compatible.",
+          "s": "https://agritech.tnau.ac.in/agriculture/oilseeds_safflower.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-pulses",
+          "t": "ఇతర పప్పుధాన్యాలు - పేరు నిర్ధారణ",
+          "e": "Other pulses - identify first",
+          "d": "సూచికలో మినుములు, పెసలు, అలసందలు, కందులు వేరు పంటలు.\nస్థానిక పేరు స్పష్టంగా లేకపోతే విత్తన ప్యాకెట్, మొక్క / కాయ ఫోటోతో పంటను నిర్ధారించండి. పేరు తెలియకుండా మరో పంట మోతాదు వాడవద్దు.\nపేరు తెలిసిన తర్వాత నేల, కాలం, నీరు, రకానికి సరైన మార్గదర్శిని ఎంచుకోండి.",
+          "de": "Index distinguishes blackgram, greengram, cowpea and redgram.\nIf a local crop name is unclear, identify it with seed label and plant/pod photos; never use another crop’s dose by guesswork.\nThen match the guide to soil, season, water and variety.",
+          "s": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_fieldcrops.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-tomato",
+          "t": "టమాటా - నారు, ఆధారం, తేమ",
+          "e": "Tomato - nursery, support and moisture",
+          "d": "సూచికలో నారు / విత్తనం, సీజన్ / పొలం సిద్ధం, నీరు, తెగుళ్లు, కోత తర్వాత నిర్వహణ ఉన్నాయి. కొన్ని హైబ్రిడ్లకు ఆధారం, మల్చింగ్ ప్రత్యేక పద్ధతులు.\nఎండిన తర్వాత ఒక్కసారిగా నీరు ఇవ్వడం పండ్లు పగలడానికి దారితీయవచ్చని నీటి మార్గదర్శిని వివరిస్తుంది. నీటి అంతరాన్ని నేల / వాతావరణానికి సరిపోల్చండి.\nనారు రకం, డ్రైనేజీ, మార్కెట్ స్థానికంగా ప్రణాళిక చేయండి. ప్రతి టమాటా పద్ధతి సేంద్రీయం కాదు.",
+          "de": "Index covers nursery/seed, season/field, water, disorders and post-harvest handling. Support/mulching depend on the growing system.\nWater guide warns drought followed by sudden irrigation can crack fruit; adapt to soil/weather.\nPlan seedlings, drainage and market locally. Not every tomato method is organic.",
+          "s": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_index.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-broccoli",
+          "t": "బ్రోకోలి - చల్లని కాలం, చిన్న ప్రయోగం",
+          "e": "Broccoli - cool season, small trial",
+          "d": "చల్లని కాలపు పంట; వేడి ఎక్కువైతే తల / పుష్పగుచ్ఛం నాణ్యత తగ్గవచ్చు. డ్రైనేజీ, సరిపడ తేమ, నారు / రకం ఎంపిక ముఖ్యం.\nమొగ్గలు తెరుచుకోకముందు కోత, తర్వాత త్వరగా చల్లబరచడం మూలంలో ఉన్నాయి.\nఇది అమెరికా NC State విశ్వవిద్యాలయ Extension పరిచయం; దాని నెలలు, మందులు, మోతాదులు తెలంగాణ సిఫార్సు కావు. మెదక్ సమయం / రకం / కొనుగోలుదారు నిర్ధారించి చిన్న ప్రయోగం చేయండి; లాభం / అనుకూలత హామీ లేదు.",
+          "de": "Cool-season crop; high heat can impair head quality. Drainage, moisture and variety/seedlings matter.\nSource describes harvest before buds open and prompt cooling.\nNC State university Extension is US guidance, not Telangana dates, approvals or doses. Confirm local timing/variety/buyer and trial small; no suitability/profit guarantee.",
+          "s": "https://content.ces.ncsu.edu/basics-of-broccoli-production",
+          "sn": "content.ces.ncsu.edu",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-vegetables",
+          "t": "ఇతర కూరగాయలు - పంటవారీ సమాచారం",
+          "e": "Other vegetables - crop-specific reading",
+          "d": "కూరగాయల సూచికలో పంటను ఎంచుకుని నేల / వాతావరణం, నారు / విత్తనం, నీరు, కలుపు, సమస్యలు, కోత చదవండి.\nవేర్వేరు కూరగాయలకు ఒకే నీటి షెడ్యూల్ / మందు కాదు. స్థానిక సీజన్, రకం, వ్యాధి నిర్ధారణ అవసరం.\nతమిళనాడు మార్గదర్శిని, మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ఖర్చు / అమ్మకం ప్రణాళికతో మొదలుపెట్టండి.",
+          "de": "Select a crop in the vegetable index for soil/climate, nursery/seed, water, weeds, disorders and harvest.\nDifferent vegetables do not share one irrigation/protection schedule. Confirm local season, variety and diagnosis.\nTamil Nadu guidance, not a field prescription. Plan costs/sales before starting.",
+          "s": "https://agritech.tnau.ac.in/horticulture/horti_Vegetables.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-fruits",
+          "t": "పండ్ల తోటలు - దీర్ఘకాల ప్రణాళిక",
+          "e": "Fruit orchards - long-term planning",
+          "d": "సూచికలో మామిడి, అరటి, జామ, బొప్పాయి, నిమ్మ, దానిమ్మ తదితర పంటలు ఉన్నాయి.\nతోటకు ముందు నేల / నీటి నాణ్యత, డ్రైనేజీ, ఉష్ణోగ్రత, నమ్మకమైన నర్సరీ, దూరం, సంవత్సరాల నిర్వహణ ఖర్చు, మార్కెట్ పరిశీలించండి.\nజామకు నీరు బయటకు వెళ్లే నేల అనుకూలమని మూలం వివరిస్తుంది. ప్రతి పండు / రకం బండపోతుగల్‌కు సరిపోతుందని నిర్ధారణ కాదు; ఉద్యాన అధికారితో ప్రణాళిక చేయండి.",
+          "de": "Index includes mango, banana, guava, papaya, citrus and pomegranate.\nAssess soil/water, drainage, temperature, reliable nursery, spacing, multi-year costs and market.\nSource describes well-drained soils for guava. Not proof that every fruit/variety suits Bandapothugal; plan with horticulture staff.",
+          "s": "https://agritech.tnau.ac.in/horticulture/horti_fruits.html",
+          "sn": "agritech.tnau.ac.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-organic",
+          "t": "సేంద్రీయ సాగు - నేల నుంచి ప్రణాళిక",
+          "e": "Organic farming - soil-led planning",
+          "d": "NCONF పాఠ్యాంశాలు: నేల ఆరోగ్యం, పంట మార్పిడి / అంతర పంటలు, కంపోస్టింగ్, మల్చింగ్, నీటి / పోషకాల నిర్వహణ, జీవ ఎరువులు, సమగ్ర చీడపీడ నిర్వహణ.\nసేంద్రీయం అంటే ఏ ఇంటి మిశ్రమమైనా సురక్షితం కాదు. ఇన్‌పుట్ నాణ్యత, పంట / దశ, అనుమతించిన వినియోగం, కార్మికుల / ఆహార భద్రత చూడాలి.\nస్థానిక నిపుణుడితో మార్పిడి ప్రణాళిక, ఖర్చు / దిగుబడి రికార్డులు ఉంచండి. దిగుబడి / లాభం హామీ లేదు.",
+          "de": "NCONF curriculum covers soil health, rotation/intercropping, composting, mulch, water/nutrients, biofertilizers and integrated pest management.\nOrganic does not make every homemade mixture safe. Check input quality, crop/stage, permitted use and worker/food safety.\nPlan transition and keep cost/yield records with local advice. No yield/profit guarantee.",
+          "s": "https://nconf.dac.gov.in/21DaysCertificateCourse",
+          "sn": "nconf.dac.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-organic-study",
+          "t": "ఉచితంగా చదవండి - సేంద్రీయ / సహజ సాగు",
+          "e": "Free reading - organic / natural farming",
+          "d": "MANAGE హైదరాబాద్ ప్రభుత్వ వనరుల్లో నేల, నీరు, విత్తనం, పంట వైవిధ్యం, తెగుళ్లు, సర్టిఫికేషన్ / మార్కెటింగ్ PPTలు ఉన్నాయి.\nఇవి చదివే వనరులు; ఇప్పుడు ఉచిత సీటు / స్థానిక బ్యాచ్ / వసతి ప్రకటన కాదు. నమోదు / చెల్లింపు చేయలేదు.\nసేంద్రీయంగా అమ్మడానికి ప్రమాణాలు / రికార్డులు / సర్టిఫికేషన్ వర్తించవచ్చు. ఒక మిశ్రమం వాడితే ధృవపత్రం రాదు. సేంద్రీయ, సహజ సాగు ఒకే ఆటోమేటిక్ సర్టిఫికేషన్ కాదు.",
+          "de": "MANAGE government resources cover soil, water, seed, diversification, pests and certification/marketing.\nReading materials, not current free local seats, batches or hostel availability. No registration/payment.\nOrganic marketing may require standards, records and certification. Using a mixture grants no certificate; organic/natural farming are not one automatic certification.",
+          "s": "https://www.manage.gov.in/nf/Trainings/Trainings.asp",
+          "sn": "www.manage.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-weather",
+          "t": "వాతావరణం - బులెటిన్ తేదీ చూడండి",
+          "e": "Weather - check bulletin date",
+          "d": "IMD పేజీలో రాష్ట్రం, జిల్లా, పంట ఎంపిక ఉంది. తేదీ, జిల్లా, పంట / దశ సరిపోతున్నాయో చూడండి.\nఈ తనిఖీలో పేజీ03-07-2026 చూపించింది; ఈరోజు మెదక్ సలహాగా చూపడం లేదు. పాత బులెటిన్‌పై స్ప్రే / నీటి నిర్ణయం తీసుకోవద్దు.\nవర్షం, తేమ, దశ ఆధారంగా స్థానిక సూచన తీసుకోండి. యాప్ పొలం తేమ కొలవదు; ఆటోమేటిక్ నీటి షెడ్యూల్ కాదు.",
+          "de": "IMD offers state/district/crop selection; check bulletin date and crop/stage.\nDuring this check it displayed03-07-2026, not presented as today’s Medak advisory. Do not use an outdated bulletin for spray/irrigation decisions.\nUse local rain, moisture and stage advice. App measures no field moisture or automatic schedule.",
+          "s": "https://imdagrimet.gov.in/cropAdvisory_3.php",
+          "sn": "imdagrimet.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "cropguide-diagnosis",
+          "t": "పురుగు / తెగులు - ముందుగా నిర్ధారణ",
+          "e": "Pests / disease - diagnose first",
+          "d": "పంట / రకం, విత్తిన తేదీ, దశ, ఆకుల రెండు వైపుల ఫోటోలు, ప్రభావిత విస్తీర్ణం, ఇటీవల నీరు / ఇన్‌పుట్ వివరాలు అధికారికి / KVKకి చూపండి.\nపసుపు ఆకు ఒక్కటే చూసి పురుగు / లోపం నిర్ణయించవద్దు. పొలం నిర్ధారణ లేకుండా మందు / ఎరువు మోతాదు ఇక్కడ ఇవ్వలేదు.\nపాత వెబ్ రసాయన జాబితా ప్రస్తుత అనుమతి కాదు. నిర్ధారణ తర్వాత చట్టబద్ధ పంట-లేబుల్, భద్రతా పరికరాలు, కోతకు ముందు గడువు పాటించే స్థానిక సలహా తీసుకోండి. యాప్ అధికారికి పంపదు.",
+          "de": "Show officer/KVK crop/variety, sowing date/stage, both sides of affected leaves, area and recent water/inputs.\nYellowing alone does not identify a pest/deficiency. No product dose is given without diagnosis.\nOld web lists do not establish current approval. After diagnosis use lawful crop-label, protection and pre-harvest interval advice. App sends nothing.",
+          "s": "https://www.manage.gov.in/nf/Trainings/Trainings.asp",
+          "sn": "www.manage.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "icon": "🛠️",
+      "te": "10వ తర్వాత టెక్నికల్ కోర్సులు",
+      "en": "Technical Courses after Class 10",
+      "items": [
+        {
+          "id": "skills-iti-trades-technical-tra",
+          "t": "ఐటిఐ (ITI) ట్రేడ్స్ - టెక్నికల్ శిక్షణ",
+          "e": "ITI Trades - Technical Training",
+          "d": "ప్రభుత్వ ఐటిఐలో ఎక్కువ ట్రేడ్స్‌కు SSC (10వ) అర్హత; కొన్ని ట్రేడ్స్‌కు 8వ తరగతి చాలు. ట్రేడ్ బట్టి 1 లేదా 2 సంవత్సరాలు; NCVT ట్రేడ్స్ పూర్తయితే NTC సర్టిఫికెట్ (2025 ప్రాస్పెక్టస్ ప్రకారం). ప్రభుత్వ కళాశాలల్లో ట్యూషన్ ఫీజు మినహాయింపు ఉందని 2025 ప్రాస్పెక్టస్ చెబుతోంది (IMC సీట్లు మినహా) - ఇతర ఫీజులు ఉండవచ్చు; ఖచ్చితమైన ఫీజు, వయస్సు నిబంధనలు ప్రస్తుత నోటిఫికేషన్‌లోనే చూడండి.",
+          "de": "For most government ITI trades the qualification is SSC (Class 10); some trades accept Class 8. Duration is 1 or 2 years by trade; NCVT trades lead to the NTC certificate (per the 2025 prospectus). The 2025 prospectus says government colleges have a tuition fee exemption (except IMC seats) - other fees may apply; check the current notification for exact fees and age rules.",
+          "bt": "ట్రేడ్స్ జాబితా చూడండి",
+          "be": "See trades list",
+          "s": "https://iti.telangana.gov.in/list-of-trades",
+          "sn": "iti.telangana.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-soil-testing-kvk-medak-b",
-          "t": "మట్టి పరీక్ష & KVK మెదక్ - నిర్ణయం ముందు",
-          "e": "Soil Testing & KVK Medak - Before Deciding",
-          "d": "ఏ పంట వేయాలన్న నిర్ణయం మీ పొలం మట్టి పరీక్ష, సీజన్, నీటి లభ్యత, ఖర్చులు, మార్కెట్ కొనుగోలుదారు - ఇవన్నీ చూసే తీసుకోవాలి. మట్టి పరీక్ష అధికారిక మార్గం జిల్లా వ్యవసాయ శాఖ; శిక్షణ, మట్టి ల్యాబ్ కోసం KVK తునికి/కౌడిపల్లి, మెదక్.",
-          "de": "Deciding which crop to plant needs your field's soil test, season, water reliability, input costs and a market buyer. Soil testing route: the district agriculture department; for training and soil lab: KVK Tuniki/Kowdipally, Medak.",
-          "bt": "KVK సైట్ చూడండి",
-          "be": "See KVK site",
-          "s": "https://kvkmedak.org/",
-          "sn": "kvkmedak.org",
+          "id": "skills-iti-admissions-official",
+          "t": "ఐటిఐ ప్రవేశాలు - అధికారిక పోర్టల్",
+          "e": "ITI Admissions - Official Portal",
+          "d": "ఐటిఐ ప్రవేశ నోటిఫికేషన్, దరఖాస్తు విధానం, ఫీజులు, వయస్సు నిబంధనలు అధికారిక పోర్టల్‌లోనే చూడండి. 2026 మొదటి విడత దరఖాస్తు గడువు (జూలై 10) ముగిసింది; ప్రస్తుతం ఓపెన్ అయిన కొత్త విడత గురించి మాకు నిర్ధారించని సమాచారం లేదు - కొత్త ప్రకటన కోసం పోర్టల్ చూస్తూ ఉండండి.",
+          "de": "See the ITI admission notification, application process, fees and age rules only on the official portal. The 2026 first-phase application deadline (July 10) has passed; we have no verified information about any currently open phase - keep watching the portal for new announcements.",
+          "bt": "పోర్టల్ తెరవండి",
+          "be": "Open portal",
+          "s": "https://iti.telangana.gov.in/",
+          "sn": "iti.telangana.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-rainfed-vs-irrigated-wat",
-          "t": "వర్షాధార vs నీటి సదుపాయం - ప్రాథమిక అవగాహన",
-          "e": "Rainfed vs Irrigated - Water Basics",
-          "d": "వర్షాధార అంటే నీరు అస్సలు ఉండదని కాదు - వర్షాపాతంపై ఆధారపడి సాగు చేయడం. నీరు ఎక్కువ కావాల్సిన పంటలకు నిశ్చితమైన నీటి సదుపాయం ముఖ్యం. అన్ని రబీ పంటలకూ నీటి సదుపాయం తప్పనిసరి కాదు (నేలలో నిల్వ ఉన్న తేమ కూడా పనిచేస్తుంది); అన్ని వర్షాధార పంటలకూ ఒకే వర్షాపాతం కావాలనీ లేదు. ఏ పంట మీ పొలానికి సరిపోతుందో KVK/MAO సూచనతో నిర్ణయించండి.",
-          "de": "Rainfed does NOT mean zero water - it means farming dependent on rainfall. Water-demanding crops need assured water supply. Not all rabi crops strictly need irrigation (stored soil moisture can matter); nor do all rainfed crops need the same rainfall. Decide which crop fits your field with KVK/MAO guidance.",
-          "bt": "KVK సమాచారం",
-          "be": "KVK info",
-          "s": "https://kvkmedak.org/about-us",
-          "sn": "kvkmedak.org",
+          "id": "skills-polytechnic-diploma-tg-p",
+          "t": "పాలిటెక్నిక్ డిప్లొమా - TG POLYCET",
+          "e": "Polytechnic Diploma - TG POLYCET",
+          "d": "10వ తర్వాత ఇంజనీరింగ్ డిప్లొమా కోర్సులు - ఇది ITI కాదు, వేరువేరు డిప్లొమా రూట్. SSC నుండి ప్రవేశం, కోర్సు నిబంధనల ప్రకారం. 2026 ప్రవేశ తేదీలు ముగిశాయి; తదుపరి నోటిఫికేషన్ కోసం POLYCET పోర్టల్ చూడండి.",
+          "de": "Engineering diploma courses after Class 10 - this is NOT ITI, it is a separate diploma route. Entry from SSC per course rules. 2026 admission dates are over; watch the POLYCET portal for the next notification.",
+          "bt": "పోర్టల్ తెరవండి",
+          "be": "Open portal",
+          "s": "https://tgpolycet.nic.in/",
+          "sn": "tgpolycet.nic.in",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-new-registered-varieties",
-          "t": "నమోదు అయిన కొత్త రకాలు గురించి",
-          "e": "About New Registered Varieties",
-          "d": "వ్యవసాయ యూనివర్సిటీ కొత్త పంట రకాలను నమోదు చేస్తూ ఉంటుంది. గుర్తుంచుకోండి: ఒక రకం నమోదు అయిందన్నమాటే - అది మీ పొలానికి సరిపోతుందని, దాని విత్తనం దొరుకుతుందని, దిగుబడి హామీ అని కాదు. ఏ రకం ఎంచుకోవాలో ఎంపిక ముందు KVK/మండల వ్యవసాయ అధికారిని అడగండి.",
-          "de": "The agriculture university keeps registering new crop varieties. Remember: a variety being registered only means it is registered - it is NOT a current local suitability recommendation, nor guaranteed seed availability or yield. Ask KVK/the Mandal Agriculture Officer before choosing.",
-          "bt": "యూనివర్సిటీ పేజీ",
-          "be": "University page",
-          "s": "https://pjtau.edu.in/ipr-research-wing/",
-          "sn": "pjtau.edu.in",
+          "id": "skills-exam-coaching-coe-info",
+          "t": "పరీక్షల కోచింగ్ - COE సమాచారం (ఇది టెక్నికల్ కోర్సు కాదు)",
+          "e": "Exam Coaching - COE Info (not a technical course)",
+          "d": "తెలంగాణ సోషల్ వెల్ఫేర్ రెసిడెన్షియల్ (TGSWREIS) COE కేంద్రాల్లో JEE/NEET వంటి పరీక్షలకు ఇంటిగ్రేటెడ్ కోచింగ్ ఉందని, ప్రవేశ పరీక్ష ద్వారా ఎంపిక అవుతారని అధికారిక పేజీ చెబుతోంది. 10వ తర్వాత ఎవరికి అర్హత, ఉచితమా కాదా, ఇప్పుడు ప్రవేశాలు జరుగుతున్నాయా - ఇవి మాకు నిర్ధారించలేదు; కొత్త నోటిఫికేషన్ కోసం పేజీ చూడండి.",
+          "de": "The official page says TGSWREIS COE centres run integrated coaching for exams like JEE/NEET, with selection through an entrance test. Whether entry is after Class 10, whether it is free, and whether admissions are open now - none of this is verified by us; watch the page for new notifications.",
+          "bt": "COE పేజీ చూడండి",
+          "be": "See COE page",
+          "s": "https://tgswreis.telangana.gov.in/coe.php",
+          "sn": "tgswreis.telangana.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-check-market-prices-enam",
-          "t": "మార్కెట్ ధరలు చూడండి - eNAM & MSP",
-          "e": "Check Market Prices - eNAM & MSP",
-          "d": "ప్రస్తుత మండీ ధరలు అధికారిక eNAM పోర్టల్‌లో చూడవచ్చు. 2026-27 ఖరీఫ్ MSP ప్రభుత్వ ప్రకటన లింక్ కింద ఉంది - కానీ MSP ప్రతి పంటకు/గ్రేడ్‌కు/కేంద్రానికి వర్తించదు, అది ప్రస్తుత మండీ ధర కాదు. అత్యధిక ధర ఉన్న పంటే లాభం కాదు - దిగుబడి, ఖర్చులు, పాడయ్యే స్వభావం, కొనుగోలుదారులు, రవాణా కూడా చూడాలి. అమ్మకం/లాభం హామీ ఏదీ లేదు.",
-          "de": "Current mandi prices can be checked on the official eNAM portal. The 2026-27 kharif MSP announcement is linked - but MSP does not apply to every crop/grade/centre and it is not the current mandi price. The highest-priced crop is not automatically the most profitable - yield, costs, perishability, buyers and transport all matter. No sale or profit is guaranteed.",
-          "bt": "eNAM ధరలు చూడండి",
-          "be": "See eNAM prices",
-          "s": "https://enam.gov.in/",
-          "sn": "enam.gov.in",
+          "id": "skills-pmkvy-skill-course-disco",
+          "t": "PMKVY స్కిల్ కోర్సులు వెతకడం - Skill India",
+          "e": "PMKVY Skill Course Discovery - Skill India",
+          "d": "ప్రధాన మంత్రి కౌశల్ వికాస్ యోజన (PMKVY) క్రియాశీలకంగా ఉంది (ప్రభుత్వ ప్రకటన, అక్టోబర్ 2026); NIELIT పేజీ ప్రకారం అర్హులైన శిక్షణం ఉచితం, వయస్సు 15-45. మీ దగ్గర ప్రస్తుత బ్యాచ్ ఉందో లేదో పోర్టల్ బ్యాచ్ సెర్చ్‌లో చూడండి - మెదక్/చిలిపిచెడ్ ప్రాంతంలో ఇప్పుడు బ్యాచ్ ఉందని మాకు నిర్ధారణ లేదు. కోర్సు వారీగా అర్హత నిబంధనలు; ఇది ఓపెన్ అడ్మిషన్ కాదు, ఉద్యోగ హామీ కాదు. నిజాయితీగా: 10వ పూర్తయిన అందరికీ ఎల్లప్పుడూ ఓపెన్ అయిన ఉచిత కోచింగ్ పథకం అని మాకు నిర్ధారించినది లేదు - కొత్త పథకాలు రావచ్చు, నోటిఫికేషన్లు చూస్తూ ఉండండి.",
+          "de": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) is active (government release, October 2026); per the NIELIT page eligible training is free, ages 15-45. Use the portal's batch search for a current batch near you - we have NOT verified any batch running in Medak/Chilpched now. Eligibility varies by course; this is not open admission and not a job guarantee. Honestly: we have not verified any universally-open free coaching for every Class 10 student - new schemes may come, so keep watching notifications.",
+          "bt": "బ్యాచ్ సెర్చ్ చూడండి",
+          "be": "See batch search",
+          "s": "https://www.skillindiadigital.gov.in/pmkvy-landing/batch-search",
+          "sn": "skillindiadigital.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-rythu-bharosa",
-          "t": "రైతు భరోసా",
-          "e": "Rythu Bharosa (Telangana)",
-          "d": "ప్రతి పంట సీజన్ మొదట్లో పెట్టుబడి సాయం: ఎకరాకు సీజన్‌కు ₹6,000 - ఏటా ₹12,000 (ఖరీఫ్ + రబీ), నేరుగా బ్యాంక్ ఖాతాలో. పంట రుణ మాఫీ విధానంతో పాటు అమలవుతోంది. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి.",
-          "de": "Season-start investment support: Rs 6,000 per acre per season - Rs 12,000 per acre per year (Kharif + Rabi), direct to bank, alongside the crop loan waiver. Check eligibility, status and amounts only on the official portal.",
-          "s": "https://rythubharosa.telangana.gov.in/",
-          "sn": "rythubharosa.telangana.gov.in",
+          "id": "skills-ddu-gky-placement-linked",
+          "t": "DDU-GKY - గ్రామీణ యువతకు ఉద్యోగ-అనుబంధ శిక్షణ",
+          "e": "DDU-GKY - Placement-linked Training for Rural Youth",
+          "d": "గ్రామీణ యువతకు ప్రభుత్వ నిధులతో ఉద్యోగ-అనుబంధ స్కిల్ శిక్షణ ఇచ్చే పథకం (ప్లేస్‌మెంట్-లింక్డ్ అని అధికారిక సైట్ చెబుతోంది). నిధులతో శిక్షణ పథకం ప్రయోజనాల్లో ఉంది - కానీ మెదక్ ప్రాంతంలో ప్రస్తుత బ్యాచ్/ప్రవేశాలు మాకు నిర్ధారించలేదు; వివరాలు, అర్హత అధికారిక పోర్టల్/జిల్లా కార్యాలయంలో నిర్ధారించుకోండి. ఉద్యోగ హామీ కాదు.",
+          "de": "A scheme giving rural youth placement-linked skill training with government funding (per the official site). Funded training is among the scheme benefits - but we have not verified any current batch/intake in the Medak area; confirm details and eligibility on the official portal/district office. Not a job guarantee.",
+          "bt": "అధికారిక పోర్టల్",
+          "be": "Official portal",
+          "s": "https://kaushalpanjee.nic.in/ddugky/home.html",
+          "sn": "kaushalpanjee.nic.in",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-pm-kisan",
-          "t": "పీఎం కిసాన్ సమ్మాన్ నిధి",
-          "e": "PM-KISAN (Central)",
-          "d": "కేంద్ర ప్రభుత్వం: అర్హులైన రైతు కుటుంబానికి ఏటా ₹6,000 - మూడు వాయిదాల్లో నేరుగా బ్యాంక్ ఖాతాలో. కొత్త నమోదు/స్టేటస్: పోర్టల్ లేదా మీ CSC కేంద్రం.",
-          "de": "Central govt: Rs 6,000/year to eligible farmer families in 3 installments, direct to bank. Register or check status on the portal or at your CSC.",
-          "s": "https://pmkisan.gov.in/",
-          "sn": "pmkisan.gov.in",
+          "id": "skills-rseti-free-classroom-sel",
+          "t": "RSETI - ఉచిత క్లాస్‌రూమ్/స్వయం-ఉపాధి శిక్షణ (సంగారెడ్డి)",
+          "e": "RSETI - Free Classroom/Self-employment Training (Sangareddy)",
+          "d": "RSETIలో ఉచిత క్లాస్‌రూమ్ శిక్షణ, స్వయం-ఉపాధి కోర్సులు ఉన్నాయని జిల్లా అధికారిక పేజీ చెబుతోంది. మాకు తెలిసిన బ్రాంచ్ సంగారెడ్డిది - ఇది మన మెదక్ టౌన్/చిలిపిచెడ్ కాదు, దగ్గర బ్రాంచ్ ఏదో నిర్ధారించలేదు. ప్రస్తుత బ్యాచ్ తేదీలు లేవు - rseti.in లేదా బ్రాంచ్‌కు ఫోన్ చేసి అడగండి. ఇది ఇంట్లో నేర్చుకునే కోర్సు కాదు - వెళ్లి చేరాలి.",
+          "de": "The district official page says RSETI offers free classroom training and self-employment courses. The branch we know is in Sangareddy - NOT Medak town/Chilpched, and the nearest branch is not confirmed. No current batch dates verified - check rseti.in or call the branch. This is not home learning - you must attend in person.",
+          "bt": "బ్రాంచ్ జాబితా చూడండి",
+          "be": "See branch list",
+          "s": "https://www.rseti.in/our-institutes-telangana",
+          "sn": "rseti.in",
+          "u": "23-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "freelearning",
+      "te": "ఉచిత నైపుణ్య అభ్యాసం",
+      "en": "Free skill learning",
+      "icon": "🛠️",
+      "items": [
+        {
+          "id": "learn-fitter",
+          "t": "ఫిట్టర్ - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Fitter - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nఈ ట్రేడ్‌కు తెలుగు Practical / Theory పుస్తకాలను పేజీ జాబితా చేస్తోంది.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nThe trade page lists Telugu practical/theory books.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=HIryMME3UqmQNYriQLEEFA==",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-electrician",
+          "t": "ఎలక్ట్రీషియన్ - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Electrician - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nఈ ట్రేడ్‌కు తెలుగు Practical / Theory పుస్తకాలను పేజీ జాబితా చేస్తోంది.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nThe trade page lists Telugu practical/theory books.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=WSdYV6aWadK8jUuNKxoBWg==",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-welder",
+          "t": "వెల్డర్ - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Welder - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nతెలుగు బోధన / ఆడియో ఈ ట్రేడ్‌కు నిర్ధారించలేదు; అందుబాటులో ఉన్న భాషను పేజీలో చూడండి.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nTelugu teaching/audio for this trade was not verified; check the available language on the page.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=vNuH8QjfGrhOzGTIvfa6cA==",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-sewing",
+          "t": "కుట్టు / Sewing Technology - ఉచిత స్వీయ అభ్యాసం",
+          "e": "Sewing Technology - free self-study materials",
+          "d": "కేంద్ర ప్రభుత్వ DGT Bharat Skills పేజీలో పాఠ్యపుస్తకాలు, ప్రాక్టికల్ / థియరీ, ప్రశ్నాబ్యాంకులు, వీడియో లింకులు ఉన్నాయి. ఈ తనిఖీలో చదివే మెటీరియల్ పేజీ చెల్లింపు లేకుండా తెరుచుకుంది.\nతెలుగు బోధన / ఆడియో ఈ ట్రేడ్‌కు నిర్ధారించలేదు; అందుబాటులో ఉన్న భాషను పేజీలో చూడండి.\nఇవి ఎప్పుడైనా చదివే వనరులు; ప్రస్తుతం నడుస్తున్న ఉచిత లైవ్ క్లాస్ / స్థానిక అడ్మిషన్ అని కాదు. ఉద్యోగం / సర్టిఫికేట్ హామీ లేదు.\nభద్రత: విద్యుత్, వెల్డింగ్, యంత్రాల ప్రాక్టీస్‌ను అర్హత కలిగిన శిక్షకుడి పర్యవేక్షణలో, సరైన రక్షణ పరికరాలతో మాత్రమే చేయండి. వీడియో చూసి ప్రమాదకర పని ఒంటరిగా చేయవద్దు.",
+          "de": "DGT Bharat Skills lists textbooks, practical/theory resources, question banks and video links. The learning-material page opened without payment in this check.\nTelugu teaching/audio for this trade was not verified; check the available language on the page.\nThese are self-paced resources, not a verified current free live class/local admission. No job or certificate guarantee.\nSafety: practise electricity, welding and machinery only with a qualified instructor and proper protective equipment, never alone after watching a video.",
+          "s": "https://www.bharatskills.gov.in/Home/StudyMaterial?Default=YES&var=zfIkBIwZDBnS2+0m6kz%2FqA%3D%3D",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "learn-swayam",
+          "t": "SWAYAM - ఉచితంగా నేర్చుకోవడం మాత్రమే",
+          "e": "SWAYAM - free learning access only",
+          "d": "అధికారిక FAQ ప్రకారం SWAYAM కోర్సులు నేర్చుకోవడానికి ఉచితం. సర్టిఫికేట్ కోసం పరీక్షకు రుసుము ఉండవచ్చు; చెల్లింపు పరీక్షను ఈ యాప్ నమోదు చేయదు.\nమీ అంశానికి అందుబాటులో ఉన్న కోర్సు, భాష, చేరే తేదీలు అధికారిక సైట్‌లో చూడండి. ప్రస్తుతం ఉచిత లైవ్ క్లాస్ ఉందని / అన్ని కోర్సులు తెలుగులో ఉన్నాయని నిర్ధారించలేదు. ఉచిత పాఠాలు మాత్రమే ఎంచుకోండి.",
+          "de": "The official FAQ says SWAYAM courses are free to learn. Certificate exams can carry fees; Gram Seva does not enroll you in paid exams.\nCheck the current subject, language and enrollment dates on the official site. No claim that a free live class is currently open or every course is in Telugu. Use the free learning materials only.",
+          "s": "https://swayam.gov.in/faq",
+          "sn": "swayam.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "womenskills",
+      "te": "మహిళలు & విద్యార్థినుల నైపుణ్యాలు",
+      "en": "Women & girl students - skills",
+      "icon": "🌸",
+      "items": [
+        {
+          "id": "women-skill-beauty",
+          "t": "బ్యూటీషియన్ / Cosmetology - స్వీయ అభ్యాసం",
+          "e": "Beautician / Cosmetology - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=5Ftn0L4jpwpVZTiA3RDGXg%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-dress",
+          "t": "డ్రెస్ మేకింగ్ / దుస్తుల కుట్టు - స్వీయ అభ్యాసం",
+          "e": "Dress Making - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=K6RTFr66o1wP65kVk2dH6g%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-fashion",
+          "t": "ఫ్యాషన్ డిజైన్ & టెక్నాలజీ - స్వీయ అభ్యాసం",
+          "e": "Fashion Design & Technology - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=KV0p%2FZlf01J%2Bnk3WegJMfw%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-food",
+          "t": "వంట / Food Production - స్వీయ అభ్యాసం",
+          "e": "Food Production - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=C6qtnwk2PvD8nHaDV9XhYg%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-preserve",
+          "t": "పండ్లు, కూరగాయల ప్రాసెసింగ్ - స్వీయ అభ్యాసం",
+          "e": "Fruits & Vegetables Processing - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=%2Fzm5d7KuvwvhNZnQXEQdrw%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-baker",
+          "t": "బేకరీ & మిఠాయిల తయారీ - స్వీయ అభ్యాసం",
+          "e": "Baker & Confectioner - self-study",
+          "d": "విధానం: ఆన్‌లైన్ స్వీయ అభ్యాస వనరులు; ఉచితంగా తెరిచిన DGT Bharat Skills మెటీరియల్ పేజీ.\nపాఠ్య వనరులు / వీడియోలతో ప్రాథమిక పరిచయం పొందవచ్చు. ఇది ప్రస్తుత స్థానిక లైవ్ బ్యాచ్‌లో ప్రవేశం కాదు; ITI నమోదు / సర్టిఫికేట్ ఉచితం అని హామీ కాదు.\nతెలుగు బోధన / ఆడియో ఈ పేజీలో నిర్ధారించలేదు. మహిళలకే పరిమితం కాదు; ఇతర ఆసక్తిగలవారు కూడా చదవవచ్చు.\nభద్రత: శిక్షకుడి పర్యవేక్షణ అవసరం. కాస్మెటిక్స్ / ఆహార తయారీని వ్యాపారంగా మొదలుపెట్టే ముందు వర్తించే నాణ్యత, పరిశుభ్రత, లైసెన్స్ నియమాలు అధికారికంగా తెలుసుకోండి.",
+          "de": "Mode: online self-study resources; DGT Bharat Skills material page opened without payment.\nUse textbooks / videos for an introduction. This is not admission to a current local live batch, nor a guarantee of free ITI enrollment / certification.\nTelugu teaching / audio was not verified on this page. Not restricted to women; other interested learners can use the resources too.\nSafety: use qualified supervision. Before selling cosmetics / food, confirm applicable quality, hygiene and licensing rules through official sources.",
+          "s": "https://bharatskills.gov.in/Home/StudyMaterial?var=BwzH8TlXoqvAC818a3MY1w%3D%3D&Default=YES",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-rseti",
+          "t": "ఉచిత ప్రత్యక్ష శిక్షణ - RSETI మార్గం",
+          "e": "Free in-person training - RSETI route",
+          "d": "విధానం: సంస్థలో ప్రత్యక్ష శిక్షణ. SBI అధికారిక పేజీ RSETI శిక్షణ, భోజనం / వసతి ఉచితం అని చెబుతోంది.\nమీ ప్రాంతానికి అందుబాటులో ఉన్న సంస్థ, వయస్సు / నివాస అర్హత, కోర్సు, తాజా బ్యాచ్ తేదీలు, పత్రాలు సంస్థ వద్ద నిర్ధారించాలి. ఈ తనిఖీలో మెదక్‌లో ప్రస్తుతం చేరే బ్యాచ్ / ఖాళీలు నిర్ధారించలేదు.\n18 ఏళ్లలోపు విద్యార్థినులకు ప్రవేశం ఉందని ఊహించవద్దు. బ్యాంకు రుణం / ఉద్యోగం హామీ కాదు. ఈ యాప్ ఎవరినీ నమోదు చేయదు.",
+          "de": "Mode: in-person institutional training. SBI’s official page states RSETI training includes free food and lodging.\nConfirm the relevant institute, age/residence eligibility, course, current batch dates and documents directly with the institute. A currently open Medak batch / vacancies were not verified in this check.\nDo not assume admission for students under 18. No bank-loan or job guarantee. Gram Seva does not enroll anyone.",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-home-enterprise",
+          "t": "ఇంటి ఆధారిత నైపుణ్యాలు - కోర్సుల జాబితా",
+          "e": "Home-based skills - course menu",
+          "d": "Bank of Baroda అధికారిక RSETI పేజీలో జాబితా చేసిన అంశాలు:\n• మహిళల టైలరింగ్\n• బ్యూటీ పార్లర్ మేనేజ్‌మెంట్\n• జ్యువెలరీ / జ్యూట్ వస్తువులు\n• అప్పడాలు, పచ్చళ్లు, మసాలా పొడులు\n• సాఫ్ట్ టాయ్స్\n• పేపర్ కవర్లు, ఎన్వలప్‌లు, ఫైళ్ల తయారీ\n• ఎంబ్రాయిడరీ & ఫ్యాబ్రిక్ పెయింటింగ్\n• కంప్యూటరైజ్డ్ అకౌంటింగ్\nపేజీ శిక్షణ ఉచితం అని చెబుతోంది; ఇవి దేశవ్యాప్త కోర్సుల ఉదాహరణలు మాత్రమే. ఇవన్నీ మన జిల్లాలో ఇప్పుడు జరుగుతున్నాయనే హామీ లేదు. స్థానిక బ్యాచ్, అర్హత, భాష నిర్ధారించాలి.",
+          "de": "Bank of Baroda’s official RSETI page lists:\n• Women tailoring\n• Beauty parlour management\n• Costume jewellery / jute products\n• Papad, pickle and masala powder making\n• Soft toys\n• Paper covers, envelopes and files\n• Embroidery & fabric painting\n• Computerized accounting\nThe page describes free training. These are nationwide course examples, not a promise that all are running locally now. Verify the local batch, eligibility and language.",
+          "s": "https://bankofbaroda.bank.in/baroda-swarojgar-vikas-sansthan",
+          "sn": "bankofbaroda.bank.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-soap",
+          "t": "సబ్బులు / డిటర్జెంట్ - కోర్సు నిర్ధారణ అవసరం",
+          "e": "Soap / detergent - course confirmation needed",
+          "d": "సబ్బులు, డిటర్జెంట్ / ఫినాయిల్ వంటి ఇంటి ఉత్పత్తులపై ఆసక్తి ఉంటే స్థానిక RSETIలో ప్రస్తుత కోర్సును అడగవచ్చు. ప్రభుత్వ PM-AJAY కోర్సు క్యాటలాగ్‌లో Phenyl & Liquid Soap Making (RSETI/341) ఉంది; క్యాటలాగ్‌లో పేరు ఉండటం ఇప్పుడు సీటు / ఉచిత స్థానిక బ్యాచ్ ఉందని కాదు.\nఈ తనిఖీలో మెదక్‌లో ప్రస్తుత ఉచిత సబ్బుల తయారీ బ్యాచ్, తేదీలు, తెలుగు బోధన నిర్ధారించలేదు. రసాయనాలతో ఇంట్లో ఒంటరిగా ప్రయోగాలు చేయవద్దు; శిక్షణ, రక్షణ, నాణ్యత నియమాలు అవసరం.",
+          "de": "For soap, detergent / phenyl production, ask the local RSETI about its current course. The government PM-AJAY catalogue lists Phenyl & Liquid Soap Making (RSETI/341); a catalogue entry does not prove a current local seat / free batch.\nA currently free soap-making batch, dates and Telugu instruction in Medak were not verified. Do not experiment with chemicals alone at home; training, protection and quality rules are needed.",
+          "s": "https://pmajay.dosje.gov.in/CourseList",
+          "sn": "pmajay.dosje.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "women-skill-coconut",
+          "t": "కొబ్బరి ఉత్పత్తులు / యంత్ర శిక్షణ - ఉచితం నిర్ధారించలేదు",
+          "e": "Coconut products / machinery - free status unverified",
+          "d": "కొబ్బరి ఉత్పత్తుల శిక్షణ గురించి Coconut Development Boardకు సంబంధించిన 2022 ప్రభుత్వ ప్రకటన ఉంది. అది పాత ప్రకటన; ప్రస్తుత అడ్మిషన్ కాదు. అందులో రిజిస్ట్రేషన్ / ఫీజుల వివరాలు తెలుసుకోవాలని స్పష్టంగా ఉంది.\nకాబట్టి దీన్ని ఉచిత కోర్సుగా సిఫార్సు చేయడం లేదు. ప్రస్తుతం ఉచిత బ్యాచ్, మన ప్రాంతంలో యంత్ర శిక్షణ, తేదీలు నిర్ధారించలేదు. క్రింది లింక్ నేపథ్య సమాచారం మాత్రమే.\nమీరు చెప్పిన కోకోనట్ మిషన్ అనే పదానికి ఖచ్చితమైన యంత్రం / కోర్సు ఏదో నిర్ధారణ లేదు.",
+          "de": "A 2022 government notice describes Coconut Development Board value-added coconut-product training. It is old, not a current admission notice, and explicitly refers to registration / fees.\nIt is NOT recommended here as a free course. A current free batch, local machinery training and dates were not verified. Link is background information only.\nThe exact machine / course meant by “coconut machine” remains unclear.",
+          "s": "https://pib.gov.in/PressReleasePage.aspx?PRID=1870067",
+          "sn": "pib.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "localtraining",
+      "te": "మన ప్రాంతంలో శిక్షణ & వసతి",
+      "en": "Local training & accommodation",
+      "icon": "🏫",
+      "items": [
+        {
+          "id": "local-training-sangareddy",
+          "t": "సంగారెడ్డి - SBI RSETI (ప్రత్యక్షం)",
+          "e": "Sangareddy - SBI RSETI (in-person)",
+          "d": "అధికారిక జిల్లా పేజీలో చిరునామా: SBI RSETI, Beside Velugu Office, Bypass Road, Sangareddy, Telangana - 502001.\nజాబితా చేసిన కోర్సులు: టైలరింగ్, ఎంబ్రాయిడరీ, బ్యూటీ & వెల్‌నెస్, కంప్యూటర్ బేసిక్స్ / Tally, మొబైల్ రిపేర్, CCTV, టూ-వీలర్ మెకానిక్, ఫోటో / వీడియో, ఎలక్ట్రికల్ మోటర్ రిపేర్, వ్యాపార అభివృద్ధి.\nఅర్హత: గ్రామీణ నిరుద్యోగ యువత 18-45 సంవత్సరాలు; జిల్లా పేజీ శిక్షణ / మెటీరియల్ ఉచితం అంటోంది.\nవసతి: SBI సాధారణ RSETI విధానంలో భోజనం, వసతి ఉచితం అని ఉంది. ఈ కేంద్రంలో మీ బ్యాచ్‌కు హాస్టల్ సీటు / మహిళల వసతి / అందుబాటు ప్రత్యేకంగా నిర్ధారించలేదు.\nచేరే ముందు సంస్థ వద్ద కోర్సు, తేదీ, నివాస అర్హత, పత్రాలు, వసతి నిర్ధారించాలి. ప్రస్తుత బ్యాచ్ / ఖాళీలు ఇంకా ధృవీకరించలేదు.",
+          "de": "Official district-page address: SBI RSETI, Beside Velugu Office, Bypass Road, Sangareddy, Telangana - 502001.\nListed subjects: tailoring, embroidery, beauty/wellness, computer basics/Tally, mobile repair, CCTV, two-wheelers, photography/video, electrical motor repair and entrepreneurship.\nEligibility listed: rural unemployed youth aged 18-45; training/materials free.\nStay: SBI’s general RSETI policy says food/lodging are free. Hostel space, women’s accommodation and availability for your batch at this centre were not separately confirmed.\nConfirm course, date, residence eligibility, documents and stay before travelling. Current batches/vacancies not verified.",
+          "s": "https://sangareddy.telangana.gov.in/instituitions-fro-skill-and-technology/",
+          "sn": "sangareddy.telangana.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "SBI ఉచిత భోజనం / వసతి విధానం",
+              "en": "SBI free food/lodging policy",
+              "url": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis"
+            }
+          ]
+        },
+        {
+          "id": "local-training-medak-narsapur",
+          "t": "మెదక్ / నర్సాపూర్ - ముందుగా నిర్ధారించాలి",
+          "e": "Medak / Narsapur - verification needed",
+          "d": "మీ గ్రామం మెదక్ జిల్లా. సంగారెడ్డి కేంద్రం దగ్గర ప్రాంతపు ఎంపిక మాత్రమే; మెదక్ / నర్సాపూర్ వారందరికీ అక్కడ ప్రవేశం ఉంటుందని హామీ లేదు.\nఈ తనిఖీలో నర్సాపూర్ పట్టణం లేదా మెదక్‌లోనే ప్రస్తుతం నడుస్తున్న పూర్తిగా ఉచిత + ఉచిత వసతి బ్యాచ్, ఖచ్చిత చిరునామా, తేదీలు అధికారిక మూలంతో నిర్ధారించలేకపోయాం. పాత జిల్లా పేర్లతో ఉన్న డైరెక్టరీలను ప్రస్తుత కేంద్రాలుగా చూపించడం లేదు.\nచేయాల్సింది: క్రింది అధికారిక SBI RSETI మార్గంలో మీ జిల్లా / నివాస అర్హతకు సరిపోయే సంస్థ, కోర్సు, తేదీ, మహిళల భద్రత / వసతి వివరాలు నిర్ధారించండి. వెంటనే నేర్చుకోవడానికి మన ఉచిత మొబైల్ పాఠాలు వాడవచ్చు.",
+          "de": "The village is in Medak district. Sangareddy is a regional option, not a promise that every Medak/Narsapur resident is eligible there.\nA currently running fully free course with free stay, exact address and dates within Medak/Narsapur itself could not be verified from official sources in this check. Old district-name directories are not presented as current centres.\nUse the official SBI RSETI route below to confirm an institute for your residence, course/date, women’s safety and stay. Free mobile self-study is available immediately through our learning sections.",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "24-10-2026",
+          "refs": []
+        },
+        {
+          "id": "local-training-hyderabad",
+          "t": "హైదరాబాద్ - NSTI మహిళలు: ఫీజు ఎంపిక",
+          "e": "Hyderabad - NSTI Women: paid option",
+          "d": "చిరునామా: Shivam Road, opp. Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007.\nఫీజు ఉన్న కోర్సుల సమాచారం కూడా చూడవచ్చని మీరు కోరారు. ఇది ఫీజు ఎంపిక; క్రింది కొత్త విభాగంలో కోర్సులు / రుసుముల వివరాలు ఉన్నాయి. ఉచితంగా చూపించడం లేదు.\nశిక్షణ / హాస్టల్ / మెస్‌కు వేర్వేరు చార్జీలు ఉండవచ్చు. ప్రస్తుత ప్రవేశ తేదీలు, సీట్లు, మీ కోర్సుకు మొత్తం ఖర్చు / వసతి ఇంకా నిర్ధారించలేదు. యాప్ నమోదు / చెల్లింపు చేయదు.",
+          "de": "Address: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad, Telangana - 500007.\nPaid courses are now included for interested learners. This is a PAID option; see the new section for courses and published fees, not a free course.\nTraining/hostel/mess may carry separate charges. Current admission dates, seats, total cost for your course and stay remain unverified. No enrollment or payment is made by the app.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/en",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "అధికారిక రుసుములు - ఉచితం కాదు",
+              "en": "Official fees - not free",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "local-training-mobile",
+          "t": "ఈ నాలుగు ప్రాంతాల నుంచి - ఉచిత మొబైల్ అభ్యాసం",
+          "e": "All four areas - free mobile self-study",
+          "d": "విధానం: మీ మొబైల్ బ్రౌజర్‌లోనే చదవడం / వీడియో వనరులు. వసతి అవసరం లేదు. ఇంటర్నెట్ / డేటా ఖర్చు మీ కనెక్షన్‌పై ఆధారపడుతుంది.\nDGT Bharat Skills: ఫిట్టర్, ఎలక్ట్రీషియన్, వెల్డర్, కుట్టు, బ్యూటీషియన్, డ్రెస్ మేకింగ్, ఫుడ్ ప్రాసెసింగ్, బేకరీ. మెటీరియల్ పేజీలు చెల్లింపు లేకుండా తెరుచుకున్నాయి; ప్రస్తుత లైవ్ తరగతి కాదు.\nఫిట్టర్ / ఎలక్ట్రీషియన్‌కు తెలుగు పుస్తకాలు పేజీలు జాబితా చేస్తున్నాయి. మిగిలిన వాటి తెలుగు ఆడియో / బోధన నిర్ధారించలేదు.\nఎలా మొదలు: లింక్ తెరవండి → ట్రేడ్ ఎంచుకోండి → అందుబాటులో ఉన్న భాషలో థియరీ / ప్రాక్టికల్ చదవండి. ప్రమాదకర ప్రాక్టీస్‌కు శిక్షకుడి పర్యవేక్షణ అవసరం.",
+          "de": "Mode: study/resources in your mobile browser; no accommodation needed. Internet/data costs depend on your connection.\nDGT Bharat Skills: fitter, electrician, welder, sewing, cosmetology, dress making, food processing and bakery. Material pages opened without payment; not current live classes.\nFitter/electrician list Telugu books. Telugu audio/teaching for the other subjects not verified.\nStart: open link → select trade → choose available language/material. Hazardous practical work requires qualified supervision.",
+          "s": "https://bharatskills.gov.in/",
+          "sn": "bharatskills.gov.in",
+          "u": "24-10-2026",
+          "refs": []
+        },
+        {
+          "id": "local-training-join",
+          "t": "చేరే ముందు - సులభమైన చెక్‌లిస్ట్",
+          "e": "Before joining - easy checklist",
+          "d": "1. ప్రాంతం: మెదక్ / సంగారెడ్డి / నర్సాపూర్ / హైదరాబాద్ అని చెప్పండి; మీ నివాసానికి ప్రవేశం ఉందో నిర్ధారించండి.\n2. మీ కోర్సు పేరు, ప్రస్తుత బ్యాచ్ తేదీ, వయస్సు / విద్యార్హత అడగండి.\n3. శిక్షణ రుసుము NILనా? భోజనం, హాస్టల్, మహిళలకు సురక్షిత వసతి నిజంగా ఉన్నాయా? రాతపూర్వకంగా నిర్ధారించండి.\n4. పత్రాల ఖచ్చిత జాబితా సంస్థ నుంచే తీసుకోండి; ఏజెంట్లకు డబ్బు / OTP ఇవ్వవద్దు.\n5. బ్యాచ్ నిర్ధారణ తరువాతే ప్రయాణం చేయండి. ఈ యాప్ మీ తరఫున సంప్రదించదు / నమోదు చేయదు / డబ్బు చెల్లించదు.",
+          "de": "1. State Medak/Sangareddy/Narsapur/Hyderabad and confirm residence eligibility.\n2. Ask for your course, current batch date, age and education requirements.\n3. Confirm zero training fee, meals, hostel and safe women’s stay in writing.\n4. Obtain the document checklist from the institute; do not give agents money or OTPs.\n5. Travel only after batch confirmation. Gram Seva does not contact, enroll or pay on your behalf.",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "24-10-2026",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "id": "paidcourses",
+      "te": "ఫీజు కోర్సులు - ఆసక్తిగలవారికి",
+      "en": "Paid courses - optional choices",
+      "icon": "🎓",
+      "items": [
+        {
+          "id": "paid-cits",
+          "t": "NSTI హైదరాబాద్ - CITS: ఫ్యాషన్ / బ్యూటీ / ఆఫీస్",
+          "e": "NSTI Hyderabad - CITS: fashion / beauty / office",
+          "d": "మహిళల NSTI అధికారిక About పేజీ: Fashion Design Technology, Cosmetology, Office Management CITS కోర్సులు.\nఇవి ప్రారంభ స్థాయి చిన్న బ్యూటీ క్లాసులు కాదు; శిక్షకుల శిక్షణ మార్గం. సంబంధిత ITI / NCVT సర్టిఫికేట్ లేదా సంబంధిత డిప్లొమా / డిగ్రీ, కనీస వయస్సు 18 అని పేజీ చెబుతోంది. ఖచ్చిత ట్రేడ్ అర్హతలు ప్రస్తుత అధికారిక ప్రవేశ నోటీసుతో చూడాలి.\nఫీజు ఉంది. ప్రస్తుత బ్యాచ్ / దరఖాస్తు చివరి తేదీ / సీట్లు నిర్ధారించలేదు; పాత తేదీలతో ఇప్పుడు ప్రవేశం ఉందని చెప్పడం లేదు.\nస్థలం: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad 500007.",
+          "de": "Official women’s NSTI About page lists CITS in Fashion Design Technology, Cosmetology and Office Management.\nInstructor training, not a short beginner beauty class. Page lists a relevant ITI/NCVT certificate or related diploma/degree and minimum age18; exact trade eligibility must be checked in the current admission notice.\nPAID. Current batch, application deadline and vacancies not verified. Old dates are not presented as open admissions.\nLocation: Shivam Road, opposite Shivam Temple, Vidyanagar, Hyderabad500007.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/about-us",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "paid-cts",
+          "t": "NSTI హైదరాబాద్ - CTS: ఐటీ / AI / వ్యవసాయ IoT",
+          "e": "NSTI Hyderabad - CTS: IT / AI / agriculture IoT",
+          "d": "అధికారిక About పేజీలో Artificial Intelligence Programming Assistant, Information Technology, IoT (Smart Agriculture), Architectural Draughtsman ఉన్నాయి.\nవిద్యార్హత సాధారణంగా 10వ తరగతి లేదా పై స్థాయి అని పేజీ వివరిస్తోంది; ప్రతి కోర్సుకు అదే అర్హత అని అనుకోకండి. వయస్సు / ఎంపిక విధానం ప్రస్తుత కోర్సు నోటీసుతో నిర్ధారించాలి.\nఫీజు కోర్సులు. ప్రస్తుత ప్రవేశాలు / సీట్లు / తెలుగు బోధన నిర్ధారించలేదు. కోర్సు పేరు ఉండటం అడ్మిషన్ ప్రారంభమైందని కాదు.",
+          "de": "Official About page lists Artificial Intelligence Programming Assistant, Information Technology, IoT (Smart Agriculture) and Architectural Draughtsman under CTS.\nPage describes usual eligibility as10th pass or higher; do not assume identical eligibility for every trade. Verify age and selection in the current course notice.\nPAID courses. Current admissions, vacancies and Telugu teaching not verified. A listed course is not an open admission announcement.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/about-us",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "paid-fees",
+          "t": "NSTI - ప్రచురించిన రుసుములు / హాస్టల్",
+          "e": "NSTI - published fees / hostel",
+          "d": "అధికారిక Fee Structure పేజీ (మీ కోర్సుకు తుది కోట్ కాదు):\nGeneral/OBC: అడ్మిషన్ ₹100; ట్యూషన్ నెలకు ₹150; మొదటి పరీక్ష ₹100; Gymkhana ₹100.\nSC/ST: అడ్మిషన్ ₹25; ట్యూషన్ నెలకు ₹50; మొదటి పరీక్ష ₹25; Gymkhana రుసుము లేదు.\nఅందరికీ కోర్సు కాషన్ డిపాజిట్ ₹250 (రిఫండబుల్ అని పేజీలో ఉంది). తదుపరి పరీక్షలు / ఇతర సేవలకు వేరు రుసుములు.\nఐచ్ఛిక హాస్టల్ అందుబాటులో ఉంటే: నెలకు ₹100 accommodation fee అని పట్టికలో ఉంది; ₹125 రిఫండబుల్ కాషన్; ₹50 service charge. మెస్ అదనం. ముందు వచ్చిన వారికి ప్రాధాన్యం; ఖాళీ హామీ లేదు.\nఈ మొత్తాలను కలిపి పూర్తి కోర్సు ఖర్చుగా చూపించడం లేదు. కోర్సు కాలం, వర్గం, తాజా రుసుములు, మెస్ / ప్రయాణ ఖర్చు సంస్థ వద్ద నిర్ధారించాలి.",
+          "de": "Official Fee Structure page, not a final quote for your course:\nGeneral/OBC: admission₹100, tuition₹150/month, first exam₹100, Gymkhana₹100.\nSC/ST: admission₹25, tuition₹50/month, first exam₹25, no Gymkhana fee.\nCourse caution deposit₹250 for all, described as refundable. Repeat exams/other services have separate fees.\nOptional hostel if available: table lists monthly accommodation₹100, refundable caution₹125 and service charge₹50; mess extra. First come, first served, no vacancy guarantee.\nThese are not combined into a full-course total. Confirm duration, category, current applicable fees, mess/travel and availability with institute.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/fee-structure",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        },
+        {
+          "id": "paid-choice",
+          "t": "ఎంచుకునే ముందు - ఫీజు / రీఫండ్ / కొత్త ప్రకటనలు",
+          "e": "Before choosing - fees / refund / new notices",
+          "d": "ఫీజు ఉన్న కోర్సులు ఆసక్తిగలవారు పోల్చుకోవడానికే. యాప్ మీ తరఫున చేరదు, డబ్బు చెల్లించదు, పత్రాలు పంపదు.\nకోర్సు అర్హత, మొత్తం ఫీజు, రీఫండ్ / రద్దు నిబంధనలు, సర్టిఫికేట్, హాస్టల్ / మహిళల భద్రత, మెస్ అదనపు ఖర్చు రాతపూర్వకంగా నిర్ధారించండి. ఉద్యోగం / రుణం హామీ కాదు.\nకొత్తగా అధికారికంగా ధృవీకరించిన కోర్సు / వసతి ప్రకటనలు గంట గుర్తులో చూడండి. యాప్ తెరిచినప్పుడు / తిరిగి వచ్చినప్పుడు / మళ్ళీ చూడండి నొక్కితే నవీకరణ. యాప్ మూసి ఉన్నప్పుడు పుష్ అలర్ట్ లేదు. ఇప్పటి జాబితాను కొత్త బ్యాచ్ నోటిఫికేషన్‌గా చూపించడం లేదు.",
+          "de": "Paid listings are for interested learners to compare. The app does not enroll, pay or send documents on your behalf.\nConfirm eligibility, total fee, refund/cancellation terms, certificate, hostel/women’s safety and extra mess costs in writing. No job/loan guarantee.\nSee the bell for newly verified official course/accommodation announcements. Updates load on opening, returning or Refresh; no push alerts while closed. Existing listings are not reclassified as new batch announcements.",
+          "s": "https://nstiwhyderabad.dgt.gov.in/fee-structure",
+          "sn": "nstiwhyderabad.dgt.gov.in",
+          "u": "24-10-2026",
+          "refs": [
+            {
+              "te": "రుసుముల అధికారిక పేజీ",
+              "en": "Official fee schedule",
+              "url": "https://nstiwhyderabad.dgt.gov.in/fee-structure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jobs",
+      "icon": "💼",
+      "nb": true,
+      "te": "ఉద్యోగాలు & ఇంటర్న్‌షిప్",
+      "en": "Jobs & Internships",
+      "items": [
+        {
+          "id": "jobs-p2e-yuwaah-free-skill-cour",
+          "t": "కోర్సు: YuWaah P2E - ఉచిత జాబ్-రెడీ స్కిల్స్ (15-24 ఏళ్లు)",
+          "e": "Course: UNICEF YuWaah Passport to Earning - Free Job-ready Skills (Age 15-24)",
+          "d": "UNICEF ఇండియా YuWaah యొక్క 'Passport to Earning' (P2E) - 15-24 ఏళ్ల యువతకు ఉచితం. మొబైల్‌లోనే స్వీయ-వేగంతో నేర్చుకునే జాబ్-రెడీ డిజిటల్ స్కిల్ కోర్సులు (10-30 గంటలు), సర్టిఫికెట్‌తో. ఇంగ్లీష్ + 6 ప్రాంతీయ భాషల్లో ఉంది - తెలుగు ఉందో లేదో పోర్టల్‌లోనే నిర్ధారించుకోండి. కోర్సు తర్వాత పార్ట్నర్ లింకుల ద్వారా ఇంటర్న్‌షిప్ అవకాశాలు కూడా చూపిస్తుంది - కానీ ఇది ఇంటర్న్‌షిప్ పోర్టల్ కాదు, నేర్చుకునే కోర్సు. యాక్సెస్: p2e.csccloud.in / myp2e.org. ఉద్యోగ హామీ లేదు.",
+          "de": "UNICEF India YuWaah's Passport to Earning (P2E) - free for youth aged 15-24. Self-paced job-ready digital skill courses (10-30 hours) on mobile, with certification. Available in English + 6 regional languages - confirm on the portal whether Telugu is included. After courses it shows internship opportunities via partner links - but this is a learning course, not an internship portal. Access: p2e.csccloud.in / myp2e.org. No job guarantee.",
+          "bt": "ఉచిత కోర్సు చూడండి",
+          "be": "See free course",
+          "s": "https://www.unicef.org/india/p2e",
+          "sn": "unicef.org/india",
           "u": "23-10-2026"
         },
         {
-          "id": "farmer-crop-insurance",
-          "t": "పంట బీమా (PMFBY)",
-          "e": "Crop Insurance (PMFBY)",
-          "d": "పంట నష్టానికి కేంద్ర ప్రభుత్వ బీమా (PMFBY). 2020 ఖరీఫ్ నుంచి ఇది అన్ని రైతులకు ఐచ్ఛికం - రుణం తీసుకుంటే తప్పనిసరి అనే పాత నియమం లేదు. రైతు వాటా ప్రీమియం గరిష్ఠంగా: ఖరీఫ్ ఆహార/నూనెగింజ పంటలకు 2%, రబీ పంటలకు 1.5%, వార్షిక వాణిజ్య/తోట పంటలకు 5%. విస్తృత ప్రకృతి వైపరీత్యాల్లో రైతు ఏమీ తెలపనక్కరలేదు - జిల్లా స్థాయి అంచనా/రాష్ట్ర దిగుబడి డేటా ఆధారంగా క్లెయిమ్ లెక్కేసి నేరుగా బ్యాంక్ ఖాతాలో జమ చేస్తారు. స్థానిక వైపరీత్యాలు, కోత తర్వాత నష్టాల్లో మాత్రం 72 గంటల్లో టోల్-ఫ్రీ 14447 కు కాల్ చేసి, లేదా క్రాప్ ఇన్షూరెన్స్ యాప్/రాష్ట్ర ప్రభుత్వం/బీమా కంపెనీ/బ్యాంకుకు తెలపాలి. తెలంగాణ 2024లో PMFBYలో మళ్లీ చేరింది; మెదక్ జిల్లాలో మీ పంట/ప్రాంతం ప్రస్తుత సీజన్ నోటిఫికేషన్‌లో ఉందో లేదో మీ బ్యాంక్/CSC/వ్యవసాయ కార్యాలయంలో నమ్మకం చేసుకున్న తర్వాతే ఆధారపడండి. ఫిర్యాదు చేయాలంటే (షరతులు వర్తిస్తాయి - ఆటోమేటిక్ ప్రక్రియ కాదు): ముందు పాలసీ ఇచ్చిన బీమా కంపెనీ/బ్యాంక్ గ్రీవెన్స్ అధికారిని సంప్రదించండి (PMJJBY/PMSBY: బ్యాంక్ శాఖ; PMFBY: 14447 / బీమా కంపెనీ / క్రాప్ ఇన్షూరెన్స్ యాప్) - ఫిర్యాదు అందిన 15 రోజుల్లో కంపెనీ పరిష్కరించాలన్న అధికారిక నిబంధన ఉంది, కానీ ఇది చెల్లింపు హామీ కాదు. పరిష్కారం కాకపోతే: IRDAI Bima Bharosa పోర్టల్ (bimabharosa.irdai.gov.in), టోల్-ఫ్రీ 155255 లేదా 1800 4254 732 (ఉదయం 8 - రాత్రి 8, సోమ-శని), లేదా complaints@irdai.gov.in - ఫిర్యాదు 14 రోజుల్లో పరిశీలనకు తీసుకుంటారు. ఇన్షూరెన్స్ ఓంబుడ్స్‌మన్: ముందు కంపెనీకి ఫిర్యాదు చేసి ఉండాలి; కంపెనీ తిరస్కరిస్తే/పాక్షికంగా చెల్లిస్తే లేదా పరిష్కారంపై సంతృప్తి లేకపోతే, లేదా 30 రోజుల్లో సమాధానం రాకపోతే సంప్రదించవచ్చు (ప్రతిసారీ 30 రోజులు వేచడం తప్పనిసరి కాదు); క్లెయిమ్ విలువ ఖర్చులతో సహా ₹50 లక్షలు మించకూడదు; కంపెనీ తిరస్కరణ/పాక్షిక చెల్లింపు జరిగిన 1 సంవత్సరం లోపు; అదే విషయం ఏ ఇతర ఫోరం/కోర్టు/ఆర్బిట్రేటర్ దగ్గర పెండింగ్‌లో ఉండకూడదు; ఫీజు లేదు (cioins.co.in). గుర్తుంచుకోండి: ప్రీమియం డిపాజిట్ కాదు - బీమా చేసిన సంఘటన జరిగితే, పాలసీ నిబంధనలు/మినహాయింపుల ప్రకారం మాత్రమే చెల్లింపు ఉంటుంది.",
-          "de": "Central government crop insurance (PMFBY). Since Kharif 2020 it is voluntary for all farmers - the old loanee-compulsory rule no longer applies. Farmer premium share is capped at: 2% for kharif food/oilseed crops, 1.5% for rabi, 5% for annual commercial/horticulture crops. For widespread calamities the farmer need not report anything - claims are calculated from district-level assessment/state yield data and paid to the bank account. For localized calamities and post-harvest losses, the farmer must intimate within 72 hours via toll-free 14447, the Crop Insurance App, the State Government, the insurance company, or the bank. Telangana rejoined PMFBY in 2024; verify whether your crop/area in Medak district is in the current-season notification at your bank/CSC/agriculture office before relying on this. To complain (conditions apply - not automatic): first contact the grievance officer of the insurer/bank that issued the policy (PMJJBY/PMSBY: the bank branch; PMFBY: 14447 / insurer / Crop Insurance App) - per official rule the company should resolve the complaint within 15 days of receipt, but this is not a settlement guarantee. If unresolved or unsatisfactory: IRDAI Bima Bharosa portal (bimabharosa.irdai.gov.in), toll-free 155255 or 1800 4254 732 (8 AM-8 PM, Mon-Sat), or complaints@irdai.gov.in - complaints are attended to within 14 days. Insurance Ombudsman: you must first complain to the insurer; you may approach the Ombudsman if the insurer rejects or partly settles, or you are unsatisfied with the resolution, OR there is no response within 30 days (a 30-day wait is not always required); claim value including expenses must not exceed Rs 50 lakh; within 1 year of the insurer's rejection or partial settlement; the same matter must not be pending before any other forum/court/arbitrator; no fee (cioins.co.in). Remember: the premium is not a deposit - insurance pays only on the insured event and per policy conditions/exclusions.",
-          "s": "https://pmfby.gov.in/",
-          "sn": "pmfby.gov.in",
+          "id": "jobs-ncs-govt-job-portal-1514",
+          "t": "NCS - కేంద్ర ప్రభుత్వ ఉద్యోగ-శోధన పోర్టల్",
+          "e": "Job Portal: National Career Service (NCS) - Govt-run Job Search Portal",
+          "d": "కేంద్ర ప్రభుత్వం (కార్మిక & ఉపాధి మంత్రిత్వ శాఖ) నడిపే అధికారిక ఉద్యోగ-శోధన పోర్టల్ ncs.gov.in - ఇందులో ప్రభుత్వ, ప్రైవేట్ వివిధ యజమానుల ఖాళీలు ఉంటాయి (అన్నీ ప్రభుత్వ ఉద్యోగాలు కావు). 14 ఏళ్లు నిండిన ఎవరైనా నమోదు చేసుకోవచ్చు, కనీస విద్యార్హత లేదు. ఉద్యోగ శోధన, దరఖాస్తు వంటి జాబ్‌సీకర్ సేవలు ఉచితం; కౌన్సెలింగ్ సేవకు మాత్రం ₹200 వరకు రుసుము ఉండవచ్చు (అధికారిక FAQ ప్రకారం). ఇది ప్రధానంగా ఉద్యోగ శోధన/కెరీర్ సేవల పోర్టల్. నమోదు/దరఖాస్తు మీరే పోర్టల్‌లో చేయాలి. సందేహాలకు టోల్ ఫ్రీ 1514.",
+          "de": "An official job-search portal run by the central government (Ministry of Labour & Employment) - ncs.gov.in lists vacancies from various government and private employers (not all are government jobs). Anyone aged 14+ can register, no minimum qualification. Jobseeker services like job search and applications are free; only the counselling service may charge up to Rs 200 (per the official FAQ). It is primarily a job search and career services portal. Registration/application is done by you on the portal. Toll-free helpline 1514.",
+          "bt": "ఉద్యోగాలు చూడండి",
+          "be": "See jobs",
+          "s": "https://www.ncs.gov.in/",
+          "sn": "ncs.gov.in",
           "u": "23-10-2026",
-          "ph": "14447"
+          "ph": "1514"
         },
         {
-          "id": "farmer-urea-fertilizer-purchase",
-          "t": "యూరియా / ఎరువుల కొనుగోలు",
-          "e": "Urea / Fertilizer purchase (DBT)",
-          "d": "లైసెన్స్ ఎరువుల దుకాణంలో ఆధార్ + బయోమెట్రిక్ (PoS మెషిన్) తో ప్రభుత్వ సబ్సిడీ ధరకే కొనండి. రసీదు తీసుకోండి. ఆధార్-బ్యాంక్ లింకింగ్ స్టేటస్ కూడా ఈ DBT పోర్టల్‌లో చూడవచ్చు. స్టాక్/ధరల సమస్యలు: మండల వ్యవసాయ అధికారి (AEO) ని సంప్రదించండి.",
-          "de": "Buy at subsidized rates with Aadhaar + biometric PoS at licensed dealers; take the receipt. For stock/price issues contact the Mandal Agriculture Officer (AEO).",
-          "s": "https://dbtbharat.gov.in/",
-          "sn": "dbtbharat.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "farmer-soil-health-card",
-          "t": "సాయిల్ హెల్త్ కార్డ్",
-          "e": "Soil Health Card",
-          "d": "మీ పొలం మట్టి ఉచిత పరీక్ష - ఏ ఎరువు ఎంత వేయాలో శాస్త్రీయ సిఫార్సు. నమూనాల కోసం మండల వ్యవసాయ అధికారిని సంప్రదించండి.",
-          "de": "Free soil testing with scientific fertilizer advice. Contact the Mandal Agriculture Officer for sampling.",
-          "s": "https://soilhealth.dac.gov.in/",
-          "sn": "soilhealth.dac.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "farmer-kisan-credit-card",
-          "t": "కిసాన్ క్రెడిట్ కార్డ్",
-          "e": "Kisan Credit Card",
-          "d": "తక్కువ వడ్డీతో పంట అవసరాల రుణం. మీ బ్యాంక్ శాఖలో పాస్ బుక్, ఆధార్, భూమి పత్రాలతో దరఖాస్తు చేయండి.",
-          "de": "Low-interest crop loan. Apply at your bank branch with passbook, Aadhaar and land records.",
-          "s": "https://www.myscheme.gov.in/schemes/kcc",
-          "sn": "myscheme.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "farmer-vb-g-ram-g-125-days-work",
-          "t": "ఉపాధి హామీ (VB-G RAM G - 125 రోజులు)",
-          "e": "VB-G RAM G - 125 days work guarantee",
-          "d": "1 జూలై 2026 నుండి కొత్త చట్టం అమల్లో - పాత 100 రోజుల స్థానంలో ఇప్పుడు గ్రామ కుటుంబానికి ఏటా 125 రోజుల వేతన పని హామీ. తెలంగాణ రోజువారీ వేతనం ₹308 (2026-27 కేంద్ర గెజిట్). జాబ్ కార్డు / పని కోసం గ్రామ పంచాయతీని సంప్రదించండి; వేతనాలు నేరుగా బ్యాంక్ ఖాతాకు. పనులు, చెల్లింపులు తెలంగాణ పోర్టల్‌లో పబ్లిక్.",
-          "de": "New law in force from 1 July 2026 - 125 days of guaranteed wage work per rural household per year (was 100). Telangana daily wage Rs 308 (central 2026-27 notification). Contact the Gram Panchayat for a job card; wages go straight to the bank account. Works and payments are public on the Telangana portal.",
-          "bt": "పనులు & చెల్లింపులు చూడండి",
-          "be": "View works & payments",
-          "s": "https://nrega.telangana.gov.in/Nregs/",
-          "sn": "nrega.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "farmer-veterinary-animal-husban",
-          "t": "పశువైద్యం & పశుసంవర్ధకం (VAHD)",
-          "e": "Veterinary & Animal Husbandry (VAHD)",
-          "d": "పశువుల వైద్యం, ఉచిత టీకాలు, గొర్రెల/పశువుల పంపిణీ పథకాలు - రాష్ట్ర పశుసంవర్ధక శాఖ అధికారిక పోర్టల్. స్థానిక వెటర్నరీ ఆసుపత్రి / శిబిరం వివరాలు మండల కార్యాలయంలో అడగండి.",
-          "de": "Animal treatment, free vaccinations, sheep/livestock distribution schemes - official state Animal Husbandry department portal. Ask the mandal office for the local veterinary hospital / camp details.",
-          "bt": "సేవలు & పథకాలు చూడండి",
-          "be": "View services & schemes",
-          "s": "https://vahd.telangana.gov.in/",
-          "sn": "vahd.telangana.gov.in",
-          "u": "23-10-2026"
+          "id": "jobs-pm-internship-intake-check",
+          "t": "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (అధికారిక సమాచారం)",
+          "e": "Internship: PM Internship Scheme (official information)",
+          "d": "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలు గురించి ప్రభుత్వ అధికారిక విడుదల (PIB, 20-02-2025) చెబుతోంది. ఆ విడుదల ప్రకారం: 21-24 ఏళ్ల, పూర్తి కాల విద్య లేదా ఉద్యోగంలో లేని యువతకు 12 నెలల చెల్లింపు ఇంటర్న్‌షిప్; నెలకు ₹5,000 ఆర్థిక సహాయం, అదనంగా ఒకేసారి ₹6,000. 24-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము నిర్ధారించలేదు - విడుదలలో పేర్కొన్న దరఖాస్తు పోర్టల్ ప్రస్తుతం అందుబాటులో లేదు, కాబట్టి కొత్త అధికారిక ప్రకటనలే సరైన సమాచారం. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
+          "de": "Central government (Ministry of Corporate Affairs) internship scheme - an official government release (PIB, 20-02-2025) confirms pilot-phase implementation. Per that release: 12-month paid internships for youth aged 21-24 not in full-time study or employment; Rs 5,000 monthly assistance plus a one-time Rs 6,000. As of 24-10-2026 we have not verified whether the current intake is open - the application portal named in the release is currently unreachable, so rely on the latest official announcements. Do not rely on older reports. Information card only - no application success or guarantee.",
+          "bt": "అధికారిక విడుదల చూడండి",
+          "be": "See official release",
+          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2104914",
+          "sn": "pib.gov.in",
+          "u": "24-10-2026"
         }
       ]
     },
@@ -1539,201 +1952,314 @@ window.GS_DATA = {
       ]
     },
     {
-      "id": "skills",
-      "icon": "🛠️",
-      "te": "10వ తర్వాత టెక్నికల్ కోర్సులు",
-      "en": "Technical Courses after Class 10",
+      "id": "digital",
+      "icon": "📱",
+      "te": "డిజిటల్ అవగాహన & నేర్చుకోవడం",
+      "en": "Digital Awareness & Learning",
       "items": [
         {
-          "id": "skills-iti-trades-technical-tra",
-          "t": "ఐటిఐ (ITI) ట్రేడ్స్ - టెక్నికల్ శిక్షణ",
-          "e": "ITI Trades - Technical Training",
-          "d": "ప్రభుత్వ ఐటిఐలో ఎక్కువ ట్రేడ్స్‌కు SSC (10వ) అర్హత; కొన్ని ట్రేడ్స్‌కు 8వ తరగతి చాలు. ట్రేడ్ బట్టి 1 లేదా 2 సంవత్సరాలు; NCVT ట్రేడ్స్ పూర్తయితే NTC సర్టిఫికెట్ (2025 ప్రాస్పెక్టస్ ప్రకారం). ప్రభుత్వ కళాశాలల్లో ట్యూషన్ ఫీజు మినహాయింపు ఉందని 2025 ప్రాస్పెక్టస్ చెబుతోంది (IMC సీట్లు మినహా) - ఇతర ఫీజులు ఉండవచ్చు; ఖచ్చితమైన ఫీజు, వయస్సు నిబంధనలు ప్రస్తుత నోటిఫికేషన్‌లోనే చూడండి.",
-          "de": "For most government ITI trades the qualification is SSC (Class 10); some trades accept Class 8. Duration is 1 or 2 years by trade; NCVT trades lead to the NTC certificate (per the 2025 prospectus). The 2025 prospectus says government colleges have a tuition fee exemption (except IMC seats) - other fees may apply; check the current notification for exact fees and age rules.",
-          "bt": "ట్రేడ్స్ జాబితా చూడండి",
-          "be": "See trades list",
-          "s": "https://iti.telangana.gov.in/list-of-trades",
-          "sn": "iti.telangana.gov.in",
+          "id": "digital-free-computer-learning-a",
+          "t": "ఇంట్లోనే ఉచిత కంప్యూటర్ నేర్చుకోవడం - NIELIT (8-12 తరగతులు)",
+          "e": "Free Computer Learning at Home - NIELIT (Classes 8-12)",
+          "d": "ప్రభుత్వ NIELIT ఇచ్చే ఉచిత ఆన్‌లైన్ కంప్యూటర్ కోర్సు కంటెంట్ (8-12 తరగతుల విద్యార్థులకు, CBSE అధికారిక సర్క్యులర్ 79/2026 ప్రకారం) - ఇంట్లోనే మొబైల్/కంప్యూటర్‌తో నేర్చుకోవచ్చు. గుర్తుంచుకోండి: ఉచిత కంటెంట్ వేరు, సర్టిఫికెట్ వేరు - అధికారిక CCC పరీక్ష/సర్టిఫికెట్‌కు వేరే ఫీజు ఉంది (NIELIT పేజీలో ₹500 జాబితా); ఉద్యోగ హామీ లేదు. పోర్టల్‌లో కొన్ని పైడ్ కోర్సులు కూడా ఉన్నాయి - ఉచితమైనవే ఎంచుకోండి.",
+          "de": "Free online computer course content from government NIELIT (for class 8-12 students, per CBSE official circular 79/2026) - learn at home on mobile/computer. Remember: free content is different from a certificate - the formal CCC exam/certificate has a separate fee (Rs 500 listed on the NIELIT page); no job guarantee. The portal also has paid courses - choose the free ones.",
+          "bt": "ఉచిత కోర్సులు చూడండి",
+          "be": "See free courses",
+          "s": "https://www.ndu.digital/",
+          "sn": "ndu.digital (NIELIT)",
           "u": "23-10-2026"
         },
         {
-          "id": "skills-iti-admissions-official",
-          "t": "ఐటిఐ ప్రవేశాలు - అధికారిక పోర్టల్",
-          "e": "ITI Admissions - Official Portal",
-          "d": "ఐటిఐ ప్రవేశ నోటిఫికేషన్, దరఖాస్తు విధానం, ఫీజులు, వయస్సు నిబంధనలు అధికారిక పోర్టల్‌లోనే చూడండి. 2026 మొదటి విడత దరఖాస్తు గడువు (జూలై 10) ముగిసింది; ప్రస్తుతం ఓపెన్ అయిన కొత్త విడత గురించి మాకు నిర్ధారించని సమాచారం లేదు - కొత్త ప్రకటన కోసం పోర్టల్ చూస్తూ ఉండండి.",
-          "de": "See the ITI admission notification, application process, fees and age rules only on the official portal. The 2026 first-phase application deadline (July 10) has passed; we have no verified information about any currently open phase - keep watching the portal for new announcements.",
-          "bt": "పోర్టల్ తెరవండి",
-          "be": "Open portal",
-          "s": "https://iti.telangana.gov.in/",
-          "sn": "iti.telangana.gov.in",
+          "id": "digital-nielit-free-tagged-self",
+          "t": "NIELIT ఉచిత సెల్ఫ్-పేస్డ్ కోర్సుల కేటలాగ్",
+          "e": "NIELIT Free-tagged Self-paced Course Catalog",
+          "d": "సైబర్ సెక్యూరిటీ, బేసిక్ లినక్స్ వంటి 'ఉచిత'గా గుర్తించిన సెల్ఫ్-పేస్డ్ కోర్సులు NIELIT కేటలాగ్‌లో ఉన్నాయి - పక్కన పైడ్ కోర్సులు కూడా ఉంటాయి, కాబట్టి ప్రతి కోర్సు పేజీలో ఫీజు/సర్టిఫికెట్ నిబంధనలు చూసి చేరండి. మొత్తం పోర్టల్ ఉచితం అని కాదు.",
+          "de": "The NIELIT catalog has self-paced courses tagged free - Cyber Security, Basic Linux and more - but paid courses sit alongside, so check each course page for fee/certificate conditions before joining. The whole portal is not free.",
+          "bt": "కేటలాగ్ చూడండి",
+          "be": "See catalog",
+          "s": "https://lms.nielit.gov.in/course/index.php?browse=courses",
+          "sn": "lms.nielit.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "skills-polytechnic-diploma-tg-p",
-          "t": "పాలిటెక్నిక్ డిప్లొమా - TG POLYCET",
-          "e": "Polytechnic Diploma - TG POLYCET",
-          "d": "10వ తర్వాత ఇంజనీరింగ్ డిప్లొమా కోర్సులు - ఇది ITI కాదు, వేరువేరు డిప్లొమా రూట్. SSC నుండి ప్రవేశం, కోర్సు నిబంధనల ప్రకారం. 2026 ప్రవేశ తేదీలు ముగిశాయి; తదుపరి నోటిఫికేషన్ కోసం POLYCET పోర్టల్ చూడండి.",
-          "de": "Engineering diploma courses after Class 10 - this is NOT ITI, it is a separate diploma route. Entry from SSC per course rules. 2026 admission dates are over; watch the POLYCET portal for the next notification.",
-          "bt": "పోర్టల్ తెరవండి",
-          "be": "Open portal",
-          "s": "https://tgpolycet.nic.in/",
-          "sn": "tgpolycet.nic.in",
+          "id": "digital-nptel-courses-current-cy",
+          "t": "NPTEL కోర్సులు - ఉచిత ఆన్‌లైన్ నేర్చుకోవడం",
+          "e": "NPTEL Courses - Free Online Learning",
+          "d": "IIT/ఐఐఎస్సీ ప్రొఫెసర్ల ఉచిత ఆన్‌లైన్ కోర్సులు - ఇంట్లోనే నేర్చుకోవచ్చు. చేరిక తేదీలు సైకిల్ వారీగా మారుతాయి; ప్రస్తుత స్థితి అధికారిక పేజీలోనే చూడండి. సర్టిఫికెట్ కావాలంటే వేరే పరీక్ష ఫీజు ఉంటుంది; మొత్తం, నిబంధనలు ఆ పేజీలో నిర్ధారించుకోండి. ఇది సమాచార కార్డు మాత్రమే.",
+          "de": "Free online courses by IIT/IISc professors - learn from home. Enrollment dates change by cycle; check the official page for the current status. A certificate needs a separate exam fee; confirm the amount and conditions on that page. This is an information card only.",
+          "bt": "NPTEL చూడండి",
+          "be": "See NPTEL",
+          "s": "https://onlinecourses.nptel.ac.in/",
+          "sn": "onlinecourses.nptel.ac.in",
           "u": "23-10-2026"
         },
         {
-          "id": "skills-exam-coaching-coe-info",
-          "t": "పరీక్షల కోచింగ్ - COE సమాచారం (ఇది టెక్నికల్ కోర్సు కాదు)",
-          "e": "Exam Coaching - COE Info (not a technical course)",
-          "d": "తెలంగాణ సోషల్ వెల్ఫేర్ రెసిడెన్షియల్ (TGSWREIS) COE కేంద్రాల్లో JEE/NEET వంటి పరీక్షలకు ఇంటిగ్రేటెడ్ కోచింగ్ ఉందని, ప్రవేశ పరీక్ష ద్వారా ఎంపిక అవుతారని అధికారిక పేజీ చెబుతోంది. 10వ తర్వాత ఎవరికి అర్హత, ఉచితమా కాదా, ఇప్పుడు ప్రవేశాలు జరుగుతున్నాయా - ఇవి మాకు నిర్ధారించలేదు; కొత్త నోటిఫికేషన్ కోసం పేజీ చూడండి.",
-          "de": "The official page says TGSWREIS COE centres run integrated coaching for exams like JEE/NEET, with selection through an entrance test. Whether entry is after Class 10, whether it is free, and whether admissions are open now - none of this is verified by us; watch the page for new notifications.",
-          "bt": "COE పేజీ చూడండి",
-          "be": "See COE page",
-          "s": "https://tgswreis.telangana.gov.in/coe.php",
-          "sn": "tgswreis.telangana.gov.in",
+          "id": "digital-stay-safe-from-cyber-fra",
+          "t": "సైబర్ మోసాల నుండి జాగ్రత్త",
+          "e": "Stay Safe from Cyber Fraud",
+          "d": "OTP, పాస్‌వర్డ్, ఆధార్ నంబరు ఎవరికీ ఇవ్వవద్దు - బ్యాంక్/ప్రభుత్వం ఫోన్‌లో అడగదు. మోసం జరిగితే వెంటనే 1930 కి కాల్ చేయండి లేదా జాతీయ సైబర్ క్రైమ్ పోర్టల్‌లో నమోదు చేయండి.",
+          "de": "Never share OTP, passwords or Aadhaar number with anyone - banks/government never ask on phone. If cheated, call 1930 immediately or report on the National Cyber Crime portal.",
+          "bt": "ఫిర్యాదు పోర్టల్ తెరవండి",
+          "be": "Open reporting portal",
+          "s": "https://cybercrime.gov.in/",
+          "sn": "cybercrime.gov.in",
+          "u": "23-10-2026",
+          "ph": "1930"
+        },
+        {
+          "id": "digital-sanchar-saathi-check-sim",
+          "t": "సంచార్ సాథి - మీ పేరుపై సిమ్ కార్డులు చూడండి",
+          "e": "Sanchar Saathi - Check SIMs on Your Name",
+          "d": "మీ ఆధార్/పేరుపై ఎన్ని మొబైల్ కనెక్షన్లు ఉన్నాయో, మీ ఫోన్ అసలైందా కాదా - ప్రభుత్వ అధికారిక పోర్టల్‌లో ఉచితంగా తనిఖీ చేయండి. పోయిన ఫోన్ బ్లాక్ కూడా ఇక్కడే.",
+          "de": "Check free how many mobile connections exist on your Aadhaar/name and whether your phone is genuine, on the official government portal. Lost phones can be blocked here too.",
+          "bt": "ఉచిత తనిఖీ చేయండి",
+          "be": "Check free",
+          "s": "https://sancharsaathi.gov.in/",
+          "sn": "sancharsaathi.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "skills-pmkvy-skill-course-disco",
-          "t": "PMKVY స్కిల్ కోర్సులు వెతకడం - Skill India",
-          "e": "PMKVY Skill Course Discovery - Skill India",
-          "d": "ప్రధాన మంత్రి కౌశల్ వికాస్ యోజన (PMKVY) క్రియాశీలకంగా ఉంది (ప్రభుత్వ ప్రకటన, అక్టోబర్ 2026); NIELIT పేజీ ప్రకారం అర్హులైన శిక్షణం ఉచితం, వయస్సు 15-45. మీ దగ్గర ప్రస్తుత బ్యాచ్ ఉందో లేదో పోర్టల్ బ్యాచ్ సెర్చ్‌లో చూడండి - మెదక్/చిలిపిచెడ్ ప్రాంతంలో ఇప్పుడు బ్యాచ్ ఉందని మాకు నిర్ధారణ లేదు. కోర్సు వారీగా అర్హత నిబంధనలు; ఇది ఓపెన్ అడ్మిషన్ కాదు, ఉద్యోగ హామీ కాదు. నిజాయితీగా: 10వ పూర్తయిన అందరికీ ఎల్లప్పుడూ ఓపెన్ అయిన ఉచిత కోచింగ్ పథకం అని మాకు నిర్ధారించినది లేదు - కొత్త పథకాలు రావచ్చు, నోటిఫికేషన్లు చూస్తూ ఉండండి.",
-          "de": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY) is active (government release, October 2026); per the NIELIT page eligible training is free, ages 15-45. Use the portal's batch search for a current batch near you - we have NOT verified any batch running in Medak/Chilpched now. Eligibility varies by course; this is not open admission and not a job guarantee. Honestly: we have not verified any universally-open free coaching for every Class 10 student - new schemes may come, so keep watching notifications.",
-          "bt": "బ్యాచ్ సెర్చ్ చూడండి",
-          "be": "See batch search",
-          "s": "https://www.skillindiadigital.gov.in/pmkvy-landing/batch-search",
-          "sn": "skillindiadigital.gov.in",
+          "id": "digital-diksha-free-lessons",
+          "t": "DIKSHA - ఉచిత పాఠాలు (పిల్లలు & టీచర్లు)",
+          "e": "DIKSHA - Free Lessons (Children & Teachers)",
+          "d": "ప్రభుత్వ అధికారిక ఉచిత లెర్నింగ్ యాప్/వెబ్‌సైట్ - స్కూల్ పాఠ్యాంశాలు, వీడియో పాఠాలు, క్విజ్‌లు తెలుగుతో సహా. ఇంటర్నెట్ ఉంటే ఎవరైనా ఉచితంగా నేర్చుకోవచ్చు.",
+          "de": "Official free government learning app/website - school syllabus, video lessons and quizzes including in Telugu. Anyone with internet can learn free.",
+          "bt": "నేర్చుకోవడం మొదలుపెట్టండి",
+          "be": "Start learning",
+          "s": "https://diksha.gov.in/",
+          "sn": "diksha.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "skills-ddu-gky-placement-linked",
-          "t": "DDU-GKY - గ్రామీణ యువతకు ఉద్యోగ-అనుబంధ శిక్షణ",
-          "e": "DDU-GKY - Placement-linked Training for Rural Youth",
-          "d": "గ్రామీణ యువతకు ప్రభుత్వ నిధులతో ఉద్యోగ-అనుబంధ స్కిల్ శిక్షణ ఇచ్చే పథకం (ప్లేస్‌మెంట్-లింక్డ్ అని అధికారిక సైట్ చెబుతోంది). నిధులతో శిక్షణ పథకం ప్రయోజనాల్లో ఉంది - కానీ మెదక్ ప్రాంతంలో ప్రస్తుత బ్యాచ్/ప్రవేశాలు మాకు నిర్ధారించలేదు; వివరాలు, అర్హత అధికారిక పోర్టల్/జిల్లా కార్యాలయంలో నిర్ధారించుకోండి. ఉద్యోగ హామీ కాదు.",
-          "de": "A scheme giving rural youth placement-linked skill training with government funding (per the official site). Funded training is among the scheme benefits - but we have not verified any current batch/intake in the Medak area; confirm details and eligibility on the official portal/district office. Not a job guarantee.",
-          "bt": "అధికారిక పోర్టల్",
-          "be": "Official portal",
-          "s": "https://kaushalpanjee.nic.in/ddugky/home.html",
-          "sn": "kaushalpanjee.nic.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "skills-rseti-free-classroom-sel",
-          "t": "RSETI - ఉచిత క్లాస్‌రూమ్/స్వయం-ఉపాధి శిక్షణ (సంగారెడ్డి)",
-          "e": "RSETI - Free Classroom/Self-employment Training (Sangareddy)",
-          "d": "RSETIలో ఉచిత క్లాస్‌రూమ్ శిక్షణ, స్వయం-ఉపాధి కోర్సులు ఉన్నాయని జిల్లా అధికారిక పేజీ చెబుతోంది. మాకు తెలిసిన బ్రాంచ్ సంగారెడ్డిది - ఇది మన మెదక్ టౌన్/చిలిపిచెడ్ కాదు, దగ్గర బ్రాంచ్ ఏదో నిర్ధారించలేదు. ప్రస్తుత బ్యాచ్ తేదీలు లేవు - rseti.in లేదా బ్రాంచ్‌కు ఫోన్ చేసి అడగండి. ఇది ఇంట్లో నేర్చుకునే కోర్సు కాదు - వెళ్లి చేరాలి.",
-          "de": "The district official page says RSETI offers free classroom training and self-employment courses. The branch we know is in Sangareddy - NOT Medak town/Chilpched, and the nearest branch is not confirmed. No current batch dates verified - check rseti.in or call the branch. This is not home learning - you must attend in person.",
-          "bt": "బ్రాంచ్ జాబితా చూడండి",
-          "be": "See branch list",
-          "s": "https://www.rseti.in/our-institutes-telangana",
-          "sn": "rseti.in",
+          "id": "digital-swayam-free-college-cour",
+          "t": "SWAYAM - ఉచిత కళాశాల కోర్సులు",
+          "e": "SWAYAM - Free College Courses",
+          "d": "ప్రభుత్వ అధికారిక పోర్టల్ - IITలు, IIMలు, యూనివర్సిటీల ఉచిత ఆన్‌లైన్ కోర్సులు. పరీక్ష రాస్తే సర్టిఫికెట్ కూడా (పరీక్ష ఫీజు మాత్రమే). చదువుకున్న యువత ముందుకు రావడానికి మంచి మార్గం.",
+          "de": "Official government portal - free online courses from IITs, IIMs and universities. Certificate available on exam (exam fee only). A good path for educated youth to move forward.",
+          "bt": "కోర్సులు చూడండి",
+          "be": "View courses",
+          "s": "https://swayam.gov.in/",
+          "sn": "swayam.gov.in",
           "u": "23-10-2026"
         }
       ]
     },
     {
-      "id": "student",
-      "icon": "🎓",
-      "te": "విద్యార్థి",
-      "en": "Student",
+      "id": "civic",
+      "te": "పౌర అవగాహన & నాయకత్వం",
+      "en": "Civic awareness & leadership",
+      "icon": "📖",
       "items": [
         {
-          "id": "student-post-matric-scholarship",
-          "t": "పోస్ట్ మెట్రిక్ స్కాలర్‌షిప్ + ఫీజు రీయింబర్స్‌మెంట్",
-          "e": "Post-Matric Scholarship + Fee Reimbursement (ePASS)",
-          "d": "SC/ST/BC/EBC/మైనారిటీ/దివ్యాంగ విద్యార్థులకు ఇంటర్ తర్వాత చదువుకు స్కాలర్‌షిప్ మరియు ఫీజు సాయం. ఆన్‌లైన్ దరఖాస్తు చేసి అసలు పత్రాలు కళాశాలలో జమ చేయండి. సాంకేతిక సహాయం: 040-23120311 (పని దినాలు 10:30-5:00).",
-          "de": "Scholarship and fee reimbursement for SC/ST/BC/EBC/minority/disabled students after Class 10. Apply online, submit originals at college. Tech help: 040-23120311.",
-          "s": "https://telanganaepass.cgg.gov.in/",
-          "sn": "telanganaepass.cgg.gov.in",
-          "u": "23-10-2026",
-          "ph": "04023120311"
+          "id": "civic-index",
+          "t": "ముందుగా చదవండి - పౌర అవగాహన సూచిక",
+          "e": "Start here - civic learning index",
+          "d": "అందరికీ తటస్థ పౌర అవగాహన; పార్టీ ప్రచారం / ఓటు సలహా కాదు.\n1 వినడం, మాట్లాడడం, గుర్తుపెట్టుకోవడం\n2 గ్రామ సమస్య నమోదు, ఆధారాలు\n3 గ్రామసభ, వార్డు సభ్యుడు, సర్పంచ్\n4 కార్యదర్శి, మండల / జిల్లా సంస్థలు\n5 MLA / MLC / MP, మంత్రులు, CM / PM\n6 హక్కులు, బాధ్యతలు, సరైన శాఖ, ఫాలోఅప్.\nఇది సులభ పరిచయం మాత్రమే; పూర్తి చట్టం / తాజా సవరణలు / న్యాయ సలహాకు ప్రత్యామ్నాయం కాదు. ప్రస్తుత పదవుల పేర్లు / ఫోన్లు నిర్ధారణ కాదు.",
+          "de": "Neutral civic education for everyone, not party promotion or voting advice.\n1 Listen, speak and recall\n2 Record village issues and evidence\n3 Gram Sabha, ward member, sarpanch\n4 Secretary, mandal/district bodies\n5 MLA/MLC/MP, ministers, CM/PM\n6 Rights, duties, correct department and follow-up.\nIntroduction only, not the whole law, latest-amendment certification or legal advice. Current office-holders/contacts not verified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
         },
         {
-          "id": "student-kalyana-lakshmi-shaadi-m",
-          "t": "కళ్యాణ లక్ష్మీ / షాదీ ముబారక్",
-          "e": "Kalyana Lakshmi / Shaadi Mubarak",
-          "d": "SC/ST/BC/EBC కుటుంబాల్లో ఆడపిల్ల వివాహానికి ఆర్థిక సాయం - అదే ePASS పోర్టల్ ద్వారా దరఖాస్తు.",
-          "de": "Marriage assistance for SC/ST/BC/EBC families - applied through the same ePASS portal.",
-          "s": "https://telanganaepass.cgg.gov.in/",
-          "sn": "telanganaepass.cgg.gov.in",
-          "u": "23-10-2026"
+          "id": "civic-speak",
+          "t": "వినడం • మాట్లాడడం • గుర్తుపెట్టుకోవడం",
+          "e": "Listen • speak • remember",
+          "d": "అభ్యాస సూచనలు మాత్రమే, చట్టబద్ధ విధులు కాదు.\nముందు మాట పూర్తిగా వినండి. అర్థమైన సమస్యను తిరిగి చెప్పి నిర్ధారించండి.\n60 సెకన్ల రూపం: సమస్య → ఎక్కడ / ఎప్పటి నుంచి → ప్రభావం → ఆధారం → కోరే చర్య.\nమీ అధికార పరిధి తెలుసుకోకుండా ఫలితం హామీ ఇవ్వవద్దు. తేదీతో చిన్న నోట్ రాయండి; చూడకుండా మీ మాటల్లో చెప్పి మళ్లీ తనిఖీ చేయండి. సాధన మాత్రమే, జ్ఞాపకశక్తి హామీ కాదు.",
+          "de": "Suggested practice, not statutory duties.\nListen fully, restate the issue and check understanding.\nUse a60-second outline: issue → where/since when → impact → evidence → requested action.\nDo not promise outcomes beyond your authority. Write dated notes, recall in your own words, then check them. Practice, not a memory-performance guarantee.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
         },
         {
-          "id": "student-national-scholarship-por",
-          "t": "జాతీయ స్కాలర్‌షిప్ పోర్టల్",
-          "e": "National Scholarship Portal (Central)",
-          "d": "కేంద్ర ప్రభుత్వ స్కాలర్‌షిప్‌లన్నీ ఒకే చోట - నమోదు, దరఖాస్తు, స్టేటస్ తనిఖీ.",
-          "de": "All central scholarships in one place - register, apply, track status.",
-          "s": "https://scholarships.gov.in/",
-          "sn": "scholarships.gov.in",
-          "u": "23-10-2026"
+          "id": "civic-record",
+          "t": "గ్రామ సమస్యను ఆధారాలతో నమోదు చేయండి",
+          "e": "Record a village issue with evidence",
+          "d": "అభ్యాస నమూనా: తేదీ / ప్రదేశం / సమస్య / ప్రభావం / స్వయంగా చూసిన విషయం / ఆధారం / కోరే చర్య / రసీదు నంబర్ / ఫాలోఅప్ తేదీ.\nవాస్తవం, విన్న సమాచారం, అభిప్రాయం వేరుగా రాయండి. అనుమతి లేకుండా ఆధార్, ఆరోగ్య వివరాలు, పిల్లల ఫోటోలు, వ్యక్తిగత నంబర్లు పబ్లిక్ చేయవద్దు.\nప్రజలతో ప్రాధాన్యం చర్చించండి. తక్షణ ప్రమాదానికి అత్యవసర సేవలు వాడండి; మీరే శిక్ష అమలు చేయవద్దు. యాప్ ఎవరికీ పంపదు.",
+          "de": "Suggested record: date/place/issue/impact/observation/evidence/request/receipt/follow-up date.\nSeparate fact, hearsay and opinion. Do not publish Aadhaar, health details, children’s photos or private numbers without appropriate permission.\nDiscuss priorities with residents. Use emergency services for immediate danger; do not impose punishment yourself. The app sends nothing.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
         },
         {
-          "id": "student-tgpsc-government-jobs",
-          "t": "TGPSC ప్రభుత్వ ఉద్యోగాలు",
-          "e": "TGPSC Government Jobs",
-          "d": "గ్రూప్-1 నుండి గ్రూప్-4 నోటిఫికేషన్లు, హాల్ టికెట్లు, ఫలితాలు - అధికారిక సైట్‌లోనే చూడండి. డబ్బులు అడిగే మోసపూరిత కాల్స్/సైట్ల పట్టించుకోవద్దు.",
-          "de": "Group-1 to Group-4 notifications, hall tickets, results - check only the official site. Ignore fraudulent calls/sites demanding money.",
-          "s": "https://www.tgpsc.gov.in/",
-          "sn": "www.tgpsc.gov.in",
-          "u": "23-10-2026"
+          "id": "civic-gramsabha",
+          "t": "గ్రామసభ - ప్రజల ప్రశ్నలు, ప్రణాళికలు",
+          "e": "Gram Sabha - residents, questions and plans",
+          "d": "తెలంగాణ పంచాయతీ రాజ్ చట్టం2018 సెక్షన్6: గ్రామ పంచాయతీ ఓటర్ల జాబితాలో ఉన్నవారంతా గ్రామసభ సభ్యులు. గ్రామసభ, ఎన్నికైన గ్రామ పంచాయతీ వేరు.\nఅభివృద్ధి పనులు, ఖర్చులు, ఖాతాలు / ఆడిట్, ప్రాధాన్యాలపై నిబంధనలు ఉన్నాయి. అధికారిక సమావేశ తేదీ, అజెండా, మినిట్స్ చూడండి.\nతీర్మానం ఏ చట్టాన్నీ దాటవేయదు; అమలు అధికారం / నిధులు / అర్హతలకు లోబడి ఉంటుంది. మన గ్రామ ప్రస్తుత సమావేశ తేదీ నిర్ధారించలేదు.",
+          "de": "Telangana Act2018 section6: everyone on the Gram Panchayat electoral roll belongs to Gram Sabha. It differs from the elected Gram Panchayat body.\nThe Act covers development, spending, accounts/audit and priorities. Check official meeting date, agenda and minutes.\nA resolution cannot override law; authority, funds and eligibility still apply. Current village meeting date unverified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
         },
         {
-          "id": "student-police-fire-prisons-jobs",
-          "t": "పోలీస్ / ఫైర్ / జైలు ఉద్యోగాలు",
-          "e": "Police / Fire / Prisons Jobs (TGPRB)",
-          "d": "తెలంగాణ స్టేట్ లెవల్ పోలీస్ రిక్రూట్‌మెంట్ బోర్డ్ నోటిఫికేషన్లు - అధికారిక సైట్ మాత్రమే.",
-          "de": "Telangana police, fire and prisons recruitment notifications - official site only.",
-          "s": "https://www.tgprb.in/",
-          "sn": "tgprb.in",
-          "u": "23-10-2026"
+          "id": "civic-ward",
+          "t": "వార్డు సభ్యుడు - ప్రజా ప్రతినిధి",
+          "e": "Ward member - elected representative",
+          "d": "ప్రజల సమస్యలు / సూచనలు పంచాయతీ సమావేశంలో ప్రస్తావించి చట్టపరమైన నిర్ణయాల్లో పాల్గొంటారు. సెక్షన్40లో సభ్యుల సూచనలు / ప్రశ్నలు, సెక్షన్16లో శిక్షణ చూడండి.\nఒంటరిగా ప్రభుత్వ భూమి పంచడం, రుణం / పింఛన్ మంజూరు, పోలీసు / రెవెన్యూ తీర్పులు ఇచ్చే అధికారం కాదు. సంస్థ నిర్ణయం, సంబంధిత అధికారి ప్రక్రియ అవసరం. పదవి ఓట్లకు బదులు ప్రయోజనాల హామీ కాదు.",
+          "de": "Members raise residents’ issues/suggestions and participate in lawful Panchayat deliberations. See section40 for suggestions/questions, section16 for training.\nNot personal power to allot government land, sanction loans/pensions or decide police/revenue matters. Institutional decisions and official procedures apply. Public office is not benefits in return for votes.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
         },
         {
-          "id": "student-find-schemes-you-are-eli",
-          "t": "మీకు అర్హమైన పథకాలు వెతకండి",
-          "e": "Find schemes you are eligible for (myScheme)",
-          "d": "ప్రభుత్వ అధికారిక పోర్టల్ - మీ వయస్సు, వర్గం, ఆదాయం ఇస్తే అర్హమైన అన్ని పథకాలు చూపిస్తుంది.",
-          "de": "Official govt portal - enter your age, category and income to see every scheme you qualify for.",
-          "s": "https://www.myscheme.gov.in/",
-          "sn": "myscheme.gov.in",
-          "u": "23-10-2026"
+          "id": "civic-sarpanch",
+          "t": "సర్పంచ్ • ఉప సర్పంచ్",
+          "e": "Sarpanch • Upa-sarpanch",
+          "d": "సెక్షన్32: చట్టం ఇచ్చిన విధులు, తీర్మానాల అమలులో కార్యదర్శి పని పర్యవేక్షణ, అనుమతుల పరిధిలో చర్యలు, పారిశుధ్యం / పచ్చదనం బాధ్యతలు.\nఉప సర్పంచ్ పాత్ర చట్టం / అప్పగింత ప్రకారం; గైర్హాజరులో గ్రామసభ పాత్ర సెక్షన్6లో ఉంది. అన్ని అధికారాలు స్వయంగా బదిలీ కావు.\nప్రజా నిధులు వ్యక్తి సొంత డబ్బు కాదు; తీర్మానాలు / ఆమోదాలు / రికార్డులు అవసరం. మన గ్రామ ప్రస్తుత పేర్లు / ఫోన్లు నిర్ధారించలేదు.",
+          "de": "Section32: statutory functions, supervising secretary for resolutions, approved action, sanitation/greenery responsibilities.\nUpa-sarpanch acts under law/assignment; section6 covers Gram Sabha in the sarpanch’s absence, not automatic transfer of every power.\nPublic funds are not personal money; resolutions/approvals/records matter. Current village office-holders/phones unverified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-secretary",
+          "t": "పంచాయతీ కార్యదర్శి - అమలు పాత్ర",
+          "e": "Panchayat secretary - official implementation",
+          "d": "సెక్షన్43: సమావేశ ఏర్పాట్లు, హాజరు, తీర్మానాల ప్రతులు / అమలు, నిర్దేశిత పరిపాలనా / పారిశుధ్య పనులు.\nకార్యదర్శి ఎన్నికైన వార్డు సభ్యుడు కాదు. సెక్షన్43(2): చర్చలో పాల్గొనవచ్చు కానీ ఓటు / తీర్మానం ప్రతిపాదించే హక్కు లేదు.\nఅధికారి, ప్రతినిధి వేరు. గ్రామ కార్యదర్శి ప్రస్తుత పేరు / నంబరు నిర్ధారించలేదు; నేరుగా ఫిర్యాదు పంపే సదుపాయం లేదు.",
+          "de": "Section43: meeting arrangements/attendance, resolution copies/implementation and specified administration/sanitation duties.\nNot an elected ward member. Section43(2) allows discussion but not voting or moving resolutions.\nOfficial and representative differ. Village secretary/contact unverified; no direct complaint-send feature.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-mandal",
+          "t": "మండలం • జిల్లా - ప్రతినిధులు / అధికారులు",
+          "e": "Mandal • district - members / officials",
+          "d": "మండల, జిల్లా ప్రజా పరిషత్ వేర్వేరు చట్టబద్ధ స్థానిక సంస్థలు. MPTC / ZPTC ప్రతినిధులు; అధ్యక్షుడు / చైర్‌పర్సన్, సభ్యులు, అధికారులు ఒకే పాత్ర కాదు.\nమండల విధులకు సెక్షన్156, జిల్లా సంస్థకు188 చూడండి. MPDO / ZP CEO కార్యనిర్వాహక పాత్రలు వేరు. కలెక్టర్ వేరు జిల్లా పరిపాలనా అధికారి.\nప్రతి సమస్య అన్ని మెట్లూ ఎక్కాల్సిందే కాదు; సంబంధిత శాఖ / చట్టపరమైన అప్పీల్ మార్గం ముఖ్యం. ప్రస్తుత పదవుల భర్తీ / పేర్లు నిర్ధారణ కాదు.",
+          "de": "Mandal and Zilla Praja Parishads are distinct statutory bodies. MPTC/ZPTC members represent constituencies; presidents/chairpersons, members and officials differ.\nSee sections156/188. MPDO/ZP CEO executive roles differ; Collector is a separate district administrative official.\nNot every issue must climb every tier. Use the responsible department/statutory appeal route. Current vacancies/office-holders not verified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-legislature",
+          "t": "MLA • MLC • MP - చట్టసభ పాత్ర",
+          "e": "MLA • MLC • MP - legislative role",
+          "d": "MLA రాష్ట్ర శాసనసభ; MLC శాసన మండలి; MP లోక్‌సభ లేదా రాజ్యసభ సభ్యుడు. చట్టాల చర్చ / ఓటింగ్, సభా నియమాల ప్రకారం ప్రభుత్వ ప్రశ్నలు, బడ్జెట్ / కమిటీల పనుల్లో పాత్ర.\nMP జాతీయ, MLA / MLC రాష్ట్ర చట్టసభలో. ఒక్క సభ్యుడు ఉద్యోగం / కోర్టు తీర్పు / పింఛన్ / భూ హక్కు వ్యక్తిగతంగా మంజూరు చేయరు. సభ్యుడైనంత మాత్రాన మంత్రి కారు.\nరాజ్యాంగం ఆర్టికల్స్118 /208, పార్లమెంట్ చట్టనిర్మాణ వివరణ చూడండి.",
+          "de": "MLA: state Assembly; MLC: Legislative Council; MP: Lok Sabha or Rajya Sabha. Roles include laws, government scrutiny, budgets and committees under House rules.\nMPs serve national and MLAs/MLCs state legislatures. One member cannot personally grant jobs, court judgments, pensions or land title. Membership does not automatically make a minister.\nSee Constitution articles118/208 and Parliament’s legislative explanation.",
+          "s": "https://sansad.in/ls/legislation/introduction",
+          "sn": "sansad.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-executive",
+          "t": "మంత్రి • ముఖ్యమంత్రి • ప్రధానమంత్రి",
+          "e": "Minister • Chief Minister • Prime Minister",
+          "d": "ఆర్టికల్స్163 /164: CM నాయకత్వంలోని రాష్ట్ర మంత్రివర్గం గవర్నర్‌కు సహాయం / సలహా; రాష్ట్ర శాసనసభకు సమిష్టి బాధ్యత. మంత్రి కేటాయించిన శాఖలో చట్టబద్ధ పాత్ర.\nఆర్టికల్స్74 /75: PM నాయకత్వంలోని కేంద్ర మంత్రివర్గం రాష్ట్రపతికి సహాయం / సలహా; లోక్‌సభకు సమిష్టి బాధ్యత.\nరాష్ట్రపతి / గవర్నర్, PM / CM వేరు పదవులు. రాజ్యాంగం, శాఖల అధికార విభజన, చట్టాలు, న్యాయ సమీక్ష వర్తిస్తాయి. ఏ నాయకుడూ చట్టానికి అతీతుడు కాదు. ఇది అందరూ PM వ్యక్తిగత సిబ్బంది అనే గొలుసు కాదు.",
+          "de": "Articles163/164: state Council of Ministers headed by CM aids/advises Governor and is collectively responsible to Assembly. Ministers administer assigned portfolios under law.\nArticles74/75: Union Council headed by PM aids/advises President and is collectively responsible to Lok Sabha.\nPresident/Governor and PM/CM differ. Constitution, divided powers, law and judicial review apply. No leader is above law; not a chain of personal staff reporting to PM.",
+          "s": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf",
+          "sn": "www.legislative.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-rights",
+          "t": "హక్కులు • బాధ్యతలు • RTI",
+          "e": "Rights • duties • RTI",
+          "d": "ఆర్టికల్19 మాట / శాంతియుత సమావేశం వంటి హక్కులకు రాజ్యాంగ పరిమితులు వర్తిస్తాయి. ఆర్టికల్51A: రాజ్యాంగ గౌరవం, సామరస్యం, ప్రజా ఆస్తి పరిరక్షణ, హింసకు దూరం.\nRTI ఉన్న రికార్డుల సమాచారం కోసం; ఫిర్యాదు పరిష్కారం / ప్రయోజనం మంజూరు కాదు. సరైన PIO, మినహాయింపులు, ఫీజు / అప్పీల్ నిబంధనలు వర్తిస్తాయి. కేంద్ర పోర్టల్ అన్ని తెలంగాణ స్థానిక దరఖాస్తులు స్వీకరిస్తుందని అనుకోకండి.\nఆధారాలు తనిఖీ చేయండి; బెదిరింపు, లంచం, కుల / మత విద్వేషం వద్దు.",
+          "de": "Article19 rights including speech/peaceful assembly have constitutional restrictions. Article51A includes Constitution, harmony, public property and rejecting violence.\nRTI concerns existing records, not grievance resolution or benefit sanction. Correct PIO, exemptions, fee/appeal rules apply; central portal does not necessarily cover Telangana local requests.\nCheck evidence; avoid threats, bribery and caste/religious hatred.",
+          "s": "https://rti.gov.in/webactrti.htm",
+          "sn": "rti.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-followup",
+          "t": "సరైన శాఖ • మర్యాదపూర్వక ఫాలోఅప్",
+          "e": "Right department • polite follow-up",
+          "d": "అభ్యాస పద్ధతి: బాధ్యమైన శాఖ → అధికారిక మార్గం → రసీదు / తేదీ → ప్రచురించిన గడువు ప్రకారం ఫాలోఅప్ → సరైన అప్పీల్.\nనమూనా: “ఇక్కడ ఈ సమస్య ఉంది. ఈ ఆధారం ఉంది. మీ పరిధిలో ఏ చర్య సాధ్యం? రసీదు నంబరు, తదుపరి సమాధాన తేదీ చెప్పండి.”\nమహిళలు, వృద్ధులు, దివ్యాంగుల మాట వినండి; అందరికీ సమాన గౌరవం. తక్షణ ఫలితం హామీ వద్దు. యాప్ ఫిర్యాదు / RTI పంపదు; ఫీజు చెల్లించదు.",
+          "de": "Suggested process: responsible department → official route → receipt/date → published timeline → proper appeal.\nExample: “This issue affects this place. Here is the evidence. What action is within your authority? Please give a receipt and next update date.”\nListen to women, older people and people with disabilities; equal respect for all. No instant-outcome promises. App does not send complaints/RTI or pay fees.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
         }
       ]
     },
     {
-      "id": "health",
-      "icon": "🏥",
-      "te": "ఆరోగ్యం",
-      "en": "Health",
+      "id": "contacts",
+      "icon": "📞",
+      "te": "అధికారులు & సంప్రదింపులు",
+      "en": "Officials & Contacts",
       "items": [
         {
-          "id": "health-cheyutha-rajiv-aarogyasr",
-          "t": "చేయుత - రాజీవ్ ఆరోగ్యశ్రీ (₹10 లక్షలు)",
-          "e": "Cheyutha - Rajiv Aarogyasri (Rs 10 lakh)",
-          "d": "వైట్ రేషన్ కార్డు కుటుంబాలకు ఏటా ₹10 లక్షల వరకు నగదు-రహిత చికిత్స - గుండె ఆపరేషన్లు, క్యాన్సర్, మూత్రపిండాలు సహా 1,672 ప్యాకేజీలు. గుర్తింపు పొందిన ప్రభుత్వ/ప్రైవేట్ ఆసుపత్రుల్లో చికిత్స. ఆరోగ్యశ్రీ ట్రస్ట్: 040-23547107.",
-          "de": "Cashless treatment up to Rs 10 lakh/year for white ration card families - 1,672 packages incl. heart surgery and cancer, at empanelled hospitals. Trust helpline: 040-23547107.",
-          "s": "https://aarogyasri.telangana.gov.in/",
-          "sn": "aarogyasri.telangana.gov.in",
-          "u": "23-10-2026",
-          "ph": "04023547107"
+          "id": "contacts-mandal-offices",
+          "t": "మండల స్థాయి అధికారులు & సేవా ఫోన్లు",
+          "e": "Mandal officers & service phones",
+          "d": "చిలిప్చెడ్ మండల స్థాయి అధికారిక సంప్రదింపు వివరాలు (24-10-2026 న అధికారిక పేజీల్లో చూశాం):\n• MPDO (మండల పరిషత్ అభివృద్ధి అధికారి): 7337422356 (mpdochilipiched@gmail.com)\n• MRO/తహసీల్దార్: 9346999296 (mro.chilipched@gmail.com)\n- మూలం: మెదక్ జిల్లా అధికారిక సైట్ MPDO/తహసీల్దార్ జాబితాలు (medak.telangana.gov.in)\n• పోలీసులు: చిలిప్చెడ్ పోలీస్ స్టేషన్ SI - 8712657943; నర్సాపూర్ సర్కిల్ CI - 8712657940; పోలీసు కంట్రోల్ రూమ్ - 100\n- మూలం: మెదక్ జిల్లా సైట్ పోలీస్ పేజీ\n• విద్యుత్: చిలిప్చెడ్ మండల సబ్‌స్టేషన్లు AE (ఆపరేషన్) కౌడిపల్లి పరిధిలో జాబితా చేయబడ్డాయి - 9440813686\n- మూలం: మెదక్ జిల్లా సైట్ పబ్లిక్ యూటిలిటీస్\n• వ్యవసాయం: MAO చిలిప్చెడ్ - 8977750830; AEO చిలిప్చెడ్ క్లస్టర్ - 9281065854; AEO చిట్కుల్ క్లస్టర్ - 9281065859\n- మూలం: రైతుభరోసా పోర్టల్ అధికారుల జాబితా (rythubharosa.telangana.gov.in)\n• సహకార సంఘం (PACS): చిలిప్చెడ్ మండలానికి DCCB జాబితాలో సొమక్కపేట PACS (కౌడిపల్లి బ్రాంచ్) ఉంది\n- మూలం: medakdccb.bank.in\nగ్రామ సర్పంచ్, పంచాయతీ సెక్రటరీ ప్రస్తుత పేర్లు-ఫోన్లు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల్లో నిర్ధారించలేదు; ఎన్నికల సంఘం సైట్ tsec.gov.in లో 'Know Your Sarpanch' లేదా gpsap-prrd.telangana.gov.in లో మన గ్రామ పంచాయతీ పేజీ చూడవచ్చు.",
+          "de": "Chilipched mandal-level official contacts (checked on official pages on 24-10-2026):\n- MPDO (Mandal Parishad Development Officer): 7337422356 (mpdochilipiched@gmail.com)\n- MRO/Tahsildar: 9346999296 (mro.chilipched@gmail.com)\nSource: Medak district official site MPDO/Tehsil directories (medak.telangana.gov.in)\n- Police: Chilipched Police Station SI - 8712657943; Narsapur Circle CI - 8712657940; police control room - 100\nSource: Medak district site police page\n- Electricity: Chilipched mandal substations are listed under AE (Operation) Kowdipally - 9440813686\nSource: Medak district site public utilities page\n- Agriculture: MAO Chilipched - 8977750830; AEO Chilipched cluster - 9281065854; AEO Chitkul cluster - 9281065859\nSource: Rythu Bharosa portal officer lists (rythubharosa.telangana.gov.in)\n- Cooperative society (PACS): the DCCB list shows Somakkapet PACS (Kowdipally branch) for Chilipched mandal\nSource: medakdccb.bank.in\nCurrent sarpanch and panchayat secretary names/phones could not be verified from the official pages accessible during this check; see 'Know Your Sarpanch' at tsec.gov.in or our gram panchayat page at gpsap-prrd.telangana.gov.in.",
+          "s": "https://medak.telangana.gov.in/mpdos/",
+          "sn": "medak.telangana.gov.in",
+          "u": "24-10-2026"
         },
         {
-          "id": "health-ayushman-bharat-pm-jay",
-          "t": "ఆయుష్మాన్ భారత్ (PM-JAY)",
-          "e": "Ayushman Bharat PM-JAY (Rs 5 lakh)",
-          "d": "కేంద్ర ప్రభుత్వం: అర్హులైన కుటుంబానికి ఏటా ₹5 లక్షల హాస్పిటలైజేషన్ కవర్. ఆయుష్మాన్ కార్డు: ఆధార్ + రేషన్ కార్డుతో CSC కేంద్రం లేదా ఆసుపత్రిలో పొందండి.",
-          "de": "Central govt: Rs 5 lakh/year hospitalization cover for eligible families. Get the Ayushman card at a CSC or empanelled hospital with Aadhaar + ration card.",
-          "s": "https://pmjay.gov.in/",
-          "sn": "pmjay.gov.in",
+          "id": "contacts-district-offices",
+          "t": "జిల్లా స్థాయి అధికారులు",
+          "e": "District-level officers",
+          "d": "మెదక్ జిల్లా స్థాయి అధికారులు (మూలం: మెదక్ జిల్లా అధికారిక సైట్ Who's Who / డైరెక్టరీ / జిల్లా అధికారుల పేజీలు, 24-10-2026 న చూశాం):\n• కలెక్టర్ & జిల్లా మేజిస్ట్రేట్: 08452-223111 (IDOC, మెదక్)\n• అదనపు కలెక్టర్ (రెవెన్యూ): 7995088717\n• జిల్లా రెవెన్యూ అధికారి (DRO): 7815903228\n• SP (పోలీసు అధీక్షకులు): 8712657888 / 08452-223533\n• DEO (జిల్లా విద్యాధికారి): 7207704500\n• DIEO (ఇంటర్మీడియట్ విద్యాధికారి): 9059049090\n• సివిల్ సప్లయ్స్ కార్పొరేషన్ డిస్ట్రిక్ట్ మేనేజర్: 7780771167\n• DRDO (గ్రామీణాభివృద్ధి అధికారి): 9281484100\n• TGSPDCL SE (విద్యుత్) మెదక్: 7901093542\n• EE మంచినీటి సరఫరా (Rural Water Supply): 9440307321\n• EE పంచాయతీ రాజ్: 9676930666\n• అసిస్టెంట్ డైరెక్టర్, సర్వే & భూ రికార్డులు: 9440763024\n• జిల్లా అటవీ అధికారి (DFO): 9948801276\n• జిల్లా అగ్నిమాపక అధికారి: 8712699145\n• జిల్లా SC డెవలప్‌మెంట్ అధికారి: 8555894019\n• గ్రౌండ్ వాటర్ విభాగం (I/C): 7032982024\nఇవి ప్రభుత్వ కార్యాలయాల బహిరంగ సేవా నంబర్లు; సమాధానం హామీ ఇవ్వలేము.\n• మన నియోజకవర్గం (నర్సాపూర్) MLA: శ్రీమతి వాకిటి సునీత లక్ష్మారెడ్డి (BRS) - మూలం: తెలంగాణ ప్రభుత్వ అధికారిక సైట్ MLA జాబితా (telangana.gov.in), 24-10-2026 న చూశాం",
+          "de": "Medak district-level officers (source: Medak district official site Who's Who / Directory / District Officers pages, checked 24-10-2026):\n- Collector & District Magistrate: 08452-223111 (IDOC, Medak)\n- Additional Collector (Revenue): 7995088717\n- District Revenue Officer (DRO): 7815903228\n- SP (Superintendent of Police): 8712657888 / 08452-223533\n- DEO (District Education Officer): 7207704500\n- DIEO (Intermediate Education Officer): 9059049090\n- District Manager, Civil Supplies Corporation: 7780771167\n- DRDO (District Rural Development Officer): 9281484100\n- TGSPDCL SE (Electricity) Medak: 7901093542\n- EE Rural Water Supply: 9440307321\n- EE Panchayat Raj: 9676930666\n- Assistant Director, Survey & Land Records: 9440763024\n- District Forest Officer (DFO): 9948801276\n- District Fire Officer: 8712699145\n- District SC Development Officer: 8555894019\n- Ground Water Department (I/C): 7032982024\nThese are public service numbers of government offices; we cannot guarantee a response.\n- Our constituency (Narsapur) MLA: Smt. Vakiti Sunitha Laxma Reddy (BRS) - source: Telangana government official MLA list (telangana.gov.in), checked 24-10-2026",
+          "s": "https://medak.telangana.gov.in/whos-who/",
+          "sn": "medak.telangana.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "contacts-legal-aid",
+          "t": "కోర్టు & ఉచిత న్యాయ సహాయం",
+          "e": "Courts & free legal aid",
+          "d": "ఉచిత న్యాయ సహాయం (అర్హులైనవారికి):\n• జిల్లా న్యాయ సేవా అధికార సంస్థ (DLSA) మెదక్ - న్యాయ సేవా సదన్, జిల్లా కోర్టు భవనాలు, మెదక్ 502110. సెక్రటరీ శ్రీమతి R.M. సుభవల్లి: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\n- మూలం: తెలంగాణా రాష్ట్ర న్యాయ సేవా అధికార సంస్థ డైరెక్టరీ (telangana.nalsa.gov.in), 24-10-2026 న చూశాం\n• NALSA టోల్ ఫ్రీ: 15100 (అత్యవసర న్యాయ సహాయం కోసం) - మూలం: nalsa.gov.in\n• ఉచిత సహాయం అర్హత (లీగల్ సర్వీసెస్ అథారిటీస్ చట్టం సెక్షన్ 12): ఈ వర్గాలవారు నేరుగా అర్హులు - SC/ST సభ్యులు, మహిళలు, పిల్లలు, మానసిక/శారీరక దివ్యాంగులు, పారిశ్రామిక కార్మికులు, ఖైదులో ఉన్నవారు, విపత్తు/హింస బాధితులు, మానవ అక్రమ రవాణా బాధితులు. ఈ వర్గాల్లో లేకుండా ఆదాయ ప్రాతిపదికన అర్హత కోరేవారికి, తెలంగాణాకు NALSA పేజీలో చూపిన సంవత్సర ఆదాయ పరిమితి రూ.3,00,000 - మూలం: nalsa.gov.in (24-10-2026)\n• కేసు స్థితి తెలుసుకోవడానికి: services.ecourts.gov.in లో CNR నంబర్ లేదా పార్టీ పేరుతో వెతకవచ్చు\n• మెదక్ జిల్లా కోర్టు అధికారిక సైట్: medak.dcourts.gov.in\n• లోక్ అదాలత్: సివిల్ కేసులు, కొన్ని కంపౌండబుల్ క్రిమినల్ కేసులు కోర్టులో పెండింగ్ ఉన్నా, కొత్తవైనా రాజీ ద్వారా పరిష్కరించే వేదిక; ఫీజు ఉండదు; తీర్పు సివిల్ కోర్టు డిక్రీ వలె ఫైనల్. విద్యుత్, నీటి సరఫరా, రవాణా, ఆసుపత్రి, బీమా వంటి పబ్లిక్ యూటిలిటీ సేవలతో వివాదాలకు ప్రత్యేక 'పర్మనెంట్ లోక్ అదాలత్' ఉంది. తేదీలు DLSA మెదక్‌ను అడిగి తెలుసుకోండి - మూలం: nalsa.gov.in\nఇది సాధారణ సమాచారం మాత్రమే, న్యాయ సలహా కాదు; మీ కేసు గురించి DLSA లేదా న్యాయవాదిని సంప్రదించండి.",
+          "de": "Free legal aid (for those eligible):\n- District Legal Services Authority (DLSA) Medak - Nyaya Seva Sadan, District Court Buildings, Medak 502110. Secretary Smt. R.M. Subhavalli: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\nSource: Telangana State Legal Services Authority directory (telangana.nalsa.gov.in), checked 24-10-2026\n- NALSA toll-free: 15100 (for urgent legal assistance) - source: nalsa.gov.in\n- Eligibility for free aid (Section 12, Legal Services Authorities Act): these categories qualify directly - SC/ST members, women, children, mentally or physically disabled persons, industrial workmen, persons in custody, victims of disasters/violence, victims of trafficking. Separately, for those applying on the income basis, the NALSA page lists an annual income ceiling of Rs.3,00,000 for Telangana - source: nalsa.gov.in (24-10-2026)\n- To check case status: search by CNR number or party name at services.ecourts.gov.in\n- Medak district court official site: medak.dcourts.gov.in\n- Lok Adalat: a no-fee forum that settles civil cases and some compoundable criminal cases - pending or pre-litigation - by compromise; its award is final like a civil court decree. A separate Permanent Lok Adalat covers disputes with public utility services (power, water, transport, hospital, insurance, etc.). Ask DLSA Medak for dates - source: nalsa.gov.in\nThis is general information only, not legal advice; consult DLSA or an advocate about your case.",
+          "s": "https://telangana.nalsa.gov.in/directory/",
+          "sn": "telangana.nalsa.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "contacts-education",
+          "t": "విద్య - పాఠశాల, MEO-DEO & అక్షరాస్యత",
+          "e": "Education - school, MEO-DEO & literacy",
+          "d": "పాఠశాలలు & విద్య (24-10-2026 తనిఖీ):\n• గ్రామ పాఠశాల వివరాలు: మన గ్రామ పాఠశాల పేరు, UDISE కోడ్ ఈ తనిఖీలో అధికారిక పేజీల్లో నిర్ధారించలేదు (UDISE+ సైట్‌లో క్యాప్చా ఉన్నది; దాన్ని దాటవేయలేము). పాఠశాల సమాచారం kys.udiseplus.gov.in ('Know Your School') లో లేదా DEO కార్యాలయంలో నిర్ధారించుకోవచ్చు\n• దగ్గరి ప్రభుత్వ హైస్కూల్: ZPHS చిలిప్చెడ్ (పాఠశాల కోడ్ 36171400503) - ఫోన్ 9490522737 - మూలం: మెదక్ జిల్లా అధికారిక సైట్ పబ్లిక్ యూటిలిటీ పేజీ (24-10-2026 న చూశాం)\n• జిల్లా విద్యాధికారి (DEO) మెదక్: 7207704500 (deomedak2016@gmail.com) - మూలం: మెదక్ జిల్లా సైట్ డైరెక్టరీ\n• MEO (మండల విద్యాధికారి) చిలిప్చెడ్ ప్రస్తుత ఫోన్ ఈ తనిఖీలో అధికారిక పేజీల్లో దొరకలేదు\n• అక్షరాస్యత కార్యక్రమం (15 ఏళ్లు పైబడి చదవరాయని వారికి): ప్రస్తుత జాతీయ అధికారిక కార్యక్రమం 'నవ భారత సాక్షరతా కార్యక్రమం (NILP/ఉల్లాస్)', 2022-27; స్వచ్ఛందుల ద్వారా బోధన, DIKSHA యాప్‌లో ఆన్‌లైన్ పాఠాలు - మూలం: dsel.education.gov.in/nilp",
+          "de": "Schools & education (checked 24-10-2026):\n- Village school details: the village school's name and UDISE code could not be verified on official pages during this check (the UDISE+ site uses a captcha we cannot clear). Confirm school information at kys.udiseplus.gov.in ('Know Your School') or with the DEO office\n- Nearest government high school: ZPHS Chilipched (school code 36171400503) - phone 9490522737 - source: Medak district official site public utility page (checked 24-10-2026)\n- District Education Officer (DEO) Medak: 7207704500 (deomedak2016@gmail.com) - source: Medak district site directory\n- The current phone of the MEO (Mandal Education Officer) Chilipched was not found on official pages during this check\n- Literacy programme (for non-literates aged 15+): the current official national programme is the New India Literacy Programme (NILP/ULLAS), 2022-27; volunteer-based teaching, online lessons on the DIKSHA app - source: dsel.education.gov.in/nilp",
+          "s": "https://kys.udiseplus.gov.in/",
+          "sn": "kys.udiseplus.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "funds",
+      "icon": "💰",
+      "te": "గ్రామ నిధులు & లెక్కలు",
+      "en": "Village Funds & Accounts",
+      "items": [
+        {
+          "id": "funds-egramswaraj-panchayat-fu",
+          "t": "eGramSwaraj - పంచాయతీ నిధులు & ఖర్చు",
+          "e": "eGramSwaraj - Panchayat Funds & Spending",
+          "d": "మన గ్రామ పంచాయతీకి ఏ సంవత్సరం ఎంత నిధి వచ్చింది, ఏ పనికి ఎంత ఖర్చైంది - ఎవరైనా ఈ పబ్లిక్ పోర్టల్‌లో ఉచితంగా చూడవచ్చు. లాగిన్ అవసరం లేదు.",
+          "de": "Anyone can see free of charge how much money our Gram Panchayat received each year and what it was spent on - on this public portal. No login needed.",
+          "bt": "నిధులు & ఖర్చు చూడండి",
+          "be": "View funds & spending",
+          "s": "https://egramswaraj.gov.in/",
+          "sn": "egramswaraj.gov.in",
           "u": "23-10-2026"
         },
         {
-          "id": "health-atal-pension-yojana",
-          "t": "అటల్ పెన్షన్ యోజన",
-          "e": "Atal Pension Yojana",
-          "d": "60 ఏళ్ల నుండి నెల పెన్షన్ గ్యారంటీ. 18-40 ఏళ్ల వయసులో బ్యాంక్ ద్వారా చేరండి - త్వరగా చేరితే అంత తక్కువ కంట్రిబ్యూషన్.",
-          "de": "Guaranteed monthly pension from age 60. Join via your bank between 18-40; earlier joining means lower contribution.",
-          "s": "https://www.myscheme.gov.in/schemes/apy",
-          "sn": "myscheme.gov.in",
+          "id": "funds-mplads-mp-development-fu",
+          "t": "MPLADS - MP అభివృద్ధి నిధి డ్యాష్‌బోర్డ్",
+          "e": "MPLADS - MP Development Fund Dashboard",
+          "d": "మెదక్ పార్లమెంట్ నియోజకవర్గంలో MP నిధులతో ఏ పనులు జరిగాయి, ఎంత ఖర్చైంది - పబ్లిక్ డ్యాష్‌బోర్డ్‌లో చూడండి.",
+          "de": "See what works were done with MP funds in the Medak Lok Sabha constituency and how much was spent - on the public dashboard.",
+          "bt": "డ్యాష్‌బోర్డ్ చూడండి",
+          "be": "Open dashboard",
+          "s": "https://mplads.gov.in/mplads/dashboard/DashBoard.aspx",
+          "sn": "mplads.gov.in",
+          "u": "23-10-2026"
+        },
+        {
+          "id": "funds-our-representatives",
+          "t": "మన ప్రతినిధులు (MLA / MP)",
+          "e": "Our Representatives (MLA / MP)",
+          "d": "నర్సాపూర్ MLA: శ్రీమతి వాకిటి సునీత లక్ష్మా రెడ్డి - అధికారిక శాసనసభ్యుల జాబితాలో తనిఖీ చేశాం. ప్రస్తుత మెదక్ MP వివరాలు అధికారిక జాబితాల్లోనే చూడండి.",
+          "de": "Narsapur MLA: Smt Vakiti Sunitha Laxma Reddy - verified on the official MLAs list. Check the official lists for the current Medak MP details.",
+          "bt": "అధికారిక జాబిత చూడండి",
+          "be": "View official list",
+          "s": "https://www.telangana.gov.in/legislature/members-of-legislative-assembly/",
+          "sn": "telangana.gov.in",
           "u": "23-10-2026"
         }
       ]
@@ -1834,548 +2360,22 @@ window.GS_DATA = {
       ]
     },
     {
-      "id": "aid",
-      "icon": "🏛️",
-      "te": "ప్రభుత్వ సాయం",
-      "en": "Govt Aid",
+      "id": "childrenschess",
+      "te": "పిల్లల కోసం రాయల్ చెస్",
+      "en": "Royal Chess for children",
+      "icon": "♟",
       "items": [
         {
-          "id": "aid-maha-lakshmi-scheme",
-          "t": "మహాలక్ష్మి పథకం",
-          "e": "Maha Lakshmi Scheme",
-          "d": "అమలవుతున్నవి: మహిళలు, అమ్మాయిలు, ట్రాన్స్‌జెండర్లకు TSRTC బస్సుల్లో ఉచిత ప్రయాణం (ఆధార్ చూపిస్తే చాలు); అర్హ కుటుంబాలకు గ్యాస్ సిలిండర్ ₹500 కే. మహిళలకు నెలకు ₹2,500 ఆర్థిక సాయం ప్రకటిత పథకం - ఇంకా చెల్లింపులు మొదలవ్వలేదు. తాజా స్థితి, దరఖాస్తు: MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రం.",
-          "de": "Running now: free TSRTC bus travel for women/girls/transgenders (show Aadhaar); LPG cylinder at Rs 500 for eligible households. The announced Rs 2,500/month assistance for women has not started paying yet. Latest status and applications: Praja Palana Seva Kendram in the MPDO office.",
-          "s": "https://prajapalana.telangana.gov.in/",
-          "sn": "prajapalana.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-gruha-jyothi",
-          "t": "గృహ జ్యోతి (200 యూనిట్ల ఉచిత కరెంటు)",
-          "e": "Gruha Jyothi (200 units free electricity)",
-          "d": "నెలకు 200 యూనిట్ల వరకు వినియోగం ఉంటే కరెంట్ బిల్లు జీరో. వైట్ రేషన్ కార్డు + ఆధార్ అవసరం. దరఖాస్తు: ప్రజా పాలన.",
-          "de": "Zero electricity bill if monthly usage stays within 200 units. White ration card + Aadhaar needed. Apply via Praja Palana.",
-          "s": "https://prajapalana.telangana.gov.in/",
-          "sn": "prajapalana.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-cheyutha-pensions",
-          "t": "చేయుత పెన్షన్లు (ఆసరా)",
-          "e": "Cheyutha (Aasara) Pensions",
-          "d": "వృద్ధాప్య, వితంతు, దివ్యాంగ తదితర పెన్షన్లు. కింది లింక్ పెన్షనర్ వివరాల వెతుకులాటకు మాత్రమే; కొత్త దరఖాస్తు కాదు. దీనికి యూజర్‌నేమ్/పాస్‌వర్డ్ అవసరం లేదు. కొత్త దరఖాస్తుల స్వీకరణ, ప్రస్తుత మొత్తం కోసం గ్రామ పంచాయతీ కార్యదర్శి / MPDO కార్యాలయంలో నిర్ధారించుకోండి.",
-          "de": "Old-age, widow, disability and other pensions. The link below is only for pensioner-details search, not a new application. No username or password is needed for this search. Confirm new-application intake and current amounts with the Gram Panchayat Secretary / MPDO office.",
-          "s": "https://www.cheyutha.telangana.gov.in/SSPTG/UserInterface/Portal/GeneralSearch.aspx",
-          "sn": "cheyutha.telangana.gov.in",
-          "bt": "పెన్షనర్ వివరాలు చూడండి",
-          "be": "Search pensioner details",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-ration-card-civil-suppli",
-          "t": "రేషన్ కార్డు / ఉచిత బియ్యం",
-          "e": "Ration Card / Civil Supplies",
-          "d": "రేషన్ కార్డు కొత్త దరఖాస్తు విధానం, ఫిర్యాదు నమోదు, సివిల్ సప్లయ్స్ శాఖ సేవలు - అధికారిక శాఖా వెబ్‌సైట్‌లో చూడండి.",
-          "de": "How to apply for a ration card, lodge a complaint, and other Civil Supplies department services on the official site.",
-          "s": "https://civilsupplies.telangana.gov.in/",
-          "sn": "civilsupplies.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-ration-shop-distribution",
-          "t": "రేషన్ దుకాణం & నెల వితరణ - అధికారిక సమాచారం ఎక్కడ",
-          "e": "Ration shop & monthly distribution - where to check",
-          "d": "అధికారిక AePDS పోర్టల్ ప్రకారం మెదక్ జిల్లాలో చిలిప్చెడ్ మండల (AFSO) కార్యాలయం ఉంది; దాని పరిధిలో 14 రేషన్ దుకాణాలు, నంబర్లు 1790002 నుండి 1790015 వరకు జాబితాలో ఉన్నాయి (24-10-2026 న పోర్టల్‌లో చూశాం). మన గ్రామానికి ఏ దుకాణం కేటాయించబడిందో, సరుకు ఏ తేదీన అందుతుందో అనే గ్రామ-స్థాయి వివరాలు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల నుండి నిర్ధారించలేదు. ఈ తనిఖీ సమయంలో పోర్టల్‌లో అందుబాటులో ఉన్న నెల రిపోర్టు ఆగస్టు-2026 ది - అందులో రాష్ట్ర మొత్తం మీద ఫోర్టిఫైడ్ సన్న బియ్యం, గోధుమలు, చక్కెర అమ్మకాలు నమోదయ్యాయి; అది పాత నెల రాష్ట్ర-స్థాయి రిపోర్టు మాత్రమే, మన దుకాణంలో ప్రస్తుతం ఏమి ఎప్పుడు వస్తుందో చెప్పదు. మీ దుకాణ నంబరు, ఈ నెల సరుకు రాక సమయం దుకాణ బోర్డు, గ్రామ పంచాయతీ లేదా రేషన్ డీలర్ దగ్గర నిర్ధారించుకోండి. రేషన్ సమస్యలకు సివిల్ సప్లయ్స్ శాఖ టోల్ ఫ్రీ 1967 (అధికారిక ఫిర్యాదు పోర్టల్ IGRMS ప్రకారం 24x7 కాల్ సెంటర్).",
-          "de": "Per the official AePDS portal, Medak district has a Chilipched mandal (AFSO) office with 14 ration shops numbered 1790002 to 1790015 (observed on the portal 24-10-2026). Which shop is assigned to our village, and on what date supplies arrive, could not be verified from the official pages accessible during this check. The monthly report accessible during this check was for August-2026: statewide sales of fortified fine rice, wheat and sugar were recorded - that is an older statewide report only and does not say what is being supplied at our shop now or when. Confirm your shop number and this month's supply arrival at the shop board, gram panchayat or with the ration dealer. For ration problems: Civil Supplies toll-free 1967 (24x7 call centre per the official IGRMS grievance portal).",
-          "bt": "AePDS పోర్టల్ చూడండి",
-          "be": "See AePDS portal",
-          "s": "https://smartpds.telangana.gov.in/",
-          "sn": "smartpds.telangana.gov.in",
+          "id": "childrenschess-open",
+          "t": "రాయల్ చెస్ - ఉచితంగా ఆడండి",
+          "e": "Royal Chess - play free",
+          "d": "తెలుగు / Englishలో చదరంగం. ఒకే ఫోన్‌లో ఇద్దరు ఆడవచ్చు; కంప్యూటర్‌తో Beginner నుంచి Expert వరకు5 స్థాయిలు ఉన్నాయి. మొదట Game Guideలో నియమాలు చూడండి.\nకింద “చెస్ ఆడండి” నొక్కితే మన ప్రత్యేక ROYAL CHESS యాప్ కొత్త ట్యాబ్‌లో తెరుచుకుంటుంది. ప్రకటనలు, చెల్లింపు, సైన్-అప్ లేవు. గ్రామ సేవ సమాచారం అలాగే ఉంటుంది; తిరిగి రావడానికి చెస్ ట్యాబ్ మూసి గ్రామ సేవ ట్యాబ్ ఎంచుకోండి.\nరెండు ఫోన్ల మోడ్ బీటా. వేర్వేరు నెట్‌వర్క్‌లలో ఆట ఇంకా ధృవీకరించబడలేదు; పిల్లలకు ఒకే ఫోన్ / కంప్యూటర్ మోడ్‌తో మొదలు పెట్టండి. గేమ్ కోడ్‌లను పబ్లిక్‌గా పెట్టవద్దు. నెట్‌వర్క్ సహాయం ఎంచుకుంటే దాని గోప్యతా గమనిక ముందుగా చదవండి.",
+          "de": "Chess in Telugu/English. Two people can play on one phone, or play the computer at5 levels from Beginner to Expert. Read Game Guide first.\n“Play chess” opens our separate ROYAL CHESS app in a new tab. No ads, payment or sign-up. Gram Seva stays intact; close the chess tab and select Gram Seva to return.\nTwo Phones is beta; different-network play remains unverified. Start children with same-phone/computer mode. Never post game codes publicly; read the privacy note before choosing network assistance.",
+          "bt": "చెస్ ఆడండి",
+          "be": "Play chess",
+          "s": "https://svofficials9999-collab.github.io/sv-chess/",
+          "sn": "ROYAL CHESS • D. Srinivas",
           "u": "24-10-2026"
-        },
-        {
-          "id": "aid-indiramma-housing",
-          "t": "ఇందిరమ్మ ఇళ్లు",
-          "e": "Indiramma Housing",
-          "d": "స్వంత ఇల్లు లేని పేద కుటుంబాలకు ఇళ్ల నిర్మాణ సాయం - ప్రజా పాలన ద్వారా దరఖాస్తు. అర్హత/స్టేటస్ పోర్టల్‌లో తనిఖీ చేయండి.",
-          "de": "Housing assistance for poor families without a house - apply via Praja Palana; check eligibility and status on the portal.",
-          "s": "https://prajapalana.telangana.gov.in/",
-          "sn": "prajapalana.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-stree-nidhi",
-          "t": "స్త్రీ నిధి (మహిళా రుణాలు)",
-          "e": "Stree Nidhi (Women's loans)",
-          "d": "మహిళా సంఘ (SHG) సభ్యులకు తక్కువ వడ్డీతో త్వరిత రుణాలు - జీవనోపాధి, వైద్యం, విద్య, అత్యవసర అవసరాలకు. మీ సంఘం / VO / మండల సమాఖ్య ద్వారా దరఖాస్తు.",
-          "de": "Quick low-interest loans for women SHG members - livelihood, health, education, emergencies. Apply through your SHG / VO / Mandal Samakhya.",
-          "s": "https://streenidhi.telangana.gov.in/SNTG/UI/Home.aspx",
-          "sn": "streenidhi.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-post-office-savings-sche",
-          "t": "పోస్టాఫీస్ చిన్న పొదుపు పథకాలు (PPF, సుకన్య, SCSS, NSC, KVP, RD, MIS, TD)",
-          "e": "Post Office Small Savings Schemes (PPF, Sukanya, SCSS, NSC, KVP, RD, MIS, TD)",
-          "d": "పోస్టాఫీసులో తెరవగల చిన్న పొదుపు పథకాలు: PPF, సుకన్య సమృద్ధి (ఆడపిల్ల), సీనియర్ సిటిజెన్ సేవింగ్స్ (SCSS, 60+), NSC, KVP, పోస్టాఫీస్ RD, మంత్లీ ఇన్కమ్ స్కీమ్ (MIS), టైమ్ డిపాజిట్లు. వడ్డీ రేట్లను కేంద్ర ఆర్థిక మంత్రిత్వ శాఖ ప్రతి త్రైమాసికం సమీక్షిస్తుంది - 30-09-2026 ఉత్తర్వు ప్రకారం ప్రస్తుత త్రైమాసికానికి (1 అక్టోబర్ - 31 డిసెంబర్ 2026) రేట్లు మారలేదు. పెట్టుబడి ముందు ఖచ్చితమైన ప్రస్తుత రేటును మీ పోస్టాఫీసులో లేదా nsiindia.gov.in లో నిర్ధారించండి. అన్ని పథకాలు అన్ని శాఖల్లో అందుబాటులో ఉండకపోవచ్చు - మీ శాఖలో అడిగి చూసుకోండి.",
-          "de": "Small savings schemes you can open at a post office: PPF, Sukanya Samriddhi (girl child), Senior Citizens Savings (SCSS, 60+), NSC, KVP, Post Office RD, Monthly Income Scheme (MIS), Time Deposits. Interest rates are reviewed every quarter by the Finance Ministry; per the 30-09-2026 order, rates are unchanged for the current quarter (1 Oct - 31 Dec 2026). Confirm the exact current rate at your post office or nsiindia.gov.in before investing. Not every product may be available at every branch - confirm at your branch.",
-          "s": "https://dea.gov.in/files/budget_division_documents/R.pdf",
-          "sn": "dea.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "aid-praja-palana-application",
-          "t": "ప్రజా పాలన - దరఖాస్తు స్టేటస్",
-          "e": "Praja Palana - Application Status",
-          "d": "6 గ్యారెంటీ పథకాలకు ఇచ్చిన దరఖాస్తుల స్థితి ఇక్కడ తనిఖీ చేయండి.",
-          "de": "Track your applications for the 6 guarantee schemes here.",
-          "s": "https://prajapalana.telangana.gov.in/Applicationstatus",
-          "sn": "prajapalana.telangana.gov.in",
-          "u": "23-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "contacts",
-      "icon": "📞",
-      "te": "అధికారులు & సంప్రదింపులు",
-      "en": "Officials & Contacts",
-      "items": [
-        {
-          "id": "contacts-mandal-offices",
-          "t": "మండల స్థాయి అధికారులు & సేవా ఫోన్లు",
-          "e": "Mandal officers & service phones",
-          "d": "చిలిప్చెడ్ మండల స్థాయి అధికారిక సంప్రదింపు వివరాలు (24-10-2026 న అధికారిక పేజీల్లో చూశాం):\n• MPDO (మండల పరిషత్ అభివృద్ధి అధికారి): 7337422356 (mpdochilipiched@gmail.com)\n• MRO/తహసీల్దార్: 9346999296 (mro.chilipched@gmail.com)\n- మూలం: మెదక్ జిల్లా అధికారిక సైట్ MPDO/తహసీల్దార్ జాబితాలు (medak.telangana.gov.in)\n• పోలీసులు: చిలిప్చెడ్ పోలీస్ స్టేషన్ SI - 8712657943; నర్సాపూర్ సర్కిల్ CI - 8712657940; పోలీసు కంట్రోల్ రూమ్ - 100\n- మూలం: మెదక్ జిల్లా సైట్ పోలీస్ పేజీ\n• విద్యుత్: చిలిప్చెడ్ మండల సబ్‌స్టేషన్లు AE (ఆపరేషన్) కౌడిపల్లి పరిధిలో జాబితా చేయబడ్డాయి - 9440813686\n- మూలం: మెదక్ జిల్లా సైట్ పబ్లిక్ యూటిలిటీస్\n• వ్యవసాయం: MAO చిలిప్చెడ్ - 8977750830; AEO చిలిప్చెడ్ క్లస్టర్ - 9281065854; AEO చిట్కుల్ క్లస్టర్ - 9281065859\n- మూలం: రైతుభరోసా పోర్టల్ అధికారుల జాబితా (rythubharosa.telangana.gov.in)\n• సహకార సంఘం (PACS): చిలిప్చెడ్ మండలానికి DCCB జాబితాలో సొమక్కపేట PACS (కౌడిపల్లి బ్రాంచ్) ఉంది\n- మూలం: medakdccb.bank.in\nగ్రామ సర్పంచ్, పంచాయతీ సెక్రటరీ ప్రస్తుత పేర్లు-ఫోన్లు ఈ తనిఖీలో అందుబాటులో ఉన్న అధికారిక పేజీల్లో నిర్ధారించలేదు; ఎన్నికల సంఘం సైట్ tsec.gov.in లో 'Know Your Sarpanch' లేదా gpsap-prrd.telangana.gov.in లో మన గ్రామ పంచాయతీ పేజీ చూడవచ్చు.",
-          "de": "Chilipched mandal-level official contacts (checked on official pages on 24-10-2026):\n- MPDO (Mandal Parishad Development Officer): 7337422356 (mpdochilipiched@gmail.com)\n- MRO/Tahsildar: 9346999296 (mro.chilipched@gmail.com)\nSource: Medak district official site MPDO/Tehsil directories (medak.telangana.gov.in)\n- Police: Chilipched Police Station SI - 8712657943; Narsapur Circle CI - 8712657940; police control room - 100\nSource: Medak district site police page\n- Electricity: Chilipched mandal substations are listed under AE (Operation) Kowdipally - 9440813686\nSource: Medak district site public utilities page\n- Agriculture: MAO Chilipched - 8977750830; AEO Chilipched cluster - 9281065854; AEO Chitkul cluster - 9281065859\nSource: Rythu Bharosa portal officer lists (rythubharosa.telangana.gov.in)\n- Cooperative society (PACS): the DCCB list shows Somakkapet PACS (Kowdipally branch) for Chilipched mandal\nSource: medakdccb.bank.in\nCurrent sarpanch and panchayat secretary names/phones could not be verified from the official pages accessible during this check; see 'Know Your Sarpanch' at tsec.gov.in or our gram panchayat page at gpsap-prrd.telangana.gov.in.",
-          "s": "https://medak.telangana.gov.in/mpdos/",
-          "sn": "medak.telangana.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "contacts-district-offices",
-          "t": "జిల్లా స్థాయి అధికారులు",
-          "e": "District-level officers",
-          "d": "మెదక్ జిల్లా స్థాయి అధికారులు (మూలం: మెదక్ జిల్లా అధికారిక సైట్ Who's Who / డైరెక్టరీ / జిల్లా అధికారుల పేజీలు, 24-10-2026 న చూశాం):\n• కలెక్టర్ & జిల్లా మేజిస్ట్రేట్: 08452-223111 (IDOC, మెదక్)\n• అదనపు కలెక్టర్ (రెవెన్యూ): 7995088717\n• జిల్లా రెవెన్యూ అధికారి (DRO): 7815903228\n• SP (పోలీసు అధీక్షకులు): 8712657888 / 08452-223533\n• DEO (జిల్లా విద్యాధికారి): 7207704500\n• DIEO (ఇంటర్మీడియట్ విద్యాధికారి): 9059049090\n• సివిల్ సప్లయ్స్ కార్పొరేషన్ డిస్ట్రిక్ట్ మేనేజర్: 7780771167\n• DRDO (గ్రామీణాభివృద్ధి అధికారి): 9281484100\n• TGSPDCL SE (విద్యుత్) మెదక్: 7901093542\n• EE మంచినీటి సరఫరా (Rural Water Supply): 9440307321\n• EE పంచాయతీ రాజ్: 9676930666\n• అసిస్టెంట్ డైరెక్టర్, సర్వే & భూ రికార్డులు: 9440763024\n• జిల్లా అటవీ అధికారి (DFO): 9948801276\n• జిల్లా అగ్నిమాపక అధికారి: 8712699145\n• జిల్లా SC డెవలప్‌మెంట్ అధికారి: 8555894019\n• గ్రౌండ్ వాటర్ విభాగం (I/C): 7032982024\nఇవి ప్రభుత్వ కార్యాలయాల బహిరంగ సేవా నంబర్లు; సమాధానం హామీ ఇవ్వలేము.\n• మన నియోజకవర్గం (నర్సాపూర్) MLA: శ్రీమతి వాకిటి సునీత లక్ష్మారెడ్డి (BRS) - మూలం: తెలంగాణ ప్రభుత్వ అధికారిక సైట్ MLA జాబితా (telangana.gov.in), 24-10-2026 న చూశాం",
-          "de": "Medak district-level officers (source: Medak district official site Who's Who / Directory / District Officers pages, checked 24-10-2026):\n- Collector & District Magistrate: 08452-223111 (IDOC, Medak)\n- Additional Collector (Revenue): 7995088717\n- District Revenue Officer (DRO): 7815903228\n- SP (Superintendent of Police): 8712657888 / 08452-223533\n- DEO (District Education Officer): 7207704500\n- DIEO (Intermediate Education Officer): 9059049090\n- District Manager, Civil Supplies Corporation: 7780771167\n- DRDO (District Rural Development Officer): 9281484100\n- TGSPDCL SE (Electricity) Medak: 7901093542\n- EE Rural Water Supply: 9440307321\n- EE Panchayat Raj: 9676930666\n- Assistant Director, Survey & Land Records: 9440763024\n- District Forest Officer (DFO): 9948801276\n- District Fire Officer: 8712699145\n- District SC Development Officer: 8555894019\n- Ground Water Department (I/C): 7032982024\nThese are public service numbers of government offices; we cannot guarantee a response.\n- Our constituency (Narsapur) MLA: Smt. Vakiti Sunitha Laxma Reddy (BRS) - source: Telangana government official MLA list (telangana.gov.in), checked 24-10-2026",
-          "s": "https://medak.telangana.gov.in/whos-who/",
-          "sn": "medak.telangana.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "contacts-legal-aid",
-          "t": "కోర్టు & ఉచిత న్యాయ సహాయం",
-          "e": "Courts & free legal aid",
-          "d": "ఉచిత న్యాయ సహాయం (అర్హులైనవారికి):\n• జిల్లా న్యాయ సేవా అధికార సంస్థ (DLSA) మెదక్ - న్యాయ సేవా సదన్, జిల్లా కోర్టు భవనాలు, మెదక్ 502110. సెక్రటరీ శ్రీమతి R.M. సుభవల్లి: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\n- మూలం: తెలంగాణా రాష్ట్ర న్యాయ సేవా అధికార సంస్థ డైరెక్టరీ (telangana.nalsa.gov.in), 24-10-2026 న చూశాం\n• NALSA టోల్ ఫ్రీ: 15100 (అత్యవసర న్యాయ సహాయం కోసం) - మూలం: nalsa.gov.in\n• ఉచిత సహాయం అర్హత (లీగల్ సర్వీసెస్ అథారిటీస్ చట్టం సెక్షన్ 12): ఈ వర్గాలవారు నేరుగా అర్హులు - SC/ST సభ్యులు, మహిళలు, పిల్లలు, మానసిక/శారీరక దివ్యాంగులు, పారిశ్రామిక కార్మికులు, ఖైదులో ఉన్నవారు, విపత్తు/హింస బాధితులు, మానవ అక్రమ రవాణా బాధితులు. ఈ వర్గాల్లో లేకుండా ఆదాయ ప్రాతిపదికన అర్హత కోరేవారికి, తెలంగాణాకు NALSA పేజీలో చూపిన సంవత్సర ఆదాయ పరిమితి రూ.3,00,000 - మూలం: nalsa.gov.in (24-10-2026)\n• కేసు స్థితి తెలుసుకోవడానికి: services.ecourts.gov.in లో CNR నంబర్ లేదా పార్టీ పేరుతో వెతకవచ్చు\n• మెదక్ జిల్లా కోర్టు అధికారిక సైట్: medak.dcourts.gov.in\n• లోక్ అదాలత్: సివిల్ కేసులు, కొన్ని కంపౌండబుల్ క్రిమినల్ కేసులు కోర్టులో పెండింగ్ ఉన్నా, కొత్తవైనా రాజీ ద్వారా పరిష్కరించే వేదిక; ఫీజు ఉండదు; తీర్పు సివిల్ కోర్టు డిక్రీ వలె ఫైనల్. విద్యుత్, నీటి సరఫరా, రవాణా, ఆసుపత్రి, బీమా వంటి పబ్లిక్ యూటిలిటీ సేవలతో వివాదాలకు ప్రత్యేక 'పర్మనెంట్ లోక్ అదాలత్' ఉంది. తేదీలు DLSA మెదక్‌ను అడిగి తెలుసుకోండి - మూలం: nalsa.gov.in\nఇది సాధారణ సమాచారం మాత్రమే, న్యాయ సలహా కాదు; మీ కేసు గురించి DLSA లేదా న్యాయవాదిని సంప్రదించండి.",
-          "de": "Free legal aid (for those eligible):\n- District Legal Services Authority (DLSA) Medak - Nyaya Seva Sadan, District Court Buildings, Medak 502110. Secretary Smt. R.M. Subhavalli: 8333918516 / 08455-271401 (dlsamedak@gmail.com)\nSource: Telangana State Legal Services Authority directory (telangana.nalsa.gov.in), checked 24-10-2026\n- NALSA toll-free: 15100 (for urgent legal assistance) - source: nalsa.gov.in\n- Eligibility for free aid (Section 12, Legal Services Authorities Act): these categories qualify directly - SC/ST members, women, children, mentally or physically disabled persons, industrial workmen, persons in custody, victims of disasters/violence, victims of trafficking. Separately, for those applying on the income basis, the NALSA page lists an annual income ceiling of Rs.3,00,000 for Telangana - source: nalsa.gov.in (24-10-2026)\n- To check case status: search by CNR number or party name at services.ecourts.gov.in\n- Medak district court official site: medak.dcourts.gov.in\n- Lok Adalat: a no-fee forum that settles civil cases and some compoundable criminal cases - pending or pre-litigation - by compromise; its award is final like a civil court decree. A separate Permanent Lok Adalat covers disputes with public utility services (power, water, transport, hospital, insurance, etc.). Ask DLSA Medak for dates - source: nalsa.gov.in\nThis is general information only, not legal advice; consult DLSA or an advocate about your case.",
-          "s": "https://telangana.nalsa.gov.in/directory/",
-          "sn": "telangana.nalsa.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "contacts-education",
-          "t": "విద్య - పాఠశాల, MEO-DEO & అక్షరాస్యత",
-          "e": "Education - school, MEO-DEO & literacy",
-          "d": "పాఠశాలలు & విద్య (24-10-2026 తనిఖీ):\n• గ్రామ పాఠశాల వివరాలు: మన గ్రామ పాఠశాల పేరు, UDISE కోడ్ ఈ తనిఖీలో అధికారిక పేజీల్లో నిర్ధారించలేదు (UDISE+ సైట్‌లో క్యాప్చా ఉన్నది; దాన్ని దాటవేయలేము). పాఠశాల సమాచారం kys.udiseplus.gov.in ('Know Your School') లో లేదా DEO కార్యాలయంలో నిర్ధారించుకోవచ్చు\n• దగ్గరి ప్రభుత్వ హైస్కూల్: ZPHS చిలిప్చెడ్ (పాఠశాల కోడ్ 36171400503) - ఫోన్ 9490522737 - మూలం: మెదక్ జిల్లా అధికారిక సైట్ పబ్లిక్ యూటిలిటీ పేజీ (24-10-2026 న చూశాం)\n• జిల్లా విద్యాధికారి (DEO) మెదక్: 7207704500 (deomedak2016@gmail.com) - మూలం: మెదక్ జిల్లా సైట్ డైరెక్టరీ\n• MEO (మండల విద్యాధికారి) చిలిప్చెడ్ ప్రస్తుత ఫోన్ ఈ తనిఖీలో అధికారిక పేజీల్లో దొరకలేదు\n• అక్షరాస్యత కార్యక్రమం (15 ఏళ్లు పైబడి చదవరాయని వారికి): ప్రస్తుత జాతీయ అధికారిక కార్యక్రమం 'నవ భారత సాక్షరతా కార్యక్రమం (NILP/ఉల్లాస్)', 2022-27; స్వచ్ఛందుల ద్వారా బోధన, DIKSHA యాప్‌లో ఆన్‌లైన్ పాఠాలు - మూలం: dsel.education.gov.in/nilp",
-          "de": "Schools & education (checked 24-10-2026):\n- Village school details: the village school's name and UDISE code could not be verified on official pages during this check (the UDISE+ site uses a captcha we cannot clear). Confirm school information at kys.udiseplus.gov.in ('Know Your School') or with the DEO office\n- Nearest government high school: ZPHS Chilipched (school code 36171400503) - phone 9490522737 - source: Medak district official site public utility page (checked 24-10-2026)\n- District Education Officer (DEO) Medak: 7207704500 (deomedak2016@gmail.com) - source: Medak district site directory\n- The current phone of the MEO (Mandal Education Officer) Chilipched was not found on official pages during this check\n- Literacy programme (for non-literates aged 15+): the current official national programme is the New India Literacy Programme (NILP/ULLAS), 2022-27; volunteer-based teaching, online lessons on the DIKSHA app - source: dsel.education.gov.in/nilp",
-          "s": "https://kys.udiseplus.gov.in/",
-          "sn": "kys.udiseplus.gov.in",
-          "u": "24-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "certs",
-      "icon": "🪪",
-      "te": "సర్టిఫికెట్లు & గుర్తింపు",
-      "en": "Certificates & ID",
-      "items": [
-        {
-          "id": "certs-employment-exchange-regi",
-          "t": "ఉపాధి నమోదు (ఎంప్లాయ్‌మెంట్ ఎక్స్‌ఛేంజ్)",
-          "e": "Employment Exchange Registration",
-          "d": "ఉద్యోగావకాశాల కోసం ప్రభుత్వ ఉపాధి పోర్టల్‌లో జాబ్ సీకర్‌గా నమోదు చేసుకోండి. పాత ఎంప్లాయ్‌మెంట్ కార్డు ఉంటే సీనియారిటీతో సరిచేసుకోవచ్చు; కొత్తవారు కొత్త నమోదు చేసుకోవచ్చు. మీ 10వ/ఐటిఐ/డిగ్రీ అర్హతలు అదే లాగిన్‌లో జోడించాలి. గుర్తుంచుకోండి: ఇది నమోదు మాత్రమే - ఉద్యోగ హామీ కాదు, ఐటిఐ వంటి టెక్నికల్ సర్టిఫికెట్ కాదు. సహాయానికి దగ్గరి ఎంప్లాయ్‌మెంట్ ఎక్స్‌ఛేంజ్ / మీసేవ కేంద్రం (అధికారిక FAQ ప్రకారం).",
-          "de": "Register as a job seeker on the government employment portal for job opportunities. Old employment exchange card holders can regularize with seniority; new candidates register fresh. Add your 10th/ITI/degree qualifications in the same login. Remember: this is registration only - not a job guarantee and not a technical certificate like ITI. For help: nearest Employment Exchange / MeeSeva centre (per official FAQ).",
-          "bt": "నమోదు పోర్టల్ తెరవండి",
-          "be": "Open registration portal",
-          "s": "https://employment.telangana.gov.in/",
-          "sn": "employment.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "certs-aadhaar-new-enrolment-up",
-          "t": "ఆధార్ - కొత్త నమోదు / సవరణ",
-          "e": "Aadhaar - New Enrolment / Update",
-          "d": "కొత్త ఆధార్ నమోదు, చిరునామా/జన్మతేదీ సవరణ: ఆధార్ సేవా కేంద్రానికి వెళ్లాలి. కేంద్రాన్ని UIDAI అధికారిక సైట్‌లో వెతకండి. ఆన్‌లైన్ సేవలకు రిజిస్టర్డ్ మొబైల్ అవసరం.",
-          "de": "New Aadhaar enrolment and address/DOB updates happen at an Aadhaar Seva Kendra - find the centre on the official UIDAI site. Online services need your registered mobile.",
-          "bt": "కేంద్రం & వివరాలు చూడండి",
-          "be": "Find centre & details",
-          "s": "https://uidai.gov.in/en/enrolment-and-update",
-          "sn": "uidai.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "certs-pan-card",
-          "t": "PAN కార్డు",
-          "e": "PAN Card",
-          "d": "ఆదాయపు పన్ను శాఖ అధికారిక పోర్టల్ నుండి PAN దరఖాస్తు మార్గాలు. అనధికారిక ఏజెంట్లకు అదనపు డబ్బులు ఇవ్వవద్దు.",
-          "de": "PAN application routes from the official Income Tax department portal. Do not pay unofficial agents extra.",
-          "bt": "దరఖాస్తు మార్గాలు చూడండి",
-          "be": "See application routes",
-          "s": "https://www.incometaxindia.gov.in/tax-services/apply-for-pan",
-          "sn": "incometaxindia.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "certs-meeseva-caste-income-res",
-          "t": "మీసేవ - కుల / ఆదాయ / నివాస / జనన / మరణ సర్టిఫికెట్లు",
-          "e": "MeeSeva - Caste / Income / Residence / Birth / Death Certificates",
-          "d": "పౌర సర్టిఫికెట్లన్నీ మీసేవ ద్వారా. దగ్గరి మీసేవ కేంద్రంలో దరఖాస్తు చేయవచ్చు; పౌరుల ఆన్‌లైన్ నమోదు పేజీ కూడా పోర్టల్‌లో ఉంది. పూర్తి సేవల జాబితా అధికారిక పేజీలో.",
-          "de": "All citizen certificates via MeeSeva. Apply at the nearest MeeSeva centre; a citizen online registration page also exists on the portal. Full services list on the official page.",
-          "bt": "సేవల జాబితా చూడండి",
-          "be": "View services list",
-          "s": "https://www.telangana.gov.in/services/meeseva-services/",
-          "sn": "telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "certs-driving-licence",
-          "t": "డ్రైవింగ్ లైసెన్స్",
-          "e": "Driving Licence",
-          "d": "లెర్నర్ లైసెన్స్ ఆన్‌లైన్ దరఖాస్తు + RTA కార్యాలయంలో టెస్ట్. విధానం, ఫీజులు తెలంగాణ రవాణా శాఖ అధికారిక పేజీలో.",
-          "de": "Learner licence applied online plus a test at the RTA office. Process and fees on the official Telangana Transport page.",
-          "bt": "విధానం & ఫీజులు చూడండి",
-          "be": "See process & fees",
-          "s": "https://transport.telangana.gov.in/html/driving-licencel-learners.html",
-          "sn": "transport.telangana.gov.in",
-          "u": "23-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "women",
-      "icon": "👩‍👧",
-      "te": "మహిళలు & పిల్లలు",
-      "en": "Women & Children",
-      "items": [
-        {
-          "id": "women-kalyana-lakshmi-shaadi-m",
-          "t": "కళ్యాణ లక్ష్మీ / షాదీ ముబారక్",
-          "e": "Kalyana Lakshmi / Shaadi Mubarak",
-          "d": "పెళ్లి వయసు (18+) పూర్తయిన అర్హులైన యువతుల వివాహానికి ఆర్థిక సాయం. ఆదాయ పరిమితులు: SC/ST ₹2 లక్షలు, BC/EBC గ్రామీణ ₹1.5 లక్షలు / పట్టణ ₹2 లక్షలు (అధికారిక ePASS పేజీ). దరఖాస్తు: ePASS పోర్టల్.",
-          "de": "Marriage assistance for eligible young women (18+). Income limits: SC/ST Rs 2 lakh, BC/EBC rural Rs 1.5 lakh / urban Rs 2 lakh (official ePASS page). Apply on the ePASS portal.",
-          "s": "https://telanganaepass.cgg.gov.in/",
-          "sn": "telanganaepass.cgg.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "women-asha-worker-village-heal",
-          "t": "ఆశా వర్కర్ - గ్రామ ఆరోగ్య సహాయకురాలు",
-          "e": "ASHA Worker - Village Health Support",
-          "d": "గర్భిణులు, శిశువుల ఆరోగ్యం, టీకాలు, ఆసుపత్రి అనుసంధానం - గ్రామంలోనే ఆశా వర్కర్ ఉచితంగా సహాయం చేస్తుంది (జాతీయ గ్రామీణ ఆరోగ్య మిషన్).",
-          "de": "The village ASHA worker helps free of charge with maternal and child health, immunization and hospital linkage (National Health Mission).",
-          "bt": "వివరాలు చూడండి",
-          "be": "View details",
-          "s": "https://nhm.gov.in/nammamihaan/index1.php?lang=1&level=1&lid=226&sublinkid=150",
-          "sn": "nhm.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "women-hiv-support-free-governm",
-          "t": "HIV మద్దతు - ఉచిత ప్రభుత్వ సేవలు",
-          "e": "HIV Support - Free Government Services",
-          "d": "HIVతో బతుతున్నవారికి ఉచిత ART చికిత్స, కౌన్సెలింగ్, సంక్షేమ పథకాల అనుసంధానం - జాతీయ AIDS నియంత్రణ కార్యక్రమం కింద ప్రభుత్వ ART / కేర్ & సపోర్ట్ కేంద్రాలు (TGSACS). ఎవరికీ చెప్పాల్సిన అవసరం లేకుండా నేరుగా కేంద్రాన్ని సంప్రదించవచ్చు: 040-24743897.",
-          "de": "Free ART treatment, counselling and linkage to welfare schemes for people living with HIV - government ART / Care & Support Centres (TGSACS) under the National AIDS Control Programme. You can contact a centre directly without telling anyone: 040-24743897.",
-          "s": "https://tgsacs.telangana.gov.in/care-support/",
-          "sn": "tgsacs.telangana.gov.in",
-          "bt": "మద్దతు వివరాలు చూడండి",
-          "be": "View support details",
-          "u": "23-10-2026",
-          "ph": "04024743897"
-        },
-        {
-          "id": "women-sukanya-samriddhi-yojana",
-          "t": "సుకన్య సమృద్ధి యోజన - ఆడపిల్ల పేరు పొదుపు ఖాతా",
-          "e": "Sukanya Samriddhi Yojana - Girl Child Savings Account",
-          "d": "10 ఏళ్లు నిండక ముందు ఆడపిల్ల పేరు తల్లిదండ్రులు ఖాతా తెరవవచ్చు; ఒక అమ్మాయికి ఒక ఖాతా మాత్రమే. సంవత్సరానికి కనీసం ₹250, గరిష్ఠం ₹1.5 లక్షలు జమ చేయవచ్చు. పోస్టాఫీసులో లేదా అధీకృత బ్యాంకులో తెరవవచ్చు. ఖాతా తెరిచిన తేదీ నుంచి 21 సంవత్సరాలు పూర్తయినప్పుడు మెచ్యూర్ అవుతుంది. అమ్మాయి ఉన్నత విద్య కోసం డబ్బు తీయవచ్చు; ఆమెకు 18 ఏళ్లు నిండిన తర్వాత వివాహం జరిగితే ఖాతాను ముందస్తుగా మూసివేయవచ్చు. జమలపై 80-C పన్ను మినహాయింపు ఉంటుంది; వడ్డీ పన్ను రహితం. వడ్డీ రేటు త్రైమాసికానికి సమీక్షకు లోబడి ఉంటుంది - ప్రస్తుత రేటు పోస్టాఫీసు/బ్యాంకులో లేదా nsiindia.gov.in లో నిర్ధారించండి.",
-          "de": "Parents can open an account in a girl child's name before she turns 10; one account per girl. Minimum deposit Rs 250 and maximum Rs 1.5 lakh in a financial year. Can be opened at post offices and authorised banks. The account matures 21 years from the date of opening. Withdrawal is allowed for the account holder's higher education; the account can be closed early for the girl's marriage after she turns 18. Deposits qualify for 80-C deduction and the interest is tax-free. The interest rate is subject to quarterly review - confirm the current rate at the post office/bank or nsiindia.gov.in.",
-          "bt": "వివరాలు చూడండి",
-          "be": "See details",
-          "s": "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
-          "sn": "nsiindia.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "women-anganwadi-nutrition-poshan",
-          "t": "అంగన్‌వాడీ - పిల్లలు, తల్లులకు ఉచిత పోషకాహారం (పోషన్ 2.0)",
-          "e": "Anganwadi - Free Nutrition for Children and Mothers (Poshan 2.0)",
-          "d": "సక్షమ్ అంగన్‌వాడీ & పోషన్ 2.0 కింద 6 నెలల నుంచి 6 ఏళ్ల పిల్లలు, గర్భిణులు, పాలిచ్చే తల్లులు, యువతులకు వెచ్చి వంటకం (HCM) మరియు టేక్-హోమ్ రేషన్ (THR) రూపంలో ఉచిత పోషకాహారం అంగన్‌వాడీ కేంద్రంలో అందుతుంది. ఎవరికి ఎంత, ఏ నిబంధనలతో అనేది రాష్ట్ర నియమాల ప్రకారం ఉంటుంది - మీ అంగన్‌వాడీ కేంద్రంలో అడగండి.",
-          "de": "Under Saksham Anganwadi and Poshan 2.0, free supplementary nutrition as Hot Cooked Meal (HCM) and Take-Home Ration (THR) is provided at the Anganwadi Centre to children (6 months to 6 years), pregnant women, lactating mothers and adolescent girls. Beneficiary coverage and norms follow state rules - ask at your Anganwadi Centre.",
-          "bt": "వివరాలు చూడండి",
-          "be": "See details",
-          "s": "https://www.pib.gov.in/PressReleasePage.aspx?lang=1&PRID=2292320&reg=3",
-          "sn": "pib.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-pm-poshan-school-meal",
-          "t": "PM POSHAN - పాఠశాలలో ఉచిత మధ్యాహ్న భోజనం",
-          "e": "PM POSHAN - Free Hot Cooked Meal in School",
-          "d": "ప్రభుత్వ మరియు ప్రభుత్వ సహాయక పాఠశాలల్లో బాలవాటిక మరియు 1-8 తరగతుల అర్హులైన పిల్లలందరికీ, పాఠశాల పనిదినాలన్నిటికీ, రోజుకు ఒక వెచ్చి వంటకం ఉచితంగా అందిస్తారు.",
-          "de": "One hot cooked meal is provided free to all eligible children of Bal Vatika and classes I-VIII in government and government-aided schools, on all school working days.",
-          "bt": "వివరాలు చూడండి",
-          "be": "See details",
-          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294002&lang=1&reg=48",
-          "sn": "pib.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-pmmvy-maternity-benefit",
-          "t": "PMMVY - గర్భిణి తల్లులకు నగదు సాయం",
-          "e": "PMMVY - Maternity Benefit (Cash to Mother's Account)",
-          "d": "అర్హులైన తల్లులకు మొదటి జీవితంతో ఉన్న బిడ్డకు ₹5,000 (రెండు విడతల్లో), రెండో బిడ్డ ఆడపిల్ల అయితే ₹6,000 అందుతుంది. ఇది గర్భ నమోదు, ప్రసూతి పూర్వ సంరక్షణ, టీకాల మైలురాళ్లతో అనుసంధానించబడి ఉంటుంది; డబ్బు నేరుగా తల్లి బ్యాంక్ ఖాతాలో (DBT) జమ అవుతుంది. ఇది కేంద్ర పథకం; మన ప్రాంతంలో నమోదు ఎలా/ఎక్కడ జరుగుతుందో గ్రామ అంగన్‌వాడీ కేంద్రంలో నిర్ధారించండి.",
-          "de": "Eligible beneficiaries receive Rs 5,000 in two instalments for the first living child and Rs 6,000 for the second child (if the child is a girl). It is linked to pregnancy registration, antenatal care and immunization milestones, paid by DBT to the mother's bank account. This is a central scheme; confirm whether/how registration runs in our area at the village Anganwadi Centre.",
-          "bt": "వివరాలు చూడండి",
-          "be": "See details",
-          "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2270668&lang=1&reg=20",
-          "sn": "pib.gov.in",
-          "u": "24-10-2026"
-        },
-        {
-          "id": "women-child-immunization-uip",
-          "t": "ఉచిత పిల్లల టీకాలు (UIP) - ప్రభుత్వ ఆసుపత్రుల్లో",
-          "e": "Free Child Immunization (UIP) at Government Facilities",
-          "d": "ప్రభుత్వ ఆరోగ్య కేంద్రాల్లో పిల్లలు మరియు గర్భిణులకు టీకాలు ఉచితం (యూనివర్సల్ ఇమ్యునైజేషన్ ప్రోగ్రామ్). టీకా తప్పిన లేదా మధ్యలో ఆగిన పిల్లలు, గర్భిణుల కోసం మిషన్ ఇంద్రధనుష్ పేరుతో ప్రత్యేక క్యాచ్-అప్ క్యాంపైన్ నడుపుతారు.",
-          "de": "Vaccines for children and pregnant women are free at government health facilities under the Universal Immunization Programme. Mission Indradhanush is the special catch-up campaign for left-out and dropped-out children and pregnant women.",
-          "bt": "వివరాలు చూడండి",
-          "be": "See details",
-          "s": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2085204&lang=2&reg=3",
-          "sn": "pib.gov.in",
-          "u": "24-10-2026"
-        }
-      ],
-      "nb": true
-    },
-    {
-      "id": "pwd",
-      "icon": "♿",
-      "te": "దివ్యాంగుల సంక్షేమం",
-      "en": "Disability Welfare",
-      "items": [
-        {
-          "id": "pwd-sadarem-disability-certi",
-          "t": "SADAREM దివ్యాంగత్వ సర్టిఫికెట్",
-          "e": "SADAREM Disability Certificate",
-          "d": "దివ్యాంగత నమోదు, SADAREM సర్టిఫికెట్, UDID కార్డు - ఈ సర్టిఫికెట్తో పింఛన్లు, స్కాలర్‌షిప్‌లు, సాధనాలు అందుతాయి. అధికారిక పోర్టల్‌లో వివరాలు.",
-          "de": "Disability registration, SADAREM certificate and UDID card - this certificate unlocks pensions, scholarships and assistive devices. Details on the official portal.",
-          "bt": "పోర్టల్ వివరాలు చూడండి",
-          "be": "View portal details",
-          "s": "https://sadarem.telangana.gov.in/aboutHome.do",
-          "sn": "sadarem.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "pwd-disability-welfare-depar",
-          "t": "దివ్యాంగుల సంక్షేమ శాఖ పథకాలు",
-          "e": "Disability Welfare Department Schemes",
-          "d": "విద్యా స్కాలర్‌షిప్‌లు, ఆర్థిక పునరావాసం, వివాహ ప్రోత్సాహకం, సహాయక పరికరాలు, హాస్టళ్లు - శాఖా అధికారిక పోర్టల్‌లో పూర్తి జాబితా. చేయూత పింఛనులో దివ్యాంగులకు ప్రత్యేక వర్గం కూడా ఉంది.",
-          "de": "Education scholarships, economic rehabilitation, marriage incentive, assistive devices, hostels - full list on the department's official portal. Cheyutha pension also has a special disability category.",
-          "bt": "పథకాలు చూడండి",
-          "be": "View schemes",
-          "s": "https://wdsc.telangana.gov.in/pwd_portal.html",
-          "sn": "wdsc.telangana.gov.in",
-          "u": "23-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "water",
-      "icon": "💧",
-      "te": "నీళ్లు • బియ్యం • భూమి",
-      "en": "Water • Rice • Land",
-      "items": [
-        {
-          "id": "water-mission-bhagiratha-house",
-          "t": "మిషన్ భగీరథ - ఇంటి నీళ్ల కనెక్షన్",
-          "e": "Mission Bhagiratha - Household Tap Water",
-          "d": "ప్రతి ఇంటికి పైప్ తాగునీరు - కొత్త కనెక్షన్, రిపేర్లు స్థానిక మిషన్ భగీరథ / RWS కార్యాలయం ద్వారా. అధికారిక పోర్టల్‌లో పథకం వివరాలు.",
-          "de": "Piped drinking water to every home - new connections and repairs through the local Mission Bhagiratha / RWS office. Scheme details on the official portal.",
-          "bt": "పథకం వివరాలు చూడండి",
-          "be": "View scheme details",
-          "s": "https://missionbhagiratha.telangana.gov.in/",
-          "sn": "missionbhagiratha.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "water-epds-ration-rice-service",
-          "t": "ePDS - రేషన్ / బియ్యం సేవలు",
-          "e": "ePDS - Ration / Rice Services",
-          "d": "రేషన్ కార్డు వివరాలు, నెలవారీ సరుకు కేటాయింపు, స్మార్ట్ రేషన్ కార్డు - అధికారిక ePDS పోర్టల్‌లో ఆన్‌లైన్ చూడవచ్చు. ఫిర్యాదులకు 1967.",
-          "de": "Ration card details, monthly allocation and smart ration card updates can be checked online on the official ePDS portal. Complaints: 1967.",
-          "s": "https://epds.telangana.gov.in/FoodSecurityAct/",
-          "sn": "epds.telangana.gov.in",
-          "u": "23-10-2026",
-          "ph": "1967"
-        },
-        {
-          "id": "water-bhu-bharati-land-records",
-          "t": "భూ భారతి - భూమి రికార్డులు",
-          "e": "Bhu Bharati - Land Records",
-          "d": "భూమి రికార్డులు (ROR), పట్టాదారు పాస్‌బుక్, మ్యూటేషన్ - దరాని స్థానంలో వచ్చిన కొత్త అధికారిక పోర్టల్. ఏ సేవలు ఆన్‌లైన్ అందుబాటులో ఉన్నాయో పోర్టల్‌లోనే చూడండి.",
-          "de": "Land records (ROR), pattadar passbook, mutations - the new official portal that replaced Dharani. Check the portal itself for which services are online.",
-          "bt": "భూమి రికార్డులు చూడండి",
-          "be": "View land records",
-          "s": "https://bhubharati.telangana.gov.in/gis/",
-          "sn": "bhubharati.telangana.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "water-swachh-bharat-household",
-          "t": "స్వచ్ఛ భారత్ - ఇంటి మరుగుదొడ్డి",
-          "e": "Swachh Bharat - Household Toilet (IHHL)",
-          "d": "ఇంటి మరుగుదొడ్డి (IHHL) నిర్మాణానికి ₹12,000 ప్రోత్సాహకం (కేంద్ర + రాష్ట్ర వాటా). దరఖాస్తు గ్రామ పంచాయతీ ద్వారా. వివరాలు అధికారిక FAQ లో.",
-          "de": "Rs 12,000 incentive for building a household toilet (IHHL), central + state share. Apply through the Gram Panchayat. Details in the official FAQ.",
-          "bt": "వివరాలు (FAQ) చూడండి",
-          "be": "Read the FAQ",
-          "s": "https://swachhbharatmission.ddws.gov.in/faq",
-          "sn": "swachhbharatmission.gov.in",
-          "u": "23-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "funds",
-      "icon": "💰",
-      "te": "గ్రామ నిధులు & లెక్కలు",
-      "en": "Village Funds & Accounts",
-      "items": [
-        {
-          "id": "funds-egramswaraj-panchayat-fu",
-          "t": "eGramSwaraj - పంచాయతీ నిధులు & ఖర్చు",
-          "e": "eGramSwaraj - Panchayat Funds & Spending",
-          "d": "మన గ్రామ పంచాయతీకి ఏ సంవత్సరం ఎంత నిధి వచ్చింది, ఏ పనికి ఎంత ఖర్చైంది - ఎవరైనా ఈ పబ్లిక్ పోర్టల్‌లో ఉచితంగా చూడవచ్చు. లాగిన్ అవసరం లేదు.",
-          "de": "Anyone can see free of charge how much money our Gram Panchayat received each year and what it was spent on - on this public portal. No login needed.",
-          "bt": "నిధులు & ఖర్చు చూడండి",
-          "be": "View funds & spending",
-          "s": "https://egramswaraj.gov.in/",
-          "sn": "egramswaraj.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "funds-mplads-mp-development-fu",
-          "t": "MPLADS - MP అభివృద్ధి నిధి డ్యాష్‌బోర్డ్",
-          "e": "MPLADS - MP Development Fund Dashboard",
-          "d": "మెదక్ పార్లమెంట్ నియోజకవర్గంలో MP నిధులతో ఏ పనులు జరిగాయి, ఎంత ఖర్చైంది - పబ్లిక్ డ్యాష్‌బోర్డ్‌లో చూడండి.",
-          "de": "See what works were done with MP funds in the Medak Lok Sabha constituency and how much was spent - on the public dashboard.",
-          "bt": "డ్యాష్‌బోర్డ్ చూడండి",
-          "be": "Open dashboard",
-          "s": "https://mplads.gov.in/mplads/dashboard/DashBoard.aspx",
-          "sn": "mplads.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "funds-our-representatives",
-          "t": "మన ప్రతినిధులు (MLA / MP)",
-          "e": "Our Representatives (MLA / MP)",
-          "d": "నర్సాపూర్ MLA: శ్రీమతి వాకిటి సునీత లక్ష్మా రెడ్డి - అధికారిక శాసనసభ్యుల జాబితాలో తనిఖీ చేశాం. ప్రస్తుత మెదక్ MP వివరాలు అధికారిక జాబితాల్లోనే చూడండి.",
-          "de": "Narsapur MLA: Smt Vakiti Sunitha Laxma Reddy - verified on the official MLAs list. Check the official lists for the current Medak MP details.",
-          "bt": "అధికారిక జాబిత చూడండి",
-          "be": "View official list",
-          "s": "https://www.telangana.gov.in/legislature/members-of-legislative-assembly/",
-          "sn": "telangana.gov.in",
-          "u": "23-10-2026"
-        }
-      ]
-    },
-    {
-      "id": "digital",
-      "icon": "📱",
-      "te": "డిజిటల్ అవగాహన & నేర్చుకోవడం",
-      "en": "Digital Awareness & Learning",
-      "items": [
-        {
-          "id": "digital-free-computer-learning-a",
-          "t": "ఇంట్లోనే ఉచిత కంప్యూటర్ నేర్చుకోవడం - NIELIT (8-12 తరగతులు)",
-          "e": "Free Computer Learning at Home - NIELIT (Classes 8-12)",
-          "d": "ప్రభుత్వ NIELIT ఇచ్చే ఉచిత ఆన్‌లైన్ కంప్యూటర్ కోర్సు కంటెంట్ (8-12 తరగతుల విద్యార్థులకు, CBSE అధికారిక సర్క్యులర్ 79/2026 ప్రకారం) - ఇంట్లోనే మొబైల్/కంప్యూటర్‌తో నేర్చుకోవచ్చు. గుర్తుంచుకోండి: ఉచిత కంటెంట్ వేరు, సర్టిఫికెట్ వేరు - అధికారిక CCC పరీక్ష/సర్టిఫికెట్‌కు వేరే ఫీజు ఉంది (NIELIT పేజీలో ₹500 జాబితా); ఉద్యోగ హామీ లేదు. పోర్టల్‌లో కొన్ని పైడ్ కోర్సులు కూడా ఉన్నాయి - ఉచితమైనవే ఎంచుకోండి.",
-          "de": "Free online computer course content from government NIELIT (for class 8-12 students, per CBSE official circular 79/2026) - learn at home on mobile/computer. Remember: free content is different from a certificate - the formal CCC exam/certificate has a separate fee (Rs 500 listed on the NIELIT page); no job guarantee. The portal also has paid courses - choose the free ones.",
-          "bt": "ఉచిత కోర్సులు చూడండి",
-          "be": "See free courses",
-          "s": "https://www.ndu.digital/",
-          "sn": "ndu.digital (NIELIT)",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "digital-nielit-free-tagged-self",
-          "t": "NIELIT ఉచిత సెల్ఫ్-పేస్డ్ కోర్సుల కేటలాగ్",
-          "e": "NIELIT Free-tagged Self-paced Course Catalog",
-          "d": "సైబర్ సెక్యూరిటీ, బేసిక్ లినక్స్ వంటి 'ఉచిత'గా గుర్తించిన సెల్ఫ్-పేస్డ్ కోర్సులు NIELIT కేటలాగ్‌లో ఉన్నాయి - పక్కన పైడ్ కోర్సులు కూడా ఉంటాయి, కాబట్టి ప్రతి కోర్సు పేజీలో ఫీజు/సర్టిఫికెట్ నిబంధనలు చూసి చేరండి. మొత్తం పోర్టల్ ఉచితం అని కాదు.",
-          "de": "The NIELIT catalog has self-paced courses tagged free - Cyber Security, Basic Linux and more - but paid courses sit alongside, so check each course page for fee/certificate conditions before joining. The whole portal is not free.",
-          "bt": "కేటలాగ్ చూడండి",
-          "be": "See catalog",
-          "s": "https://lms.nielit.gov.in/course/index.php?browse=courses",
-          "sn": "lms.nielit.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "digital-nptel-courses-current-cy",
-          "t": "NPTEL కోర్సులు - ఉచిత ఆన్‌లైన్ నేర్చుకోవడం",
-          "e": "NPTEL Courses - Free Online Learning",
-          "d": "IIT/ఐఐఎస్సీ ప్రొఫెసర్ల ఉచిత ఆన్‌లైన్ కోర్సులు - ఇంట్లోనే నేర్చుకోవచ్చు. చేరిక తేదీలు సైకిల్ వారీగా మారుతాయి; ప్రస్తుత స్థితి అధికారిక పేజీలోనే చూడండి. సర్టిఫికెట్ కావాలంటే వేరే పరీక్ష ఫీజు ఉంటుంది; మొత్తం, నిబంధనలు ఆ పేజీలో నిర్ధారించుకోండి. ఇది సమాచార కార్డు మాత్రమే.",
-          "de": "Free online courses by IIT/IISc professors - learn from home. Enrollment dates change by cycle; check the official page for the current status. A certificate needs a separate exam fee; confirm the amount and conditions on that page. This is an information card only.",
-          "bt": "NPTEL చూడండి",
-          "be": "See NPTEL",
-          "s": "https://onlinecourses.nptel.ac.in/",
-          "sn": "onlinecourses.nptel.ac.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "digital-stay-safe-from-cyber-fra",
-          "t": "సైబర్ మోసాల నుండి జాగ్రత్త",
-          "e": "Stay Safe from Cyber Fraud",
-          "d": "OTP, పాస్‌వర్డ్, ఆధార్ నంబరు ఎవరికీ ఇవ్వవద్దు - బ్యాంక్/ప్రభుత్వం ఫోన్‌లో అడగదు. మోసం జరిగితే వెంటనే 1930 కి కాల్ చేయండి లేదా జాతీయ సైబర్ క్రైమ్ పోర్టల్‌లో నమోదు చేయండి.",
-          "de": "Never share OTP, passwords or Aadhaar number with anyone - banks/government never ask on phone. If cheated, call 1930 immediately or report on the National Cyber Crime portal.",
-          "bt": "ఫిర్యాదు పోర్టల్ తెరవండి",
-          "be": "Open reporting portal",
-          "s": "https://cybercrime.gov.in/",
-          "sn": "cybercrime.gov.in",
-          "u": "23-10-2026",
-          "ph": "1930"
-        },
-        {
-          "id": "digital-sanchar-saathi-check-sim",
-          "t": "సంచార్ సాథి - మీ పేరుపై సిమ్ కార్డులు చూడండి",
-          "e": "Sanchar Saathi - Check SIMs on Your Name",
-          "d": "మీ ఆధార్/పేరుపై ఎన్ని మొబైల్ కనెక్షన్లు ఉన్నాయో, మీ ఫోన్ అసలైందా కాదా - ప్రభుత్వ అధికారిక పోర్టల్‌లో ఉచితంగా తనిఖీ చేయండి. పోయిన ఫోన్ బ్లాక్ కూడా ఇక్కడే.",
-          "de": "Check free how many mobile connections exist on your Aadhaar/name and whether your phone is genuine, on the official government portal. Lost phones can be blocked here too.",
-          "bt": "ఉచిత తనిఖీ చేయండి",
-          "be": "Check free",
-          "s": "https://sancharsaathi.gov.in/",
-          "sn": "sancharsaathi.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "digital-diksha-free-lessons",
-          "t": "DIKSHA - ఉచిత పాఠాలు (పిల్లలు & టీచర్లు)",
-          "e": "DIKSHA - Free Lessons (Children & Teachers)",
-          "d": "ప్రభుత్వ అధికారిక ఉచిత లెర్నింగ్ యాప్/వెబ్‌సైట్ - స్కూల్ పాఠ్యాంశాలు, వీడియో పాఠాలు, క్విజ్‌లు తెలుగుతో సహా. ఇంటర్నెట్ ఉంటే ఎవరైనా ఉచితంగా నేర్చుకోవచ్చు.",
-          "de": "Official free government learning app/website - school syllabus, video lessons and quizzes including in Telugu. Anyone with internet can learn free.",
-          "bt": "నేర్చుకోవడం మొదలుపెట్టండి",
-          "be": "Start learning",
-          "s": "https://diksha.gov.in/",
-          "sn": "diksha.gov.in",
-          "u": "23-10-2026"
-        },
-        {
-          "id": "digital-swayam-free-college-cour",
-          "t": "SWAYAM - ఉచిత కళాశాల కోర్సులు",
-          "e": "SWAYAM - Free College Courses",
-          "d": "ప్రభుత్వ అధికారిక పోర్టల్ - IITలు, IIMలు, యూనివర్సిటీల ఉచిత ఆన్‌లైన్ కోర్సులు. పరీక్ష రాస్తే సర్టిఫికెట్ కూడా (పరీక్ష ఫీజు మాత్రమే). చదువుకున్న యువత ముందుకు రావడానికి మంచి మార్గం.",
-          "de": "Official government portal - free online courses from IITs, IIMs and universities. Certificate available on exam (exam fee only). A good path for educated youth to move forward.",
-          "bt": "కోర్సులు చూడండి",
-          "be": "View courses",
-          "s": "https://swayam.gov.in/",
-          "sn": "swayam.gov.in",
-          "u": "23-10-2026"
         }
       ]
     }
