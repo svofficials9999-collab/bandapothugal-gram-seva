@@ -1,4 +1,3 @@
-// Official training sources checked24-10-2026.
 window.GS_DATA = {
   "built": "23-10-2026",
   "village": {
@@ -179,6 +178,134 @@ window.GS_DATA = {
     }
   ],
   "sections": [
+    {
+      "id": "civic",
+      "te": "పౌర అవగాహన & నాయకత్వం",
+      "en": "Civic awareness & leadership",
+      "icon": "📖",
+      "items": [
+        {
+          "id": "civic-index",
+          "t": "ముందుగా చదవండి - పౌర అవగాహన సూచిక",
+          "e": "Start here - civic learning index",
+          "d": "అందరికీ తటస్థ పౌర అవగాహన; పార్టీ ప్రచారం / ఓటు సలహా కాదు.\n1 వినడం, మాట్లాడడం, గుర్తుపెట్టుకోవడం\n2 గ్రామ సమస్య నమోదు, ఆధారాలు\n3 గ్రామసభ, వార్డు సభ్యుడు, సర్పంచ్\n4 కార్యదర్శి, మండల / జిల్లా సంస్థలు\n5 MLA / MLC / MP, మంత్రులు, CM / PM\n6 హక్కులు, బాధ్యతలు, సరైన శాఖ, ఫాలోఅప్.\nఇది సులభ పరిచయం మాత్రమే; పూర్తి చట్టం / తాజా సవరణలు / న్యాయ సలహాకు ప్రత్యామ్నాయం కాదు. ప్రస్తుత పదవుల పేర్లు / ఫోన్లు నిర్ధారణ కాదు.",
+          "de": "Neutral civic education for everyone, not party promotion or voting advice.\n1 Listen, speak and recall\n2 Record village issues and evidence\n3 Gram Sabha, ward member, sarpanch\n4 Secretary, mandal/district bodies\n5 MLA/MLC/MP, ministers, CM/PM\n6 Rights, duties, correct department and follow-up.\nIntroduction only, not the whole law, latest-amendment certification or legal advice. Current office-holders/contacts not verified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-speak",
+          "t": "వినడం • మాట్లాడడం • గుర్తుపెట్టుకోవడం",
+          "e": "Listen • speak • remember",
+          "d": "అభ్యాస సూచనలు మాత్రమే, చట్టబద్ధ విధులు కాదు.\nముందు మాట పూర్తిగా వినండి. అర్థమైన సమస్యను తిరిగి చెప్పి నిర్ధారించండి.\n60 సెకన్ల రూపం: సమస్య → ఎక్కడ / ఎప్పటి నుంచి → ప్రభావం → ఆధారం → కోరే చర్య.\nమీ అధికార పరిధి తెలుసుకోకుండా ఫలితం హామీ ఇవ్వవద్దు. తేదీతో చిన్న నోట్ రాయండి; చూడకుండా మీ మాటల్లో చెప్పి మళ్లీ తనిఖీ చేయండి. సాధన మాత్రమే, జ్ఞాపకశక్తి హామీ కాదు.",
+          "de": "Suggested practice, not statutory duties.\nListen fully, restate the issue and check understanding.\nUse a60-second outline: issue → where/since when → impact → evidence → requested action.\nDo not promise outcomes beyond your authority. Write dated notes, recall in your own words, then check them. Practice, not a memory-performance guarantee.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-record",
+          "t": "గ్రామ సమస్యను ఆధారాలతో నమోదు చేయండి",
+          "e": "Record a village issue with evidence",
+          "d": "అభ్యాస నమూనా: తేదీ / ప్రదేశం / సమస్య / ప్రభావం / స్వయంగా చూసిన విషయం / ఆధారం / కోరే చర్య / రసీదు నంబర్ / ఫాలోఅప్ తేదీ.\nవాస్తవం, విన్న సమాచారం, అభిప్రాయం వేరుగా రాయండి. అనుమతి లేకుండా ఆధార్, ఆరోగ్య వివరాలు, పిల్లల ఫోటోలు, వ్యక్తిగత నంబర్లు పబ్లిక్ చేయవద్దు.\nప్రజలతో ప్రాధాన్యం చర్చించండి. తక్షణ ప్రమాదానికి అత్యవసర సేవలు వాడండి; మీరే శిక్ష అమలు చేయవద్దు. యాప్ ఎవరికీ పంపదు.",
+          "de": "Suggested record: date/place/issue/impact/observation/evidence/request/receipt/follow-up date.\nSeparate fact, hearsay and opinion. Do not publish Aadhaar, health details, children’s photos or private numbers without appropriate permission.\nDiscuss priorities with residents. Use emergency services for immediate danger; do not impose punishment yourself. The app sends nothing.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-gramsabha",
+          "t": "గ్రామసభ - ప్రజల ప్రశ్నలు, ప్రణాళికలు",
+          "e": "Gram Sabha - residents, questions and plans",
+          "d": "తెలంగాణ పంచాయతీ రాజ్ చట్టం2018 సెక్షన్6: గ్రామ పంచాయతీ ఓటర్ల జాబితాలో ఉన్నవారంతా గ్రామసభ సభ్యులు. గ్రామసభ, ఎన్నికైన గ్రామ పంచాయతీ వేరు.\nఅభివృద్ధి పనులు, ఖర్చులు, ఖాతాలు / ఆడిట్, ప్రాధాన్యాలపై నిబంధనలు ఉన్నాయి. అధికారిక సమావేశ తేదీ, అజెండా, మినిట్స్ చూడండి.\nతీర్మానం ఏ చట్టాన్నీ దాటవేయదు; అమలు అధికారం / నిధులు / అర్హతలకు లోబడి ఉంటుంది. మన గ్రామ ప్రస్తుత సమావేశ తేదీ నిర్ధారించలేదు.",
+          "de": "Telangana Act2018 section6: everyone on the Gram Panchayat electoral roll belongs to Gram Sabha. It differs from the elected Gram Panchayat body.\nThe Act covers development, spending, accounts/audit and priorities. Check official meeting date, agenda and minutes.\nA resolution cannot override law; authority, funds and eligibility still apply. Current village meeting date unverified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-ward",
+          "t": "వార్డు సభ్యుడు - ప్రజా ప్రతినిధి",
+          "e": "Ward member - elected representative",
+          "d": "ప్రజల సమస్యలు / సూచనలు పంచాయతీ సమావేశంలో ప్రస్తావించి చట్టపరమైన నిర్ణయాల్లో పాల్గొంటారు. సెక్షన్40లో సభ్యుల సూచనలు / ప్రశ్నలు, సెక్షన్16లో శిక్షణ చూడండి.\nఒంటరిగా ప్రభుత్వ భూమి పంచడం, రుణం / పింఛన్ మంజూరు, పోలీసు / రెవెన్యూ తీర్పులు ఇచ్చే అధికారం కాదు. సంస్థ నిర్ణయం, సంబంధిత అధికారి ప్రక్రియ అవసరం. పదవి ఓట్లకు బదులు ప్రయోజనాల హామీ కాదు.",
+          "de": "Members raise residents’ issues/suggestions and participate in lawful Panchayat deliberations. See section40 for suggestions/questions, section16 for training.\nNot personal power to allot government land, sanction loans/pensions or decide police/revenue matters. Institutional decisions and official procedures apply. Public office is not benefits in return for votes.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-sarpanch",
+          "t": "సర్పంచ్ • ఉప సర్పంచ్",
+          "e": "Sarpanch • Upa-sarpanch",
+          "d": "సెక్షన్32: చట్టం ఇచ్చిన విధులు, తీర్మానాల అమలులో కార్యదర్శి పని పర్యవేక్షణ, అనుమతుల పరిధిలో చర్యలు, పారిశుధ్యం / పచ్చదనం బాధ్యతలు.\nఉప సర్పంచ్ పాత్ర చట్టం / అప్పగింత ప్రకారం; గైర్హాజరులో గ్రామసభ పాత్ర సెక్షన్6లో ఉంది. అన్ని అధికారాలు స్వయంగా బదిలీ కావు.\nప్రజా నిధులు వ్యక్తి సొంత డబ్బు కాదు; తీర్మానాలు / ఆమోదాలు / రికార్డులు అవసరం. మన గ్రామ ప్రస్తుత పేర్లు / ఫోన్లు నిర్ధారించలేదు.",
+          "de": "Section32: statutory functions, supervising secretary for resolutions, approved action, sanitation/greenery responsibilities.\nUpa-sarpanch acts under law/assignment; section6 covers Gram Sabha in the sarpanch’s absence, not automatic transfer of every power.\nPublic funds are not personal money; resolutions/approvals/records matter. Current village office-holders/phones unverified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-secretary",
+          "t": "పంచాయతీ కార్యదర్శి - అమలు పాత్ర",
+          "e": "Panchayat secretary - official implementation",
+          "d": "సెక్షన్43: సమావేశ ఏర్పాట్లు, హాజరు, తీర్మానాల ప్రతులు / అమలు, నిర్దేశిత పరిపాలనా / పారిశుధ్య పనులు.\nకార్యదర్శి ఎన్నికైన వార్డు సభ్యుడు కాదు. సెక్షన్43(2): చర్చలో పాల్గొనవచ్చు కానీ ఓటు / తీర్మానం ప్రతిపాదించే హక్కు లేదు.\nఅధికారి, ప్రతినిధి వేరు. గ్రామ కార్యదర్శి ప్రస్తుత పేరు / నంబరు నిర్ధారించలేదు; నేరుగా ఫిర్యాదు పంపే సదుపాయం లేదు.",
+          "de": "Section43: meeting arrangements/attendance, resolution copies/implementation and specified administration/sanitation duties.\nNot an elected ward member. Section43(2) allows discussion but not voting or moving resolutions.\nOfficial and representative differ. Village secretary/contact unverified; no direct complaint-send feature.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-mandal",
+          "t": "మండలం • జిల్లా - ప్రతినిధులు / అధికారులు",
+          "e": "Mandal • district - members / officials",
+          "d": "మండల, జిల్లా ప్రజా పరిషత్ వేర్వేరు చట్టబద్ధ స్థానిక సంస్థలు. MPTC / ZPTC ప్రతినిధులు; అధ్యక్షుడు / చైర్‌పర్సన్, సభ్యులు, అధికారులు ఒకే పాత్ర కాదు.\nమండల విధులకు సెక్షన్156, జిల్లా సంస్థకు188 చూడండి. MPDO / ZP CEO కార్యనిర్వాహక పాత్రలు వేరు. కలెక్టర్ వేరు జిల్లా పరిపాలనా అధికారి.\nప్రతి సమస్య అన్ని మెట్లూ ఎక్కాల్సిందే కాదు; సంబంధిత శాఖ / చట్టపరమైన అప్పీల్ మార్గం ముఖ్యం. ప్రస్తుత పదవుల భర్తీ / పేర్లు నిర్ధారణ కాదు.",
+          "de": "Mandal and Zilla Praja Parishads are distinct statutory bodies. MPTC/ZPTC members represent constituencies; presidents/chairpersons, members and officials differ.\nSee sections156/188. MPDO/ZP CEO executive roles differ; Collector is a separate district administrative official.\nNot every issue must climb every tier. Use the responsible department/statutory appeal route. Current vacancies/office-holders not verified.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-legislature",
+          "t": "MLA • MLC • MP - చట్టసభ పాత్ర",
+          "e": "MLA • MLC • MP - legislative role",
+          "d": "MLA రాష్ట్ర శాసనసభ; MLC శాసన మండలి; MP లోక్‌సభ లేదా రాజ్యసభ సభ్యుడు. చట్టాల చర్చ / ఓటింగ్, సభా నియమాల ప్రకారం ప్రభుత్వ ప్రశ్నలు, బడ్జెట్ / కమిటీల పనుల్లో పాత్ర.\nMP జాతీయ, MLA / MLC రాష్ట్ర చట్టసభలో. ఒక్క సభ్యుడు ఉద్యోగం / కోర్టు తీర్పు / పింఛన్ / భూ హక్కు వ్యక్తిగతంగా మంజూరు చేయరు. సభ్యుడైనంత మాత్రాన మంత్రి కారు.\nరాజ్యాంగం ఆర్టికల్స్118 /208, పార్లమెంట్ చట్టనిర్మాణ వివరణ చూడండి.",
+          "de": "MLA: state Assembly; MLC: Legislative Council; MP: Lok Sabha or Rajya Sabha. Roles include laws, government scrutiny, budgets and committees under House rules.\nMPs serve national and MLAs/MLCs state legislatures. One member cannot personally grant jobs, court judgments, pensions or land title. Membership does not automatically make a minister.\nSee Constitution articles118/208 and Parliament’s legislative explanation.",
+          "s": "https://sansad.in/ls/legislation/introduction",
+          "sn": "sansad.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-executive",
+          "t": "మంత్రి • ముఖ్యమంత్రి • ప్రధానమంత్రి",
+          "e": "Minister • Chief Minister • Prime Minister",
+          "d": "ఆర్టికల్స్163 /164: CM నాయకత్వంలోని రాష్ట్ర మంత్రివర్గం గవర్నర్‌కు సహాయం / సలహా; రాష్ట్ర శాసనసభకు సమిష్టి బాధ్యత. మంత్రి కేటాయించిన శాఖలో చట్టబద్ధ పాత్ర.\nఆర్టికల్స్74 /75: PM నాయకత్వంలోని కేంద్ర మంత్రివర్గం రాష్ట్రపతికి సహాయం / సలహా; లోక్‌సభకు సమిష్టి బాధ్యత.\nరాష్ట్రపతి / గవర్నర్, PM / CM వేరు పదవులు. రాజ్యాంగం, శాఖల అధికార విభజన, చట్టాలు, న్యాయ సమీక్ష వర్తిస్తాయి. ఏ నాయకుడూ చట్టానికి అతీతుడు కాదు. ఇది అందరూ PM వ్యక్తిగత సిబ్బంది అనే గొలుసు కాదు.",
+          "de": "Articles163/164: state Council of Ministers headed by CM aids/advises Governor and is collectively responsible to Assembly. Ministers administer assigned portfolios under law.\nArticles74/75: Union Council headed by PM aids/advises President and is collectively responsible to Lok Sabha.\nPresident/Governor and PM/CM differ. Constitution, divided powers, law and judicial review apply. No leader is above law; not a chain of personal staff reporting to PM.",
+          "s": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf",
+          "sn": "www.legislative.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-rights",
+          "t": "హక్కులు • బాధ్యతలు • RTI",
+          "e": "Rights • duties • RTI",
+          "d": "ఆర్టికల్19 మాట / శాంతియుత సమావేశం వంటి హక్కులకు రాజ్యాంగ పరిమితులు వర్తిస్తాయి. ఆర్టికల్51A: రాజ్యాంగ గౌరవం, సామరస్యం, ప్రజా ఆస్తి పరిరక్షణ, హింసకు దూరం.\nRTI ఉన్న రికార్డుల సమాచారం కోసం; ఫిర్యాదు పరిష్కారం / ప్రయోజనం మంజూరు కాదు. సరైన PIO, మినహాయింపులు, ఫీజు / అప్పీల్ నిబంధనలు వర్తిస్తాయి. కేంద్ర పోర్టల్ అన్ని తెలంగాణ స్థానిక దరఖాస్తులు స్వీకరిస్తుందని అనుకోకండి.\nఆధారాలు తనిఖీ చేయండి; బెదిరింపు, లంచం, కుల / మత విద్వేషం వద్దు.",
+          "de": "Article19 rights including speech/peaceful assembly have constitutional restrictions. Article51A includes Constitution, harmony, public property and rejecting violence.\nRTI concerns existing records, not grievance resolution or benefit sanction. Correct PIO, exemptions, fee/appeal rules apply; central portal does not necessarily cover Telangana local requests.\nCheck evidence; avoid threats, bribery and caste/religious hatred.",
+          "s": "https://rti.gov.in/webactrti.htm",
+          "sn": "rti.gov.in",
+          "u": "24-10-2026"
+        },
+        {
+          "id": "civic-followup",
+          "t": "సరైన శాఖ • మర్యాదపూర్వక ఫాలోఅప్",
+          "e": "Right department • polite follow-up",
+          "d": "అభ్యాస పద్ధతి: బాధ్యమైన శాఖ → అధికారిక మార్గం → రసీదు / తేదీ → ప్రచురించిన గడువు ప్రకారం ఫాలోఅప్ → సరైన అప్పీల్.\nనమూనా: “ఇక్కడ ఈ సమస్య ఉంది. ఈ ఆధారం ఉంది. మీ పరిధిలో ఏ చర్య సాధ్యం? రసీదు నంబరు, తదుపరి సమాధాన తేదీ చెప్పండి.”\nమహిళలు, వృద్ధులు, దివ్యాంగుల మాట వినండి; అందరికీ సమాన గౌరవం. తక్షణ ఫలితం హామీ వద్దు. యాప్ ఫిర్యాదు / RTI పంపదు; ఫీజు చెల్లించదు.",
+          "de": "Suggested process: responsible department → official route → receipt/date → published timeline → proper appeal.\nExample: “This issue affects this place. Here is the evidence. What action is within your authority? Please give a receipt and next update date.”\nListen to women, older people and people with disabilities; equal respect for all. No instant-outcome promises. App does not send complaints/RTI or pay fees.",
+          "s": "https://cdnbbsr.s3waas.gov.in/s316026d60ff9b54410b3435b403afd226/uploads/2024/07/20240725429613357.pdf",
+          "sn": "cdnbbsr.s3waas.gov.in",
+          "u": "24-10-2026"
+        }
+      ]
+    },
     {
       "id": "localtraining",
       "te": "మన ప్రాంతంలో శిక్షణ & వసతి",
