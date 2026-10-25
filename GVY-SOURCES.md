@@ -1,0 +1,10 @@
+# GVY addition -25October2026
+
+User requested scheme information in villageSeva, not an application or outreach.
+
+- https://kvic.gov.in/kvicres/How%20to%20Open%20Village%20Industries%20in%20India.php fetched25October2026:generaleligibility,18-55,oneperfamily,ID/documents,selection,categories,owncontribution,priorbenefitexclusion andundertaking. OfficialtablerowGeneral(GEN)retainedliterally,notexpandedtoaseparatelyverifiedOBCrow.
+- https://www.kvic.gov.in/kvicres/pcbi.php fetched25October2026:officialGVYfootwear/agarbattiguidanceindex.
+- http://www.kvic.gov.in/kvicres/tender.php fetched25October2026:2026procurementacrossseveraltrades;notprooflocalapplicationsareopen.
+- FourteenprintedtrainingdurationsfromsixKVICTelanganaTelugubrochurephotosprovidedbyuser25October2026,readtogetherbyresearchreviewer.Alllabelledbrochure-only,notcurrentbatchdurationverification.Noapplicationdates,toolprices,beneficiaryentitlement,orlocalavailabilityclaim.
+
+Changes:26sections(25preserved+KVIC/GVY),5newbilingualcards,stableIDs. Noothercardtext/contacts/audiochanged. Existinghash-keyedrecordings/deviceTTSfallbackunchanged;newcardsdonothaveprerecordedclips. Noapplications,documents,paymentsoroutreachhandled. Existingcachescope,data-integritygate andstaleclientrepairpreserved,v92withnewdataSHA. Generalbuiltdateleftunchangedbecauseoldercardswerenotrechecked.

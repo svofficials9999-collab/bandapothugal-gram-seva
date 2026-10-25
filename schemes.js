@@ -1159,7 +1159,10 @@ window.GS_DATA = {
           "e": "Rice - method and local season",
           "d": "విత్తే ముందు స్థానిక రకం, పంట కాలం, నీటి లభ్యత నిర్ణయించండి. నారు నాటడం / నేరుగా విత్తడం నిర్వహణ ఒకేలా ఉండదు.\nచదివే దశలు: విత్తనం / నారు → పొలం సిద్ధం → నాటడం / విత్తడం → నీరు / కలుపు / పోషకాల పరిశీలన → తెగుళ్ల నిర్ధారణ → కోత.\nకింద పేజీ తమిళనాడు సీజన్లు / రకాలు చూపుతుంది; ఆ నెలలు / రకాలు మెదక్ సిఫార్సు కావు. స్థిర నీటి / మందుల మోతాదు ఇక్కడ ఇవ్వలేదు.",
           "de": "Confirm local variety, duration and water before planting. Transplanting and direct seeding need different management.\nStudy seed/nursery → field preparation → planting → water/weeds/nutrition checks → diagnosis → harvest.\nLinked seasons/varieties are for Tamil Nadu, not a Medak recommendation. No fixed irrigation/product dose is prescribed.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/agriculture/agri_seasonandvarieties_rice.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1170,7 +1173,10 @@ window.GS_DATA = {
           "e": "Cotton - distinguish growing systems",
           "d": "మూలంలో నీటి పారుదల, వర్షాధార, వరి తర్వాత, అధిక సాంద్రత, సేంద్రీయ పత్తి పద్ధతులు వేరు.\nస్థానిక నేల / సీజన్ / నీటికి పద్ధతి, విత్తనం, దూరం నిపుణుడితో నిర్ణయించండి. HDPS దూరాన్ని ప్రతి రకానికి వర్తింపజేయవద్దు.\nపెరుగుదల → పూత → కాయ దశల్లో పరిశీలించండి. సమస్య పేరు నిర్ధారించకుండా మందులు కలపవద్దు. లింకులోని పాత రసాయన సూచనలు ప్రస్తుత తెలంగాణ అనుమతి / లేబుల్‌కు బదులు కావు.",
           "de": "Source separates irrigated, rainfed, rice-fallow, high-density and organic cotton systems.\nConfirm system, seed and spacing for local soil/season/water. HDPS spacing is not for every variety.\nMonitor growth → flowering → bolls. Do not mix products before diagnosis. Old linked chemical guidance does not replace current Telangana approval/label.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_cotton.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1181,7 +1187,10 @@ window.GS_DATA = {
           "e": "Groundnut - flowering, pegging and pods",
           "d": "మూలం ప్రకారం పూత, ఊడలు నేలలోకి దిగే దశ, కాయ అభివృద్ధిలో తేమ ముఖ్యం.\nపొలం / మంచి విత్తనం → విత్తడం → కలుపు పరిశీలన → పూత / ఊడలు / కాయలు → పరిపక్వత / కోత చదవండి.\nనేల, వర్షం, దశను బట్టి నీరు నిర్ణయించాలి. మూలంలోని రోజుల పట్టిక స్థిర మెదక్ షెడ్యూల్ కాదు. జిప్సం / ఎరువు / మందుల మోతాదు స్థానిక పరీక్ష, నిపుణుడి సలహా ఆధారమే.",
           "de": "Source identifies flowering, pegging and pod development as important moisture stages.\nStudy field/seed → sowing → weeds → flowering/pegging/pods → maturity/harvest.\nIrrigation depends on soil, rain and stage; source day tables are not a fixed Medak schedule. Gypsum/fertilizer/protection need local tests and advice.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/agriculture/CropProduction/Oilseeds/oilseeds_groundnut01.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1192,7 +1201,10 @@ window.GS_DATA = {
           "e": "Blackgram - avoid water stagnation",
           "d": "మూలంలో పూత / కాయ ఏర్పడే దశల్లో తేమ ముఖ్యం; అన్ని దశల్లో నీరు నిలవకుండా చూడాలని ఉంది.\nమంచి విత్తనం → సీజన్ / పద్ధతి → మొలకలు / కలుపు → పూత / కాయలు → కోత.\nవరి తర్వాత మిగిలిన తేమ, నీటి పారుదల, వర్షాధార సాగు సూచనలు వేరు. తమిళనాడు నెలలు, రకాలు, మోతాదులను మన గ్రామానికి కాపీ చేయవద్దు.",
           "de": "Source identifies flowering/pod formation as moisture-sensitive and advises avoiding stagnation at all stages.\nSeed quality → season/system → establishment/weeds → flowers/pods → harvest.\nRice-fallow, irrigated and rainfed systems differ. Do not copy Tamil Nadu calendars, varieties or doses into village prescriptions.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/agriculture/pulses_blackgram.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1203,7 +1215,10 @@ window.GS_DATA = {
           "e": "Safflower - seed to harvest",
           "d": "కుసుమలు / Safflower (Carthamus tinctorius): పొలం సిద్ధం, మంచి విత్తనం, వరుస విత్తడం, మొక్కల సర్దుబాటు, కలుపు, పరిపక్వత / కోత మూలంలో ఉన్నాయి.\nవిత్తే సమయం, రకం, నేల తేమ, కాలాన్ని స్థానిక అధికారితో నిర్ణయించండి. మూలంలోని నవంబర్ సూచన తమిళనాడు పరిధి; ప్రతి మెదక్ పొలానికి హామీ కాదు.\nరసాయన విత్తన శుద్ధి / ఎరువు సూచనలు సేంద్రీయ ప్రమాణాలకు ఆటోమేటిక్‌గా సరిపోవు.",
           "de": "Safflower (Carthamus tinctorius) source covers field preparation, good seed, line sowing, thinning, weeds and maturity/harvest.\nConfirm local timing, variety, moisture and duration. Its November timing is Tamil Nadu guidance, not a guarantee for Medak fields.\nChemical seed/fertilizer treatments are not automatically organic-compatible.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/agriculture/oilseeds_safflower.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1214,7 +1229,10 @@ window.GS_DATA = {
           "e": "Other pulses - identify first",
           "d": "సూచికలో మినుములు, పెసలు, అలసందలు, కందులు వేరు పంటలు.\nస్థానిక పేరు స్పష్టంగా లేకపోతే విత్తన ప్యాకెట్, మొక్క / కాయ ఫోటోతో పంటను నిర్ధారించండి. పేరు తెలియకుండా మరో పంట మోతాదు వాడవద్దు.\nపేరు తెలిసిన తర్వాత నేల, కాలం, నీరు, రకానికి సరైన మార్గదర్శిని ఎంచుకోండి.",
           "de": "Index distinguishes blackgram, greengram, cowpea and redgram.\nIf a local crop name is unclear, identify it with seed label and plant/pod photos; never use another crop’s dose by guesswork.\nThen match the guide to soil, season, water and variety.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_fieldcrops.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1225,7 +1243,10 @@ window.GS_DATA = {
           "e": "Tomato - nursery, support and moisture",
           "d": "సూచికలో నారు / విత్తనం, సీజన్ / పొలం సిద్ధం, నీరు, తెగుళ్లు, కోత తర్వాత నిర్వహణ ఉన్నాయి. కొన్ని హైబ్రిడ్లకు ఆధారం, మల్చింగ్ ప్రత్యేక పద్ధతులు.\nఎండిన తర్వాత ఒక్కసారిగా నీరు ఇవ్వడం పండ్లు పగలడానికి దారితీయవచ్చని నీటి మార్గదర్శిని వివరిస్తుంది. నీటి అంతరాన్ని నేల / వాతావరణానికి సరిపోల్చండి.\nనారు రకం, డ్రైనేజీ, మార్కెట్ స్థానికంగా ప్రణాళిక చేయండి. ప్రతి టమాటా పద్ధతి సేంద్రీయం కాదు.",
           "de": "Index covers nursery/seed, season/field, water, disorders and post-harvest handling. Support/mulching depend on the growing system.\nWater guide warns drought followed by sudden irrigation can crack fruit; adapt to soil/weather.\nPlan seedlings, drainage and market locally. Not every tomato method is organic.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_index.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1246,7 +1267,10 @@ window.GS_DATA = {
           "e": "Other vegetables - crop-specific reading",
           "d": "కూరగాయల సూచికలో పంటను ఎంచుకుని నేల / వాతావరణం, నారు / విత్తనం, నీరు, కలుపు, సమస్యలు, కోత చదవండి.\nవేర్వేరు కూరగాయలకు ఒకే నీటి షెడ్యూల్ / మందు కాదు. స్థానిక సీజన్, రకం, వ్యాధి నిర్ధారణ అవసరం.\nతమిళనాడు మార్గదర్శిని, మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ఖర్చు / అమ్మకం ప్రణాళికతో మొదలుపెట్టండి.",
           "de": "Select a crop in the vegetable index for soil/climate, nursery/seed, water, weeds, disorders and harvest.\nDifferent vegetables do not share one irrigation/protection schedule. Confirm local season, variety and diagnosis.\nTamil Nadu guidance, not a field prescription. Plan costs/sales before starting.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/horticulture/horti_Vegetables.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1257,7 +1281,10 @@ window.GS_DATA = {
           "e": "Fruit orchards - long-term planning",
           "d": "సూచికలో మామిడి, అరటి, జామ, బొప్పాయి, నిమ్మ, దానిమ్మ తదితర పంటలు ఉన్నాయి.\nతోటకు ముందు నేల / నీటి నాణ్యత, డ్రైనేజీ, ఉష్ణోగ్రత, నమ్మకమైన నర్సరీ, దూరం, సంవత్సరాల నిర్వహణ ఖర్చు, మార్కెట్ పరిశీలించండి.\nజామకు నీరు బయటకు వెళ్లే నేల అనుకూలమని మూలం వివరిస్తుంది. ప్రతి పండు / రకం బండపోతుగల్‌కు సరిపోతుందని నిర్ధారణ కాదు; ఉద్యాన అధికారితో ప్రణాళిక చేయండి.",
           "de": "Index includes mango, banana, guava, papaya, citrus and pomegranate.\nAssess soil/water, drainage, temperature, reliable nursery, spacing, multi-year costs and market.\nSource describes well-drained soils for guava. Not proof that every fruit/variety suits Bandapothugal; plan with horticulture staff.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.", "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+          },
           "s": "https://agritech.tnau.ac.in/horticulture/horti_fruits.html",
           "sn": "agritech.tnau.ac.in",
           "u": "24-10-2026"
@@ -1268,7 +1295,10 @@ window.GS_DATA = {
           "e": "Organic farming - soil-led planning",
           "d": "NCONF పాఠ్యాంశాలు: నేల ఆరోగ్యం, పంట మార్పిడి / అంతర పంటలు, కంపోస్టింగ్, మల్చింగ్, నీటి / పోషకాల నిర్వహణ, జీవ ఎరువులు, సమగ్ర చీడపీడ నిర్వహణ.\nసేంద్రీయం అంటే ఏ ఇంటి మిశ్రమమైనా సురక్షితం కాదు. ఇన్‌పుట్ నాణ్యత, పంట / దశ, అనుమతించిన వినియోగం, కార్మికుల / ఆహార భద్రత చూడాలి.\nస్థానిక నిపుణుడితో మార్పిడి ప్రణాళిక, ఖర్చు / దిగుబడి రికార్డులు ఉంచండి. దిగుబడి / లాభం హామీ లేదు.",
           "de": "NCONF curriculum covers soil health, rotation/intercropping, composting, mulch, water/nutrients, biofertilizers and integrated pest management.\nOrganic does not make every homemade mixture safe. Check input quality, crop/stage, permitted use and worker/food safety.\nPlan transition and keep cost/yield records with local advice. No yield/profit guarantee.",
-          "accessNote": {"te": "మూలం అందుబాటు గమనిక (25-10-2026): ఈ తనిఖీలో అధికారిక కోర్సు పేజీ 403 (ప్రవేశం నిరాకరణ) చూపించింది. ప్రస్తుత బ్యాచ్ / నమోదు అందుబాటు నిర్ధారించలేదు. ఇది కోర్సు రద్దయిందని అర్థం కాదు.", "en": "Source access note (25 Oct 2026): the official course page returned 403 (access denied) during this check. Current batch or enrolment availability was not verified. This does not mean the course was cancelled."},
+          "accessNote": {
+            "te": "మూలం అందుబాటు గమనిక (25-10-2026): ఈ తనిఖీలో అధికారిక కోర్సు పేజీ 403 (ప్రవేశం నిరాకరణ) చూపించింది. ప్రస్తుత బ్యాచ్ / నమోదు అందుబాటు నిర్ధారించలేదు. ఇది కోర్సు రద్దయిందని అర్థం కాదు.",
+            "en": "Source access note (25 Oct 2026): the official course page returned 403 (access denied) during this check. Current batch or enrolment availability was not verified. This does not mean the course was cancelled."
+          },
           "s": "https://nconf.dac.gov.in/21DaysCertificateCourse",
           "sn": "nconf.dac.gov.in",
           "u": "24-10-2026"
@@ -1757,6 +1787,75 @@ window.GS_DATA = {
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2104914",
           "sn": "pib.gov.in",
           "u": "24-10-2026"
+        }
+      ]
+    },
+    {
+      "id": "kvicgvy",
+      "icon": "🛠️",
+      "te": "KVIC / GVY - గ్రామోద్యోగ శిక్షణ & పనిముట్లు",
+      "en": "KVIC / GVY - village industry training & tools",
+      "nb": true,
+      "items": [
+        {
+          "id": "gvy-overview",
+          "t": "గ్రామోద్యోగ వికాస్ యోజన (KVIC / GVY)",
+          "e": "Gramodyog Vikas Yojana (KVIC / GVY)",
+          "d": "గ్రామీణ పరిశ్రమల నైపుణ్య శిక్షణ, యంత్రాలు / పనిముట్ల సహాయం కోసం KVIC పథకం. KVIC కేంద్ర MSME మంత్రిత్వ శాఖ పరిధిలో ఉంది. ఇది రుణం లేదా అందరికీ నగదు ఇచ్చే పథకం కాదు. ఎంపిక, వార్షిక లక్ష్యాలు, నిధులు, సంబంధిత వృత్తి నిబంధనలకు లోబడి సహాయం ఉంటుంది. ప్రతి టూల్‌కిట్ పూర్తిగా ఉచితం కాదు. స్థానిక బ్యాచ్ ప్రారంభమైందని ఈ సమాచారం అర్థం కాదు.",
+          "de": "A KVIC scheme supporting village industries through skill training and machines / toolkits. KVIC is under the Union Ministry of MSME. It is not a loan or automatic cash payment for everyone. Support depends on selection, annual targets, funds and trade-specific conditions. Not every toolkit is fully free. This information is not a local batch announcement.",
+          "s": "https://kvic.gov.in/kvicres/How%20to%20Open%20Village%20Industries%20in%20India.php",
+          "sn": "KVIC - official GVY rules",
+          "u": "25-10-2026",
+          "bt": "అధికారిక GVY వివరాలు",
+          "be": "Official GVY details"
+        },
+        {
+          "id": "gvy-contribution",
+          "t": "పనిముట్ల ఖర్చులో మన వాటా ఎంత?",
+          "e": "Own contribution towards machines and tools",
+          "d": "తెలంగాణ వంటి ఈశాన్యేతర రాష్ట్రాలకు అధికారిక పట్టిక: SC 10%, ST 10%, సాధారణ వర్గం (GEN) 20%, BPL 0% లబ్ధిదారుని వాటా. మిగిలిన KVIC వాటా వరుసగా 90%, 90%, 80%, 100%. ఇవి పంపిణీ చేసే యంత్రాలు / పనిముట్ల మొత్తం ఖర్చుపై శాతాలు; నగదు బహుమతి కాదు. మీ వర్గానికి వర్తించే రేటు, ఆమోదించిన వస్తువులు, ఖర్చు, చెల్లింపు విధానాన్ని KVIC వద్ద ముందుగా నిర్ధారించండి. శిక్షణ ఖర్చు / వసతి / ప్రయాణ సదుపాయాలు ఉన్నాయని ఊహించవద్దు.",
+          "de": "Official table for non-North-Eastern states such as Telangana: beneficiary share is SC 10%, ST 10%, General (GEN) 20%, BPL 0%. KVIC share is respectively 90%, 90%, 80%, 100%. These percentages apply to the cost of the machines / tools distributed, not a cash grant. Confirm your applicable category rate, approved items, cost and payment process with KVIC before paying. Do not assume training, accommodation or travel costs are covered.",
+          "s": "https://kvic.gov.in/kvicres/How%20to%20Open%20Village%20Industries%20in%20India.php",
+          "sn": "KVIC - official GVY rules",
+          "u": "25-10-2026",
+          "bt": "అధికారిక GVY వివరాలు",
+          "be": "Official GVY details"
+        },
+        {
+          "id": "gvy-eligibility",
+          "t": "అర్హత, పత్రాలు, ఎంపిక",
+          "e": "Eligibility, documents and selection",
+          "d": "సాధారణ అధికారిక నిబంధనలు: భారత పౌరులు, వయస్సు 18-55; కుటుంబానికి ఒకరు. ఆధార్ లేదా ప్రభుత్వం ఇచ్చిన గుర్తింపు కార్డు, పుట్టిన తేదీ, చిరునామా రుజువు, ఫోటో, మొబైల్ వివరాలు అవసరం. అదే / సమాన ప్రయోజనం కోసం మరో ప్రభుత్వ పథకం లబ్ధి తీసుకున్నవారు అర్హులు కారు; రాతపూర్వక ప్రకటన అవసరం. సొంత వాటా చెల్లింపు, పరికరాల నిర్వహణకు అంగీకార పత్రం అవసరం. ఇప్పటికే సంబంధిత వృత్తిలో KVIC / NABARD / KVK / RSETI / ITI తదితర సంస్థల్లో శిక్షణ పొందినవారూ పరిశీలనకు అర్హులు. SC / ST / మహిళలు / నిరుద్యోగ యువత / BPL వారికి ప్రాధాన్యం. ఇది మీ వ్యక్తిగత అర్హత లేదా ఎంపిక నిర్ధారణ కాదు.",
+          "de": "General official rules: Indian citizen, age 18-55; one person per family. Aadhaar or another government ID, date-of-birth and address proof, photo and mobile details are required. Those who received another government benefit for the same / similar purpose are not eligible; a written declaration is required. An undertaking covers own contribution and equipment maintenance. People already trained in the relevant trade by KVIC / NABARD / KVK / RSETI / ITI and other listed bodies may also be considered. Preference is given to SC / ST / women / unemployed youth / BPL. This is not a decision on your personal eligibility or selection.",
+          "s": "https://kvic.gov.in/kvicres/How%20to%20Open%20Village%20Industries%20in%20India.php",
+          "sn": "KVIC - official GVY rules",
+          "u": "25-10-2026",
+          "bt": "అధికారిక GVY వివరాలు",
+          "be": "Official GVY details"
+        },
+        {
+          "id": "gvy-brochure-trades",
+          "t": "బ్రోచర్‌లోని వృత్తులు & శిక్షణ రోజుల సంఖ్య",
+          "e": "Brochure trades & printed training durations",
+          "d": "KVIC తెలంగాణ తెలుగు బ్రోచర్‌లో ముద్రించిన శిక్షణ కాలాలు మాత్రమే: పాదరక్షలు 25 రోజులు; పేపర్ ఉత్పత్తులు / దొన్నెలు-ప్లేట్లు 6; అగరబత్తి 10; ఎలక్ట్రీషియన్ 15; ప్లంబర్ 15; AC మరమ్మతు 15; మొబైల్ మరమ్మతు 15; కుట్టు 15; హనీ మిషన్ 10; ఎలక్ట్రిక్ కుమ్మరి చక్రం 10; ఆహార ప్రాసెసింగ్ / ప్యాకేజింగ్ 5; ఆయిల్ ఘానీ 5; టర్న్-వుడ్ క్రాఫ్ట్ 20; వేస్ట్-వుడ్ క్రాఫ్ట్ 20 రోజులు. ఇవి ప్రస్తుత స్థానిక బ్యాచ్ తేదీలు కావు. ప్రతి వృత్తి ప్రస్తుతం మన జిల్లాలో అందుబాటులో ఉందని అర్థం కాదు; తాజా వ్యవధి, పరికరాలు, అర్హతను KVIC వద్ద నిర్ధారించాలి.",
+          "de": "Printed durations in the KVIC Telangana Telugu brochure: footwear 25 days; paper products / dona-plates 6; agarbatti 10; electrician 15; plumber 15; AC repair 15; mobile repair 15; sewing 15; Honey Mission 10; electric pottery wheel 10; food processing / packaging 5; oil ghani 5; turn-wood craft 20; waste-wood craft 20 days. These are brochure durations, not current local batch dates. They do not establish that each trade is currently available in our district. Confirm current duration, equipment and eligibility with KVIC.",
+          "s": "https://kvic.gov.in/kvicres/How%20to%20Open%20Village%20Industries%20in%20India.php",
+          "sn": "KVIC - current rules (durations: printed brochure)",
+          "u": "25-10-2026",
+          "bt": "ప్రస్తుత అధికారిక నిబంధనలు",
+          "be": "Current official rules"
+        },
+        {
+          "id": "gvy-enquiry",
+          "t": "ఎలా తెలుసుకోవాలి? స్థానిక బ్యాచ్ ఇంకా నిర్ధారణ కాలేదు",
+          "e": "How to enquire - local batch not confirmed",
+          "d": "KVIC క్షేత్ర కార్యాలయాలు వార్షిక లక్ష్యాలు, బడ్జెట్ ప్రకారం అవగాహన శిబిరాలు / ప్రకటనల ద్వారా లబ్ధిదారులను గుర్తిస్తాయి. అధికారిక మూలంలోని పథకం నిబంధనలు చదివి KVIC రాష్ట్ర / క్షేత్ర కార్యాలయంలో అడగండి: మన జిల్లా బ్యాచ్ ఉందా? ఏ వృత్తి? తేదీలు, శిక్షణ కాలం, పత్రాలు, పరికరాల ధర, మన వాటా ఎంత? బండపోతుగల్ / మెదక్‌లో ప్రస్తుత ఖాళీలు, తేదీలు, టూల్‌కిట్ ధరలు ధృవీకరించలేదు. పాత బ్రోచర్‌ను ప్రస్తుత అడ్మిషన్ ప్రకటనగా భావించవద్దు. ఈ యాప్ దరఖాస్తులు, పత్రాలు లేదా చెల్లింపులు స్వీకరించదు; ఉద్యోగం / ఆదాయం / సబ్సిడీ మంజూరు హామీ లేదు.",
+          "de": "KVIC field offices identify beneficiaries through awareness camps / advertisements according to annual targets and budget. Read the official rules and enquire with the KVIC state / field office: is there a district batch, which trade, dates, duration, documents, equipment cost and your contribution? Current vacancies, dates and toolkit prices in Bandapothugal / Medak are not verified. An older brochure is not a current admission notice. This app does not accept applications, documents or payments and does not guarantee a job, income or subsidy sanction.",
+          "s": "https://kvic.gov.in/kvicres/How%20to%20Open%20Village%20Industries%20in%20India.php",
+          "sn": "KVIC - official GVY rules",
+          "u": "25-10-2026",
+          "bt": "అధికారిక GVY వివరాలు",
+          "be": "Official GVY details"
         }
       ]
     },
