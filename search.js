@@ -3,6 +3,25 @@
 'use strict';
 const normalize=s=>String(s||'').normalize('NFC').toLowerCase().replace(/[\u200b-\u200d\ufeff]/g,'').replace(/[౦-౯]/g,c=>String(c.charCodeAt(0)-0x0c66)).replace(/[^\p{L}\p{M}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ');
 const rules=[
+ [/NSAP/i,'nsap ఎన్ ఎస్ ఏ పి జాతీయ సామాజిక సహాయం social pension'],
+ [/PMAY/i,'pmay pmayg pm awas pm awaas ఆవాస్ ఆవాస పీఎం ఆవాస్ గ్రామీణ ఇల్లు'],
+ [/Ujjwala|PMUY/i,'ujjwala ujwala pmuy ఉజ్వల ఉజ్జ్వల ఉజ్జ్వల ఉచిత గ్యాస్'],
+ [/Surya Ghar/i,'pmsuryaghar pm surya ghar suryaghar సూర్యఘర్ సూర్య ఘర్ సోలార్ solar'],
+ [/ADIP/i,'adip ఏడీఐపీ ఏ డి ఐ పి సహాయక పరికరాలు'],
+ [/JANMAN/i,'pmjanman pm janman జన్మన్ జన్ మన్ పీవీటీజీ pvtg'],
+ [/NLM|Livestock/i,'nlm livestock పశుపోషణ పశువులు పశువుల'],
+ [/Rythu Bima/i,'rythu bima raitu bima రైతుబీమా రైతు బీమా రైతు భీమా'],
+ [/agriculture-power/i,'free agricultural electricity ఉచిత వ్యవసాయ విద్యుత్ వ్యవసాయ కరెంటు'],
+ [/TRICOR/i,'tricor ట్రైకార్ ట్రికార్ ఎస్టీ కార్పొరేషన్'],
+ [/BC Corporation/i,'bc corporation బీసీ కార్పొరేషన్ బిసి కార్పొరేషన్'],
+ [/SC Corporation/i,'sc corporation ఎస్సీ కార్పొరేషన్ ఎస్ సి భూమి'],
+ [/Dalit Bandhu/i,'dalitbandhu dalit bandhu దళితబంధు దళిత బంధు'],
+ [/Vidya Bharosa/i,'vidyabharosa vidya bharosa విద్యాభరోసా విద్యా భరోసా'],
+ [/Mahila Shakti/i,'mahila shakthi mahila shakti ఇందిరా మహిళాశక్తి ఇందిరా మహిళా శక్తి'],
+ [/Kanti Velugu/i,'kantivelugu kanti velugu కంటివెలుగు కంటి వెలుగు'],
+ [/MCH Kit/i,'mch kit మాతా శిశు కిట్ ఎంసీహెచ్ కిట్'],
+ [/Mission Bhagiratha/i,'jal jeevan mission jjm జల్ జీవన్ మిషన్ జలజీవన్ మిషన్ భగీరథ'],
+
  [/Gramodyog|gvy-/i,'gramodyog gramodyoga gramodhyog gram udyog grama udyog gram udyogu gramudyog gramaudyog gramodyog vikas yojana gvy kvic గ్రామోద్యోగ గ్రామోధ్యోగ గ్రామోద్యోగ్ గ్రామ ఉద్యోగ గ్రామ ఉద్యోగు గ్రామ ఉద్యోగా గ్రామ ఉద్యోగ్ గ్రామ ఉద్యోగం గ్రామోద్యోగ వికాస యోజన గ్రామోద్యోగ వికాస్ యోజన ఖాదీ కేవీఐసీ జివివై జీ వీ వై'],
  [/Rythu Bharosa/i,'rythu bharosa raitu bharosa రైతు భరోసా రైతుభరోసా'],
  [/PM-KISAN/i,'pm kisan pmkisan పీఎం కిసాన్ పి ఎం కిసాన్ రైతు కిసాన్'],

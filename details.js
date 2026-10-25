@@ -1,8 +1,8 @@
 // Verified detail fields (eligibility/documents/process) - only facts from official pages or standard official process. Merged at render time by English title fragment.
 window.GS_DETAILS = {
  "Rythu Bharosa": [
-  "తెలంగాణ పట్టాదార్ రైతులు - భూ-భారతి (ధరణి) పోర్టల్‌లో భూమి నమోదు ఉన్నవారు; సాగుకు అనుకూలం కాని భూములకు వర్తించదు",
-  "Telangana pattadar farmers with land registered on the Bhu Bharati (Dharani) portal; non-arable lands are not covered",
+  "సాగుభూమి, భూ భారతి / ROFR / చెల్లుబాటు లీజు వివరాలు - ములుగు జిల్లా వివరణ ప్రకారం; మీ ప్రస్తుత అర్హతను వ్యవసాయ అధికారితో నిర్ధారించండి",
+  "Cultivable land,Bhu Bharati/ROFR/valid-lease details as described by Mulugu district; confirm your current eligibility with the agriculture office",
   "పట్టాదార్ పాస్ బుక్, ఆధార్, బ్యాంక్ ఖాతా",
   "Pattadar passbook, Aadhaar, bank account",
   "అధికారిక పోర్టల్‌లో స్టేటస్ చూడండి; సహాయానికి మండల వ్యవసాయ అధికారి",
@@ -225,12 +225,12 @@ window.GS_DETAILS = {
   "Join via bank - monthly contribution by age and pension chosen"
  ],
  "Maha Lakshmi": [
-  "BPL/అంత్యోదయ కుటుంబాల మహిళలు (కుటుంబ ఆదాయం ₹2 లక్షల లోపు); ఉచిత బస్సు అన్ని మహిళలకు/అమ్మాయిలకు/ట్రాన్స్‌జెండర్లకు",
-  "Women from BPL/Antyodaya families (income under Rs 2 lakh); free bus for all women/girls/transgenders",
-  "ఆధార్, రేషన్ కార్డు, ఆదాయ సర్టిఫికెట్, బ్యాంక్ వివరాలు, గ్యాస్ రసీదు (LPG కోసం)",
-  "Aadhaar, ration card, income certificate, bank details, gas receipt (for LPG)",
-  "MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రంలో దరఖాస్తు",
-  "Apply at the Praja Palana Seva Kendram in the MPDO office"
+  "భాగాన్ని బట్టి అర్హత వేరు; ప్రస్తుత బస్సు / LPG / నగదు నిబంధనలు సంబంధిత అధికారితో నిర్ధారించండి",
+  "Eligibility differs by component; confirm current bus/LPG/cash rules with the responsible office",
+  "వర్తించే భాగానికి అధికారికంగా కోరిన గుర్తింపు / పత్రాలు; ఒకే జాబితా అందరికీ వర్తించదు",
+  "Officially required ID/documents for the relevant component; no single list applies to all",
+  "ప్రస్తుత నమోదు మార్గం TGSRTC / సివిల్ సప్లయ్స్ / ప్రజా పాలన వద్ద అడగండి; ₹2,500 చెల్లింపు స్థితి నిర్ధారించలేదు",
+  "Ask TGSRTC/Civil Supplies/Praja Palana about the applicable route; Rs2,500 payment status is unverified"
  ],
  "Gruha Jyothi": [
   "వైట్ రేషన్ కార్డు కుటుంబాలు - నెలకు 200 యూనిట్ల లోపు వినియోగం",

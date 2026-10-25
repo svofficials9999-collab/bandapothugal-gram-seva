@@ -244,6 +244,18 @@ window.GS_DATA = {
           "s": "https://www.myscheme.gov.in/",
           "sn": "myscheme.gov.in",
           "u": "23-10-2026"
+        },
+        {
+          "id": "student-vidya-bharosa-status",
+          "t": "విద్యా భరోసా - ప్రకటన / అమలు తెలియదు",
+          "e": "Vidya Bharosa - listed proposal, rollout unverified",
+          "d": "పెద్దపల్లి Yuva Vikasam పేజీలో విద్యార్థుల విద్యా భరోసా కార్డు ప్రతిపాదన ఉంది. సంక్షిప్త పేజీ ప్రస్తుత అమలు ఉత్తర్వు, చెల్లింపు లేదా దరఖాస్తు గడువు రుజువు కాదు; అమలు కాలేదని కూడా తీర్పు చెప్పలేం. తాజా విద్యాశాఖ / ప్రభుత్వ ఉత్తర్వు నిర్ధారించండి. ఇది దరఖాస్తు కార్డు కాదు.",
+          "de": "Peddapalli's Yuva Vikasam page lists a Vidya Bharosa student-card proposal. That brief page does not establish current implementation orders,payments or deadlines; it also does not prove non-implementation. Confirm current Education Department/government orders. Not an application card.",
+          "s": "https://peddapalli.telangana.gov.in/scheme/yuva-vikasam/",
+          "sn": "peddapalli.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ]
     },
@@ -317,11 +329,18 @@ window.GS_DATA = {
           "id": "farmer-rythu-bharosa",
           "t": "రైతు భరోసా",
           "e": "Rythu Bharosa (Telangana)",
-          "d": "ప్రతి పంట సీజన్ మొదట్లో పెట్టుబడి సాయం: ఎకరాకు సీజన్‌కు ₹6,000 - ఏటా ₹12,000 (ఖరీఫ్ + రబీ), నేరుగా బ్యాంక్ ఖాతాలో. పంట రుణ మాఫీ విధానంతో పాటు అమలవుతోంది. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి.",
-          "de": "Season-start investment support: Rs 6,000 per acre per season - Rs 12,000 per acre per year (Kharif + Rabi), direct to bank, alongside the crop loan waiver. Check eligibility, status and amounts only on the official portal.",
+          "d": "ములుగు జిల్లా వివరణలో పెట్టుబడి సాయం: ఎకరాకు సీజన్‌కు ₹6,000 - ఏటా ₹12,000 (ఖరీఫ్ + రబీ), నేరుగా బ్యాంక్ ఖాతాలో. అర్హత, దరఖాస్తు స్థితి, మొత్తం వివరాలు అధికారిక పోర్టల్‌లోనే చూడండి. మూల వివరణ: ములుగు జిల్లా పేజీ సాగుభూమి / భూ భారతి నమోదు, ROFR, చెల్లుబాటు లీజు ఉన్న నమోదిత కౌలు రైతుల వర్తింపు, వరికి ₹500/క్వింటాల్ బోనస్, భూమిలేని కూలీలకు వేరుగా ఇందిరమ్మ ఆత్మీయ భరోసా సాయాన్ని పేర్కొంది. ఇవి ప్రతి రైతుకు ఆటోమేటిక్ హక్కు కాదు; మీ భూమి / లీజు / పంట / కూలీ అర్హత, ప్రస్తుత విడతను వ్యవసాయ అధికారితో నిర్ధారించండి.",
+          "de": "Mulugu district describes investment support: Rs 6,000 per acre per season - Rs 12,000 per acre per year (Kharif + Rabi), direct to bank.. Check eligibility, status and amounts only on the official portal. The Mulugu district page describes cultivable land/Bhu Bharati registration,ROFR and registered tenants with valid leases,paddy bonus of Rs 500/quintal and separate Indiramma Atmiya Bharosa support for landless labourers. These are not automatic entitlements for every farmer. Confirm your land/lease/crop/labourer eligibility and current instalment with the agriculture office.",
           "s": "https://rythubharosa.telangana.gov.in/",
           "sn": "rythubharosa.telangana.gov.in",
-          "u": "23-10-2026"
+          "u": "25-10-2026",
+          "refs": [
+            {
+              "te": "ములుగు జిల్లా అధికారిక వివరణ",
+              "en": "Mulugu official explanation",
+              "url": "https://mulugu.telangana.gov.in/scheme/rythu-bharosa/"
+            }
+          ]
         },
         {
           "id": "farmer-pm-kisan",
@@ -397,6 +416,66 @@ window.GS_DATA = {
           "s": "https://vahd.telangana.gov.in/",
           "sn": "vahd.telangana.gov.in",
           "u": "23-10-2026"
+        },
+        {
+          "id": "farmer-free-agriculture-power",
+          "t": "వ్యవసాయ విద్యుత్ - వర్గం ప్రకారం రాయితీ",
+          "e": "Agricultural electricity - category-specific subsidy",
+          "d": "2026-27 అధికారిక టారిఫ్: LT-V(A) కార్పొరేట్ కాని రైతుల ఎనర్జీ ఛార్జీ ₹0.00; DSM నిబంధనలు వర్తిస్తాయి. కార్పొరేట్ వ్యవసాయం, నర్సరీలు, ఇతర వర్గాలకు వేరు రేట్లు. ఇది అన్ని కనెక్షన్లు / చార్జీల మాఫీ కాదు. మీ సర్వీస్ వర్గం, ఇతర చార్జీలు విద్యుత్ కార్యాలయంలో నిర్ధారించండి; గృహజ్యోతికి వేరు.",
+          "de": "The official 2026-27 tariff lists Rs 0.00 energy charge for non-corporate farmers under LT-V(A), subject to DSM conditions. Corporate agriculture, nurseries and other categories differ. Not all connections/charges are free. Confirm your category and other charges with the electricity office; separate from domestic Gruha Jyothi.",
+          "s": "https://tgsouthernpower.org/resources/PDF/Tariffs/69tarifffile.pdf",
+          "sn": "tgsouthernpower.org",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "farmer-rythu-bima",
+          "t": "రైతు బీమా - నమోదు చేసుకున్న రైతులకు",
+          "e": "Rythu Bima - enrolled farmers",
+          "d": "రాష్ట్ర అధికారిక పేజీ ప్రకారం 18-59 ఏళ్ల అర్హ రైతుల నమోదు; ప్రీమియం ప్రభుత్వం LICకు చెల్లిస్తుంది. నమోదు చేసిన రైతు ఏ కారణంతో మరణించినా నామినీకి ₹5 లక్షల కవర్ అని పేర్కొన్నారు. భూమి / నమోదు / నామినీ, ప్రస్తుత పాలసీ, క్లెయిమ్ పత్రాలను వ్యవసాయ విస్తరణ అధికారితో నిర్ధారించండి. ఆటోమేటిక్ నమోదు లేదా చెల్లింపు తేదీ హామీ కాదు.",
+          "de": "The state page describes enrolment for eligible farmers aged 18-59, government-paid LIC premium and Rs 5 lakh nominee cover on death of an enrolled farmer due to any cause. Verify land/enrolment/nominee details, current policy and claim documents with the Agriculture Extension Officer. No automatic enrolment or payment-date guarantee.",
+          "s": "https://rythubandhu.telangana.gov.in/Default_LIC1.aspx",
+          "sn": "rythubandhu.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "farmer-nlm",
+          "t": "NLM - పశుపోషణ వ్యాపార మద్దతు",
+          "e": "National Livestock Mission (NLM)",
+          "d": "కేంద్ర పేజీలో కోళ్లు, గొర్రెలు, మేకలు, పందుల వ్యవస్థాపకత / జాతి మెరుగుదల, దాణా-మేత, పరిశోధన / బీమా / విస్తరణ ఉపమిషన్లు ఉన్నాయి. వ్యక్తులు, FPOలు, SHGల కార్యకలాపాల నిబంధనలు వేరు. అందరికీ ఒకే నగదు కాదు. అధికారిక తాజా మార్గదర్శకాలు / దరఖాస్తు లింక్ చూడండి; ప్రాజెక్టు ఖర్చు, వాటా, బ్యాంకు / మంజూరు షరతులు నిర్ధారించండి.",
+          "de": "The central page lists poultry, sheep, goat and pig entrepreneurship/breed improvement; feed/fodder; and research, insurance and extension sub-missions. Terms vary by activity and applicant, including individuals,FPOs and SHGs. No single cash payment for everyone. Use current official guidelines/application links; verify cost, contribution, bank and sanction terms.",
+          "s": "https://dahd.gov.in/schemes/programmes/national_livestock_mission",
+          "sn": "dahd.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "farmer-nlm-insurance",
+          "t": "పశువుల బీమా - NLM భాగం",
+          "e": "Livestock insurance - NLM component",
+          "d": "NLMలో పశువుల బీమా భాగం ఉంది. పశువు గుర్తింపు, జాతి, స్థానిక అమలు, ప్రీమియం / రాయితీ, మినహాయింపులు, క్లెయిమ్ గడువు ప్రస్తుత పాలసీపై ఆధారపడతాయి. పశువైద్య అధికారి వద్ద సంస్థ, పాలసీ పత్రం, ట్యాగింగ్ అవసరాలు తెలుసుకోండి. NLM సమాచారం చదవడం వల్ల బీమా మొదలవదు.",
+          "de": "Livestock insurance is an NLM component. Identification,species,local implementation,premium/subsidy,exclusions and claim deadlines depend on the current policy. Ask the veterinary officer for the insurer,policy document and tagging requirements. Reading about NLM does not start insurance cover.",
+          "s": "https://dahd.gov.in/schemes/programmes/national_livestock_mission",
+          "sn": "dahd.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "farmer-sheep-distribution",
+          "t": "గొర్రెల పంపిణీ - పాత జాబితా, విడత తెలియదు",
+          "e": "Sheep distribution - historical listing, intake unverified",
+          "d": "మెదక్ జిల్లా 10-06-2019 జాబితా యాదవ / గొల్ల / కురుమ కుటుంబాల గొర్రెల పంపిణీని పేర్కొంది. ఇది ప్రస్తుత దరఖాస్తులు లేదా పాత రాయితీ శాతం రుజువు కాదు. తాజా విడత, అర్హత, వాటా, లభ్యత పశుసంవర్ధక అధికారితో నిర్ధారించండి.",
+          "de": "Medak's 10 Jun 2019 listing describes sheep distribution for Yadava/Golla/Kuruma families. It does not establish current intake or subsidy rates. Confirm current intake,eligibility,contribution and availability with Animal Husbandry.",
+          "s": "https://medak.telangana.gov.in/schemes/",
+          "sn": "medak.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ]
     },
@@ -410,11 +489,11 @@ window.GS_DATA = {
           "id": "aid-maha-lakshmi-scheme",
           "t": "మహాలక్ష్మి పథకం",
           "e": "Maha Lakshmi Scheme",
-          "d": "అమలవుతున్నవి: మహిళలు, అమ్మాయిలు, ట్రాన్స్‌జెండర్లకు TSRTC బస్సుల్లో ఉచిత ప్రయాణం (ఆధార్ చూపిస్తే చాలు); అర్హ కుటుంబాలకు గ్యాస్ సిలిండర్ ₹500 కే. మహిళలకు నెలకు ₹2,500 ఆర్థిక సాయం ప్రకటిత పథకం - ఇంకా చెల్లింపులు మొదలవ్వలేదు. తాజా స్థితి, దరఖాస్తు: MPDO కార్యాలయంలోని ప్రజా పాలన సేవా కేంద్రం.",
-          "de": "Running now: free TSRTC bus travel for women/girls/transgenders (show Aadhaar); LPG cylinder at Rs 500 for eligible households. The announced Rs 2,500/month assistance for women has not started paying yet. Latest status and applications: Praja Palana Seva Kendram in the MPDO office.",
-          "s": "https://prajapalana.telangana.gov.in/",
-          "sn": "prajapalana.telangana.gov.in",
-          "u": "23-10-2026"
+          "d": "రాష్ట్ర అధికారిక పేజీ ఉచిత బస్సు ప్రయాణం, అర్హ కుటుంబాలకు ₹500 LPG సిలిండర్, మహిళలకు నెలకు ₹2,500 సాయం లక్ష్యాలను పేర్కొంది. భాగాల అమలు / అర్హత వేరు. ₹2,500 చెల్లింపుల ప్రస్తుత స్థితి ఈ తనిఖీలో ధృవీకరించలేదు; ప్రారంభమైందని లేదా కాలేదని ఇక్కడ హామీ ఇవ్వము. బస్సు రకాలు / గుర్తింపు TGSRTC వద్ద, గ్యాస్ అర్హత సివిల్ సప్లయ్స్ / ప్రజా పాలన వద్ద నిర్ధారించండి.",
+          "de": "The state page lists free bus travel, Rs 500 LPG cylinders for eligible households and a Rs 2,500 monthly assistance aim. Implementation/eligibility differ by component. Current Rs 2,500 payments were not verified; no claim here that they have or have not started. Confirm bus types/ID with TGSRTC and LPG eligibility with Civil Supplies/Praja Palana.",
+          "s": "https://www.telangana.gov.in/government-initiatives/",
+          "sn": "telangana.gov.in",
+          "u": "25-10-2026"
         },
         {
           "id": "aid-gruha-jyothi",
@@ -499,6 +578,77 @@ window.GS_DATA = {
           "s": "https://prajapalana.telangana.gov.in/Applicationstatus",
           "sn": "prajapalana.telangana.gov.in",
           "u": "23-10-2026"
+        },
+        {
+          "id": "aid-nsap",
+          "t": "NSAP - జాతీయ సామాజిక సహాయ పెన్షన్లు",
+          "e": "NSAP - National Social Assistance Programme",
+          "d": "కేంద్ర సామాజిక సహాయ కార్యక్రమంలో వృద్ధాప్య, వితంతు, దివ్యాంగ పెన్షన్ భాగాలు (IGNOAPS / IGNWPS / IGNDPS), ఇతర సహాయ భాగాలు ఉన్నాయి. వయస్సు / పేదరిక ప్రమాణాలు, రాష్ట్ర వాటా భాగాన్ని బట్టి మారుతాయి. తెలంగాణ పెన్షన్‌కు అదనంగా అందరికీ మరో చెల్లింపు అని కాదు. నమోదు, వర్తించే భాగం, మొత్తం, దరఖాస్తు మార్గం పంచాయతీ / MPDO వద్ద నిర్ధారించండి.",
+          "de": "Central social assistance includes old-age, widow and disability pensions (IGNOAPS/IGNWPS/IGNDPS) and other components. Age, poverty criteria and state top-ups vary. Do not assume everyone gets an extra payment on top of a Telangana pension. Confirm enrolment, component, amount and current application route with the Gram Panchayat/MPDO.",
+          "s": "https://nsap.nic.in/circular.do?method=faq",
+          "sn": "nsap.nic.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "aid-pmayg",
+          "t": "PM ఆవాస్ యోజన - గ్రామీణ గృహ సహాయం",
+          "e": "PM Awaas Yojana - Gramin (PMAY-G)",
+          "d": "గ్రామీణ అర్హ కుటుంబాలకు పక్కా ఇళ్ల సహాయం కోసం కేంద్ర పథకం. అధికారిక పోర్టల్‌లో పురోగతి, సర్వే / ధృవీకరణ ప్రకటనలు ఉన్నాయి. సర్వేలో పేరు, జాబితా ధృవీకరణ, ఎంపిక, మంజూరు వేర్వేరు దశలు. ప్రస్తుత గ్రామ జాబితా, అభ్యంతరాలు, నమోదు మార్గం పంచాయతీ / MPDO వద్ద అడగండి. ఇందిరమ్మ ఇళ్లతో ఒకే పథకం లేదా రెండూ పొందవచ్చని ఊహించవద్దు.",
+          "de": "Central rural housing support for eligible households. The portal has progress and survey/verification notices. Survey entry, list verification, selection and sanction are separate steps. Ask the Gram Panchayat/MPDO about the current village list, objections and enrolment. Do not assume it is the same as Indiramma housing or that both benefits can be claimed.",
+          "s": "https://pmayg.dord.gov.in/",
+          "sn": "pmayg.dord.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "aid-pmuy",
+          "t": "PM ఉజ్వల - LPG కనెక్షన్",
+          "e": "PM Ujjwala Yojana (PMUY) - LPG connection",
+          "d": "అర్హ పేద కుటుంబాల మహిళలకు LPG కనెక్షన్ పథకం. అధికారిక పోర్టల్‌లో అర్హత, పత్రాలు, ప్రయోజనాలు, డిస్ట్రిబ్యూటర్ వెతికే / దరఖాస్తు మార్గాలు ఉన్నాయి. ఇంట్లో ఇప్పటికే LPG ఉందా సహా ప్రస్తుత నియమాలు డిస్ట్రిబ్యూటర్ వద్ద నిర్ధారించండి. కనెక్షన్ సాయం అంటే ప్రతి రీఫిల్ ఉచితం కాదు. రీఫిల్ సబ్సిడీ / ధరలు వేరు; తెలంగాణ ₹500 సిలిండర్ భాగంతో కలపవద్దు.",
+          "de": "LPG connection scheme for eligible women from poor households. The official portal has eligibility, documents, benefits, distributor discovery and application routes. Confirm current rules including existing household LPG connections with the distributor. Connection assistance does not mean free refills forever. Refill subsidy/prices are separate from Telangana's Rs 500 cylinder component.",
+          "s": "https://www.pmuy.gov.in/",
+          "sn": "www.pmuy.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "aid-pmsuryaghar",
+          "t": "PM సూర్య ఘర్ - ఇంటి పైకప్పు సోలార్",
+          "e": "PM Surya Ghar - residential rooftop solar",
+          "d": "29-02-2024 PIB ప్రకటనలో బెంచ్‌మార్క్ సబ్సిడీ: 1kW ₹30,000; 2kW ₹60,000; 3kW లేదా ఎక్కువకు ₹78,000 పరిమితి. ప్రస్తుత రేట్లు, DISCOM అనుమతి, విక్రేత, సాంకేతిక అర్హత, తుది ఖర్చు జాతీయ పోర్టల్‌లో నిర్ధారించాలి. నెలకు 300 యూనిట్ల ప్రస్తావన సోలార్ ఉత్పత్తి అంచనా; ఉచిత గ్రిడ్ విద్యుత్ హామీ కాదు. లోన్ ఉంటే తిరిగి చెల్లించాలి.",
+          "de": "The 29 Feb 2024 PIB release lists benchmark subsidy: Rs 30,000 for 1 kW, Rs 60,000 for 2 kW, capped at Rs 78,000 for 3 kW or more. Verify current rates, DISCOM approval, vendor, technical eligibility and final cost on the national portal. The 300-unit statement concerns estimated solar generation, not guaranteed free grid electricity. Any loan must be repaid.",
+          "s": "https://www.pib.gov.in/PressReleasePage.aspx?lang=2&PRID=2010133&reg=3",
+          "sn": "www.pib.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information",
+          "refs": [
+            {
+              "te": "PIB పేర్కొన్న జాతీయ పోర్టల్",
+              "en": "National portal named by PIB",
+              "url": "https://pmsuryaghar.gov.in"
+            }
+          ],
+          "accessNote": {
+            "te": "25-10-2026 తనిఖీలో జాతీయ పోర్టల్ కంటెంట్ తెరచుకోలేదు; PIB వివరణ అందుబాటులో ఉంది. ప్రస్తుత దరఖాస్తు స్థితి నిర్ధారించలేదు.",
+            "en": "National portal content could not be opened during the25Oct2026 check; PIB explanation was accessible. Current intake unverified."
+          }
+        },
+        {
+          "id": "aid-pmjanman",
+          "t": "PM-JANMAN - PVTG కుటుంబాలు / ఆవాసాలు",
+          "e": "PM-JANMAN - PVTG households and habitations",
+          "d": "PVTG అత్యంత వెనుకబడిన గిరిజన సమూహాలకు ఇళ్లు, నీరు, పారిశుధ్యం, విద్యుత్, రోడ్డు / టెలికాం, ఆరోగ్యం, విద్య, జీవనోపాధి బహుశాఖ మిషన్. అన్ని ST కుటుంబాలకు ఒకే నగదు కాదు. మీ సమూహం / ఆవాసం వర్తింపు, సేవల ప్రణాళిక ITDA / గిరిజన సంక్షేమ శాఖ వద్ద నిర్ధారించండి.",
+          "de": "A multi-department mission for Particularly Vulnerable Tribal Groups(PVTGs):housing,water,sanitation,power,roads/telecom,health,education and livelihoods. Not a uniform cash scheme for all ST households. Confirm group/habitation coverage and service plans with ITDA/Tribal Welfare.",
+          "s": "https://adiprasaran.tribal.gov.in/pm-janman/",
+          "sn": "adiprasaran.tribal.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ]
     },
@@ -578,11 +728,18 @@ window.GS_DATA = {
           "id": "health-ayushman-bharat-pm-jay",
           "t": "ఆయుష్మాన్ భారత్ (PM-JAY)",
           "e": "Ayushman Bharat PM-JAY (Rs 5 lakh)",
-          "d": "కేంద్ర ప్రభుత్వం: అర్హులైన కుటుంబానికి ఏటా ₹5 లక్షల హాస్పిటలైజేషన్ కవర్. ఆయుష్మాన్ కార్డు: ఆధార్ + రేషన్ కార్డుతో CSC కేంద్రం లేదా ఆసుపత్రిలో పొందండి.",
-          "de": "Central govt: Rs 5 lakh/year hospitalization cover for eligible families. Get the Ayushman card at a CSC or empanelled hospital with Aadhaar + ration card.",
+          "d": "కేంద్ర ప్రభుత్వం: అర్హులైన కుటుంబానికి ఏటా ₹5 లక్షల హాస్పిటలైజేషన్ కవర్. ఆయుష్మాన్ కార్డు: ఆధార్ + రేషన్ కార్డుతో CSC కేంద్రం లేదా ఆసుపత్రిలో పొందండి. NHA లబ్ధిదారుల పోర్టల్‌లో అర్హ కుటుంబాల కార్డు / eKYC, 70 ఏళ్లు పైబడిన వారి వయో వందన కార్డు సమాచారం ఉంది. ఆధార్ ఒక్కటే అందరికీ కవర్ ఇవ్వదు; వర్తించే అర్హత అవసరం. హెల్ప్‌లైన్ 14555.",
+          "de": "Central govt: Rs 5 lakh/year hospitalization cover for eligible families. Get the Ayushman card at a CSC or empanelled hospital with Aadhaar + ration card. The NHA beneficiary portal provides eligible-household card/eKYC routes and Vay Vandana information for ages 70+. Aadhaar alone does not give everyone cover; applicable eligibility rules apply. Helpline 14555.",
           "s": "https://pmjay.gov.in/",
           "sn": "pmjay.gov.in",
-          "u": "23-10-2026"
+          "u": "25-10-2026",
+          "refs": [
+            {
+              "te": "NHA కార్డు / eKYC",
+              "en": "NHA card / eKYC",
+              "url": "https://bisbeta.nha.gov.in/"
+            }
+          ]
         },
         {
           "id": "health-atal-pension-yojana",
@@ -593,6 +750,18 @@ window.GS_DATA = {
           "s": "https://www.myscheme.gov.in/schemes/apy",
           "sn": "myscheme.gov.in",
           "u": "23-10-2026"
+        },
+        {
+          "id": "health-kanti-velugu",
+          "t": "కంటి వెలుగు - ప్రస్తుత శిబిరం అడగండి",
+          "e": "Kanti Velugu - confirm current eye camp",
+          "d": "మెదక్ జిల్లా 03-09-2019 జాబితాలో కంటి పరీక్షలు, అవసరమైన వారికి ఉచిత కళ్లద్దాల ప్రస్తావన ఉంది. ఇది ఈరోజు శిబిరం జరుగుతోందని కాదు. తాజా స్థానిక తేదీ, స్థలం, సేవలు ఆరోగ్య శాఖ / PHC వద్ద నిర్ధారించండి.",
+          "de": "Medak's 3 Sep 2019 listing describes eye screening and free spectacles for those needing correction. It does not establish that a camp runs today. Confirm current local date, venue and services with the health department/PHC.",
+          "s": "https://medak.telangana.gov.in/schemes/",
+          "sn": "medak.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ]
     },
@@ -696,6 +865,30 @@ window.GS_DATA = {
           "s": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2085204&lang=2&reg=3",
           "sn": "pib.gov.in",
           "u": "24-10-2026"
+        },
+        {
+          "id": "women-mch-kit",
+          "t": "MCH కిట్ - అమలు నిర్ధారణ అవసరం",
+          "e": "MCH Kit - current implementation unverified",
+          "d": "CHFW అధికారిక కార్యక్రమాల పేజీలో గర్భిణులు / నవజాత శిశువుల MCH Kit జాబితాలో ఉంది. ఇది ప్రస్తుత పంపిణీ, వ్యక్తిగత అర్హత లేదా నగదు మొత్తం రుజువు కాదు. PHC / ASHA వద్ద తాజా ఉత్తర్వు, నమోదు పత్రాలు, కిట్ అందుబాటు అడగండి. PMMVY నగదు పథకానికి వేరు.",
+          "de": "CHFW lists MCH Kit for pregnant women/newborns. The listing does not establish current distribution, personal eligibility or cash amounts. Ask the PHC/ASHA for current orders, documents and availability. Separate from PMMVY cash benefits.",
+          "s": "https://chfw.telangana.gov.in/programmes.html",
+          "sn": "chfw.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "women-indira-mahila-shakti",
+          "t": "ఇందిరా మహిళా శక్తి - SHG జీవనోపాధి",
+          "e": "Indira Mahila Shakti - SHG livelihoods",
+          "d": "SERP పాలసీలో SHG సూక్ష్మ వ్యాపారాలు, నైపుణ్యం, బ్రాండింగ్ / ప్యాకేజింగ్, మార్కెటింగ్, ప్రాసెసింగ్ కేంద్రాల మద్దతు లక్ష్యాలున్నాయి. రాష్ట్ర బ్యాంక్ లింకేజ్ లక్ష్యం ప్రతి సభ్యురాలికి నగదు హక్కు కాదు. వర్తించే రుణం / రాయితీ / శిక్షణ, అర్హత, తిరిగి చెల్లింపు మండల SERP / బ్యాంకులో నిర్ధారించండి.",
+          "de": "SERP policy describes SHG micro-enterprise, skills, branding/packaging, marketing and processing-centre support. State bank-linkage targets are not individual cash entitlements. Confirm the applicable loan/subvention/training, eligibility and repayment with mandal SERP/bank.",
+          "s": "https://efms.serp.telangana.gov.in/Livelihoods/TRIGP/MandalViews/HomeMHS.aspx",
+          "sn": "efms.serp.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ],
       "nb": true
@@ -729,6 +922,18 @@ window.GS_DATA = {
           "s": "https://wdsc.telangana.gov.in/pwd_portal.html",
           "sn": "wdsc.telangana.gov.in",
           "u": "23-10-2026"
+        },
+        {
+          "id": "pwd-adip",
+          "t": "ADIP - దివ్యాంగులకు సహాయక పరికరాలు",
+          "e": "ADIP - assistive devices for persons with disabilities",
+          "d": "26-09-2024 సవరణను చూపే అధికారిక పేజీ: UDID కార్డు / నమోదు సంఖ్య, కనీసం 40% దివ్యాంగత ధృవీకరణ, ఆధార్ / నమోదు సంఖ్య. నెలవారీ కుటుంబ ఆదాయం ₹22,500 వరకు 100% సబ్సిడీ; ₹22,501-₹30,000కు 50%. సాధనాలకు 3 ఏళ్లకు ఒకసారి ₹15,000 వరకు; హైఎండ్ కృత్రిమ అవయవాలకు ₹30,000 వరకు; మోటారైజ్డ్ ట్రైసైకిల్ / వీల్‌చేర్‌కు 5 ఏళ్లకు ఒకసారి ₹50,000 వరకు. అందరికీ నగదు కాదు; పరికరం / అవసరం నిబంధనలు వర్తిస్తాయి. అమలు సంస్థ / PMD-VK / అధికారిక ARJUN మార్గంలో ప్రస్తుత పత్రాలు, మంజూరు నిర్ధారించండి.",
+          "de": "The official page, noting a 26 Sep 2024 revision, requires UDID card/enrolment, at least 40% disability certification and Aadhaar/enrolment. It lists 100% subsidy for monthly family income up to Rs 22,500; 50% for Rs 22,501-30,000; aids up to Rs 15,000 once in 3 years; high-end prostheses up to Rs 30,000; motorised tricycles/wheelchairs up to Rs 50,000 once in 5 years. Not cash for everyone: device/need conditions apply. Confirm current documents/approval through an implementing agency, PMD-VK or official ARJUN route.",
+          "s": "https://depwd.gov.in/en/adip-scheme/",
+          "sn": "depwd.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ]
     },
@@ -1043,6 +1248,54 @@ window.GS_DATA = {
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2249942",
           "sn": "pib.gov.in",
           "u": "24-10-2026"
+        },
+        {
+          "id": "loans-sc-land",
+          "t": "SC కార్పొరేషన్ - భూమి కొనుగోలు / పంపిణీ",
+          "e": "SC Corporation - land purchase/distribution",
+          "d": "TSCCDCL అధికారిక పోర్టల్ భూమి లేని నిరుపేద దలిత వ్యవసాయ ఆధారిత కుటుంబాల పథకాన్ని చూపుతోంది; నవీకరణ 18-05-2024. కనిపించే Apply Online భూమి అమ్మేవారి కోసం, లబ్ధిదారు దరఖాస్తు కాదు. ప్రస్తుత విడత, అర్హత, ఎంపిక / నమోదు SC కార్పొరేషన్ / MPDO వద్ద నిర్ధారించండి.",
+          "de": "The TSCCDCL portal describes support for landless poor Dalit agriculture-dependent families; last update 18 May 2024. Its visible Apply Online is for land SELLERS, not a verified beneficiary application. Confirm current intake,eligibility and beneficiary selection/enrolment with SC Corporation/MPDO.",
+          "s": "https://lplds.cgg.gov.in/",
+          "sn": "lplds.cgg.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "loans-tricor",
+          "t": "ST కార్పొరేషన్ - TRICOR జీవనోపాధి",
+          "e": "ST Corporation - TRICOR livelihood route",
+          "d": "రాష్ట్ర గిరిజన సంక్షేమ డైరెక్టరీలో ST సహకార ఫైనాన్స్ కార్పొరేషన్ ఉంది. ప్రస్తుత ఆర్థిక / జీవనోపాధి నోటిఫికేషన్, అర్హత, ప్రాజెక్టు, బ్యాంకు / వాటా ITDA / గిరిజన సంక్షేమ అధికారితో నిర్ధారించండి. సంస్థ జాబితా అంటే దరఖాస్తులు ఓపెన్ అని కాదు.",
+          "de": "The state Tribal Welfare directory lists the ST Cooperative Finance Corporation. Confirm current livelihood/economic-support notices,eligibility,project,bank/contribution terms with ITDA/Tribal Welfare. A directory listing does not establish open applications.",
+          "s": "https://www.telangana.gov.in/departments/tribal-welfare/",
+          "sn": "www.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "loans-bc-corporation",
+          "t": "BC కార్పొరేషన్ / ఫెడరేషన్ ఆర్థిక సాయం",
+          "e": "BC Corporation / federation economic support",
+          "d": "జిల్లా అధికారిక పేజీ స్వయం ఉపాధి, బ్యాంక్-అనుసంధాన సబ్సిడీ, వృత్తి గ్రూప్ పథకాలను వివరిస్తోంది. పాత సంవత్సరాల రేట్లను ప్రస్తుత పరిమితులుగా వాడవద్దు. ప్రస్తుత నోటిఫికేషన్ ప్రకారమే నమోదు; తాజా అర్హత, పత్రాలు, OBMMS మార్గం BC సంక్షేమ కార్యాలయం / MPDO వద్ద అడగండి.",
+          "de": "The official district page describes self-employment,bank-linked subsidy and occupational-group schemes. Do not treat older rates as current limits. Enrol under the current notification; ask BC Welfare/MPDO for current eligibility,documents and OBMMS route.",
+          "s": "https://bhoopalapally.telangana.gov.in/b-c-development/bc-development/",
+          "sn": "bhoopalapally.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
+        },
+        {
+          "id": "loans-dalit-bandhu",
+          "t": "దళిత బంధు - ప్రస్తుత నమోదు తెలియదు",
+          "e": "Dalit Bandhu - current intake unverified",
+          "d": "SC కుటుంబాల ఆదాయోపాధి యూనిట్ల మద్దతు అధికారిక పోర్టల్‌లో ఉంది. పాత మంజూరు / గణాంకాలు, 2024 నవీకరణ కొత్త దరఖాస్తు ప్రకటన కాదు. ప్రస్తుత ఎంపిక, నిధులు, గ్రామ విడత నిర్ధారించలేదు. తాజా ఉత్తర్వు, అర్హత SC కార్పొరేషన్ / MPDO వద్ద అడగండి. మధ్యవర్తికి డబ్బు ఇస్తే మంజూరు హామీ నమ్మవద్దు.",
+          "de": "The official portal describes SC-family livelihood support. Older sanctions/statistics and a 2024 update are not a new intake notice. Current selection,funding and village intake are unverified. Ask SC Corporation/MPDO for current orders/eligibility. Do not pay a middleman for promised sanction.",
+          "s": "https://dalitbandhu.telangana.gov.in/",
+          "sn": "dalitbandhu.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information"
         }
       ]
     },
@@ -1424,6 +1677,25 @@ window.GS_DATA = {
           "s": "https://www.rseti.in/our-institutes-telangana",
           "sn": "rseti.in",
           "u": "23-10-2026"
+        },
+        {
+          "id": "skills-task-softnet",
+          "t": "TASK / SoFTNET - నైపుణ్య / విద్యా మార్గాలు",
+          "e": "TASK / SoFTNET - skills and education routes",
+          "d": "TASK ప్రభుత్వ నైపుణ్య / ఉపాధి సామర్థ్య సంస్థ; నమోదిత విద్యార్థుల శిక్షణ జాబితాలున్నాయి. ప్రతి కోర్సు అందరికీ ఉచితం / ఓపెన్ కాదు. మెదక్ 2019 సూచికలో SoFTNET / MANA TV విద్యా ప్రసార మార్గం ఉంది. తాజా కోర్సులు, ఫీజు, నమోదు / ప్రసారం అధికారికంగా చూడండి; ఉద్యోగం హామీ కాదు.",
+          "de": "TASK is the state skills/employability organisation,with training for registered students. Not every course is free/open for everyone. Medak's 2019 index lists SoFTNET/MANA TV educational broadcasting. Confirm current courses,fees,registration/broadcast details officially; no job guarantee.",
+          "s": "https://task.telangana.gov.in/",
+          "sn": "task.telangana.gov.in",
+          "u": "25-10-2026",
+          "bt": "అధికారిక సమాచారం",
+          "be": "Official information",
+          "refs": [
+            {
+              "te": "SoFTNET - జిల్లా పాత సూచిక",
+              "en": "SoFTNET - historical district index",
+              "url": "https://medak.telangana.gov.in/schemes/"
+            }
+          ]
         }
       ]
     },
@@ -1780,13 +2052,20 @@ window.GS_DATA = {
           "id": "jobs-pm-internship-intake-check",
           "t": "ఇంటర్న్‌షిప్: PM ఇంటర్న్‌షిప్ పథకం (అధికారిక సమాచారం)",
           "e": "Internship: PM Internship Scheme (official information)",
-          "d": "కేంద్ర ప్రభుత్వ (కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ) ఇంటర్న్‌షిప్ పథకం - పైలట్ దశ అమలు గురించి ప్రభుత్వ అధికారిక విడుదల (PIB, 20-02-2025) చెబుతోంది. ఆ విడుదల ప్రకారం: 21-24 ఏళ్ల, పూర్తి కాల విద్య లేదా ఉద్యోగంలో లేని యువతకు 12 నెలల చెల్లింపు ఇంటర్న్‌షిప్; నెలకు ₹5,000 ఆర్థిక సహాయం, అదనంగా ఒకేసారి ₹6,000. 24-10-2026 నాటికి ప్రస్తుత దరఖాస్తు (ఇంటేక్) తెరిచి ఉందో లేదో మేము నిర్ధారించలేదు - విడుదలలో పేర్కొన్న దరఖాస్తు పోర్టల్ ప్రస్తుతం అందుబాటులో లేదు, కాబట్టి కొత్త అధికారిక ప్రకటనలే సరైన సమాచారం. పాత సమాచారం ప్రకారం నిర్ణయించుకోవద్దు. ఇది సమాచార కార్డు మాత్రమే - దరఖాస్తు విజయం లేదా హామీ ఏమీ లేదు.",
-          "de": "Central government (Ministry of Corporate Affairs) internship scheme - an official government release (PIB, 20-02-2025) confirms pilot-phase implementation. Per that release: 12-month paid internships for youth aged 21-24 not in full-time study or employment; Rs 5,000 monthly assistance plus a one-time Rs 6,000. As of 24-10-2026 we have not verified whether the current intake is open - the application portal named in the release is currently unreachable, so rely on the latest official announcements. Do not rely on older reports. Information card only - no application success or guarantee.",
+          "d": "MCA కేంద్ర PM ఇంటర్న్‌షిప్ పథకం. క్రింది PIB లింక్ 20-02-2025 పైలట్ వివరణ; ప్రస్తుత స్టైపెండ్, వయస్సు, కాలవ్యవధి, గడువుకు రుజువు కాదు. తాజా MCA పోర్టల్ / మార్గదర్శకాల్లోనే నిబంధనలు నిర్ధారించండి. ప్రస్తుత ఇంటేక్ ఈ తనిఖీలో నిర్ధారించలేదు. ఉద్యోగం / ఎంపిక హామీ లేదు.",
+          "de": "MCA PM Internship Scheme. The PIB link below describes the 20 Feb 2025 pilot, not verified current stipend,age,duration or deadline. Confirm current terms through the MCA portal/latest guidelines. Current intake is unverified. No job/selection guarantee.",
           "bt": "అధికారిక విడుదల చూడండి",
           "be": "See official release",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2104914",
           "sn": "pib.gov.in",
-          "u": "24-10-2026"
+          "u": "25-10-2026",
+          "refs": [
+            {
+              "te": "MCA అధికారిక పోర్టల్",
+              "en": "MCA official portal",
+              "url": "https://pminternship.mca.gov.in/"
+            }
+          ]
         }
       ]
     },
@@ -1989,13 +2268,13 @@ window.GS_DATA = {
           "id": "biz-pmfme",
           "t": "PMFME - ఫుడ్ ప్రాసెసింగ్ యూనిట్లకు 35% సబ్సిడీ",
           "e": "PMFME - food processing units, 35% subsidy",
-          "d": "ఇప్పటికే నడుస్తున్న చిన్న ఫుడ్ ప్రాసెసింగ్ యూనిట్లకు (పప్పులు, పికిల్స్, స్నాక్స్ తయారీ వంటివి) ఆధునీకరణకు బ్యాంకు లోన్‌పై 35% క్రెడిట్-లింక్డ్ సబ్సిడీ, గరిష్ఠం 10 లక్షలు; కనీసం 10% స్వంత వాటా అవసరం. ప్రస్తుతం దరఖాస్తులు స్వీకరిస్తున్నారో లేదో PMFME పోర్టల్/DIC లో నిర్ధారించుకోండి.",
-          "de": "For existing small food processing units (dal, pickles, snacks etc.): 35% credit-linked subsidy on a bank loan for upgradation, capped at Rs 10 lakh. At least 10% own contribution required.",
+          "d": "ఇప్పటికే నడుస్తున్న చిన్న ఫుడ్ ప్రాసెసింగ్ యూనిట్లకు (పప్పులు, పికిల్స్, స్నాక్స్ తయారీ వంటివి) ఆధునీకరణకు బ్యాంకు లోన్‌పై 35% క్రెడిట్-లింక్డ్ సబ్సిడీ, గరిష్ఠం 10 లక్షలు; కనీసం 10% స్వంత వాటా అవసరం. ప్రస్తుతం దరఖాస్తులు స్వీకరిస్తున్నారో లేదో PMFME పోర్టల్/DIC లో నిర్ధారించుకోండి. ఇవి పాత మార్గదర్శకాల రేట్లు; 31-03-2026 తర్వాత కొనసాగింపు / ప్రస్తుత ఇంటేక్ ఈ తనిఖీలో నిర్ధారించలేదు. తాజా ఉత్తర్వు PMFME / DIC వద్ద అడగండి; మంజూరు హామీ కాదు.",
+          "de": "For existing small food processing units (dal, pickles, snacks etc.): 35% credit-linked subsidy on a bank loan for upgradation, capped at Rs 10 lakh. At least 10% own contribution required. These are guideline-era rates. Continuation beyond 31 March 2026/current intake were not verified in this check. Request the current order from PMFME/DIC; sanction is not guaranteed.",
           "bt": "PMFME పోర్టల్",
           "be": "PMFME portal",
           "s": "https://pmfme.mofpi.gov.in/",
           "sn": "pmfme.mofpi.gov.in",
-          "u": "23-10-2026"
+          "u": "25-10-2026"
         },
         {
           "id": "biz-jansamarth",
@@ -2014,12 +2293,12 @@ window.GS_DATA = {
           "t": "e-శ్రమ్ - అసంఘటిత కార్మికుల జాతీయ నమోదు",
           "e": "e-Shram - national register of unorganised workers",
           "d": "నిర్మాణ కార్మికులు, వలస కార్మికులు, వీధి వ్యాపారులు, గృహ కార్మికులు, వ్యవసాయ కూలీలకు 12-అంకెల UAN కార్డు. ఈ కార్డు గుర్తింపు మాత్రమే - సంక్షేమ, బీమా పథకాల ప్రయోజనాలు ఆయా పథకాల అర్హత నిబంధనలు, నమోదు మేరకే లభిస్తాయి; కార్డు ఉంటేనే స్వయంచాలకంగా బీమా వస్తుందని కాదు. ఉచిత స్వయం నమోదు లేదా CSC ద్వారా. హెల్ప్ డెస్క్: 14434.",
-          "de": "Construction workers, migrant workers, street vendors, domestic workers and farm labourers get a 12-digit UAN card, which links them to government welfare schemes and insurance. Free self-registration or via CSC. Helpline: 14434.",
+          "de": "National registration of unorganised workers, including construction,migrant,domestic and farm workers. UAN is identification, not automatic insurance or cash. Separate scheme eligibility/enrolment apply. Free self-registration or CSC route; confirm current requirements officially. Helpdesk 14434.",
           "bt": "నమోదు పోర్టల్",
           "be": "Registration portal",
           "s": "https://eshram.gov.in/",
           "sn": "eshram.gov.in",
-          "u": "23-10-2026",
+          "u": "25-10-2026",
           "ph": "14434"
         },
         {

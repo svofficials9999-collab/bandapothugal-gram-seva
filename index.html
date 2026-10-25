@@ -211,9 +211,10 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=93"></script>
-<script src="details.js?v=93"></script>
-<script src="search.js?v=93"></script>
+<script src="schemes.js?v=94"></script>
+<script src="details.js?v=94"></script>
+<script src="search.js?v=94"></script>
+<script src="directory.js?v=94"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -251,7 +252,7 @@ function render(){
   const emergencyBox = $('emgBox');
   emergencyBox.remove();
   // sections
-  $('secGrid').innerHTML = D.sections.map(s =>
+  $('secGrid').innerHTML = '<div class="sec" role="button" tabindex="0" onclick="openSpecial(\'directory\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'directory\')}"><div class="ic">📋</div><h2>'+T('కేంద్ర + తెలంగాణ పథకాల సూచిక','Central + Telangana scheme index')+'</h2><p>'+T('50 సూచిక ఎంట్రీలు - వర్గాల్లోని వివరాలకు దారి','50 index entries - open existing details')+'</p></div>' + D.sections.map(s =>
     '<div data-notice-section="'+s.id+'" class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+sectionIcon(s)+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
   ['news','draft'].map(id=>'<div class="sec" role="button" tabindex="0" aria-label="'+id+'" onclick="openSpecial(\''+id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\''+id+'\')}"><div class="ic">'+(id==='news'?'📰':'📄')+'</div><h2>'+T(id==='news'?'వార్తాపత్రికలు':'ముసాయిదా & PDF',id==='news'?'Newspapers':'Draft & PDF')+'</h2></div>').join('')+
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
@@ -361,6 +362,7 @@ function gsOpenDraft(){
  $('cardList').innerHTML='<div class="card frm"><div class="privacy">'+T('మీ ఫోన్‌లోనే వ్రాసి Print / Save as PDF వాడండి. ముసాయిదా ఎక్కడా సేవ్ / పంపబడదు; వెనక్కి వెళ్తే పోతుంది. ఇది బ్యాంకు / ప్రభుత్వ అసలు ఫారమ్‌కు ప్రత్యామ్నాయం కాదు. అధికారిక PDF ఫారమ్‌ను సంబంధిత సైట్‌లోనే నింపి సేవ్ చేయాలి; బయట సైట్‌లో నింపిన వివరాలు ఈ యాప్ చదవదు.','Write locally and use Print / Save as PDF. Drafts are not stored or sent and are lost when you leave. This is not a substitute for an official bank / government form. Complete and save external official PDFs on their own site; Gram Seva cannot read forms filled on other sites.')+'</div><label for="draftTitle">'+T('శీర్షిక','Title')+'</label><input id="draftTitle"><label for="draftBody">'+T('వివరాలు','Details')+'</label><textarea id="draftBody" rows="12"></textarea><button class="sendbtn" onclick="gsPrintDraft()">'+T('Print / PDFగా సేవ్ చేయండి','Print / Save as PDF')+'</button><p class="privacy">'+T('Print తెరలో Save as PDF ఎంచుకోండి. మీ ఫోన్ / బ్రౌజర్‌లో ఆ ఎంపిక ఉంటే ఫైల్ సేవ్ చేసి జిరాక్స్ తీసుకోవచ్చు. ఈ బటన్ ప్రింట్ డైలాగ్ తెరుస్తుంది; ఆటోమేటిక్ PDF డౌన్‌లోడ్ కాదు.','Choose Save as PDF in the print screen if your phone/browser offers it, then save and print the file. This opens the print dialog; it is not an automatic PDF download.')+'</p></div>';
 }
 
+function gsOpenCard(id){const sec=D.sections.find(s=>s.items.some(it=>it.id===id));if(!sec)return;openSec(sec.id);const index=sec.items.findIndex(it=>it.id===id);requestAnimationFrame(()=>{const card=$('cardList').children[index];if(!card)return;const header=document.querySelector('header');window.scrollTo(0,Math.max(0,window.scrollY+card.getBoundingClientRect().top-(header?.getBoundingClientRect().height||80)-16))});}
 // ---- Special views: complaint form + mandal offices directory ----
 function openSpecial(id, push){
  if($('sectionNoticeBar'))$('sectionNoticeBar').hidden=true;
@@ -370,7 +372,10 @@ function openSpecial(id, push){
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='none';
   $('stName').dataset.sid = 'special:' + id;
-  if(id === 'news'){gsOpenNews();
+  if(id === 'directory'){
+    $('stIcon').textContent='📋';$('stName').textContent=T('కేంద్ర + తెలంగాణ పథకాల సూచిక','Central + Telangana scheme index');
+    $('cardList').innerHTML='<div class="card"><p class="desc">'+T('50 సూచిక ఎంట్రీలు: కొన్ని బహుళ పథకాలు, 2 నమోదు ప్రక్రియలు. దేశంలోని అన్ని పథకాల జాబితా కాదు. ఇప్పటికే ఉన్న కార్డులను మళ్లీ నకలు చేయకుండా వాటికే దారి చూపుతుంది. జాబితాలో ఉండటం ప్రస్తుత దరఖాస్తులు / నగదు మంజూరు హామీ కాదు. పాత సమాచారం, తెలియని ఇంటేక్ గుర్తులు ఆయా వివరాల్లో చదవండి.','50 index entries, including grouped programmes and 2 enrolment processes. Not every government scheme. Links reuse existing cards without duplicating them. Listing does not guarantee open applications or cash approval. Read historical/unknown-intake caveats in each detail.')+'</p></div>'+GS_DIRECTORY.map((row,n)=>'<div class="card"><h3>'+(n+1)+'. '+esc(T(row.te,row.en))+'</h3><div class="cbtns">'+row.targets.map(id=>{const sec=D.sections.find(s=>s.items.some(it=>it.id===id));const it=sec.items.find(x=>x.id===id);return '<button class="cbtn open" onclick="gsOpenCard(\''+id+'\')">'+esc(T(it.t,it.e))+'</button>'}).join('')+'</div></div>').join('');
+  } else if(id === 'news'){gsOpenNews();
   } else if(id === 'draft'){gsOpenDraft();
   } else if(id === 'offices'){
     $('stIcon').textContent = '🏢'; $('stName').textContent = T('మండల కార్యాలయాలు','Mandal Offices');
