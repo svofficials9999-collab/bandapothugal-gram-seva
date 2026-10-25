@@ -1,5 +1,6 @@
 window.GS_DATA = {
-  "built": "24-10-2026",
+  "built": "26-10-2026",
+  "releaseDate": "26-10-2026",
   "village": {
     "te": "బండపోతుగల్ గ్రామం • చిలిపిచెడ్ మండలం • మెదక్ జిల్లా • నార్సాపూర్ నియోజకవర్గం",
     "en": "Bandapothugal village · Chilpched Mandal · Medak district · Narsapur constituency"
@@ -1413,8 +1414,8 @@ window.GS_DATA = {
           "d": "విత్తే ముందు స్థానిక రకం, పంట కాలం, నీటి లభ్యత నిర్ణయించండి. నారు నాటడం / నేరుగా విత్తడం నిర్వహణ ఒకేలా ఉండదు.\nచదివే దశలు: విత్తనం / నారు → పొలం సిద్ధం → నాటడం / విత్తడం → నీరు / కలుపు / పోషకాల పరిశీలన → తెగుళ్ల నిర్ధారణ → కోత.\nకింద పేజీ తమిళనాడు సీజన్లు / రకాలు చూపుతుంది; ఆ నెలలు / రకాలు మెదక్ సిఫార్సు కావు. స్థిర నీటి / మందుల మోతాదు ఇక్కడ ఇవ్వలేదు.",
           "de": "Confirm local variety, duration and water before planting. Transplanting and direct seeding need different management.\nStudy seed/nursery → field preparation → planting → water/weeds/nutrition checks → diagnosis → harvest.\nLinked seasons/varieties are for Tamil Nadu, not a Medak recommendation. No fixed irrigation/product dose is prescribed.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/agriculture/agri_seasonandvarieties_rice.html",
           "sn": "agritech.tnau.ac.in",
@@ -1427,8 +1428,8 @@ window.GS_DATA = {
           "d": "మూలంలో నీటి పారుదల, వర్షాధార, వరి తర్వాత, అధిక సాంద్రత, సేంద్రీయ పత్తి పద్ధతులు వేరు.\nస్థానిక నేల / సీజన్ / నీటికి పద్ధతి, విత్తనం, దూరం నిపుణుడితో నిర్ణయించండి. HDPS దూరాన్ని ప్రతి రకానికి వర్తింపజేయవద్దు.\nపెరుగుదల → పూత → కాయ దశల్లో పరిశీలించండి. సమస్య పేరు నిర్ధారించకుండా మందులు కలపవద్దు. లింకులోని పాత రసాయన సూచనలు ప్రస్తుత తెలంగాణ అనుమతి / లేబుల్‌కు బదులు కావు.",
           "de": "Source separates irrigated, rainfed, rice-fallow, high-density and organic cotton systems.\nConfirm system, seed and spacing for local soil/season/water. HDPS spacing is not for every variety.\nMonitor growth → flowering → bolls. Do not mix products before diagnosis. Old linked chemical guidance does not replace current Telangana approval/label.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_cereals%20index%20new_cotton.html",
           "sn": "agritech.tnau.ac.in",
@@ -1441,8 +1442,8 @@ window.GS_DATA = {
           "d": "మూలం ప్రకారం పూత, ఊడలు నేలలోకి దిగే దశ, కాయ అభివృద్ధిలో తేమ ముఖ్యం.\nపొలం / మంచి విత్తనం → విత్తడం → కలుపు పరిశీలన → పూత / ఊడలు / కాయలు → పరిపక్వత / కోత చదవండి.\nనేల, వర్షం, దశను బట్టి నీరు నిర్ణయించాలి. మూలంలోని రోజుల పట్టిక స్థిర మెదక్ షెడ్యూల్ కాదు. జిప్సం / ఎరువు / మందుల మోతాదు స్థానిక పరీక్ష, నిపుణుడి సలహా ఆధారమే.",
           "de": "Source identifies flowering, pegging and pod development as important moisture stages.\nStudy field/seed → sowing → weeds → flowering/pegging/pods → maturity/harvest.\nIrrigation depends on soil, rain and stage; source day tables are not a fixed Medak schedule. Gypsum/fertilizer/protection need local tests and advice.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/agriculture/CropProduction/Oilseeds/oilseeds_groundnut01.html",
           "sn": "agritech.tnau.ac.in",
@@ -1455,8 +1456,8 @@ window.GS_DATA = {
           "d": "మూలంలో పూత / కాయ ఏర్పడే దశల్లో తేమ ముఖ్యం; అన్ని దశల్లో నీరు నిలవకుండా చూడాలని ఉంది.\nమంచి విత్తనం → సీజన్ / పద్ధతి → మొలకలు / కలుపు → పూత / కాయలు → కోత.\nవరి తర్వాత మిగిలిన తేమ, నీటి పారుదల, వర్షాధార సాగు సూచనలు వేరు. తమిళనాడు నెలలు, రకాలు, మోతాదులను మన గ్రామానికి కాపీ చేయవద్దు.",
           "de": "Source identifies flowering/pod formation as moisture-sensitive and advises avoiding stagnation at all stages.\nSeed quality → season/system → establishment/weeds → flowers/pods → harvest.\nRice-fallow, irrigated and rainfed systems differ. Do not copy Tamil Nadu calendars, varieties or doses into village prescriptions.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/agriculture/pulses_blackgram.html",
           "sn": "agritech.tnau.ac.in",
@@ -1469,8 +1470,8 @@ window.GS_DATA = {
           "d": "కుసుమలు / Safflower (Carthamus tinctorius): పొలం సిద్ధం, మంచి విత్తనం, వరుస విత్తడం, మొక్కల సర్దుబాటు, కలుపు, పరిపక్వత / కోత మూలంలో ఉన్నాయి.\nవిత్తే సమయం, రకం, నేల తేమ, కాలాన్ని స్థానిక అధికారితో నిర్ణయించండి. మూలంలోని నవంబర్ సూచన తమిళనాడు పరిధి; ప్రతి మెదక్ పొలానికి హామీ కాదు.\nరసాయన విత్తన శుద్ధి / ఎరువు సూచనలు సేంద్రీయ ప్రమాణాలకు ఆటోమేటిక్‌గా సరిపోవు.",
           "de": "Safflower (Carthamus tinctorius) source covers field preparation, good seed, line sowing, thinning, weeds and maturity/harvest.\nConfirm local timing, variety, moisture and duration. Its November timing is Tamil Nadu guidance, not a guarantee for Medak fields.\nChemical seed/fertilizer treatments are not automatically organic-compatible.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/agriculture/oilseeds_safflower.html",
           "sn": "agritech.tnau.ac.in",
@@ -1483,8 +1484,8 @@ window.GS_DATA = {
           "d": "సూచికలో మినుములు, పెసలు, అలసందలు, కందులు వేరు పంటలు.\nస్థానిక పేరు స్పష్టంగా లేకపోతే విత్తన ప్యాకెట్, మొక్క / కాయ ఫోటోతో పంటను నిర్ధారించండి. పేరు తెలియకుండా మరో పంట మోతాదు వాడవద్దు.\nపేరు తెలిసిన తర్వాత నేల, కాలం, నీరు, రకానికి సరైన మార్గదర్శిని ఎంచుకోండి.",
           "de": "Index distinguishes blackgram, greengram, cowpea and redgram.\nIf a local crop name is unclear, identify it with seed label and plant/pod photos; never use another crop’s dose by guesswork.\nThen match the guide to soil, season, water and variety.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/agriculture/agri_irrigationmgt_fieldcrops.html",
           "sn": "agritech.tnau.ac.in",
@@ -1497,8 +1498,8 @@ window.GS_DATA = {
           "d": "సూచికలో నారు / విత్తనం, సీజన్ / పొలం సిద్ధం, నీరు, తెగుళ్లు, కోత తర్వాత నిర్వహణ ఉన్నాయి. కొన్ని హైబ్రిడ్లకు ఆధారం, మల్చింగ్ ప్రత్యేక పద్ధతులు.\nఎండిన తర్వాత ఒక్కసారిగా నీరు ఇవ్వడం పండ్లు పగలడానికి దారితీయవచ్చని నీటి మార్గదర్శిని వివరిస్తుంది. నీటి అంతరాన్ని నేల / వాతావరణానికి సరిపోల్చండి.\nనారు రకం, డ్రైనేజీ, మార్కెట్ స్థానికంగా ప్రణాళిక చేయండి. ప్రతి టమాటా పద్ధతి సేంద్రీయం కాదు.",
           "de": "Index covers nursery/seed, season/field, water, disorders and post-harvest handling. Support/mulching depend on the growing system.\nWater guide warns drought followed by sudden irrigation can crack fruit; adapt to soil/weather.\nPlan seedlings, drainage and market locally. Not every tomato method is organic.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_tomato_index.html",
           "sn": "agritech.tnau.ac.in",
@@ -1521,8 +1522,8 @@ window.GS_DATA = {
           "d": "కూరగాయల సూచికలో పంటను ఎంచుకుని నేల / వాతావరణం, నారు / విత్తనం, నీరు, కలుపు, సమస్యలు, కోత చదవండి.\nవేర్వేరు కూరగాయలకు ఒకే నీటి షెడ్యూల్ / మందు కాదు. స్థానిక సీజన్, రకం, వ్యాధి నిర్ధారణ అవసరం.\nతమిళనాడు మార్గదర్శిని, మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు. ఖర్చు / అమ్మకం ప్రణాళికతో మొదలుపెట్టండి.",
           "de": "Select a crop in the vegetable index for soil/climate, nursery/seed, water, weeds, disorders and harvest.\nDifferent vegetables do not share one irrigation/protection schedule. Confirm local season, variety and diagnosis.\nTamil Nadu guidance, not a field prescription. Plan costs/sales before starting.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/horticulture/horti_Vegetables.html",
           "sn": "agritech.tnau.ac.in",
@@ -1535,8 +1536,8 @@ window.GS_DATA = {
           "d": "సూచికలో మామిడి, అరటి, జామ, బొప్పాయి, నిమ్మ, దానిమ్మ తదితర పంటలు ఉన్నాయి.\nతోటకు ముందు నేల / నీటి నాణ్యత, డ్రైనేజీ, ఉష్ణోగ్రత, నమ్మకమైన నర్సరీ, దూరం, సంవత్సరాల నిర్వహణ ఖర్చు, మార్కెట్ పరిశీలించండి.\nజామకు నీరు బయటకు వెళ్లే నేల అనుకూలమని మూలం వివరిస్తుంది. ప్రతి పండు / రకం బండపోతుగల్‌కు సరిపోతుందని నిర్ధారణ కాదు; ఉద్యాన అధికారితో ప్రణాళిక చేయండి.",
           "de": "Index includes mango, banana, guava, papaya, citrus and pomegranate.\nAssess soil/water, drainage, temperature, reliable nursery, spacing, multi-year costs and market.\nSource describes well-drained soils for guava. Not proof that every fruit/variety suits Bandapothugal; plan with horticulture staff.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): అధికారిక TNAU సైట్ ఈ తనిఖీలో కొన్నిసార్లు సర్టిఫికెట్ లోపం చూపించింది. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇక్కడి సమాచారం సాధారణ అవగాహన కోసం మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
-            "en": "Source access note (25 Oct 2026): the official TNAU site intermittently showed a certificate error during this check. Do not continue past a security warning. This is general guidance, not a prescription for your field."
+            "te": "మూలం అందుబాటు గమనిక: 25-10-2026న సర్టిఫికెట్ లోపం కనిపించింది. 26-10-2026న లింకులోని పాఠ్యం మళ్లీ అందింది; అందుబాటు మారవచ్చు. భద్రతా హెచ్చరికను దాటి వెళ్లవద్దు. ఇది సాధారణ అవగాహన మాత్రమే; మీ పొలానికి వ్యక్తిగత సిఫార్సు కాదు.",
+            "en": "Source access note: a certificate error was seen on 25 Oct 2026. The linked content was readable again on 26 Oct; access may vary. Never continue past a security warning. This is general guidance, not a prescription for your field."
           },
           "s": "https://agritech.tnau.ac.in/horticulture/horti_fruits.html",
           "sn": "agritech.tnau.ac.in",
@@ -1549,8 +1550,8 @@ window.GS_DATA = {
           "d": "NCONF పాఠ్యాంశాలు: నేల ఆరోగ్యం, పంట మార్పిడి / అంతర పంటలు, కంపోస్టింగ్, మల్చింగ్, నీటి / పోషకాల నిర్వహణ, జీవ ఎరువులు, సమగ్ర చీడపీడ నిర్వహణ.\nసేంద్రీయం అంటే ఏ ఇంటి మిశ్రమమైనా సురక్షితం కాదు. ఇన్‌పుట్ నాణ్యత, పంట / దశ, అనుమతించిన వినియోగం, కార్మికుల / ఆహార భద్రత చూడాలి.\nస్థానిక నిపుణుడితో మార్పిడి ప్రణాళిక, ఖర్చు / దిగుబడి రికార్డులు ఉంచండి. దిగుబడి / లాభం హామీ లేదు.",
           "de": "NCONF curriculum covers soil health, rotation/intercropping, composting, mulch, water/nutrients, biofertilizers and integrated pest management.\nOrganic does not make every homemade mixture safe. Check input quality, crop/stage, permitted use and worker/food safety.\nPlan transition and keep cost/yield records with local advice. No yield/profit guarantee.",
           "accessNote": {
-            "te": "మూలం అందుబాటు గమనిక (25-10-2026): ఈ తనిఖీలో అధికారిక కోర్సు పేజీ 403 (ప్రవేశం నిరాకరణ) చూపించింది. ప్రస్తుత బ్యాచ్ / నమోదు అందుబాటు నిర్ధారించలేదు. ఇది కోర్సు రద్దయిందని అర్థం కాదు.",
-            "en": "Source access note (25 Oct 2026): the official course page returned 403 (access denied) during this check. Current batch or enrolment availability was not verified. This does not mean the course was cancelled."
+            "te": "మూలం అందుబాటు గమనిక (26-10-2026): ఒక పద్ధతిలో అధికారిక కోర్సు పాఠ్యం అందింది; బ్రౌజర్ తనిఖీలో 403 (ప్రవేశం నిరాకరణ) వచ్చింది. అందుబాటు మారవచ్చు. ప్రస్తుత బ్యాచ్ / నమోదు అందుబాటు నిర్ధారించలేదు; కోర్సు రద్దయిందని అర్థం కాదు.",
+            "en": "Source access note (26 Oct 2026): the official course text was readable through one access method, while a browser check returned 403 (access denied). Access varies. Current batch or enrolment availability is unverified; this does not mean the course was cancelled."
           },
           "s": "https://nconf.dac.gov.in/21DaysCertificateCourse",
           "sn": "nconf.dac.gov.in",
@@ -2058,14 +2059,7 @@ window.GS_DATA = {
           "be": "See official release",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2104914",
           "sn": "pib.gov.in",
-          "u": "25-10-2026",
-          "refs": [
-            {
-              "te": "MCA అధికారిక పోర్టల్",
-              "en": "MCA official portal",
-              "url": "https://pminternship.mca.gov.in/"
-            }
-          ]
+          "u": "25-10-2026"
         }
       ]
     },
