@@ -1,0 +1,8 @@
+# Bilingual search repair,25October2026
+User reported GVY missing for spoken/spelled Telugu. Rootcause:wholephrase literal substring only. Reproduced గ్రామ ఉద్యోగు against గ్రామోద్యోగ independentlyofcache.
+
+AddedUnicodeNFC,zero-width/punctuation/whitespace normalization,Telugudigits,multiwordorder-independentmatching,joined/spacednamevariants,conservativehuman-defineddiscoveryaliasesacrossschemes. Exacttitle/aliasmatchesrankabovebroadbodymatches. Aliasesarenotnewbenefits,availabilityorprogramrenaming. Noarbitraryfuzzytypoengine.Noexternalqueries/usersearchlogging.
+
+Tested179existingcards:everyTeluguandEnglishtitlefindsitscard(358checks),35naturalqueriescoverGVY,PMKISAN,pensions,Aarogyasri,GruhaJyothi,KalyanaLakshmi,Mudra,Vishwakarma,ration,BhuBharati,Aadhaar,etc(393checks total). UIrunsall35queriesunderbothdisplaylanguages(70). Unknowngibberishstaysnoresults,clearingreturnsindex. Smallwidth320/375/430/1280,noJSerrors. v92activeworker->v93automaticrefresh,offlineTeluguvariantsearch,siblingcache/progresspreserved. Noallpossiblewords/allgovernmentprogramcoverageclaim.
+
+Noexistingcards,eligibility,financialrates,contacts,recordingsorapplicationschanged. Searchindexislocalandusesexisting179cards.

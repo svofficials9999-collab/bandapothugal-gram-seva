@@ -211,8 +211,9 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=92"></script>
-<script src="details.js?v=92"></script>
+<script src="schemes.js?v=93"></script>
+<script src="details.js?v=93"></script>
+<script src="search.js?v=93"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -238,7 +239,7 @@ function render(){
     'Note: all information is collected only from official government / relevant bank websites (Content updated: '+D.built+'). Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
   $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b><br>' + T('స్వతంత్ర సమాచార యాప్ - ప్రభుత్వ / పంచాయతీ అధికారిక యాప్ కాదు.','Independent information app - not an official government / panchayat app.');
   // emergency
-  $('searchBox').placeholder = T('🔍 పథకం పేరు టైప్ చేయండి... (ఉదా: పెన్షన్, బీమా)','🔍 Type a scheme name... (e.g. pension, insurance)');
+  $('searchBox').placeholder = T('🔍 తెలుగు / English పేరు... (ఉదా: గ్రామ ఉద్యోగ, pension)','🔍 Telugu / English name... (e.g. GVY, pension)');
   $('emgVer').textContent = '✓ ' + T('అధికారిక సైట్లతో సరిచూశాం','Verified with official sites') + ': ' + (D.emergencyVerified || D.built);
   $('ntTitle').textContent = T('📢 గ్రామ నోటీసులు','📢 Village notices');
   $('ntList').innerHTML = (D.notices && D.notices.length) ? D.notices.map(n =>
@@ -282,7 +283,7 @@ function goBack(){
   $('noticeBox').style.display='block';
 }
 $('backBtn').onclick = function(){ try{ history.back(); }catch(e){ goBack(); } };
-$('langBtn').onclick = ()=>{ lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8), false) : openSec(id, false); } if($('searchResults').style.display==='flex'){ $('searchBox').dispatchEvent(new Event('input')); } };
+$('langBtn').onclick = ()=>{ const searching=$('searchResults').style.display==='flex'; lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8), false) : openSec(id, false); } if(searching){ $('searchBox').dispatchEvent(new Event('input')); } };
 // ---- History-aware back: phone/browser Back returns exactly one view inside the app ----
 try{ history.replaceState({gs:'home'}, ''); }catch(e){}
 window.addEventListener('popstate', function(e){
@@ -319,16 +320,14 @@ function renderCard(sid, i, it){
     (it.ph?'<a class="cbtn tel" href="tel:'+it.ph+'">📞 '+T('కాల్','Call')+'</a>':'')+'</div></div>';
 }
 
-// ---- Scheme search (Telugu + English) ----
+// ---- Normalized bilingual scheme search and discovery aliases ----
+const searchRows=GS_SEARCH.prepare(D.sections);
 $('searchBox').addEventListener('input', e => {
   const raw = e.target.value.trim();
   const q = raw.toLowerCase();
   if(q.length < 2){ closeSearch(); return; }
   stopSpeak();
-  const res = [];
-  D.sections.forEach(s => s.items.forEach((it,i) => {
-    if((it.t+' '+it.e+' '+it.d+' '+it.de+' '+s.te+' '+s.en).toLowerCase().includes(q)) res.push({s, it, i});
-  }));
+  const res = GS_SEARCH.find(searchRows, raw);
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
   const sr = $('searchResults'); sr.style.display='flex';
