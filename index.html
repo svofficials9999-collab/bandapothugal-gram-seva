@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#eef2f7">
 <title>బండపోతుగల్ గ్రామ సేవ</title>
 <meta name="description" content="Independent Telugu-first village information, official service links, learning and local draft tools for Bandapothugal, Medak. Not a government app.">
-<link rel="stylesheet" href="creative.css?v=101">
-<link rel="manifest" href="manifest.webmanifest?v=101">
+<link rel="stylesheet" href="creative.css?v=102">
+<link rel="manifest" href="manifest.webmanifest?v=102">
 <link rel="apple-touch-icon" href="apple-touch-icon-v3.png">
 <link rel="icon" href="icon.svg?v=3" type="image/svg+xml">
 <style>
@@ -156,7 +156,7 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 .linkcopy{display:inline-block;min-height:44px;padding:8px 10px;margin:4px;border:1px solid #a7c9de;background:#f0f9ff;color:#155e75;font-size:11px;border-radius:10px;cursor:pointer;vertical-align:middle}
 #copyDialog{margin:auto;padding:18px;max-width:90%;border-radius:16px;border:1px solid #a7c9de}#copyValue{width:100%;margin-top:10px}#printArea{display:none}
 @media print{body.gs-printing>*{display:none!important}body.gs-printing>#printArea{display:block!important;color:#111;background:white;padding:12mm}#printArea h1{font-size:22px;color:#111;background:none;-webkit-text-fill-color:#111}#printArea pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 'Noto Sans Telugu',sans-serif;margin:20px 0}#printArea p{font-size:11px}}
-/* Launch audit: wrapping and touch targets, without hiding clipped actions. */
+.gs-vector{display:inline-flex;vertical-align:-.18em;align-items:center;justify-content:center;flex-shrink:0}.gs-vector svg{width:1em;height:1em;min-width:14px;min-height:14px}.ic>.gs-vector svg{width:28px;height:28px}/* Launch audit: wrapping and touch targets, without hiding clipped actions. */
 .cbtns,.meta{flex-wrap:wrap;min-width:0}.cbtn{min-width:0;flex:1 1 105px;min-height:44px;overflow-wrap:anywhere;white-space:normal}.chip.src,.mailchip{max-width:100%;overflow-wrap:anywhere;min-height:44px;display:inline-flex;align-items:center}.cbtns>.linkcopy{flex:0 0 auto;margin:0}.card,.desc,.det>div{min-width:0;overflow-wrap:anywhere}.pill,.back,.listenall,.calnav{min-height:44px}.calhead{gap:8px}.calhead b{min-width:0}.ecopywrap>.linkcopy{min-height:44px}body:has(#cardList[style*="display: flex"]) #installBtn,body:has(#searchResults[style*="display: flex"]) #installBtn{display:none!important}#searchBox::placeholder{color:#64748b}.nempty{color:#64748b}
 </style>
 </head>
@@ -214,13 +214,13 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <div id="toast"></div><section id="printArea" aria-label="Print preview"></section>
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
-<script src="resources.js?v=101"></script>
-<script src="schemes.js?v=101"></script>
-<script src="details.js?v=101"></script>
-<script src="search.js?v=101"></script>
-<script src="directory.js?v=101"></script>
-<script src="creative-data.js?v=101"></script>
-<script src="creative.js?v=101"></script>
+<script src="resources.js?v=102"></script>
+<script src="schemes.js?v=102"></script>
+<script src="details.js?v=102"></script>
+<script src="search.js?v=102"></script>
+<script src="directory.js?v=102"></script>
+<script src="creative-data.js?v=102"></script>
+<script src="creative.js?v=102"></script>
 <script>
 const gsStore={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 let lang = gsStore.get('gs.lang') === 'en' ? 'en' : 'te';
@@ -693,7 +693,7 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=101"></script>
-<script src="utilities.js?v=101"></script>
+<script src="notifications.js?v=102"></script>
+<script src="utilities.js?v=102"></script>
 </body>
 </html>
