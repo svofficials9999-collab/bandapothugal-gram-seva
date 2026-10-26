@@ -984,13 +984,14 @@ window.GS_DATA = {
           "id": "certs-meeseva-caste-income-res",
           "t": "మీసేవ - కుల / ఆదాయ / నివాస / జనన / మరణ సర్టిఫికెట్లు",
           "e": "MeeSeva - Caste / Income / Residence / Birth / Death Certificates",
-          "d": "పౌర సర్టిఫికెట్లన్నీ మీసేవ ద్వారా. దగ్గరి మీసేవ కేంద్రంలో దరఖాస్తు చేయవచ్చు; పౌరుల ఆన్‌లైన్ నమోదు పేజీ కూడా పోర్టల్‌లో ఉంది. పూర్తి సేవల జాబితా అధికారిక పేజీలో.",
-          "de": "All citizen certificates via MeeSeva. Apply at the nearest MeeSeva centre; a citizen online registration page also exists on the portal. Full services list on the official page.",
+          "d": "కుల, ఆదాయ, నివాస, జనన/మరణ తదితర సేవలకు అధికారిక జాబితా చూడండి. కింద పోర్టల్ బటన్ ద్వారా అప్లికేషన్ నంబర్‌తో అందుబాటులో ఉన్న సర్టిఫికేట్/స్థితి మార్గాలు చూడవచ్చు; పౌర ప్రొఫైల్ నమోదు వేరే లింక్‌లో ఉంది. సేవను బట్టి ఆన్‌లైన్ లేదా అధీకృత కేంద్రం అవసరం; ఫీజు, పత్రాలు అధికారికంగా నిర్ధారించి రసీదు తీసుకోండి. ఇవి బయట ప్రభుత్వ పేజీలు; గ్రామ సేవ దరఖాస్తు సమర్పించదు, సర్టిఫికేట్ జారీ చేయదు. పౌర నమోదు కేంద్రం ఆపరేటర్ అనుమతి కాదు.",
+          "de": "See the official list for caste, income, residence, birth/death and other services. The portal button below opens available certificate/application-number and status routes; citizen profile registration has a separate link. Depending on the service, use the official online route or an authorised centre. Confirm documents and fees there and take a receipt. These are external government pages: Gram Seva does not submit applications or issue certificates. Citizen registration is not centre/operator authorisation.",
           "bt": "సేవల జాబితా చూడండి",
           "be": "View services list",
           "s": "https://www.telangana.gov.in/services/meeseva-services/",
           "sn": "telangana.gov.in",
-          "u": "23-10-2026"
+          "u": "26-10-2026",
+          "refs": [{"te": "అధికారిక పోర్టల్ / స్థితి మార్గాలు", "en": "Official portal / status routes", "url": "https://www.meeseva.telangana.gov.in/meeseva/login.htm"}, {"te": "పౌర ప్రొఫైల్ నమోదు", "en": "Citizen profile registration", "url": "https://ts.meeseva.telangana.gov.in/meeseva/registration.htm"}]
         },
         {
           "id": "certs-driving-licence",
