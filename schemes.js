@@ -127,8 +127,8 @@ window.GS_DATA = {
       "id": "dir-police-station-primary-healt",
       "t": "పోలీస్ స్టేషన్ / ప్రాథమిక ఆరోగ్య కేంద్రం",
       "e": "Police Station / Primary Health Centre",
-      "d": "అధికారిక సైట్‌లో స్థానిక ఫోన్ నంబర్ కనబడలేదు. అత్యవసరంలో: పోలీస్ 112, అంబులెన్స్ 108.",
-      "de": "Local phone numbers not found on official sites. In emergencies: Police 112, Ambulance 108.",
+      "d": "స్థానిక పోలీస్: చిలిపిచెడ్ SI నంబర్ అధికారిక జిల్లా పోలీస్ పేజీలో ఉంది; Officials & Contacts విభాగంలో చూడండి. ప్రాథమిక ఆరోగ్య కేంద్రం స్థానిక నంబర్ ఈ తనిఖీలో నిర్ధారించలేదు. అత్యవసరంలో 112 / 108.",
+      "de": "The official district police page lists the Chilipched SI; see Officials & Contacts. A local PHC number was not verified during this check. In emergencies use 112 / 108.",
       "unverified": true,
       "s": "https://medak.telangana.gov.in/",
       "sn": "medak.telangana.gov.in",
@@ -240,11 +240,11 @@ window.GS_DATA = {
           "id": "student-find-schemes-you-are-eli",
           "t": "మీకు అర్హమైన పథకాలు వెతకండి",
           "e": "Find schemes you are eligible for (myScheme)",
-          "d": "ప్రభుత్వ అధికారిక పోర్టల్ - మీ వయస్సు, వర్గం, ఆదాయం ఇస్తే అర్హమైన అన్ని పథకాలు చూపిస్తుంది.",
-          "de": "Official govt portal - enter your age, category and income to see every scheme you qualify for.",
+          "d": "ప్రభుత్వ పథకాల అన్వేషణ పోర్టల్. అక్కడ వివరాలతో సరిపోవచ్చే పథకాలు వెతకండి; ఫలితం తుది అర్హత, అన్ని పథకాల కవరేజ్ లేదా మంజూరు కాదు.",
+          "de": "Official government scheme discovery portal. Enter relevant details there to find listed schemes that may fit; results are guidance, not final eligibility, complete coverage or approval.",
           "s": "https://www.myscheme.gov.in/",
           "sn": "myscheme.gov.in",
-          "u": "23-10-2026"
+          "u": "26-10-2026"
         },
         {
           "id": "student-vidya-bharosa-status",
@@ -448,9 +448,9 @@ window.GS_DATA = {
           "e": "National Livestock Mission (NLM)",
           "d": "కేంద్ర పేజీలో కోళ్లు, గొర్రెలు, మేకలు, పందుల వ్యవస్థాపకత / జాతి మెరుగుదల, దాణా-మేత, పరిశోధన / బీమా / విస్తరణ ఉపమిషన్లు ఉన్నాయి. వ్యక్తులు, FPOలు, SHGల కార్యకలాపాల నిబంధనలు వేరు. అందరికీ ఒకే నగదు కాదు. అధికారిక తాజా మార్గదర్శకాలు / దరఖాస్తు లింక్ చూడండి; ప్రాజెక్టు ఖర్చు, వాటా, బ్యాంకు / మంజూరు షరతులు నిర్ధారించండి.",
           "de": "The central page lists poultry, sheep, goat and pig entrepreneurship/breed improvement; feed/fodder; and research, insurance and extension sub-missions. Terms vary by activity and applicant, including individuals,FPOs and SHGs. No single cash payment for everyone. Use current official guidelines/application links; verify cost, contribution, bank and sanction terms.",
-          "s": "https://dahd.gov.in/schemes/programmes/national_livestock_mission",
+          "s": "https://www.dahd.gov.in/offerings/schemes-and-services/details/national-livestock-mission-nlm-EzMwQTMtQWa",
           "sn": "dahd.gov.in",
-          "u": "25-10-2026",
+          "u": "26-10-2026",
           "bt": "అధికారిక సమాచారం",
           "be": "Official information"
         },
@@ -460,9 +460,9 @@ window.GS_DATA = {
           "e": "Livestock insurance - NLM component",
           "d": "NLMలో పశువుల బీమా భాగం ఉంది. పశువు గుర్తింపు, జాతి, స్థానిక అమలు, ప్రీమియం / రాయితీ, మినహాయింపులు, క్లెయిమ్ గడువు ప్రస్తుత పాలసీపై ఆధారపడతాయి. పశువైద్య అధికారి వద్ద సంస్థ, పాలసీ పత్రం, ట్యాగింగ్ అవసరాలు తెలుసుకోండి. NLM సమాచారం చదవడం వల్ల బీమా మొదలవదు.",
           "de": "Livestock insurance is an NLM component. Identification,species,local implementation,premium/subsidy,exclusions and claim deadlines depend on the current policy. Ask the veterinary officer for the insurer,policy document and tagging requirements. Reading about NLM does not start insurance cover.",
-          "s": "https://dahd.gov.in/schemes/programmes/national_livestock_mission",
+          "s": "https://www.dahd.gov.in/offerings/schemes-and-services/details/national-livestock-mission-nlm-EzMwQTMtQWa",
           "sn": "dahd.gov.in",
-          "u": "25-10-2026",
+          "u": "26-10-2026",
           "bt": "అధికారిక సమాచారం",
           "be": "Official information"
         },
@@ -991,7 +991,18 @@ window.GS_DATA = {
           "s": "https://www.telangana.gov.in/services/meeseva-services/",
           "sn": "telangana.gov.in",
           "u": "26-10-2026",
-          "refs": [{"te": "అధికారిక పోర్టల్ / స్థితి మార్గాలు", "en": "Official portal / status routes", "url": "https://www.meeseva.telangana.gov.in/meeseva/login.htm"}, {"te": "పౌర ప్రొఫైల్ నమోదు", "en": "Citizen profile registration", "url": "https://ts.meeseva.telangana.gov.in/meeseva/registration.htm"}]
+          "refs": [
+            {
+              "te": "అధికారిక పోర్టల్ / స్థితి మార్గాలు",
+              "en": "Official portal / status routes",
+              "url": "https://www.meeseva.telangana.gov.in/meeseva/login.htm"
+            },
+            {
+              "te": "పౌర ప్రొఫైల్ నమోదు",
+              "en": "Citizen profile registration",
+              "url": "https://ts.meeseva.telangana.gov.in/meeseva/registration.htm"
+            }
+          ]
         },
         {
           "id": "certs-driving-licence",
@@ -1127,12 +1138,12 @@ window.GS_DATA = {
             {
               "te": "Annexure-A PDF - వివరాలు మారనప్పుడు",
               "en": "Annexure-A PDF - no change",
-              "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE A.pdf"
+              "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE%20A.pdf"
             },
             {
               "te": "Annexure-B PDF - చిరునామా మారినప్పుడు",
               "en": "Annexure-B PDF - address change",
-              "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE B.pdf"
+              "url": "https://tgb.bank.in/public/uploads/ANNEXURE/ANNEXURE%20B.pdf"
             }
           ]
         }
@@ -1195,15 +1206,22 @@ window.GS_DATA = {
         },
         {
           "id": "loans-pm-svanidhi-urban-vendors",
-          "t": "PM SVANidhi - పట్టణ వీధి వ్యాపారులకు (గ్రామీణులందరికీ కాదు)",
-          "e": "PM SVANidhi - URBAN street vendors only (not all villagers)",
-          "d": "ఈ పథకం పట్టణ/నగర ప్రాంతాల వీధి వ్యాపారులకు మాత్రమే - గ్రామీణ ప్రాంత వ్యాపారులందరికీ వర్తించదు. చిన్న రుణాలు మూడు విడతల్లో: మొదట ₹15,000; సకాలంలో తీర్చితే ₹25,000; తర్వాత ₹50,000. సకాల చెల్లింపుకు 7% వడ్డీ సబ్సిడీ. అధికారిక నివేదిక ప్రకారం రుణ విడుదల 31-03-2030 వరకు పొడగించారు. ఇది రుణమే - తిరిగి చెల్లించాలి.",
-          "de": "This scheme is for street vendors in urban/town areas only - it does not cover all rural vendors. Small loans in three tranches: first Rs 15,000; on timely repayment Rs 25,000; then Rs 50,000. 7% interest subsidy on timely repayment. Per the official release, lending is extended till 31-03-2030. This is a loan - it must be repaid.",
+          "t": "PM SVANidhi - అర్హత గల వీధి వ్యాపారులు (ప్రాంతం నిర్ధారించండి)",
+          "e": "PM SVANidhi - eligible street vendors (coverage check)",
+          "d": "అర్హత గల వీధి వ్యాపారులకు. పునర్వ్యవస్థీకరణతో సెన్సస్ పట్టణాలు, పట్టణ సముదాయాలు, పట్టణ శివార్లకు దశలవారీగా విస్తరణ ఉంది; ప్రతి గ్రామం చేరిందని కాదు. స్థానిక అర్హతను పట్టణ సంస్థ/బ్యాంకుతో నిర్ధారించండి. చిన్న రుణాలు మూడు విడతల్లో: మొదట ₹15,000; సకాలంలో తీర్చితే ₹25,000; తర్వాత ₹50,000. సకాల చెల్లింపుకు 7% వడ్డీ సబ్సిడీ. అధికారిక నివేదిక ప్రకారం రుణ విడుదల 31-03-2030 వరకు పొడగించారు. ఇది రుణమే - తిరిగి చెల్లించాలి.",
+          "de": "For eligible street vendors. The restructured scheme extends coverage in a graded manner to census towns, urban agglomerations and peri-urban areas; this does not establish coverage of every village. Confirm local eligibility with the urban local body/bank. Small loans in three tranches: first Rs 15,000; on timely repayment Rs 25,000; then Rs 50,000. 7% interest subsidy on timely repayment. Per the official release, lending is extended till 31-03-2030. This is a loan - it must be repaid.",
           "bt": "వివరాలు చూడండి",
           "be": "See details",
           "s": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2303797&lang=1&reg=48",
           "sn": "pib.gov.in",
-          "u": "24-10-2026"
+          "u": "26-10-2026",
+          "refs": [
+            {
+              "te": "PIB: విస్తరించిన ప్రాంత పరిధి",
+              "en": "PIB: expanded area coverage",
+              "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2161157"
+            }
+          ]
         },
         {
           "id": "loans-women-shg-serp-nrlm",
@@ -1221,13 +1239,13 @@ window.GS_DATA = {
           "id": "loans-standup-india-status-check",
           "t": "స్టాండ్-అప్ ఇండియా - SC/ST/మహిళా కొత్త పరిశ్రమకు (స్థితి చూడండి)",
           "e": "Stand Up India - SC/ST/Women new enterprise (check status)",
-          "d": "SC/ST, మహిళా యాజమాన్యంతో కొత్త (గ్రీన్‌ఫీల్డ్) పరిశ్రమ/వ్యాపారానికి బ్యాంకు రుణ మార్గం - పాత ఆర్థిక సేవల శాఖ సమాచారం ప్రకారం ₹10 లక్షలు-₹1 కోటి పరిమితి. ముఖ్యం: 23-10-2026 నాటికి ఈ పథకం ప్రస్తుతం దరఖాస్తులు తీసుకుంటోందో లేదో మేము నిర్ధారించలేదు - ఇది 'ఇప్పుడే దరఖాస్తు చేయండి' కార్డు కాదు. ప్రస్తుత స్థితి మీ బ్యాంకులో లేదా standupmitra.in లో నిర్ధారించుకోండి. రుణం తిరిగి చెల్లించాలి; ఆమోదం హామీ లేదు.",
-          "de": "A bank-loan route for a new (greenfield) enterprise owned by SC/ST or women entrepreneurs - per older Department of Financial Services information, Rs 10 lakh to Rs 1 crore. Important: as of 23-10-2026 we have not verified whether the scheme is currently accepting applications - this is not an 'apply now' card. Confirm the current status with your bank or on standupmitra.in. The loan must be repaid; sanction is not guaranteed.",
+          "d": "SC/ST లేదా మహిళల కొత్త యూనిట్‌కు పాత Stand Up India రుణ పరిధి ₹10 లక్షలు-₹1 కోటి. ఆర్థిక సేవల శాఖ పేజీ పాత పథకం 31-03-2025 వరకు అని, కొత్త పథకం ప్రక్రియలో ఉందని చెబుతోంది. పాత పేజీ ఉండటం ప్రస్తుత దరఖాస్తులు తెరిచి ఉన్నాయని కాదు. ప్రస్తుత కొత్త పథకం/రుణ మార్గాన్ని బ్యాంకులో నిర్ధారించండి; రుణం తిరిగి చెల్లించాలి, మంజూరు హామీ లేదు.",
+          "de": "The older Stand Up India route offered Rs 10 lakh-Rs 1 crore for new SC/ST- or women-owned enterprises. The Department of Financial Services page says the older scheme ran up to 31 March 2025 and describes a proposed successor. An old portal is not proof of current intake. Ask the bank for the current successor/loan route; repayment and approval conditions apply.",
           "bt": "స్థితి చూడండి",
           "be": "Check status",
-          "s": "https://www.standupmitra.in/",
-          "sn": "standupmitra.in",
-          "u": "23-10-2026"
+          "s": "https://financialservices.gov.in/stand-india-scheme-supi",
+          "sn": "financialservices.gov.in",
+          "u": "26-10-2026"
         },
         {
           "id": "loans-cgtmse-guarantee-not-loan",
@@ -1672,13 +1690,13 @@ window.GS_DATA = {
           "id": "skills-rseti-free-classroom-sel",
           "t": "RSETI - ఉచిత క్లాస్‌రూమ్/స్వయం-ఉపాధి శిక్షణ (సంగారెడ్డి)",
           "e": "RSETI - Free Classroom/Self-employment Training (Sangareddy)",
-          "d": "RSETIలో ఉచిత క్లాస్‌రూమ్ శిక్షణ, స్వయం-ఉపాధి కోర్సులు ఉన్నాయని జిల్లా అధికారిక పేజీ చెబుతోంది. మాకు తెలిసిన బ్రాంచ్ సంగారెడ్డిది - ఇది మన మెదక్ టౌన్/చిలిపిచెడ్ కాదు, దగ్గర బ్రాంచ్ ఏదో నిర్ధారించలేదు. ప్రస్తుత బ్యాచ్ తేదీలు లేవు - rseti.in లేదా బ్రాంచ్‌కు ఫోన్ చేసి అడగండి. ఇది ఇంట్లో నేర్చుకునే కోర్సు కాదు - వెళ్లి చేరాలి.",
-          "de": "The district official page says RSETI offers free classroom training and self-employment courses. The branch we know is in Sangareddy - NOT Medak town/Chilpched, and the nearest branch is not confirmed. No current batch dates verified - check rseti.in or call the branch. This is not home learning - you must attend in person.",
-          "bt": "బ్రాంచ్ జాబితా చూడండి",
-          "be": "See branch list",
-          "s": "https://www.rseti.in/our-institutes-telangana",
-          "sn": "rseti.in",
-          "u": "23-10-2026"
+          "d": "RSETIలో ఉచిత క్లాస్‌రూమ్ శిక్షణ, స్వయం-ఉపాధి కోర్సులు ఉన్నాయని జిల్లా అధికారిక పేజీ చెబుతోంది. మాకు తెలిసిన బ్రాంచ్ సంగారెడ్డిది - ఇది మన మెదక్ టౌన్/చిలిపిచెడ్ కాదు, దగ్గర బ్రాంచ్ ఏదో నిర్ధారించలేదు. ప్రస్తుత బ్యాచ్ తేదీలు నిర్ధారించలేదు - అధికారిక జిల్లా/బ్యాంకు RSETI మార్గం లేదా సంస్థను సంప్రదించండి. ఇది ఇంట్లో నేర్చుకునే కోర్సు కాదు - వెళ్లి చేరాలి.",
+          "de": "The district official page says RSETI offers free classroom training and self-employment courses. The branch we know is in Sangareddy - NOT Medak town/Chilpched, and the nearest branch is not confirmed. No current batch dates verified - use the official district/bank RSETI route or contact the institute. This is not home learning - you must attend in person.",
+          "bt": "అధికారిక RSETI సమాచారం",
+          "be": "Official RSETI information",
+          "s": "https://sbi.bank.in/web/agri-rural/rural/rural-self-employment-training-institutes-rsetis",
+          "sn": "sbi.bank.in",
+          "u": "26-10-2026"
         },
         {
           "id": "skills-task-softnet",
@@ -2252,7 +2270,7 @@ window.GS_DATA = {
           "t": "Stand Up India - పాత పథకం మూత, కొత్త రూపం వేచి చూడండి",
           "e": "Stand Up India - old scheme closed, watch for new version",
           "d": "SC/ST లేదా మహిళా వ్యాపారవేత్తల కొత్త యూనిట్‌కు 10 లక్షల-1 కోటి బ్యాంకు రుణం ఇచ్చిన ఈ పథకం మార్చి 2025 తో ముగిసింది - కొత్త దరఖాస్తులు స్వీకరించడం లేదు (లోక్‌సభ సమాధానం, 27-07-2026). దీని స్థానంలో మెరుగైన రూపంతో కొత్త పథకం రాబోతోందని ఆర్థిక మంత్రి 16-03-2026 న చెప్పారు; బడ్జెట్ ప్రకటన మేరకు 5 లక్షల మంది తొలి SC/ST/మహిళా వ్యాపారవేత్తలకు 2 కోట్ల వరకు రుణం లక్ష్యం. కొత్త రూపం ప్రారంభమైందో లేదో 23-10-2026 నాటికి నిర్ధారించలేకపోయాం - పాత పథకం లింక్‌ను ఓపెన్ దరఖాస్తుగా పరిగణించవద్దు. ప్రస్తుతం అవసరమైతే ముద్రా లేదా PMEGP చూడండి; రాజీవ్ యువ వికాసం కొత్త దరఖాస్తులు ప్రకటన వచ్చినప్పుడే.",
-          "de": "This scheme, which gave Rs 10 lakh to Rs 1 crore bank loans for new units of SC/ST or women entrepreneurs, ended in March 2025 - new applications are not being accepted (Lok Sabha answer, 27-07-2026). The Finance Minister said on 16-03-2026 that an improved new version is coming; the Budget announcement targets loans up to Rs 2 crore for 5 lakh first-time SC/ST/women entrepreneurs. Whether the new version has started could not be verified as of 23-10-2026 - do not treat the old scheme link as an open application. If you need a loan now, look at Mudra, PMEGP or Rajiv Yuva Vikasam.",
+          "de": "This scheme, which gave Rs 10 lakh to Rs 1 crore bank loans for new units of SC/ST or women entrepreneurs, ended in March 2025 - new applications are not being accepted (Lok Sabha answer, 27-07-2026). The Finance Minister said on 16-03-2026 that an improved new version is coming; the Budget announcement targets loans up to Rs 2 crore for 5 lakh first-time SC/ST/women entrepreneurs. Whether the new version has started could not be verified as of 23-10-2026 - do not treat the old scheme link as an open application. For a current loan, ask the bank about Mudra/PMEGP; Rajiv Yuva Vikasam needs a current intake notice.",
           "bt": "పోర్టల్ సమాచారం",
           "be": "Portal info",
           "s": "https://www.standupmitra.in/",
@@ -2613,8 +2631,8 @@ window.GS_DATA = {
           "id": "funds-egramswaraj-panchayat-fu",
           "t": "eGramSwaraj - పంచాయతీ నిధులు & ఖర్చు",
           "e": "eGramSwaraj - Panchayat Funds & Spending",
-          "d": "మన గ్రామ పంచాయతీకి ఏ సంవత్సరం ఎంత నిధి వచ్చింది, ఏ పనికి ఎంత ఖర్చైంది - ఎవరైనా ఈ పబ్లిక్ పోర్టల్‌లో ఉచితంగా చూడవచ్చు. లాగిన్ అవసరం లేదు.",
-          "de": "Anyone can see free of charge how much money our Gram Panchayat received each year and what it was spent on - on this public portal. No login needed.",
+          "d": "పంచాయతీ ప్రణాళికలు, పురోగతి, పనుల లెక్కల కోసం కేంద్ర పోర్టల్. అందుబాటులో ఉన్న ప్రజా నివేదికల్లో సంవత్సరం, రాష్ట్రం, జిల్లా, పంచాయతీ ఫిల్టర్లు చూడండి. మన గ్రామపు పూర్తి/ప్రస్తుత వివరాలు ఈ తనిఖీలో నిర్ధారించలేదు; ఖచ్చిత ఖర్చుకు పంచాయతీ రికార్డులతో పోల్చండి.",
+          "de": "Central portal for panchayat planning, progress and work-based accounting. Use the available public reports and year/state/district/panchayat filters. Complete current records for our village were not verified during this check; compare exact spending with Panchayat records.",
           "bt": "నిధులు & ఖర్చు చూడండి",
           "be": "View funds & spending",
           "s": "https://egramswaraj.gov.in/",
@@ -2625,13 +2643,13 @@ window.GS_DATA = {
           "id": "funds-mplads-mp-development-fu",
           "t": "MPLADS - MP అభివృద్ధి నిధి డ్యాష్‌బోర్డ్",
           "e": "MPLADS - MP Development Fund Dashboard",
-          "d": "మెదక్ పార్లమెంట్ నియోజకవర్గంలో MP నిధులతో ఏ పనులు జరిగాయి, ఎంత ఖర్చైంది - పబ్లిక్ డ్యాష్‌బోర్డ్‌లో చూడండి.",
-          "de": "See what works were done with MP funds in the Medak Lok Sabha constituency and how much was spent - on the public dashboard.",
+          "d": "MPLADS ప్రజా డాష్‌బోర్డ్‌లో రాష్ట్రం, MP/నియోజకవర్గం ఎంచుకుని అందుబాటులో ఉన్న పనులు/నిధుల నివేదికలు చూడండి. MP సిఫార్సు చేస్తారు; మంజూరు, అమలు జిల్లా అధికారుల బాధ్యత. ఖచ్చిత ఖర్చుకు జిల్లా రికార్డులు చూడండి. మన గ్రామం/ప్రస్తుత పూర్తి డేటా ఈ తనిఖీలో నిర్ధారించలేదు.",
+          "de": "Use the public MPLADS dashboard filters for state, MP/constituency and available works/funds reports. MPs recommend works; district authorities sanction and execute them. Confirm exact expenditure with district records. Village-specific/current complete data was not verified in this check.",
           "bt": "డ్యాష్‌బోర్డ్ చూడండి",
           "be": "Open dashboard",
-          "s": "https://mplads.gov.in/mplads/dashboard/DashBoard.aspx",
+          "s": "https://www.mplads.gov.in/mplads/Dashboard/DashBoard.aspx",
           "sn": "mplads.gov.in",
-          "u": "23-10-2026"
+          "u": "26-10-2026"
         },
         {
           "id": "funds-our-representatives",

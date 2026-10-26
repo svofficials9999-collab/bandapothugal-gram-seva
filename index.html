@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#eef2f7">
 <title>బండపోతుగల్ గ్రామ సేవ</title>
-<link rel="stylesheet" href="creative.css?v=100">
-<link rel="manifest" href="manifest.webmanifest?v=3">
+<meta name="description" content="Independent Telugu-first village information, official service links, learning and local draft tools for Bandapothugal, Medak. Not a government app.">
+<link rel="stylesheet" href="creative.css?v=101">
+<link rel="manifest" href="manifest.webmanifest?v=101">
 <link rel="apple-touch-icon" href="apple-touch-icon-v3.png">
 <link rel="icon" href="icon.svg?v=3" type="image/svg+xml">
 <style>
@@ -81,7 +82,7 @@ h1{font-size:18px;font-weight:800;line-height:1.22;letter-spacing:.3px;backgroun
 .cbtns{margin-top:10px;display:flex;gap:8px}
 .cbtn{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;border-radius:12px;padding:10px;font-size:12.5px;font-weight:800;cursor:pointer;text-decoration:none;border:1px solid rgba(0,0,0,.14);background:#fff;color:#1c2733}
 .cbtn:active{transform:scale(.95)}
-.cbtn.listen{background:linear-gradient(135deg,#7c3aed,#a855f7);border:none;box-shadow:0 3px 12px rgba(168,85,247,.35)}
+.cbtn.listen{color:#fff;background:linear-gradient(135deg,#7c3aed,#a855f7);border:none;box-shadow:0 3px 12px rgba(168,85,247,.35)}
 .cbtn.open{background:linear-gradient(135deg,#1d4ed8,#3b82f6);border:none;color:#fff;box-shadow:0 3px 12px rgba(59,130,246,.35)}
 .cbtn.tel{background:linear-gradient(135deg,#059669,#10b981);border:none;color:#fff}
 .note{margin-top:18px;font-size:11px;color:#64748b;line-height:1.6;background:rgba(255,255,255,.7);border:1px dashed rgba(0,0,0,.15);border-radius:12px;padding:10px 12px}
@@ -155,6 +156,8 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 .linkcopy{display:inline-block;min-height:44px;padding:8px 10px;margin:4px;border:1px solid #a7c9de;background:#f0f9ff;color:#155e75;font-size:11px;border-radius:10px;cursor:pointer;vertical-align:middle}
 #copyDialog{margin:auto;padding:18px;max-width:90%;border-radius:16px;border:1px solid #a7c9de}#copyValue{width:100%;margin-top:10px}#printArea{display:none}
 @media print{body.gs-printing>*{display:none!important}body.gs-printing>#printArea{display:block!important;color:#111;background:white;padding:12mm}#printArea h1{font-size:22px;color:#111;background:none;-webkit-text-fill-color:#111}#printArea pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.8 'Noto Sans Telugu',sans-serif;margin:20px 0}#printArea p{font-size:11px}}
+/* Launch audit: wrapping and touch targets, without hiding clipped actions. */
+.cbtns,.meta{flex-wrap:wrap;min-width:0}.cbtn{min-width:0;flex:1 1 105px;min-height:44px;overflow-wrap:anywhere;white-space:normal}.chip.src,.mailchip{max-width:100%;overflow-wrap:anywhere;min-height:44px;display:inline-flex;align-items:center}.cbtns>.linkcopy{flex:0 0 auto;margin:0}.card,.desc,.det>div{min-width:0;overflow-wrap:anywhere}.pill,.back,.listenall,.calnav{min-height:44px}.calhead{gap:8px}.calhead b{min-width:0}.ecopywrap>.linkcopy{min-height:44px}body:has(#cardList[style*="display: flex"]) #installBtn,body:has(#searchResults[style*="display: flex"]) #installBtn{display:none!important}#searchBox::placeholder{color:#64748b}.nempty{color:#64748b}
 </style>
 </head>
 <body>
@@ -211,15 +214,16 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <div id="toast"></div><section id="printArea" aria-label="Print preview"></section>
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
-<script src="resources.js?v=71"></script>
-<script src="schemes.js?v=100"></script>
-<script src="details.js?v=100"></script>
-<script src="search.js?v=100"></script>
-<script src="directory.js?v=100"></script>
-<script src="creative-data.js?v=100"></script>
-<script src="creative.js?v=100"></script>
+<script src="resources.js?v=101"></script>
+<script src="schemes.js?v=101"></script>
+<script src="details.js?v=101"></script>
+<script src="search.js?v=101"></script>
+<script src="directory.js?v=101"></script>
+<script src="creative-data.js?v=101"></script>
+<script src="creative.js?v=101"></script>
 <script>
-let lang = localStorage.getItem('gs.lang') || 'te';
+const gsStore={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+let lang = gsStore.get('gs.lang') === 'en' ? 'en' : 'te';
 const D = window.GS_DATA;
 const $ = id => document.getElementById(id);
 const T = (te,en) => lang==='te' ? te : en;
@@ -231,6 +235,11 @@ function sectionIcon(s){
 }
 function render(){
   document.documentElement.lang = lang;
+  if(typeof updNet==='function')updNet();
+  $('searchBox').setAttribute('aria-label',T('పథకాలు, సేవలు వెతకండి','Search schemes and services'));
+  $('langBtn').setAttribute('aria-label',T('Switch to English','తెలుగులోకి మార్చండి'));
+  $('copyDialog').querySelector('button').setAttribute('aria-label',T('మూసివేయండి','Close'));
+  $('stopBtn').setAttribute('aria-label',T('వినడం ఆపండి','Stop listening'));
   document.dispatchEvent(new Event('gs-language'));
   $('appTitle').innerHTML = T('<span class="vname">బండపోతుగల్</span><span class="servicename">గ్రామ సేవ</span>','<span class="vname">Bandapothugal</span><span class="servicename">Gram Seva</span>');
   $('villageLine').textContent = T(D.village.te, D.village.en);
@@ -239,8 +248,8 @@ function render(){
   $('backLbl').textContent = T('వెనుకకు','Back');
   $('listenAllLbl').textContent = T('అన్నీ వినండి','Listen to all');
   $('note').textContent = T(
-    'గమనిక: పథకాల సమాచారానికి ప్రభుత్వ / సంబంధిత బ్యాంకు మూలాలు; క్రియేటివ్ పాఠాలకు చూపిన విద్యా, మ్యూజియం, భద్రతా మూలాల ఆధారంగా స్వంత అభ్యాస విషయాలు (యాప్ విడుదల: '+(D.releaseDate || D.built)+'). ప్రతి కార్డు తనిఖీ తేదీ వేరు; అన్ని వివరాలు ఈ రోజున మళ్లీ తనిఖీ చేశామని కాదు. పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
-    'Note: scheme information uses government / relevant bank sources; creative lessons are original learning material informed by the linked education, museum and safety references (App release: '+(D.releaseDate || D.built)+'). Individual cards have their own source-check dates; not all information was rechecked on this release date. Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
+    'గమనిక: పథకాల సమాచారానికి ప్రభుత్వ / సంబంధిత బ్యాంకు మూలాలు; క్రియేటివ్ పాఠాలకు చూపిన విద్యా, మ్యూజియం, భద్రతా మూలాల ఆధారంగా స్వంత అభ్యాస విషయాలు (యాప్ విడుదల: '+(D.releaseDate || D.built)+'). ప్రతి కార్డు తనిఖీ తేదీ వేరు; అన్ని వివరాలు ఈ రోజున మళ్లీ తనిఖీ చేశామని కాదు. పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఫిర్యాదు/ముసాయిదా వివరాలు సేవ్ లేదా సమర్పణ కావు. భాష, నోటీసు చదివిన గుర్తులు బ్రౌజర్‌లో నిల్వ అవుతాయి; బయట సైట్లకు వారి నియమాలు వర్తిస్తాయి.',
+    'Note: scheme information uses government / relevant bank sources; creative lessons are original learning material informed by the linked education, museum and safety references (App release: '+(D.releaseDate || D.built)+'). Individual cards have their own source-check dates; not all information was rechecked on this release date. Schemes can change - always check the "Source" link before applying. Draft/complaint fields are not saved or submitted. Language and notice-read preferences use browser storage; external sites have their own terms.');
   $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b><br>' + T('స్వతంత్ర సమాచార యాప్ - ప్రభుత్వ / పంచాయతీ అధికారిక యాప్ కాదు.','Independent information app - not an official government / panchayat app.');
   // emergency
   $('searchBox').placeholder = T('🔍 తెలుగు / English పేరు... (ఉదా: గ్రామ ఉద్యోగ, pension)','🔍 Telugu / English name... (e.g. GVY, pension)');
@@ -258,7 +267,7 @@ function render(){
   $('secGrid').innerHTML = '<div class="sec" role="button" tabindex="0" onclick="openSpecial(\'directory\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'directory\')}"><div class="ic">📋</div><h2>'+T('కేంద్ర + తెలంగాణ పథకాల సూచిక','Central + Telangana scheme index')+'</h2><p>'+T('50 సూచిక ఎంట్రీలు - వర్గాల్లోని వివరాలకు దారి','50 index entries - open existing details')+'</p></div>' + D.sections.map(s =>
     '<div data-notice-section="'+s.id+'" class="sec" role="button" tabindex="0" aria-label="'+T(s.te,s.en)+'" onclick="openSec(\''+s.id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSec(\''+s.id+'\')}"><div class="ic">'+sectionIcon(s)+'</div><h2>'+T(s.te,s.en)+'</h2><p>'+s.items.length+' '+T('పథకాలు/సేవలు','schemes & services')+'</p>'+(s.nb?'<span class="newbadge">'+T('✨ కొత్తది','✨ NEW')+'</span>':'')+'</div>').join('') +
   ['news','draft'].map(id=>'<div class="sec" role="button" tabindex="0" aria-label="'+id+'" onclick="openSpecial(\''+id+'\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\''+id+'\')}"><div class="ic">'+(id==='news'?'📰':'📄')+'</div><h2>'+T(id==='news'?'వార్తాపత్రికలు':'ముసాయిదా & PDF',id==='news'?'Newspapers':'Draft & PDF')+'</h2></div>').join('')+
-  '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
+  '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు ముసాయిదా','Complaint draft')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
   $('secGrid').insertAdjacentHTML('beforeend','<div class="sec" role="button" tabindex="0" onclick="openSpecial(\'creative\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'creative\')}"><div class="ic">'+GS_CREATIVE.icon+'</div><h2>'+T('వృత్తి, ఫుడ్ & క్రియేటివ్ కోర్సులు','Trade, food & creative courses')+'</h2><p>'+T('9 కోర్సులు · 57 పాఠాలు · ప్రాక్టికల్ పనులు','9 courses · 57 lessons · practical tasks')+'</p></div>');
@@ -287,8 +296,8 @@ function goBack(){
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
   $('noticeBox').style.display='block';
 }
-$('backBtn').onclick = function(){ try{ history.back(); }catch(e){ goBack(); } };
-$('langBtn').onclick = ()=>{ const searching=$('searchResults').style.display==='flex'; lang = lang==='te'?'en':'te'; localStorage.setItem('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8), false) : openSec(id, false); } if(searching){ $('searchBox').dispatchEvent(new Event('input')); } };
+$('backBtn').onclick = function(){if(!history.state?.gs?.startsWith('view:')){goBack();return;}try{history.back();}catch(e){goBack();}};
+$('langBtn').onclick = ()=>{ const searching=$('searchResults').style.display==='flex'; lang = lang==='te'?'en':'te'; gsStore.set('gs.lang',lang); stopSpeak(); const open = $('cardList').style.display==='flex'; const id = $('stName').dataset.sid; render(); if(open && id){ id.startsWith('special:') ? openSpecial(id.slice(8), false) : openSec(id, false); } if(searching){ $('searchBox').dispatchEvent(new Event('input')); } };
 // ---- History-aware back: phone/browser Back returns exactly one view inside the app ----
 try{ history.replaceState({gs:'home'}, ''); }catch(e){}
 window.addEventListener('popstate', function(e){
@@ -417,7 +426,7 @@ function openSpecial(id, push){
     '<div class="calcres" id="emiRes"></div><button class="pill" onclick="gsPrintCalc(\'emi\')">Print / PDF</button></div>';
     calShow();
   } else {
-    $('stIcon').textContent = '📝'; $('stName').textContent = T('ఫిర్యాదు చేయండి','File a Complaint');
+    $('stIcon').textContent = '📝'; $('stName').textContent = T('ఫిర్యాదు ముసాయిదా','Complaint draft');
     $('cardList').innerHTML =
     '<div class="card frm">'+
     '<label id="lc" for="fCat">'+T('సమస్య విభాగం *','Problem category *')+'</label>'+
@@ -426,8 +435,8 @@ function openSpecial(id, push){
     '<label for="fLoc">'+T('సమస్య ఉన్న చోటు','Location of the problem')+'</label><input id="fLoc" placeholder="'+T('ఉదా: మెయిన్ రోడ్డు, బస్టాండ్ దగ్గర','e.g. main road, near bus stand')+'">'+
     '<label for="fName">'+T('మీ పేరు (ఇవ్వకపోవచ్చు)','Your name (optional)')+'</label><input id="fName">'+
     '<label for="fMob">'+T('మీ మొబైల్ (ఇవ్వకపోవచ్చు)','Your mobile (optional)')+'</label><input id="fMob" type="tel" inputmode="numeric" maxlength="10">'+
-    '<div class="privacy">🔒 '+T('గోప్యత: ఈ యాప్ మీ సమాచారాన్ని ఎక్కడా నిల్వ చేయదు, ఏ సర్వర్‌కీ పంపదు - ఫిర్యాదు టెక్స్ట్ మీ ఫోన్‌లోనే తయారవుతుంది.','Privacy: this app stores nothing and sends nothing to any server - the complaint text is composed on your phone only.')+'</div>'+
-    '<div class="privacy">📌 '+T('ఈ ఫిర్యాదు నేరుగా సర్పంచ్ మరియు పంచాయతీ సెక్రటరీకి పంపే సదుపాయం చేరుస్తాం - వారి ప్రస్తుత అధికారిక సంప్రదింపు వివరాలు ఇంకా నిర్ధారించలేదు. ప్రస్తుతం టెక్స్ట్ తయారు చేసి కాపీ చేసుకుని మీరే పంపవచ్చు, లేదా క్రింది అధికారిక మార్గాలు వాడవచ్చు.','Direct sending of this complaint to the sarpanch and panchayat secretary will be added - their current official contact details are not yet verified. For now, compose the text, copy it and send it yourself, or use the official channels below.')+'</div>'+
+    '<div class="privacy">🔒 '+T('ఫిర్యాదు గోప్యత: ఈ ఫారమ్ వివరాలు ఈ పేజీలోనే ఉంటాయి; సేవ్ / సమర్పణ జరగదు. భాష/నోటీసు ఎంపికలకు బ్రౌజర్ నిల్వ వాడుతుంది; బయట లింకులు/వీడియోలకు వారి గోప్యతా నియమాలు వర్తిస్తాయి.','Complaint privacy: these form details stay in this page and are not saved or submitted. Language/notice preferences use browser storage; external links/videos follow their own privacy terms.')+'</div>'+
+    '<div class="privacy">📌 '+T('ఈ యాప్ నుంచి ఫిర్యాదు సమర్పణ / నేరుగా పంపడం లేదు. సర్పంచ్, పంచాయతీ సెక్రటరీ ప్రస్తుత అధికారిక వివరాలు నిర్ధారించలేదు. ప్రస్తుతం టెక్స్ట్ తయారు చేసి కాపీ చేసుకుని మీరే పంపవచ్చు, లేదా క్రింది అధికారిక మార్గాలు వాడవచ్చు.','This app does not submit or send complaints. Current official contacts for the sarpanch and panchayat secretary are not verified. For now, compose the text, copy it and send it yourself, or use the official channels below.')+'</div>'+
     '<button class="sendbtn" onclick="composeComplaint()">📝 '+T('ఫిర్యాదు టెక్స్ట్ తయారు చేయండి','Compose complaint text')+'</button>'+
     '<div id="compOut" style="display:none;margin-top:10px"><textarea id="compText" readonly rows="8" style="width:100%;font-size:13px"></textarea>'+
     '<button class="sendbtn" onclick="gsPrintComplaint()">'+T('Print / PDFగా సేవ్ చేయండి','Print / Save as PDF')+'</button>'+
@@ -499,21 +508,23 @@ function fmtIN(n){ return n.toLocaleString('en-IN', {maximumFractionDigits: 2});
 function calcSI(){
   const P = parseFloat($('siP').value), r = parseFloat($('siR').value), t = parseFloat($('siT').value);
   const res = $('siRes');
-  if(!(P > 0) || !(r >= 0) || !(t > 0)){ toast(T('దయచేసి అసలు, రేటు, కాలం సరిగ్గా ఇవ్వండి (0 కంటే ఎక్కువ)','Please enter a valid principal, rate and period (above 0)')); return; }
+  if(![P,r,t].every(Number.isFinite) || !(P > 0) || !(r >= 0) || !(t > 0)){ toast(T('దయచేసి అసలు, రేటు, కాలం సరిగ్గా ఇవ్వండి (0 కంటే ఎక్కువ)','Please enter a valid principal, rate and period (above 0)')); res.textContent='';res.style.display='none';return; }
   const rA = $('siRP').value === 'm' ? r * 12 : r;
   const tY = $('siTP').value === 'm' ? t / 12 : t;
   const I = P * (rA / 100) * tY;
+  if(!Number.isFinite(P+I)){res.textContent='';res.style.display='none';toast(T('చిన్న చెల్లుబాటు అయ్యే సంఖ్యలు ఇవ్వండి','Enter smaller valid numbers'));return;}
   res.style.display = 'block';
   res.textContent = T('వడ్డీ','Interest') + ': ₹' + fmtIN(I) + '\n' + T('మొత్తం (అసలు + వడ్డీ)','Total (principal + interest)') + ': ₹' + fmtIN(P + I);
 }
 function calcEMI(){
-  const P = parseFloat($('emiP').value), rA = parseFloat($('emiR').value), nm = Math.round(parseFloat($('emiN').value));
+  const P = parseFloat($('emiP').value), rA = parseFloat($('emiR').value), nm = parseFloat($('emiN').value);
   const res = $('emiRes');
-  if(!(P > 0) || !(rA >= 0) || !(nm >= 1)){ toast(T('దయచేసి లోన్ మొత్తం, రేటు, నెలల సంఖ్య సరిగ్గా ఇవ్వండి','Please enter a valid loan amount, rate and number of months')); return; }
+  if(![P,rA,nm].every(Number.isFinite) || !(P > 0) || !(rA >= 0) || !(nm >= 1) || !Number.isInteger(nm)){ toast(T('దయచేసి లోన్ మొత్తం, రేటు, నెలల సంఖ్య సరిగ్గా ఇవ్వండి','Please enter a valid loan amount, rate and number of months')); res.textContent='';res.style.display='none';return; }
   const r = rA / 1200;
   let emi;
-  if(r === 0){ emi = P / nm; } else { const f = Math.pow(1 + r, nm); emi = P * r * f / (f - 1); }
+  if(r === 0){ emi = P / nm; } else { emi = P * r / (-Math.expm1(-nm * Math.log1p(r))); }
   const total = emi * nm;
+  if(!Number.isFinite(total)){res.textContent='';res.style.display='none';toast(T('చిన్న చెల్లుబాటు అయ్యే సంఖ్యలు ఇవ్వండి','Enter smaller valid numbers'));return;}
   res.style.display = 'block';
   res.textContent = T('నెలవారీ EMI','Monthly EMI') + ': ₹' + fmtIN(emi) + '\n' + T('మొత్తం వడ్డీ','Total interest') + ': ₹' + fmtIN(total - P) + '\n' + T('మొత్తం చెల్లింపు','Total payment') + ': ₹' + fmtIN(total);
 }
@@ -566,17 +577,14 @@ function playAudioFile(url, tok){
       if(p && p.catch) p.catch(() => done(false));
       // Stall watchdog: play() resolving is not playback. If nothing is heard (no progress)
       // shortly after start, abandon the clip and fall back to device TTS - never hang silently.
-      wd = setTimeout(() => { try{ if(!settled && !el.paused && el.currentTime === 0) done(false); }catch(e){} }, 2500);
+      wd = setTimeout(() => { try{ if(!settled && el.currentTime === 0) done(false); }catch(e){} }, 2500);
     }catch(e){ done(false); }
   });
 }
 function speakTTS(text, tok){
   if(!('speechSynthesis' in window)){ toast(T('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు','Voice not supported on this phone')); if(tok === playToken) runQueue(); return; }
   const want = lang==='te' ? 'te' : 'en';
-  if(!voiceWarned && !hasVoiceFor(want)){
-    voiceWarned = true;
-    toast(T('ఈ ఫోన్‌లో తెలుగు వాయిస్ ఇన్‌స్టాల్ లేదు - అందుబాటులో ఉన్న వాయిస్‌తో ప్లే అవుతుంది','This phone has no Telugu voice installed - playing with the available voice'));
-  }
+  if(!hasVoiceFor(want)){voiceWarned=true;toast(T('ఈ పరికరంలో తెలుగు వాయిస్ అందుబాటులో లేదు. రాత పాఠ్యం చదవండి; సిస్టమ్ సెట్టింగ్స్‌లో తెలుగు వాయిస్ చేర్చవచ్చు.','No matching English voice is available on this device. Read the text or add a voice in system settings.'));if(tok===playToken)runQueue();return;}
   const u = new SpeechSynthesisUtterance(text);
   u.lang = lang==='te' ? 'te-IN' : 'en-IN'; u.rate = 0.95;
   const vs = speechSynthesis.getVoices();
@@ -611,7 +619,7 @@ const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
 const installedNow = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
 function setInstallUI(st){
   const b = $('installBtn');
-  b.style.display = 'flex'; b.dataset.st = st;
+  b.style.display = 'flex'; b.dataset.st = st;b.setAttribute('aria-label',T('యాప్ ఇన్‌స్టాల్ సమాచారం','App installation information'));b.title=T('యాప్ ఇన్‌స్టాల్ సమాచారం','App installation information');
   if(st === 'installed'){ b.textContent = '✅'; b.classList.add('done'); }
   else { b.textContent = '⬇️'; b.classList.remove('done'); }
 }
@@ -685,7 +693,7 @@ ss.__fv=2;
 if(ss.addEventListener)ss.addEventListener('voiceschanged',function(){cache={}});
 }catch(e){}})();
 </script>
-<script src="notifications.js?v=71"></script>
-<script src="utilities.js?v=71"></script>
+<script src="notifications.js?v=101"></script>
+<script src="utilities.js?v=101"></script>
 </body>
 </html>

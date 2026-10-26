@@ -1,5 +1,6 @@
 // Run once before every content release: node scripts/prepare-release.mjs YYYY-MM-DD
 // Release date is not a claim that every card was reverified. Keep each card's u.
+import './check-content.mjs';
 import fs from 'node:fs';import crypto from 'node:crypto';
 const date=process.argv[2];if(!/^\d{4}-\d{2}-\d{2}$/.test(date||'')||new Date(date).toISOString().slice(0,10)!==date)throw Error('Use a valid YYYY-MM-DD release date');
 const stamp=date.split('-').reverse().join('-');let data=fs.readFileSync('schemes.js','utf8'),sw=fs.readFileSync('sw.js','utf8'),html=fs.readFileSync('index.html','utf8');
