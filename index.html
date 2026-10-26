@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#eef2f7">
 <title>బండపోతుగల్ గ్రామ సేవ</title>
-<link rel="stylesheet" href="creative.css?v=97">
+<link rel="stylesheet" href="creative.css?v=98">
 <link rel="manifest" href="manifest.webmanifest?v=3">
 <link rel="apple-touch-icon" href="apple-touch-icon-v3.png">
 <link rel="icon" href="icon.svg?v=3" type="image/svg+xml">
@@ -212,12 +212,12 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=97"></script>
-<script src="details.js?v=97"></script>
-<script src="search.js?v=97"></script>
-<script src="directory.js?v=97"></script>
-<script src="creative-data.js?v=97"></script>
-<script src="creative.js?v=97"></script>
+<script src="schemes.js?v=98"></script>
+<script src="details.js?v=98"></script>
+<script src="search.js?v=98"></script>
+<script src="directory.js?v=98"></script>
+<script src="creative-data.js?v=98"></script>
+<script src="creative.js?v=98"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -261,7 +261,7 @@ function render(){
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
-  $('secGrid').insertAdjacentHTML('beforeend','<div class="sec" role="button" tabindex="0" onclick="openSpecial(\'creative\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'creative\')}"><div class="ic">'+GS_CREATIVE.icon+'</div><h2>'+T('బుటిక్, ఫ్యాషన్ & క్రియేటివ్ కోర్సులు','Boutique, fashion & creative courses')+'</h2><p>'+T('6 కోర్సులు · 32 పాఠాలు · ప్రాక్టికల్ పనులు','6 courses · 32 lessons · practical tasks')+'</p></div>');
+  $('secGrid').insertAdjacentHTML('beforeend','<div class="sec" role="button" tabindex="0" onclick="openSpecial(\'creative\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'creative\')}"><div class="ic">'+GS_CREATIVE.icon+'</div><h2>'+T('వృత్తి, ఫుడ్ & క్రియేటివ్ కోర్సులు','Trade, food & creative courses')+'</h2><p>'+T('9 కోర్సులు · 57 పాఠాలు · ప్రాక్టికల్ పనులు','9 courses · 57 lessons · practical tasks')+'</p></div>');
   emergencyBox.style.gridColumn = '1 / -1';
   $('secGrid').insertBefore(emergencyBox, $('secGrid').children[2]);
   window.GS_NOTIFICATIONS?.paintSections();
@@ -333,14 +333,14 @@ $('searchBox').addEventListener('input', e => {
   if(q.length < 2){ closeSearch(); return; }
   stopSpeak();
   const res = GS_SEARCH.find(searchRows, raw);
-  const creativeMatch=/boutique|botiq|fashion|mugg|rangoli|kolam|embroid|print|craft|soap|బుటిక్|బొటిక్|ఫ్యాషన్|ముగ్గు|ఎంబ్రాయిడరీ|ప్రింటింగ్|క్రాఫ్ట్|సబ్బు|సోప్/i.test(raw);
+  const creativeMatch=/carpent|wood|electric|food|ice.?cream|shake|snack|juice|tea|pizza|burger|sandwich|వడ్రంగి|ఎలక్ట్రి|ఆహార|ఫుడ్|ఐస్|షేక్|జ్యూస్|టీ|పిజ్జా|బర్గర్|సాండ్|boutique|botiq|fashion|mugg|rangoli|kolam|embroid|print|craft|soap|బుటిక్|బొటిక్|ఫ్యాషన్|ముగ్గు|ఎంబ్రాయిడరీ|ప్రింటింగ్|క్రాఫ్ట్|సబ్బు|సోప్/i.test(raw);
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
   const sr = $('searchResults'); sr.style.display='flex';
   sr.innerHTML = res.length
     ? res.map(r => '<div class="srctag">'+sectionIcon(r.s)+' '+T(r.s.te,r.s.en)+'</div>'+renderCard(r.s.id, r.i, r.it)).join('')
     : '<div class="empty">'+T('దురదృష్టం - "'+esc(raw)+'" తో పథకం కనబడలేదు. మరో పేరుతో ప్రయత్నించండి (ఉదా: పెన్షన్, విద్య, బీమా)','Sorry - no scheme matches "'+esc(raw)+'". Try another word (e.g. pension, education, insurance)')+'</div>';
-  if(creativeMatch){if(!res.length)sr.innerHTML='';sr.insertAdjacentHTML('afterbegin','<div class="card"><h3>'+T('క్రియేటివ్ నైపుణ్యాల అకాడమీ','Creative skills academy')+'</h3><button class="cbtn open" onclick="openSpecial(\'creative\')">'+T('6 కోర్సులు తెరవండి','Open 6 courses')+'</button></div>');}
+  if(creativeMatch){if(!res.length)sr.innerHTML='';sr.insertAdjacentHTML('afterbegin','<div class="card"><h3>'+T('క్రియేటివ్ నైపుణ్యాల అకాడమీ','Creative skills academy')+'</h3><button class="cbtn open" onclick="openSpecial(\'creative\')">'+T('9 కోర్సులు తెరవండి','Open 9 courses')+'</button></div>');}
 });
 function closeSearch(){
   const sr = $('searchResults'); sr.style.display='none'; sr.innerHTML='';
