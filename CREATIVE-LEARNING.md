@@ -26,3 +26,11 @@ LocalQA:57lessonsTEEN/114quizpaths,320/375/390/414/430/1280widths,18searchterms,
 - Checked all 30 course-source destinations and all 11 existing Bharat Skills service destinations. Fixed destinations resolve to the intended titles/content. Bharat Skills service pages show the matching trade headings, not only HTTP 200.
 - External access varies by client: direct audit encountered access/certificate/server errors for five sources; independent readable fetch verified the intended CDC, Asian Art, DGT electrical and TS-iPASS content. This does not promise future uptime or reachability on every network. No signup, payment or submission was performed.
 - Local regression: 57 bilingual lessons, 114 quiz gates, widths 320-1280, old 199 services, offline lessons and sibling caches pass.
+
+## Release 100: practical video library (26 October 2026)
+- 17 publisher-hosted demonstrations across all 9 in-app courses, visible on course and lesson pages. Food recipe lessons filter to their matching demonstration.
+- 8 Telugu-speaking demonstrations; English/Hindi/visual-only videos are labeled separately. Every video has original Telugu and English watch/practice guidance, publisher, duration, direct watch link and availability fallback.
+- 15 provider-oEmbed URLs with tap-to-load players; 2 videos do not allow embedding and open only at their verified watch pages. No autoplay, no third-party video requests before the learner presses play. No creator video is rehosted.
+- Verified public metadata, duration and publisher; sampled actual provider storyboard frames for all 17 videos. Inspected actual block-printing frames, embroidery/food/craft/tailoring/wood/simulation frames. Browser playback remained buffering for one representative YouTube video; downloadable embroidery MP4 worked. Playback on every device/network is not established.
+- Safety: electrical screen simulation only, carpentry marking not powered cutting, soap pre-made-base observation rather than lye recipe. Food videos show starter examples, not sale permits, industrial formulae or verified shelf life. Bread pizza is explicitly not dough-making training.
+- Written lessons remain available offline; videos need internet/data and may show publisher ads. Existing 57 lessons and 30 source fields preserved exactly as parsed objects from release 99.

@@ -5,3 +5,5 @@
 body:has([data-creative-route]) #installBtn{display:none!important}
 
 .creative-simulator{padding:16px;background:#eff6ff;border:1px solid #93c5fd;border-radius:12px;font-size:14px;line-height:1.8}.creative-simulator input{display:block;width:100%;min-height:44px}.creative-simulator output{display:block;font-weight:700;color:#1d4ed8}
+
+.creative-video{border-top:1px solid #dbe3ef;margin-top:18px;padding-top:10px}.creative-video h4{margin:6px 0}.creative-video-player:empty{display:none}.creative-video-player iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:10px;display:block}.creative-video .cbtns{margin:10px 0;display:flex;flex-wrap:wrap;gap:8px}.creative-video .cbtn{max-width:100%;white-space:normal;overflow-wrap:anywhere}.creative-video .desc{font-size:15px;line-height:1.65}@media print{.creative-videos{display:none!important}}
