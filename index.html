@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#eef2f7">
 <title>బండపోతుగల్ గ్రామ సేవ</title>
+<link rel="stylesheet" href="creative.css?v=96">
 <link rel="manifest" href="manifest.webmanifest?v=3">
 <link rel="apple-touch-icon" href="apple-touch-icon-v3.png">
 <link rel="icon" href="icon.svg?v=3" type="image/svg+xml">
@@ -211,10 +212,12 @@ html[lang=en] .vname{font-size:clamp(23px,7vw,31px)}
 <dialog id="copyDialog"><button class="pill" onclick="this.closest('dialog').close()">✕</button><p id="copyHelp"></p><textarea id="copyValue" readonly rows="4"></textarea></dialog>
 
 <script src="resources.js?v=71"></script>
-<script src="schemes.js?v=95"></script>
-<script src="details.js?v=95"></script>
-<script src="search.js?v=95"></script>
-<script src="directory.js?v=95"></script>
+<script src="schemes.js?v=96"></script>
+<script src="details.js?v=96"></script>
+<script src="search.js?v=96"></script>
+<script src="directory.js?v=96"></script>
+<script src="creative-data.js?v=96"></script>
+<script src="creative.js?v=96"></script>
 <script>
 let lang = localStorage.getItem('gs.lang') || 'te';
 const D = window.GS_DATA;
@@ -236,8 +239,8 @@ function render(){
   $('backLbl').textContent = T('వెనుకకు','Back');
   $('listenAllLbl').textContent = T('అన్నీ వినండి','Listen to all');
   $('note').textContent = T(
-    'గమనిక: ఈ సమాచారమంతా అధికారిక ప్రభుత్వ / సంబంధిత బ్యాంకు వెబ్‌సైట్ల నుండి మాత్రమే సేకరించాం (యాప్ విడుదల: '+(D.releaseDate || D.built)+'). ప్రతి కార్డు తనిఖీ తేదీ వేరు; అన్ని వివరాలు ఈ రోజున మళ్లీ తనిఖీ చేశామని కాదు. పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
-    'Note: all information is collected only from official government / relevant bank websites (App release: '+(D.releaseDate || D.built)+'). Individual cards have their own source-check dates; not all information was rechecked on this release date. Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
+    'గమనిక: పథకాల సమాచారానికి ప్రభుత్వ / సంబంధిత బ్యాంకు మూలాలు; క్రియేటివ్ పాఠాలకు చూపిన విద్యా, మ్యూజియం, భద్రతా మూలాల ఆధారంగా స్వంత అభ్యాస విషయాలు (యాప్ విడుదల: '+(D.releaseDate || D.built)+'). ప్రతి కార్డు తనిఖీ తేదీ వేరు; అన్ని వివరాలు ఈ రోజున మళ్లీ తనిఖీ చేశామని కాదు. పథకాలు మారవచ్చు - దరఖాస్తు చేయడానికి ముందు "మూలం" లింక్ తప్పక చూడండి. ఈ యాప్ మీ వ్యక్తిగత సమాచారాన్ని ఎక్కడా నిల్వ చేయదు.',
+    'Note: scheme information uses government / relevant bank sources; creative lessons are original learning material informed by the linked education, museum and safety references (App release: '+(D.releaseDate || D.built)+'). Individual cards have their own source-check dates; not all information was rechecked on this release date. Schemes can change - always check the "Source" link before applying. This app stores no personal data.');
   $('foot').innerHTML = T('సృష్టికర్త','Created by') + ' <b>D. Srinivas</b><br>' + T('స్వతంత్ర సమాచార యాప్ - ప్రభుత్వ / పంచాయతీ అధికారిక యాప్ కాదు.','Independent information app - not an official government / panchayat app.');
   // emergency
   $('searchBox').placeholder = T('🔍 తెలుగు / English పేరు... (ఉదా: గ్రామ ఉద్యోగ, pension)','🔍 Telugu / English name... (e.g. GVY, pension)');
@@ -258,6 +261,7 @@ function render(){
   '<div class="sec" role="button" tabindex="0" aria-label="complaint" onclick="openSpecial(\'complaint\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'complaint\')}"><div class="ic">📝</div><h2>'+T('ఫిర్యాదు చేయండి','File a Complaint')+'</h2><p>'+T('రోడ్డు, నీరు, కరెంటు, పారిశుధ్యం','road, water, power, sanitation')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="offices" onclick="openSpecial(\'offices\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'offices\')}"><div class="ic">🏢</div><h2>'+T('మండల కార్యాలయాలు','Mandal Offices')+'</h2><p>'+T('అధికారిక ఫోన్ నంబర్లు','official phone numbers')+'</p></div>' +
   '<div class="sec" role="button" tabindex="0" aria-label="calendar" onclick="openSpecial(\'calendar\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'calendar\')}"><div class="ic">📅</div><h2>'+T('క్యాలెండర్ & లెక్కలు','Calendar & Calculators')+'</h2><p>'+T('పండగలు, వడ్డీ, EMI','festivals, interest, EMI')+'</p></div>';
+  $('secGrid').insertAdjacentHTML('beforeend','<div class="sec" role="button" tabindex="0" onclick="openSpecial(\'creative\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();openSpecial(\'creative\')}"><div class="ic">'+GS_CREATIVE.icon+'</div><h2>'+T('బుటిక్, ఫ్యాషన్ & క్రియేటివ్ కోర్సులు','Boutique, fashion & creative courses')+'</h2><p>'+T('6 కోర్సులు · 32 పాఠాలు · ప్రాక్టికల్ పనులు','6 courses · 32 lessons · practical tasks')+'</p></div>');
   emergencyBox.style.gridColumn = '1 / -1';
   $('secGrid').insertBefore(emergencyBox, $('secGrid').children[2]);
   window.GS_NOTIFICATIONS?.paintSections();
@@ -329,12 +333,14 @@ $('searchBox').addEventListener('input', e => {
   if(q.length < 2){ closeSearch(); return; }
   stopSpeak();
   const res = GS_SEARCH.find(searchRows, raw);
+  const creativeMatch=/boutique|botiq|fashion|mugg|rangoli|kolam|embroid|print|craft|soap|బుటిక్|బొటిక్|ఫ్యాషన్|ముగ్గు|ఎంబ్రాయిడరీ|ప్రింటింగ్|క్రాఫ్ట్|సబ్బు|సోప్/i.test(raw);
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='none'; $('secTitle').style.display='none'; $('cardList').style.display='none';
   const sr = $('searchResults'); sr.style.display='flex';
   sr.innerHTML = res.length
     ? res.map(r => '<div class="srctag">'+sectionIcon(r.s)+' '+T(r.s.te,r.s.en)+'</div>'+renderCard(r.s.id, r.i, r.it)).join('')
     : '<div class="empty">'+T('దురదృష్టం - "'+esc(raw)+'" తో పథకం కనబడలేదు. మరో పేరుతో ప్రయత్నించండి (ఉదా: పెన్షన్, విద్య, బీమా)','Sorry - no scheme matches "'+esc(raw)+'". Try another word (e.g. pension, education, insurance)')+'</div>';
+  if(creativeMatch){if(!res.length)sr.innerHTML='';sr.insertAdjacentHTML('afterbegin','<div class="card"><h3>'+T('క్రియేటివ్ నైపుణ్యాల అకాడమీ','Creative skills academy')+'</h3><button class="cbtn open" onclick="openSpecial(\'creative\')">'+T('6 కోర్సులు తెరవండి','Open 6 courses')+'</button></div>');}
 });
 function closeSearch(){
   const sr = $('searchResults'); sr.style.display='none'; sr.innerHTML='';
@@ -372,7 +378,8 @@ function openSpecial(id, push){
   $('secGrid').style.display='none'; $('emgBox').style.display='none'; $('noticeBox').style.display='none';
   $('backBtn').style.display='inline-flex'; $('secTitle').style.display='flex'; $('cardList').style.display='flex'; $('listenAll').style.display='none';
   $('stName').dataset.sid = 'special:' + id;
-  if(id === 'directory'){
+  if(GS_CREATIVE.hasRoute(id)){GS_CREATIVE.open(id);
+  } else if(id === 'directory'){
     $('stIcon').textContent='📋';$('stName').textContent=T('కేంద్ర + తెలంగాణ పథకాల సూచిక','Central + Telangana scheme index');
     $('cardList').innerHTML='<div class="card"><p class="desc">'+T('50 సూచిక ఎంట్రీలు: కొన్ని బహుళ పథకాలు, 2 నమోదు ప్రక్రియలు. దేశంలోని అన్ని పథకాల జాబితా కాదు. ఇప్పటికే ఉన్న కార్డులను మళ్లీ నకలు చేయకుండా వాటికే దారి చూపుతుంది. జాబితాలో ఉండటం ప్రస్తుత దరఖాస్తులు / నగదు మంజూరు హామీ కాదు. పాత సమాచారం, తెలియని ఇంటేక్ గుర్తులు ఆయా వివరాల్లో చదవండి.','50 index entries, including grouped programmes and 2 enrolment processes. Not every government scheme. Links reuse existing cards without duplicating them. Listing does not guarantee open applications or cash approval. Read historical/unknown-intake caveats in each detail.')+'</p></div>'+GS_DIRECTORY.map((row,n)=>'<div class="card"><h3>'+(n+1)+'. '+esc(T(row.te,row.en))+'</h3><div class="cbtns">'+row.targets.map(id=>{const sec=D.sections.find(s=>s.items.some(it=>it.id===id));const it=sec.items.find(x=>x.id===id);return '<button class="cbtn open" onclick="gsOpenCard(\''+id+'\')">'+esc(T(it.t,it.e))+'</button>'}).join('')+'</div></div>').join('');
   } else if(id === 'news'){gsOpenNews();
